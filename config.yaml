@@ -1,0 +1,74 @@
+# 득템 수집 설정
+# 이 파일만 고치면 사이트 구성이 바뀝니다.
+
+# 쿠팡파트너스 추천인 ID(subId). 비워두면 추적 없이 링크만 생성됩니다.
+partner_id: ""
+
+site:
+  name: "득템"
+  tagline: "쿠팡이 오늘 제일 싼 것만"
+  # 배포 후 실제 주소 (canonical/OG 태그에 사용)
+  base_url: "https://example.github.io/deuktem"
+
+collect:
+  # 한 실행에서 쓸 시간당 API 예산.
+  # 쿠팡 검색 API는 시간당 10회가 한도입니다(초과 시 403 → 24시간 정지).
+  # 안전하게 8로 두고, 크론은 1시간에 1회만 돕니다.
+  max_calls_per_hour: 8
+
+  goldbox: true          # 오늘의 골드박스 (1콜, 매일 자정 갱신)
+  use_deeplink: true     # 상품 URL → 제휴 단축링크 일괄 변환 (1콜)
+
+  per_call: 20           # 호출당 가져올 상품 수 (1~100)
+  max_items: 60          # 사이트에 노출할 최대 상품 수
+
+  # 카테고리별 베스트. categoryId는 골드박스 응답의 categoryId 또는
+  # API 문서에서 확인해 넣으세요. 모르면 비워두면 됩니다(키워드만으로 동작).
+  best_categories: []
+
+  # 키워드 검색. 20자 이내, 특수문자 제한 있음.
+  # cat 은 사이트 카테고리 이름 (필터 탭에 자동 반영)
+  keywords:
+    - { q: "무선 가습기",   cat: "생활" }
+    - { q: "캡슐 커피머신", cat: "가전" }
+    - { q: "기계식 키보드", cat: "디지털" }
+    - { q: "수분 크림",     cat: "뷰티" }
+    - { q: "냉동 돈까스",   cat: "식품" }
+
+# 워크플로 실행 시각 안내 문구 (실제 크론과 맞추세요)
+schedule_label: "매시간 07분"
+
+
+# ---------------------------------------------------------------- 프로바이더
+# 쿠팡 외 수집원. enabled: true 로 켜면 collect.py 가 자동으로 합친다.
+providers:
+  # 애드픽 개인회원 '쇼핑메이트 핫딜 상품 리스트 API'  ★가장 간단
+  #  · 애드픽 가이드 화면의 '귀하의 API URL' 에 있는 affid(회원 아이디)만 있으면 됨
+  #  · API 키·비즈 승인·Whitelist 불필요, 실시간 핫딜 30건 내외
+  adpick_sdk:
+    enabled: true
+    affid: "6ad2b6"          # 시크릿 ADPICK_AFFID 로 덮어쓸 수 있음
+    max_items: 60
+
+  # 토스쇼핑 쉐어링크 Open API (공식)
+  #  · 상품 조회는 '토스쇼핑 인증 크리에이터'만 가능
+  #  · 출발지 IP 등록 필수 → GitHub Actions 는 IP가 바뀌므로 고정 IP 러너 필요
+  toss:
+    enabled: false
+    size: 20                 # best-selling 요청 개수 (최대 100)
+    issue_links: true        # shortUrl 발급 (수익 집계는 이 링크로만 됨)
+    publisher_id: ""         # 어드민의 '회원 연동 ID' (시크릿 TOSS_PUBLISHER_ID 로도 가능)
+    sub_tag_id: ""           # 선택. 어드민에 미리 등록한 하위 채널 ID
+
+  # 애드픽 — 여러 제휴몰을 한 키로 검색 (분당 60회)
+  #  · 토스/카카오가 제휴몰에 있는지는 `python collect.py --malls` 로 확인
+  adpick:
+    enabled: false
+    api_key: ""              # 시크릿 ADPICK_API_KEY 권장
+    limit: 10                # search 최대 20, best 최대 10
+    convert_links: true      # 상품 URL → 커미션 링크 변환 (분당 60회)
+    # '쇼핑메이트 핫딜 제품 JSON API' = best?area=today
+    best_areas: [today, commission]
+    queries:
+      - { q: "무선 가습기", cp_code: "" }      # cp_code 비우면 전체 몰 (쉼표로 최대 5개)
+      - { q: "수분 크림",   cp_code: "" }

@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>득템 — 쿠팡이 오늘 제일 싼 것만</title>
+<meta name="description" content="쿠팡 골드박스와 카테고리 베스트를 매시간 수집해, 관측 최저가 대비 가장 많이 내려간 상품부터 보여줍니다.">
+<link rel="canonical" href="https://example.github.io/deuktem">
+<meta property="og:title" content="득템 — 쿠팡이 오늘 제일 싼 것만">
+<meta property="og:description" content="쿠팡 특가를 매시간 자동 수집. 크롤링이 아니라 제휴 API로 받아옵니다.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://example.github.io/deuktem">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<style>
+:root{
+    --ink:#10150F; --ink2:#2A322C; --muted:#6B766F; --faint:#98A29B;
+    --paper:#F1F4F1; --card:#fff; --line:#DDE4DE;
+    --green:#0B4A3B; --green-deep:#062E25; --green-soft:#123F34;
+    --lime:#D8F25E; --lime-soft:#EFFAC6;
+    --urgent:#E33C22; --urgent-soft:#FDECE8;
+    --radius:14px;
+    --shadow:0 1px 2px rgba(16,21,15,.04), 0 8px 24px -16px rgba(16,21,15,.18);
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+    font-size:15px; line-height:1.5; letter-spacing:-0.01em;
+    -webkit-font-smoothing:antialiased;
+  }
+  .num{font-family:Archivo,"Pretendard Variable",sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-0.02em}
+  .mono{font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:0.02em}
+  a{color:inherit;text-decoration:none}
+  img{display:block;max-width:100%}
+  button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+  .wrap{max-width:1340px;margin:0 auto;padding:0 32px}
+  :focus-visible{outline:2px solid var(--green);outline-offset:3px;border-radius:4px}
+
+  /* ---------- top notice bar ---------- */
+  .topbar{background:var(--lime);color:var(--ink)}
+  .topbar .wrap{display:flex;align-items:center;gap:16px;height:38px;font-size:12.5px}
+  .topbar .dot{width:6px;height:6px;border-radius:50%;background:var(--urgent);flex:none;animation:blink 2s infinite}
+  .topbar p{margin:0;display:flex;align-items:center;gap:9px;min-width:0}
+  .topbar p span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .topbar .right{margin-left:auto;display:flex;align-items:center;gap:18px;flex:none;font-weight:600}
+  .topbar .right a{border-bottom:1px solid rgba(16,21,15,.35);padding-bottom:1px}
+  .topbar .right a:hover{border-color:var(--ink)}
+  @keyframes blink{0%,60%{opacity:1}80%{opacity:.25}100%{opacity:1}}
+
+  /* ---------- header ---------- */
+  header.site{background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:60}
+  .head{display:flex;align-items:center;gap:22px;height:76px}
+  .logo{display:flex;align-items:center;gap:10px;flex:none}
+  .logo .mark{width:34px;height:34px;border-radius:9px;background:var(--green);position:relative;display:grid;place-items:center}
+  .logo .mark::after{content:"";width:11px;height:11px;border-radius:50%;background:var(--lime)}
+  .logo b{font-size:23px;font-weight:900;letter-spacing:-0.055em;line-height:1}
+  .logo em{display:block;font-family:"IBM Plex Mono",monospace;font-style:normal;font-size:9px;letter-spacing:.24em;color:var(--muted);margin-top:3px}
+  .search{flex:1;max-width:470px;position:relative}
+  .search input{
+    width:100%;height:46px;border-radius:12px;border:1.5px solid var(--ink);
+    background:#fff;padding:0 46px 0 16px;font:inherit;font-size:14.5px;color:var(--ink)
+  }
+  .search input::placeholder{color:var(--faint)}
+  .search button{position:absolute;right:6px;top:6px;width:34px;height:34px;border-radius:8px;background:var(--green);display:grid;place-items:center}
+  .search button svg{stroke:var(--lime)}
+  .src-chips{display:flex;align-items:center;gap:6px;margin-left:auto;flex:none}
+  .src-chips .lbl{font-size:11px;color:var(--muted);margin-right:2px}
+  .chip-plat{display:inline-flex;align-items:center;gap:6px;height:30px;padding:0 11px;border-radius:99px;font-size:12px;font-weight:700;border:1px solid var(--line);background:#fff}
+  .chip-plat i{width:8px;height:8px;border-radius:2px;display:block}
+  .p-coupang i{background:#E63329}
+  .p-toss i{background:#0050E1}
+  .p-kakao i{background:#F7C600}
+  .head-icons{display:flex;align-items:center;gap:4px;flex:none}
+  .head-icons button{width:38px;height:38px;border-radius:10px;display:grid;place-items:center;color:var(--ink2)}
+  .head-icons button:hover{background:var(--paper)}
+  .head-icons svg{stroke:currentColor;fill:none;stroke-width:1.6}
+  .count-badge{font-size:11px;font-weight:700;background:var(--green);color:var(--lime);padding:1px 5px;border-radius:99px;margin-left:-2px}
+
+  nav.cats{border-top:1px solid var(--line);background:#fff}
+  nav.cats .wrap{display:flex;align-items:center;gap:2px;height:49px;overflow-x:auto;scrollbar-width:none}
+  nav.cats .wrap::-webkit-scrollbar{display:none}
+  nav.cats a{flex:none;padding:0 15px;height:49px;display:flex;align-items:center;font-size:14px;font-weight:600;color:var(--ink2);position:relative;white-space:nowrap}
+  nav.cats a:first-child{padding-left:0;color:var(--ink);font-weight:800}
+  nav.cats a:first-child::after,nav.cats a:hover::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--ink)}
+  nav.cats .sep{width:1px;height:16px;background:var(--line);margin:0 8px;flex:none}
+  nav.cats .live{margin-left:auto;display:flex;align-items:center;gap:7px;font-size:12px;font-weight:600;color:var(--green);flex:none}
+  nav.cats .live i{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 0 3px rgba(11,74,59,.14)}
+
+  /* ---------- hero ---------- */
+  .hero{padding:30px 0 0}
+  .hero-grid{display:grid;grid-template-columns:1.62fr 1fr;gap:18px}
+  .hero-main{
+    position:relative;overflow:hidden;border-radius:20px;padding:38px 40px 32px;color:#fff;
+    background:
+      radial-gradient(120% 90% at 100% 0%, rgba(216,242,94,.16) 0%, transparent 55%),
+      radial-gradient(90% 80% at 0% 100%, rgba(216,242,94,.10) 0%, transparent 60%),
+      var(--green-deep);
+    display:flex;flex-direction:column;
+  }
+  .hero-main::before{
+    content:"";position:absolute;inset:0;pointer-events:none;
+    background-image:linear-gradient(rgba(255,255,255,.055) 1px, transparent 1px),linear-gradient(90deg, rgba(255,255,255,.055) 1px, transparent 1px);
+    background-size:64px 64px;
+    mask-image:linear-gradient(160deg, rgba(0,0,0,.9), transparent 70%);
+  }
+  .eyebrow{display:flex;align-items:center;gap:10px;font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.62);position:relative}
+  .eyebrow .pip{width:5px;height:5px;background:var(--lime);border-radius:50%}
+  .hero-main h1{
+    margin:20px 0 0;font-size:clamp(34px,3.55vw,52px);line-height:1.06;font-weight:900;
+    letter-spacing:-0.045em;position:relative;max-width:14em;
+  }
+  .hero-main h1 .hl{
+    background:var(--lime);color:var(--green-deep);padding:.02em .14em .06em;
+    border-radius:4px;box-decoration-break:clone;-webkit-box-decoration-break:clone;
+  }
+  .hero-sub{margin:16px 0 0;font-size:15px;line-height:1.68;color:rgba(255,255,255,.82);max-width:30em;position:relative}
+  .stats{display:flex;gap:0;margin:30px 0 0;position:relative;border-top:1px solid rgba(255,255,255,.16);padding-top:20px}
+  .stat{padding-right:30px;margin-right:30px;border-right:1px solid rgba(255,255,255,.14)}
+  .stat:last-child{border:0;padding:0;margin:0}
+  .stat .v{font-size:30px;font-weight:700;line-height:1;display:flex;align-items:baseline;gap:2px}
+  .stat .v small{font-size:14px;font-weight:600;margin-left:2px}
+  .stat .k{font-size:11.5px;color:rgba(255,255,255,.6);margin-top:7px;letter-spacing:.01em}
+  .hero-cta{display:flex;align-items:center;gap:20px;margin-top:auto;padding-top:26px;position:relative}
+  .btn-lime{
+    display:inline-flex;align-items:center;gap:9px;height:46px;padding:0 22px;border-radius:11px;
+    background:var(--lime);color:var(--green-deep);font-weight:800;font-size:14.5px;letter-spacing:-0.02em;
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .btn-lime:hover{transform:translateY(-1px);box-shadow:0 10px 22px -12px rgba(216,242,94,.9)}
+  .btn-lime svg{stroke:currentColor;fill:none;stroke-width:2.2}
+  .link-ghost{color:rgba(255,255,255,.78);font-size:13.5px;font-weight:600;border-bottom:1px solid rgba(255,255,255,.3);padding-bottom:2px}
+  .link-ghost:hover{color:#fff;border-color:var(--lime)}
+
+  /* featured card */
+  .feature{background:var(--card);border-radius:20px;padding:16px;display:flex;flex-direction:column;box-shadow:var(--shadow);border:1px solid var(--line)}
+  .feature .ftop{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+  .tag-urgent{display:inline-flex;align-items:center;gap:6px;background:var(--urgent-soft);color:var(--urgent);font-size:11.5px;font-weight:800;padding:5px 9px;border-radius:6px}
+  .tag-urgent i{width:5px;height:5px;border-radius:50%;background:var(--urgent);animation:blink 1.6s infinite}
+  .feature .fimg{background:#F4F6F3;border-radius:12px;aspect-ratio:4/3;display:grid;place-items:center;overflow:hidden}
+  .feature .fimg img{width:100%;height:100%;object-fit:contain;transform:scale(1.02)}
+  .feature .ftitle{margin:14px 0 0;font-size:14.5px;font-weight:600;line-height:1.42;letter-spacing:-0.02em;color:var(--ink2)}
+  .clock{margin-top:14px;display:flex;align-items:flex-end;justify-content:space-between;border-top:1px dashed var(--line);padding-top:13px}
+  .clock .cl{font-size:11px;color:var(--muted);letter-spacing:.02em}
+  .clock .cv{font-size:26px;line-height:1;font-weight:500;color:var(--ink);letter-spacing:-0.01em}
+  .clock .cv b{font-weight:500}
+  .fprice{display:flex;align-items:baseline;gap:6px;margin-top:2px}
+  .fprice .pc{font-size:25px;font-weight:800;letter-spacing:-0.03em}
+  .fprice .pw{font-size:13px;font-weight:700;color:var(--muted)}
+  .fprice .po{font-size:12px;color:var(--faint);text-decoration:line-through;margin-left:auto}
+
+  /* ---------- ticker ---------- */
+  .ticker{margin-top:18px;background:var(--green);color:var(--lime);overflow:hidden;border-radius:12px;display:flex;align-items:center;height:44px}
+  .ticker .lead{flex:none;display:flex;align-items:center;gap:8px;height:100%;padding:0 16px;background:var(--lime);color:var(--green-deep);font-weight:800;font-size:12px;letter-spacing:-0.01em;position:relative;z-index:2}
+  .ticker .lead i{width:6px;height:6px;border-radius:50%;background:var(--urgent);animation:blink 1.6s infinite}
+  .ticker .track{display:flex;white-space:nowrap;animation:roll 46s linear infinite;will-change:transform}
+  .ticker .track span{display:inline-flex;align-items:center;gap:10px;font-size:12.5px;padding:0 22px;opacity:.92}
+  .ticker .track span b{font-family:"IBM Plex Mono",monospace;font-weight:500;opacity:.62;font-size:11px}
+  .ticker .track span::after{content:"";width:3px;height:3px;border-radius:50%;background:rgba(216,242,94,.5);margin-left:14px}
+  .ticker:hover .track{animation-play-state:paused}
+  @keyframes roll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+  /* ---------- section shell ---------- */
+  section.block{padding:44px 0 0}
+  .sec-head{display:flex;align-items:flex-end;gap:16px;margin-bottom:20px}
+  .sec-head h2{margin:0;font-size:25px;font-weight:900;letter-spacing:-0.04em;display:flex;align-items:baseline;gap:9px}
+  .sec-head h2 .cnt{font-size:12px;font-weight:600;color:var(--muted);letter-spacing:0}
+  .sec-head .desc{font-size:12.5px;color:var(--muted);margin-bottom:3px}
+  .sec-head .spacer{margin-left:auto}
+  .sortbox{display:flex;align-items:center;gap:2px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:3px}
+  .sortbox button{height:30px;padding:0 12px;border-radius:7px;font-size:12.5px;font-weight:600;color:var(--muted)}
+  .sortbox button[aria-pressed="true"]{background:var(--ink);color:#fff}
+  .filters{display:flex;gap:7px;overflow-x:auto;padding-bottom:2px;margin-bottom:16px;scrollbar-width:none}
+  .filters::-webkit-scrollbar{display:none}
+  .filters button{
+    flex:none;height:36px;padding:0 16px;border-radius:99px;border:1px solid var(--line);background:#fff;
+    font-size:13px;font-weight:600;color:var(--ink2);transition:.15s;
+  }
+  .filters button:hover{border-color:var(--ink);color:var(--ink)}
+  .filters button[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:#fff}
+
+  /* ---------- grid cards ---------- */
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+    display:flex;flex-direction:column;position:relative;
+    transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+  }
+  .card:hover{transform:translateY(-3px);box-shadow:0 18px 34px -22px rgba(16,21,15,.4);border-color:#C7D0C9}
+  .thumb{position:relative;aspect-ratio:1/1;background:#F5F7F4;overflow:hidden}
+  .thumb img{width:100%;height:100%;object-fit:contain;transition:transform .4s ease}
+  .card:hover .thumb img{transform:scale(1.045)}
+  .pbadge{
+    position:absolute;left:10px;top:10px;display:inline-flex;align-items:center;gap:5px;height:23px;padding:0 8px;
+    border-radius:5px;font-size:10.5px;font-weight:800;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.12);letter-spacing:-0.01em
+  }
+  .pbadge i{width:6px;height:6px;border-radius:1.5px}
+  .pbadge.coupang i{background:#E63329} .pbadge.toss i{background:#0050E1} .pbadge.kakao i{background:#F7C600}
+  .obadge{position:absolute;right:10px;top:10px;height:23px;padding:0 7px;border-radius:5px;background:rgba(16,21,15,.78);color:#fff;font-size:10.5px;font-weight:700;display:flex;align-items:center}
+  .cbody{padding:13px 14px 12px;display:flex;flex-direction:column;flex:1}
+  .ctitle{
+    margin:0;font-size:13.5px;font-weight:600;line-height:1.42;letter-spacing:-0.025em;color:var(--ink2);
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.84em;
+  }
+  .card:hover .ctitle{color:var(--ink)}
+  .prow{display:flex;align-items:baseline;gap:7px;margin-top:9px}
+  .disc{font-size:19px;font-weight:800;color:var(--urgent);letter-spacing:-0.04em;line-height:1}
+  .price{font-size:17.5px;font-weight:800;letter-spacing:-0.035em;line-height:1}
+  .price small{font-size:12.5px;font-weight:700;margin-left:1px}
+  .orig{font-size:11.5px;color:var(--faint);text-decoration:line-through;margin-left:auto;letter-spacing:0}
+  .meta{display:flex;align-items:center;gap:8px;margin-top:7px;font-size:11px;color:var(--muted)}
+  .meta .ship{color:var(--green);font-weight:700}
+  .meta .sepdot{width:2px;height:2px;border-radius:50%;background:var(--faint)}
+  .bar{margin-top:11px}
+  .bar .track{height:3px;border-radius:99px;background:#EAEFEB;overflow:hidden}
+  .bar .fill{height:100%;border-radius:99px;background:var(--green);transition:width 1s linear}
+  .bar.warm .fill{background:#E3A21F}
+  .bar.hot .fill{background:var(--urgent)}
+  .bar .lab{display:flex;justify-content:space-between;margin-top:6px;font-size:10.5px;color:var(--faint)}
+  .bar .lab b{font-weight:500;color:var(--muted)}
+  .bar.hot .lab b{color:var(--urgent)}
+
+  /* ---------- rank section ---------- */
+  .ranks{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .rankcol{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:18px 18px 8px}
+  .rankcol h3{margin:0 0 12px;font-size:14px;font-weight:800;letter-spacing:-0.02em;display:flex;align-items:center;justify-content:space-between}
+  .rankcol h3 span{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--faint);font-weight:400;letter-spacing:.08em}
+  .rrow{display:flex;align-items:center;gap:11px;padding:9px 0;border-top:1px solid #EDF1ED;cursor:pointer}
+  .rrow:first-of-type{border-top:0}
+  .rrow .rk{width:15px;font-family:Archivo,sans-serif;font-size:12.5px;font-weight:700;color:var(--faint);flex:none}
+  .rrow:nth-of-type(1) .rk{color:var(--green)}
+  .rrow img{width:44px;height:44px;border-radius:7px;object-fit:contain;background:#F5F7F4;flex:none}
+  .rrow .rt{font-size:12.5px;line-height:1.35;font-weight:600;color:var(--ink2);display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+  .rrow .rp{font-size:12.5px;font-weight:800;margin-top:2px;letter-spacing:-0.03em}
+  .rrow:hover .rt{color:var(--green)}
+
+  /* ---------- pipeline (how it works) ---------- */
+  .how{background:var(--green-deep);color:#fff;border-radius:20px;padding:36px 36px 34px;margin-top:44px;position:relative;overflow:hidden}
+  .how::after{content:"";position:absolute;right:-120px;top:-120px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle, rgba(216,242,94,.16), transparent 65%)}
+  .how .eyebrow{color:rgba(255,255,255,.55)}
+  .how h2{margin:14px 0 0;font-size:26px;font-weight:900;letter-spacing:-0.04em;position:relative}
+  .how p.lead{margin:10px 0 0;font-size:13.5px;color:rgba(255,255,255,.66);max-width:44em;line-height:1.65;position:relative}
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:26px;position:relative}
+  .step{border:1px solid rgba(255,255,255,.16);border-radius:12px;padding:16px 15px 15px;background:rgba(255,255,255,.03)}
+  .step .n{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--lime);letter-spacing:.1em}
+  .step h4{margin:10px 0 6px;font-size:14px;font-weight:800;letter-spacing:-0.02em}
+  .step p{margin:0;font-size:11.5px;line-height:1.6;color:rgba(255,255,255,.6)}
+  .step .src{margin-top:11px;font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--lime);opacity:.75;letter-spacing:.04em}
+
+  /* ---------- footer ---------- */
+  footer{margin-top:52px;background:#fff;border-top:1px solid var(--line);padding:38px 0 46px}
+  .fgrid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:32px}
+  .fcol h5{margin:0 0 12px;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--ink)}
+  .fcol a,.fcol p{display:block;margin:0 0 8px;font-size:12.5px;color:var(--muted);line-height:1.6}
+  .fcol a:hover{color:var(--ink)}
+  .fnote{margin-top:30px;border-top:1px solid var(--line);padding-top:18px;font-size:11.5px;color:var(--faint);line-height:1.75}
+  .fnote b{color:var(--muted);font-weight:600}
+  .fnote .strong{color:var(--ink2);font-weight:600}
+
+  /* reveal */
+  .rv{opacity:1}
+
+  @media (max-width:1180px){
+    .grid{grid-template-columns:repeat(3,1fr)}
+    .src-chips .lbl{display:none}
+  }
+  @media (max-width:980px){
+    .wrap{padding:0 20px}
+    .hero-grid{grid-template-columns:1fr}
+    .hero-main{padding:30px 26px 26px}
+    .stats{flex-wrap:wrap;gap:18px}
+    .stat{border:0;padding:0;margin:0}
+    .ranks{grid-template-columns:1fr 1fr}
+    .steps{grid-template-columns:1fr 1fr}
+    .fgrid{grid-template-columns:1fr 1fr}
+    .src-chips{display:none}
+    .head{gap:14px;height:66px}
+  }
+  @media (max-width:720px){
+    .grid{grid-template-columns:repeat(2,1fr);gap:12px}
+    .hero-main h1{font-size:31px}
+    .ranks{grid-template-columns:1fr}
+    .steps{grid-template-columns:1fr}
+    .sec-head{flex-wrap:wrap;gap:10px}
+    .fgrid{grid-template-columns:1fr}
+    .topbar .right{display:none}
+    .cbody{padding:11px 12px}
+    .disc{font-size:17px} .price{font-size:16px}
+    .how{padding:26px 22px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .ticker .track{animation:none}
+    .rv{opacity:1;transform:none}
+    .topbar .dot,.tag-urgent i,.ticker .lead i{animation:none}
+  }
+
+
+  /* ---- build-specific additions ---- */
+  .card-link{display:flex;flex-direction:column;height:100%;color:inherit}
+  .best-badge{display:inline-flex;align-items:center;height:19px;padding:0 6px;border-radius:4px;background:var(--lime-soft);color:var(--green);font-size:10.5px;font-weight:800;letter-spacing:-0.01em;border:1px solid #DCEBA8}
+  .sparkrow{display:flex;align-items:center;gap:8px;margin-top:10px;padding-top:9px;border-top:1px dashed var(--line);color:var(--faint)}
+  .sp{width:64px;height:18px;flex:none;color:#8C9A91}
+  .sparklab{font-size:10.5px;color:var(--faint);margin-left:auto;letter-spacing:0}
+  .rp-drop{font-size:10.5px;color:var(--urgent);font-weight:700}
+  .empty{padding:44px;text-align:center;color:var(--muted);background:#fff;border:1px dashed var(--line);border-radius:var(--radius);font-size:14px}
+  .rrow{border-top:1px solid #EDF1ED}
+  .rrow:first-of-type{border-top:0}
+  .rankcol a{display:flex;align-items:center;gap:11px;padding:9px 0;color:inherit}
+  .note{display:inline-flex;align-items:center;gap:6px;font-size:11px;color:var(--muted)}
+  .note b{color:var(--urgent);font-weight:700}
+  .how .step .src{word-break:break-all}
+  .filters.plat{margin-top:-8px}
+  .filters.plat button[aria-pressed="true"]{background:var(--ink);border-color:var(--ink)}
+  .manualnote{font-size:10.5px;color:var(--muted);line-height:1.35;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+  .card[data-plat="toss"] .pbadge, .card[data-plat="kakao"] .pbadge{background:#fff}
+  .pbadge.other i{background:#6B766F}
+  @media (max-width:720px){ .sp{display:none} }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <p><i class="dot"></i><span>이 페이지는 <b>쿠팡파트너스 활동의 일환</b>으로 수수료를 받습니다. 표시 가격은 수집 시점 기준이며, 최종 가격·재고는 쿠팡에서 확인하세요.</span></p>
+    <div class="right">
+      <span class="mono" id="liveClock">--:--:--</span>
+      <a href="#how">수집 방식</a>
+    </div>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap head">
+    <a href="./" class="logo" aria-label="득템 홈">
+      <span class="mark"></span>
+      <span><b>득템</b><em>DEUKTEM</em></span>
+    </a>
+
+    <div class="search">
+      <input id="q" type="search" placeholder="특가 검색 — 예: 가습기, 커피머신" aria-label="특가 검색">
+      <button aria-label="검색">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      </button>
+    </div>
+
+    <div class="src-chips">
+      <span class="lbl">수집</span>
+      <span class="chip-plat p-coupang"><i></i>쿠팡</span>
+      <span class="chip-plat p-toss"><i></i>토스</span>
+      <span class="chip-plat p-kakao"><i></i>톡딜</span>
+    </div>
+
+    <div class="head-icons">
+      <span class="note">최근 갱신 <b>11.22 15:13</b></span>
+    </div>
+  </div>
+
+  <nav class="cats">
+    <div class="wrap">
+      <a href="#deals">전체 특가</a>
+      <span class="sep"></span>
+      <span id="navCats" style="display:contents"></span>
+      <span class="live"><i></i>매시간 07분 자동 갱신</span>
+    </div>
+  </nav>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="hero-main">
+        <div class="eyebrow"><span class="pip"></span>COUPANG GOLDBOX · 11.22 15:13 수집</div>
+        <h1>쿠팡이 오늘<br><span class="hl">제일 싼 것</span>만.</h1>
+        <p class="hero-sub">골드박스와 카테고리 베스트를 <b style="color:#fff">매시간 07분</b> 긁어옵니다 — 크롤링이 아니라 제휴 API로. 정가 대신 <b style="color:#fff">우리가 직접 관측한 최고가</b>와 비교해, 진짜 내려간 것만 위로 올립니다.</p>
+
+        <div class="stats"><div class="stat"><div class="v num">26<small>건</small></div><div class="k">수집된 특가</div></div><div class="stat"><div class="v num">0<small>건</small></div><div class="k">로켓배송</div></div><div class="stat"><div class="v num">0<small>%</small></div><div class="k">평균 가격 하락</div></div></div>
+
+        <div class="hero-cta">
+          <a href="#deals" class="btn-lime">특가 전체 보기
+            <svg width="15" height="15" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#how" class="link-ghost">어떻게 자동으로 모으나요?</a>
+        </div>
+      </div>
+
+        <a class="feature" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=4d9b1&amp;url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658848" target="_blank" rel="nofollow sponsored noopener">
+          <div class="ftop">
+            <span class="tag-urgent"><i></i>오늘의 골드박스</span>
+            <span class="chip-plat p-coupang"><i></i>쿠팡</span>
+          </div>
+          <div class="fimg"><img src="https://eyoumall.godohosting.com/pages/asu/261118/b/6.jpg" alt="고래를 구하는 물티슈 그린웨이브 20매"></div>
+          <p class="ftitle">고래를 구하는 물티슈 그린웨이브 20매</p>
+          <div class="clock">
+            <div><div class="cl">골드박스 종료까지</div><div class="cv num" id="heroClock">--:--:--</div></div>
+            <div style="text-align:right"><div class="cl">관측 최고가 대비</div>
+              <div class="cv num" style="color:var(--urgent);font-weight:700">-0%</div></div>
+          </div>
+          <div class="fprice"><span class="pc num">399</span><span class="pw">원</span></div>
+        </a>
+    </div>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="lead"><i></i>방금 수집된 특가</div>
+      <div class="track" id="tickerTrack"><span><b>15:13</b>특가 · 고래를 구하는 물티슈 그린웨이브 20매 399원</span><span><b>15:13</b>특가 · 젤리스트로우 20g * 20개 699원</span><span><b>15:13</b>특가 · 오롤리데이 X 덴띠끄 치약 80g 999원</span><span><b>15:13</b>특가 · 갈릭칩 200g 2,999원</span><span><b>15:13</b>특가 · 다네시타 버터쿠키 씬앤크리스피 싱글서브 18입  8,160원</span><span><b>15:13</b>특가 · [전자레인지3분!] 쫀득 달콤 찰옥수수 10개입 9,999원</span><span><b>15:13</b>특가 · 한닢쿡 동전육수 3봉 60알 240g 진한/홍게 10,660원</span><span><b>15:13</b>특가 · [바이마르] 전기 포트 1.8L 12,999원</span><span><b>15:13</b>특가 · [10분러시] 팔레트슬라임 국내생산 수제 슬라임 13,930원</span><span><b>15:13</b>특가 · 고래를 구하는 물티슈 그린웨이브 20매 399원</span><span><b>15:13</b>특가 · 젤리스트로우 20g * 20개 699원</span><span><b>15:13</b>특가 · 오롤리데이 X 덴띠끄 치약 80g 999원</span><span><b>15:13</b>특가 · 갈릭칩 200g 2,999원</span><span><b>15:13</b>특가 · 다네시타 버터쿠키 씬앤크리스피 싱글서브 18입  8,160원</span><span><b>15:13</b>특가 · [전자레인지3분!] 쫀득 달콤 찰옥수수 10개입 9,999원</span><span><b>15:13</b>특가 · 한닢쿡 동전육수 3봉 60알 240g 진한/홍게 10,660원</span><span><b>15:13</b>특가 · [바이마르] 전기 포트 1.8L 12,999원</span><span><b>15:13</b>특가 · [10분러시] 팔레트슬라임 국내생산 수제 슬라임 13,930원</span></div>
+    </div>
+  </section>
+
+  <section class="block" id="deals">
+    <div class="sec-head">
+      <h2>실시간 특가 <span class="cnt" id="dealCount">26건</span></h2>
+      <div class="desc">관측 최고가 대비 하락 폭이 큰 순서입니다.</div>
+      <div class="spacer"></div>
+      <div class="sortbox" role="group" aria-label="정렬">
+        <button data-sort="drop" aria-pressed="true">하락 폭</button>
+        <button data-sort="price" aria-pressed="false">낮은 가격</button>
+        <button data-sort="ts" aria-pressed="false">최근 수집</button>
+      </div>
+    </div>
+
+    <div class="filters" id="catFilters" role="group" aria-label="카테고리">
+      <button data-filter="all" aria-pressed="true">전체</button>
+      <button data-filter="가전" aria-pressed="false">가전</button><button data-filter="기타" aria-pressed="false">기타</button><button data-filter="생활" aria-pressed="false">생활</button><button data-filter="식품" aria-pressed="false">식품</button><button data-filter="패션" aria-pressed="false">패션</button>
+    </div>
+
+    <div class="filters plat" id="platFilters" role="group" aria-label="플랫폼">
+      <button data-plat="all" aria-pressed="true">모든 플랫폼</button>
+      <button data-plat="other" aria-pressed="false">기타</button>
+    </div>
+
+    <div class="grid" id="grid">
+      <article class="card" data-cat="생활" data-price="399" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=4d9b1&amp;url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658848" target="_blank" rel="nofollow sponsored noopener" aria-label="고래를 구하는 물티슈 그린웨이브 20매">
+          <div class="thumb">
+            <img src="https://eyoumall.godohosting.com/pages/asu/261118/b/6.jpg" alt="고래를 구하는 물티슈 그린웨이브 20매" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>이유몰</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">고래를 구하는 물티슈 그린웨이브 20매</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">399<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">399원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="기타" data-price="699" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=4d9b1&amp;url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658621" target="_blank" rel="nofollow sponsored noopener" aria-label="젤리스트로우 20g * 20개">
+          <div class="thumb">
+            <img src="https://eyoumall.godohosting.com/pages/asu/261113/b/21.jpg" alt="젤리스트로우 20g * 20개" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>이유몰</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">젤리스트로우 20g * 20개</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">699<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">699원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="기타" data-price="999" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=4d9b1&amp;url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658852" target="_blank" rel="nofollow sponsored noopener" aria-label="오롤리데이 X 덴띠끄 치약 80g">
+          <div class="thumb">
+            <img src="https://eyoumall.godohosting.com/pages/asu/261118/b/10.jpg" alt="오롤리데이 X 덴띠끄 치약 80g" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>이유몰</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">오롤리데이 X 덴띠끄 치약 80g</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">999<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">999원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="기타" data-price="2999" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=4d9b1&amp;url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D630976" target="_blank" rel="nofollow sponsored noopener" aria-label="갈릭칩 200g">
+          <div class="thumb">
+            <img src="https://eyoumall.godohosting.com/pages/asu/260424/b/1.jpg" alt="갈릭칩 200g" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>이유몰</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">갈릭칩 200g</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">2,999<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">2,999원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="기타" data-price="8160" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=c16a2&amp;url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8792106611%3FtrTypeCd%3D42" target="_blank" rel="nofollow sponsored noopener" aria-label="다네시타 버터쿠키 씬앤크리스피 싱글서브 18입 324g x 2개">
+          <div class="thumb">
+            <img src="https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/1/0/6/6/1/1/rdWky/8792106611_244265798_05.webp" alt="다네시타 버터쿠키 씬앤크리스피 싱글서브 18입 324g x 2개" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>11번가</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">다네시타 버터쿠키 씬앤크리스피 싱글서브 18입 324g x 2개</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">8,160<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">8,160원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="가전" data-price="9999" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=4d9b1&amp;url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D539122" target="_blank" rel="nofollow sponsored noopener" aria-label="[전자레인지3분!] 쫀득 달콤 찰옥수수 10개입 (10~14cm)">
+          <div class="thumb">
+            <img src="https://eyoumall.godohosting.com/pages/asu/240830/b/102.jpg" alt="[전자레인지3분!] 쫀득 달콤 찰옥수수 10개입 (10~14cm)" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>이유몰</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">[전자레인지3분!] 쫀득 달콤 찰옥수수 10개입 (10~14cm)</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">9,999<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">9,999원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="기타" data-price="10660" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=c16a2&amp;url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F6141951884%3FtrTypeCd%3D42" target="_blank" rel="nofollow sponsored noopener" aria-label="한닢쿡 동전육수 3봉 60알 240g 진한/홍게/시원 맛선택">
+          <div class="thumb">
+            <img src="https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/9/5/1/8/8/4/ICvuh/6141951884_244264642_05.webp" alt="한닢쿡 동전육수 3봉 60알 240g 진한/홍게/시원 맛선택" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>11번가</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">한닢쿡 동전육수 3봉 60알 240g 진한/홍게/시원 맛선택</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">10,660<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">10,660원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="기타" data-price="12999" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=4d9b1&amp;url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658846" target="_blank" rel="nofollow sponsored noopener" aria-label="[바이마르] 전기 포트 1.8L">
+          <div class="thumb">
+            <img src="https://eyoumall.godohosting.com/pages/asu/261118/b/4.jpg" alt="[바이마르] 전기 포트 1.8L" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>이유몰</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">[바이마르] 전기 포트 1.8L</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">12,999<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">12,999원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="기타" data-price="13930" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=c16a2&amp;url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F6992916430%3FtrTypeCd%3D42" target="_blank" rel="nofollow sponsored noopener" aria-label="[10분러시] 팔레트슬라임 국내생산 수제 슬라임 3종 랜덤박스">
+          <div class="thumb">
+            <img src="https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/9/1/6/4/3/0/qPlaa/6992916430_244273921_05.webp" alt="[10분러시] 팔레트슬라임 국내생산 수제 슬라임 3종 랜덤박스" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>11번가</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">[10분러시] 팔레트슬라임 국내생산 수제 슬라임 3종 랜덤박스</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">13,930<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">13,930원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="기타" data-price="15920" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=c16a2&amp;url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F3316207516%3FtrTypeCd%3D42" target="_blank" rel="nofollow sponsored noopener" aria-label="반두아 코코넛 델리 비스킷 150g X 24입 BOX">
+          <div class="thumb">
+            <img src="https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/2/0/7/5/1/6/QSTqx/3316207516_244265879_05.webp" alt="반두아 코코넛 델리 비스킷 150g X 24입 BOX" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>11번가</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">반두아 코코넛 델리 비스킷 150g X 24입 BOX</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">15,920<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">15,920원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="기타" data-price="17599" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=4d9b1&amp;url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D529888" target="_blank" rel="nofollow sponsored noopener" aria-label="[TV홈쇼핑]순간건조기 고블린 스타일러">
+          <div class="thumb">
+            <img src="https://eyoumall.godohosting.com/pages/asu/240708/b/128.jpg" alt="[TV홈쇼핑]순간건조기 고블린 스타일러" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>이유몰</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">[TV홈쇼핑]순간건조기 고블린 스타일러</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">17,599<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">17,599원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="생활" data-price="18320" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=c16a2&amp;url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9694412302%3FtrTypeCd%3D42" target="_blank" rel="nofollow sponsored noopener" aria-label="더플레오 메모리폼 베개 2개+베개커버 2개 30*50cm">
+          <div class="thumb">
+            <img src="https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/4/1/2/3/0/2/iWTaX/9694412302_244243760_05.webp" alt="더플레오 메모리폼 베개 2개+베개커버 2개 30*50cm" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>11번가</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">더플레오 메모리폼 베개 2개+베개커버 2개 30*50cm</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">18,320<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">18,320원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="기타" data-price="18810" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=c16a2&amp;url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F6620819112%3FtrTypeCd%3D42" target="_blank" rel="nofollow sponsored noopener" aria-label="vu.ca  고불소 구취케어 아쿠아민트향 112g 8개+치약 110g 2개  외 구강 모음전">
+          <div class="thumb">
+            <img src="https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/8/1/9/1/1/2/ySKAM/6620819112_244275668_05.webp" alt="vu.ca  고불소 구취케어 아쿠아민트향 112g 8개+치약 110g 2개  외 구강 모음전" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>11번가</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">vu.ca  고불소 구취케어 아쿠아민트향 112g 8개+치약 110g 2개  외 구강 모음전</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">18,810<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">18,810원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="기타" data-price="22386" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=f5ff7&amp;url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3D40137821%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D42" target="_blank" rel="nofollow sponsored noopener" aria-label="[박스특가]비비고 한달 김박스 더 고소한 참기름김 4.5g, 12봉x4개(총48봉)">
+          <div class="thumb">
+            <img src="https://img.cjthemarket.com/images/file/product/556/20261103095813972.png?SF=webp&amp;RS=480" alt="[박스특가]비비고 한달 김박스 더 고소한 참기름김 4.5g, 12봉x4개(총48봉)" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>CJ 더 마켓</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">[박스특가]비비고 한달 김박스 더 고소한 참기름김 4.5g, 12봉x4개(총48봉)</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">22,386<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">22,386원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="기타" data-price="28430" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=0c2d4&amp;url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F377263986" target="_blank" rel="nofollow sponsored noopener" aria-label="하트 시어링 스웨이드 여아 겨울 털 구두">
+          <div class="thumb">
+            <img src="https://cdn2.boribori.co.kr/rimg/0/cdn/product/B0179/P377263986/2_P377263986_basic_1731295945748.jpg" alt="하트 시어링 스웨이드 여아 겨울 털 구두" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>보리보리</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">하트 시어링 스웨이드 여아 겨울 털 구두</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">28,430<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">28,430원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="가전" data-price="28430" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=0c2d4&amp;url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F348303442" target="_blank" rel="nofollow sponsored noopener" aria-label="겨울 털 구두 방한부츠 특가전">
+          <div class="thumb">
+            <img src="https://cdn2.boribori.co.kr/rimg/0/cdn/product/03/S348303442/2_S348303442_basic_1760930179479.jpg" alt="겨울 털 구두 방한부츠 특가전" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>보리보리</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">겨울 털 구두 방한부츠 특가전</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">28,430<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">28,430원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="가전" data-price="29800" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=b879e&amp;url=https%3A%2F%2Fc.appstory.co.kr%2F%2Fappliances6337" target="_blank" rel="nofollow sponsored noopener" aria-label="휴빅 올인원 하나로 무선 핸디 소형 청소기 HB-2500">
+          <div class="thumb">
+            <img src="https://img.appstory.co.kr//@files/snc/buy/20250721/op28_1753054784.jpg" alt="휴빅 올인원 하나로 무선 핸디 소형 청소기 HB-2500" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>앱스토리</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">휴빅 올인원 하나로 무선 핸디 소형 청소기 HB-2500</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">29,800<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">29,800원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="기타" data-price="35930" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=0c2d4&amp;url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F331850346" target="_blank" rel="nofollow sponsored noopener" aria-label="LED 블라썸 레이어 여아 털 구두">
+          <div class="thumb">
+            <img src="https://cdn2.boribori.co.kr/rimg/0/cdn/product/B0179/P331850346/2_P331850346_basic_1736399795589.jpg" alt="LED 블라썸 레이어 여아 털 구두" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>보리보리</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">LED 블라썸 레이어 여아 털 구두</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">35,930<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">35,930원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="기타" data-price="37630" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=c16a2&amp;url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9590083797%3FtrTypeCd%3D42" target="_blank" rel="nofollow sponsored noopener" aria-label="[라쉬반 스탠다드] 모달 브리즈 3종">
+          <div class="thumb">
+            <img src="https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/0/8/3/7/9/7/QMmff/9590083797_244286822_05.webp" alt="[라쉬반 스탠다드] 모달 브리즈 3종" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>11번가</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">[라쉬반 스탠다드] 모달 브리즈 3종</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">37,630<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">37,630원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="식품" data-price="41900" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=c16a2&amp;url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8436593579%3FtrTypeCd%3D42" target="_blank" rel="nofollow sponsored noopener" aria-label="[하누소] 갈비탕 3팩 + 한우사골 고기곰탕 3팩 (700g x6)">
+          <div class="thumb">
+            <img src="https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/5/9/3/5/7/9/JPtAK/8436593579_244266740_05.webp" alt="[하누소] 갈비탕 3팩 + 한우사골 고기곰탕 3팩 (700g x6)" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>11번가</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">[하누소] 갈비탕 3팩 + 한우사골 고기곰탕 3팩 (700g x6)</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">41,900<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">41,900원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="기타" data-price="45900" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=c16a2&amp;url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8648485904%3FtrTypeCd%3D42" target="_blank" rel="nofollow sponsored noopener" aria-label="덴티스테 플러스화이트 프로 치약 200g 4개 + 플러스화이트 프로 20g 2개">
+          <div class="thumb">
+            <img src="https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/4/8/5/9/0/4/cBLxF/8648485904_244244203_05.webp" alt="덴티스테 플러스화이트 프로 치약 200g 4개 + 플러스화이트 프로 20g 2개" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>11번가</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">덴티스테 플러스화이트 프로 치약 200g 4개 + 플러스화이트 프로 20g 2개</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">45,900<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">45,900원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="가전" data-price="55200" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=b879e&amp;url=https%3A%2F%2Fc.appstory.co.kr%2F%2Fcarelectronics6338" target="_blank" rel="nofollow sponsored noopener" aria-label="아이랩 윈드블라스터 에어건+청소기  iLAB-WBT">
+          <div class="thumb">
+            <img src="https://img.appstory.co.kr//@files/snc/buy/20260724/op28_1784887967.jpg" alt="아이랩 윈드블라스터 에어건+청소기  iLAB-WBT" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>앱스토리</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">아이랩 윈드블라스터 에어건+청소기  iLAB-WBT</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">55,200<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">55,200원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="패션" data-price="186900" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=dae42&amp;url=https%3A%2F%2Fwww.feelway.com%2Fview_goods.php%3Fg_no%3D7081885201" target="_blank" rel="nofollow sponsored noopener" aria-label="폴로 랄프로렌 클래식 핏 가먼트다이 옥스포드 셔츠">
+          <div class="thumb">
+            <img src="https://d1clt9cvsv6atu.cloudfront.net/goods_s3/7081885201/smallbd29pd7081885201ed1.jpg?w=1200&amp;fmt=auto&amp;loc=hotdeal&amp;brand_no=29&amp;g_no=7081885201" alt="폴로 랄프로렌 클래식 핏 가먼트다이 옥스포드 셔츠" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>필웨이</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">폴로 랄프로렌 클래식 핏 가먼트다이 옥스포드 셔츠</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">186,900<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">186,900원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="가전" data-price="191900" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=b879e&amp;url=https%3A%2F%2Fc.appstory.co.kr%2F%2Fappliances6339" target="_blank" rel="nofollow sponsored noopener" aria-label="홈리아 올인원 로봇 청소기 HA-X520WDS">
+          <div class="thumb">
+            <img src="https://img.appstory.co.kr//@files/snc/buy/20260923/op28_1790126708.jpg" alt="홈리아 올인원 로봇 청소기 HA-X520WDS" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>앱스토리</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">홈리아 올인원 로봇 청소기 HA-X520WDS</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">191,900<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">191,900원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="기타" data-price="309000" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=f66b5&amp;url=https%3A%2F%2Fdisplay.cjonstyle.com%2Fp%2Fitem%2F2097218620%3FchannelCode%3D30002002" target="_blank" rel="nofollow sponsored noopener" aria-label="[2박4인]하이원 윈터 올인 패키지">
+          <div class="thumb">
+            <img src="https://itemimage.cjonstyle.net/goods_images/20/620/2097218620L.jpg?timestamp=20261106185547" alt="[2박4인]하이원 윈터 올인 패키지" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>CJ온스타일</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">[2박4인]하이원 윈터 올인 패키지</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">309,000<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">309,000원 최저</span></div>
+          </div>
+        </a>
+      </article>
+      <article class="card" data-cat="기타" data-price="751000" data-drop="0" data-ts="2026-11-22T15:13:09+09:00" data-plat="other">
+        <a class="card-link" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=dae42&amp;url=https%3A%2F%2Fwww.feelway.com%2Fview_goods.php%3Fg_no%3D9412980787" target="_blank" rel="nofollow sponsored noopener" aria-label="에르메스 슈발 드 쾨르 펜던트 라지 모델 목걸이">
+          <div class="thumb">
+            <img src="https://d1clt9cvsv6atu.cloudfront.net/goods_s3/9412980787/smallg15-17833020563060.png?w=1200&amp;fmt=auto&amp;loc=hotdeal&amp;brand_no=13&amp;g_no=9412980787" alt="에르메스 슈발 드 쾨르 펜던트 라지 모델 목걸이" loading="lazy" decoding="async">
+            <span class="pbadge other"><i></i>필웨이</span>
+            <span class="obadge">특가</span>
+          </div>
+          <div class="cbody">
+            <p class="ctitle">에르메스 슈발 드 쾨르 펜던트 라지 모델 목걸이</p>
+            <div class="prow">
+              <span class="best-badge">관측 최저</span>
+              <span class="price num">751,000<small>원</small></span>
+              
+            </div>
+            <div class="meta"><span class="mono">15:13 확인</span></div>
+            <div class="sparkrow"><svg class="sp" viewBox="0 0 96 18" aria-hidden="true"></svg><span class="sparklab">751,000원 최저</span></div>
+          </div>
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="sec-head">
+      <h2>카테고리별 많이 내려간 특가</h2>
+      <div class="desc">수집 물량이 많은 카테고리 3곳</div>
+    </div>
+    <div class="ranks"><div class="rankcol"><h3>기타 <span>TOP 3</span></h3><a class="rrow" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=4d9b1&amp;url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658621" target="_blank" rel="nofollow sponsored noopener">
+            <span class="rk">1</span><img src="https://eyoumall.godohosting.com/pages/asu/261113/b/21.jpg" alt="" loading="lazy">
+            <div><div class="rt">젤리스트로우 20g * 20개</div>
+            <div class="rp num">699원 <span class="rp-drop">-0%</span></div></div></a><a class="rrow" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=4d9b1&amp;url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658852" target="_blank" rel="nofollow sponsored noopener">
+            <span class="rk">2</span><img src="https://eyoumall.godohosting.com/pages/asu/261118/b/10.jpg" alt="" loading="lazy">
+            <div><div class="rt">오롤리데이 X 덴띠끄 치약 80g</div>
+            <div class="rp num">999원 <span class="rp-drop">-0%</span></div></div></a><a class="rrow" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=4d9b1&amp;url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D630976" target="_blank" rel="nofollow sponsored noopener">
+            <span class="rk">3</span><img src="https://eyoumall.godohosting.com/pages/asu/260424/b/1.jpg" alt="" loading="lazy">
+            <div><div class="rt">갈릭칩 200g</div>
+            <div class="rp num">2,999원 <span class="rp-drop">-0%</span></div></div></a></div><div class="rankcol"><h3>가전 <span>TOP 3</span></h3><a class="rrow" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=4d9b1&amp;url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D539122" target="_blank" rel="nofollow sponsored noopener">
+            <span class="rk">1</span><img src="https://eyoumall.godohosting.com/pages/asu/240830/b/102.jpg" alt="" loading="lazy">
+            <div><div class="rt">[전자레인지3분!] 쫀득 달콤 찰옥수수 10개입 (10~14cm)</div>
+            <div class="rp num">9,999원 <span class="rp-drop">-0%</span></div></div></a><a class="rrow" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=0c2d4&amp;url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F348303442" target="_blank" rel="nofollow sponsored noopener">
+            <span class="rk">2</span><img src="https://cdn2.boribori.co.kr/rimg/0/cdn/product/03/S348303442/2_S348303442_basic_1760930179479.jpg" alt="" loading="lazy">
+            <div><div class="rt">겨울 털 구두 방한부츠 특가전</div>
+            <div class="rp num">28,430원 <span class="rp-drop">-0%</span></div></div></a><a class="rrow" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=b879e&amp;url=https%3A%2F%2Fc.appstory.co.kr%2F%2Fappliances6337" target="_blank" rel="nofollow sponsored noopener">
+            <span class="rk">3</span><img src="https://img.appstory.co.kr//@files/snc/buy/20250721/op28_1753054784.jpg" alt="" loading="lazy">
+            <div><div class="rt">휴빅 올인원 하나로 무선 핸디 소형 청소기 HB-2500</div>
+            <div class="rp num">29,800원 <span class="rp-drop">-0%</span></div></div></a></div><div class="rankcol"><h3>생활 <span>TOP 3</span></h3><a class="rrow" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=4d9b1&amp;url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658848" target="_blank" rel="nofollow sponsored noopener">
+            <span class="rk">1</span><img src="https://eyoumall.godohosting.com/pages/asu/261118/b/6.jpg" alt="" loading="lazy">
+            <div><div class="rt">고래를 구하는 물티슈 그린웨이브 20매</div>
+            <div class="rp num">399원 <span class="rp-drop">-0%</span></div></div></a><a class="rrow" href="https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&amp;offer=c16a2&amp;url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9694412302%3FtrTypeCd%3D42" target="_blank" rel="nofollow sponsored noopener">
+            <span class="rk">2</span><img src="https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/4/1/2/3/0/2/iWTaX/9694412302_244243760_05.webp" alt="" loading="lazy">
+            <div><div class="rt">더플레오 메모리폼 베개 2개+베개커버 2개 30*50cm</div>
+            <div class="rp num">18,320원 <span class="rp-drop">-0%</span></div></div></a></div></div>
+  </section>
+
+  <section class="how" id="how">
+    <div class="eyebrow"><span class="pip"></span>Automation</div>
+    <h2>이 페이지는 사람 손 없이 채워집니다</h2>
+    <p class="lead">크롤링이 아니라 쿠팡파트너스 <b style="color:#fff">공식 API</b>만 씁니다. 시간당 호출 한도(검색 10회)를 코드가 스스로 지키고, 한도를 넘으면 조용히 쉬었다가 다음 주기에 이어갑니다.</p>
+    <div class="steps">
+      <div class="step"><div class="n">STEP 01</div><h4>제휴 API 수집</h4><p>골드박스 1콜 + 키워드 검색 N콜. HMAC 서명으로 인증하고, 실행마다 예산을 기록해 한도를 넘지 않습니다.</p><div class="src">GET /products/goldbox</div></div>
+      <div class="step"><div class="n">STEP 02</div><h4>정규화 · 중복 제거</h4><p>상품ID 기준으로 합치고, 48시간 동안 다시 보이지 않은 상품은 자동으로 내립니다.</p><div class="src">dedupe by productId</div></div>
+      <div class="step"><div class="n">STEP 03</div><h4>가격 이력 계산</h4><p>매 수집의 가격을 쌓아 최저·최고를 뽑고, 그 차이를 할인율로 표시합니다. 정가를 주지 않는 API의 빈칸을 이력으로 메웁니다.</p><div class="src">history → drop%</div></div>
+      <div class="step"><div class="n">STEP 04</div><h4>정적 빌드 · 배포</h4><p>HTML을 미리 렌더링해 GitHub Pages로 배포. 서버·DB 없이 CDN만으로 돌아갑니다.</p><div class="src">python build.py → /docs</div></div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div class="fcol">
+        <div class="logo" style="margin-bottom:14px"><span class="mark"></span><span><b>득템</b><em>DEUKTEM</em></span></div>
+        <p>쿠팡이 오늘 제일 싼 것만<br>가격은 각 플랫폼에서 실시간으로 확인하세요.</p>
+      </div>
+      <div class="fcol"><h5>특가</h5><a href="#deals">전체 특가</a><a href="#deals">카테고리별</a><a href="#how">수집 방식</a></div>
+      <div class="fcol"><h5>안내</h5><a href="#how">제휴 안내</a><a href="#how">가격 오류 신고</a></div>
+      <div class="fcol"><h5>고지</h5><a href="#">이용약관</a><a href="#">개인정보처리방침</a><a href="#">광고 표시 정책</a></div>
+    </div>
+    <div class="fnote">
+      <span class="strong">대가성 고지</span> — 이 사이트의 모든 구매 링크는 쿠팡파트너스 제휴 링크이며, 구매 발생 시 운영자가 일정액의 수수료를 지급받습니다. 공정거래위원회 「추천·보증 등에 관한 표시·광고 심사지침」에 따라 상단에 상시 표시합니다.<br>
+      <b>가격·재고 안내</b> — 표시 가격은 수집 시점(2026.11.22 15:13) 기준이며 이후 변동될 수 있습니다. 실제 결제 가격은 쿠팡 상품 페이지에서 확인하세요.<br>
+      <br>
+      사업자등록번호 000-00-00000 · 통신판매업 신고 제0000-서울00-0000호 · 대표 000 · 문의 00-0000-0000
+    </div>
+  </div>
+</footer>
+
+<script type="application/json" id="deuktem-data">{"generated_at": "2026-11-22T15:13:09+09:00", "generated_at_label": "11.22 15:13", "source": "coupang-partners", "note": "", "stats": {"count": 26, "rocket": 0, "drops": 0, "avg_drop": 0, "min_price": 399, "cheapest": "고래를 구하는 물티슈 그린웨이브 20매"}, "items": [{"id": "sdk-f94522af2a52", "name": "고래를 구하는 물티슈 그린웨이브 20매", "price": 399, "base_price": 2400, "image": "https://eyoumall.godohosting.com/pages/asu/261118/b/6.jpg", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658848", "category": "생활", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "이유몰", "mall_name": "이유몰", "commission": "2.8%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 399]], "low": 399, "high": 399, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-881a10afe61b", "name": "젤리스트로우 20g * 20개", "price": 699, "base_price": 2000, "image": "https://eyoumall.godohosting.com/pages/asu/261113/b/21.jpg", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658621", "category": "기타", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "이유몰", "mall_name": "이유몰", "commission": "2.8%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 699]], "low": 699, "high": 699, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-f041b6967555", "name": "오롤리데이 X 덴띠끄 치약 80g", "price": 999, "base_price": 4800, "image": "https://eyoumall.godohosting.com/pages/asu/261118/b/10.jpg", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658852", "category": "기타", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "이유몰", "mall_name": "이유몰", "commission": "2.8%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 999]], "low": 999, "high": 999, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-fe9c6ca9096c", "name": "갈릭칩 200g", "price": 2999, "base_price": 18000, "image": "https://eyoumall.godohosting.com/pages/asu/260424/b/1.jpg", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D630976", "category": "기타", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "이유몰", "mall_name": "이유몰", "commission": "2.8%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 2999]], "low": 2999, "high": 2999, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-a6e8615b2080", "name": "다네시타 버터쿠키 씬앤크리스피 싱글서브 18입 324g x 2개", "price": 8160, "base_price": 10200, "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/1/0/6/6/1/1/rdWky/8792106611_244265798_05.webp", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8792106611%3FtrTypeCd%3D42", "category": "기타", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "11번가", "mall_name": "11번가", "commission": "최대 2.1%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 8160]], "low": 8160, "high": 8160, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-1f84fc1be4c5", "name": "[전자레인지3분!] 쫀득 달콤 찰옥수수 10개입 (10~14cm)", "price": 9999, "base_price": 33000, "image": "https://eyoumall.godohosting.com/pages/asu/240830/b/102.jpg", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D539122", "category": "가전", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "이유몰", "mall_name": "이유몰", "commission": "2.8%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 9999]], "low": 9999, "high": 9999, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-89af5ed4f54b", "name": "한닢쿡 동전육수 3봉 60알 240g 진한/홍게/시원 맛선택", "price": 10660, "base_price": 13000, "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/9/5/1/8/8/4/ICvuh/6141951884_244264642_05.webp", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F6141951884%3FtrTypeCd%3D42", "category": "기타", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "11번가", "mall_name": "11번가", "commission": "최대 2.1%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 10660]], "low": 10660, "high": 10660, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-fedea108e6eb", "name": "[바이마르] 전기 포트 1.8L", "price": 12999, "base_price": 79900, "image": "https://eyoumall.godohosting.com/pages/asu/261118/b/4.jpg", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658846", "category": "기타", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "이유몰", "mall_name": "이유몰", "commission": "2.8%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 12999]], "low": 12999, "high": 12999, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-1695858f35e2", "name": "[10분러시] 팔레트슬라임 국내생산 수제 슬라임 3종 랜덤박스", "price": 13930, "base_price": 15470, "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/9/1/6/4/3/0/qPlaa/6992916430_244273921_05.webp", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F6992916430%3FtrTypeCd%3D42", "category": "기타", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "11번가", "mall_name": "11번가", "commission": "최대 2.1%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 13930]], "low": 13930, "high": 13930, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-af0c43b54c13", "name": "반두아 코코넛 델리 비스킷 150g X 24입 BOX", "price": 15920, "base_price": 19900, "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/2/0/7/5/1/6/QSTqx/3316207516_244265879_05.webp", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F3316207516%3FtrTypeCd%3D42", "category": "기타", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "11번가", "mall_name": "11번가", "commission": "최대 2.1%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 15920]], "low": 15920, "high": 15920, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-5e0a4b5430be", "name": "[TV홈쇼핑]순간건조기 고블린 스타일러", "price": 17599, "base_price": 49800, "image": "https://eyoumall.godohosting.com/pages/asu/240708/b/128.jpg", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D529888", "category": "기타", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "이유몰", "mall_name": "이유몰", "commission": "2.8%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 17599]], "low": 17599, "high": 17599, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-dbdc66c9ba4a", "name": "더플레오 메모리폼 베개 2개+베개커버 2개 30*50cm", "price": 18320, "base_price": 22900, "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/4/1/2/3/0/2/iWTaX/9694412302_244243760_05.webp", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9694412302%3FtrTypeCd%3D42", "category": "생활", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "11번가", "mall_name": "11번가", "commission": "최대 2.1%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 18320]], "low": 18320, "high": 18320, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-e28a12af03ac", "name": "vu.ca  고불소 구취케어 아쿠아민트향 112g 8개+치약 110g 2개  외 구강 모음전", "price": 18810, "base_price": 20900, "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/8/1/9/1/1/2/ySKAM/6620819112_244275668_05.webp", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F6620819112%3FtrTypeCd%3D42", "category": "기타", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "11번가", "mall_name": "11번가", "commission": "최대 2.1%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 18810]], "low": 18810, "high": 18810, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-8e4c0b92761a", "name": "[박스특가]비비고 한달 김박스 더 고소한 참기름김 4.5g, 12봉x4개(총48봉)", "price": 22386, "base_price": 31980, "image": "https://img.cjthemarket.com/images/file/product/556/20261103095813972.png?SF=webp&RS=480", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3D40137821%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D42", "category": "기타", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "CJ 더 마켓", "mall_name": "CJ 더 마켓", "commission": "1.6%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 22386]], "low": 22386, "high": 22386, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-03727a2b1b03", "name": "하트 시어링 스웨이드 여아 겨울 털 구두", "price": 28430, "base_price": 52900, "image": "https://cdn2.boribori.co.kr/rimg/0/cdn/product/B0179/P377263986/2_P377263986_basic_1731295945748.jpg", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=0c2d4&url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F377263986", "category": "기타", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "보리보리", "mall_name": "보리보리", "commission": "3%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 28430]], "low": 28430, "high": 28430, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-4ce260e945cd", "name": "겨울 털 구두 방한부츠 특가전", "price": 28430, "base_price": 52900, "image": "https://cdn2.boribori.co.kr/rimg/0/cdn/product/03/S348303442/2_S348303442_basic_1760930179479.jpg", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=0c2d4&url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F348303442", "category": "가전", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "보리보리", "mall_name": "보리보리", "commission": "3%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 28430]], "low": 28430, "high": 28430, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-8acabfa9de36", "name": "휴빅 올인원 하나로 무선 핸디 소형 청소기 HB-2500", "price": 29800, "base_price": 52900, "image": "https://img.appstory.co.kr//@files/snc/buy/20250721/op28_1753054784.jpg", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b879e&url=https%3A%2F%2Fc.appstory.co.kr%2F%2Fappliances6337", "category": "가전", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "앱스토리", "mall_name": "앱스토리", "commission": "1.12%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 29800]], "low": 29800, "high": 29800, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-461d1e120e1e", "name": "LED 블라썸 레이어 여아 털 구두", "price": 35930, "base_price": 62900, "image": "https://cdn2.boribori.co.kr/rimg/0/cdn/product/B0179/P331850346/2_P331850346_basic_1736399795589.jpg", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=0c2d4&url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F331850346", "category": "기타", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "보리보리", "mall_name": "보리보리", "commission": "3%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 35930]], "low": 35930, "high": 35930, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-63120c21e19a", "name": "[라쉬반 스탠다드] 모달 브리즈 3종", "price": 37630, "base_price": 40900, "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/0/8/3/7/9/7/QMmff/9590083797_244286822_05.webp", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9590083797%3FtrTypeCd%3D42", "category": "기타", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "11번가", "mall_name": "11번가", "commission": "최대 2.1%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 37630]], "low": 37630, "high": 37630, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-706a464885d1", "name": "[하누소] 갈비탕 3팩 + 한우사골 고기곰탕 3팩 (700g x6)", "price": 41900, "base_price": 52370, "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/5/9/3/5/7/9/JPtAK/8436593579_244266740_05.webp", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8436593579%3FtrTypeCd%3D42", "category": "식품", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "11번가", "mall_name": "11번가", "commission": "최대 2.1%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 41900]], "low": 41900, "high": 41900, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-e8401745c602", "name": "덴티스테 플러스화이트 프로 치약 200g 4개 + 플러스화이트 프로 20g 2개", "price": 45900, "base_price": 52900, "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/4/8/5/9/0/4/cBLxF/8648485904_244244203_05.webp", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8648485904%3FtrTypeCd%3D42", "category": "기타", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "11번가", "mall_name": "11번가", "commission": "최대 2.1%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 45900]], "low": 45900, "high": 45900, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-83cac9287892", "name": "아이랩 윈드블라스터 에어건+청소기  iLAB-WBT", "price": 55200, "base_price": 119000, "image": "https://img.appstory.co.kr//@files/snc/buy/20260724/op28_1784887967.jpg", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b879e&url=https%3A%2F%2Fc.appstory.co.kr%2F%2Fcarelectronics6338", "category": "가전", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "앱스토리", "mall_name": "앱스토리", "commission": "1.12%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 55200]], "low": 55200, "high": 55200, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-533f97c5f5ab", "name": "폴로 랄프로렌 클래식 핏 가먼트다이 옥스포드 셔츠", "price": 186900, "base_price": 239000, "image": "https://d1clt9cvsv6atu.cloudfront.net/goods_s3/7081885201/smallbd29pd7081885201ed1.jpg?w=1200&fmt=auto&loc=hotdeal&brand_no=29&g_no=7081885201", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=dae42&url=https%3A%2F%2Fwww.feelway.com%2Fview_goods.php%3Fg_no%3D7081885201", "category": "패션", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "필웨이", "mall_name": "필웨이", "commission": "1.5%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 186900]], "low": 186900, "high": 186900, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-f9623e46f181", "name": "홈리아 올인원 로봇 청소기 HA-X520WDS", "price": 191900, "base_price": 369000, "image": "https://img.appstory.co.kr//@files/snc/buy/20260923/op28_1790126708.jpg", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b879e&url=https%3A%2F%2Fc.appstory.co.kr%2F%2Fappliances6339", "category": "가전", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "앱스토리", "mall_name": "앱스토리", "commission": "1.12%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 191900]], "low": 191900, "high": 191900, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-4a3f240d917e", "name": "[2박4인]하이원 윈터 올인 패키지", "price": 309000, "base_price": 309000, "image": "https://itemimage.cjonstyle.net/goods_images/20/620/2097218620L.jpg?timestamp=20261106185547", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f66b5&url=https%3A%2F%2Fdisplay.cjonstyle.com%2Fp%2Fitem%2F2097218620%3FchannelCode%3D30002002", "category": "기타", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "CJ온스타일", "mall_name": "CJ온스타일", "commission": "최대 1.4%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 309000]], "low": 309000, "high": 309000, "drop": 0, "drop_pct": 0, "best_price": true}, {"id": "sdk-41b1497d2444", "name": "에르메스 슈발 드 쾨르 펜던트 라지 모델 목걸이", "price": 751000, "base_price": 751000, "image": "https://d1clt9cvsv6atu.cloudfront.net/goods_s3/9412980787/smallg15-17833020563060.png?w=1200&fmt=auto&loc=hotdeal&brand_no=13&g_no=9412980787", "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=dae42&url=https%3A%2F%2Fwww.feelway.com%2Fview_goods.php%3Fg_no%3D9412980787", "category": "기타", "keyword": "", "source": "adpick_sdk", "platform": "other", "platform_label": "필웨이", "mall_name": "필웨이", "commission": "1.5%", "rocket": false, "free_shipping": false, "first_seen": "", "last_seen": "2026-11-22T15:13:09+09:00", "history": [["2026-11-22T15:13:09+09:00", 751000]], "low": 751000, "high": 751000, "drop": 0, "drop_pct": 0, "best_price": true}]}</script>
+<script>
+(function(){
+  "use strict";
+  var grid = document.getElementById("grid");
+  var cards = [].slice.call(grid.querySelectorAll(".card"));
+  var countEl = document.getElementById("dealCount");
+  var state = {filter:"all", plat:"all", sort:"drop", q:""};
+
+  // 카테고리 네비를 데이터에서 생성 (상단 탭)
+  var navCats = document.getElementById("navCats");
+  var cats = [];
+  cards.forEach(function(c){ var v = c.dataset.cat; if(v && cats.indexOf(v) < 0) cats.push(v); });
+  navCats.innerHTML = cats.map(function(c){
+    return '<a href="#deals" data-navcat="'+c.replace(/"/g,"&quot;")+'">'+c+'</a>';
+  }).join("");
+
+  function apply(){
+    var shown = 0;
+    cards.forEach(function(c){
+      var okCat = state.filter === "all" || c.dataset.cat === state.filter;
+      var okPlat = state.plat === "all" || c.dataset.plat === state.plat;
+      var okQ = !state.q || (c.querySelector(".ctitle").textContent + " " + (c.dataset.cat||"")).toLowerCase().indexOf(state.q) > -1;
+      var show = okCat && okPlat && okQ;
+      c.style.display = show ? "" : "none";
+      if(show) shown++;
+    });
+    var key = state.sort;
+    var sorted = cards.slice().sort(function(a,b){
+      if(key === "price") return (+a.dataset.price) - (+b.dataset.price);
+      if(key === "ts") return (b.dataset.ts||"").localeCompare(a.dataset.ts||"");
+      return (+b.dataset.drop) - (+a.dataset.drop) || (+a.dataset.price) - (+b.dataset.price);
+    });
+    sorted.forEach(function(c){ grid.appendChild(c); });
+    countEl.textContent = shown + "건";
+  }
+
+  document.querySelectorAll("#catFilters button").forEach(function(b){
+    b.addEventListener("click", function(){
+      document.querySelectorAll("#catFilters button").forEach(function(x){ x.setAttribute("aria-pressed","false"); });
+      b.setAttribute("aria-pressed","true");
+      state.filter = b.dataset.filter; apply();
+    });
+  });
+  document.querySelectorAll("#platFilters button").forEach(function(b){
+    b.addEventListener("click", function(){
+      document.querySelectorAll("#platFilters button").forEach(function(x){ x.setAttribute("aria-pressed","false"); });
+      b.setAttribute("aria-pressed","true");
+      state.plat = b.dataset.plat; apply();
+    });
+  });
+  document.querySelectorAll(".sortbox button").forEach(function(b){
+    b.addEventListener("click", function(){
+      document.querySelectorAll(".sortbox button").forEach(function(x){ x.setAttribute("aria-pressed","false"); });
+      b.setAttribute("aria-pressed","true");
+      state.sort = b.dataset.sort; apply();
+    });
+  });
+  document.getElementById("q").addEventListener("input", function(e){
+    state.q = e.target.value.trim().toLowerCase(); apply();
+  });
+  document.addEventListener("click", function(e){
+    var a = e.target.closest("[data-navcat]");
+    if(!a) return;
+    var v = a.dataset.navcat;
+    var btn = document.querySelector('#catFilters button[data-filter="'+CSS.escape(v)+'"]');
+    if(btn) btn.click();
+  });
+
+  // 골드박스 마감 카운트다운 (KST 자정 기준)
+  var heroClock = document.getElementById("heroClock");
+  function tick(){
+    var n = new Date();
+    if(heroClock){
+      var kst = new Date(n.getTime() + (n.getTimezoneOffset() + 540) * 60000);
+      var end = new Date(kst.getFullYear(), kst.getMonth(), kst.getDate() + 1, 0, 0, 0);
+      var s = Math.max(0, Math.floor((end - kst) / 1000));
+      heroClock.textContent = [Math.floor(s/3600), Math.floor(s%3600/60), s%60]
+        .map(function(v){ return String(v).padStart(2,"0"); }).join(":");
+    }
+    var lc = document.getElementById("liveClock");
+    if(lc) lc.textContent = [n.getHours(), n.getMinutes(), n.getSeconds()]
+      .map(function(v){ return String(v).padStart(2,"0"); }).join(":") + " 갱신";
+  }
+  tick(); setInterval(tick, 1000);
+  apply();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+{
+ "items": [
+  {
+   "id": "demo0001",
+   "name": "매트 화이트 미니 무선 가습기 500ml · 3단 분사 · 무소음",
+   "price": 15900,
+   "base_price": 39900,
+   "image": "assets/demo/p1.jpg",
+   "url": "https://www.coupang.com/",
+   "category": "생활",
+   "keyword": "무선 가습기",
+   "source": "goldbox",
+   "rocket": true,
+   "free_shipping": true,
+   "history": [
+    [
+     1,
+     39900
+    ],
+    [
+     2,
+     27900
+    ],
+    [
+     3,
+     15900
+    ]
+   ]
+  },
+  {
+   "id": "demo0002",
+   "name": "오픈형 블루투스 이어폰 EP-200 · 32시간 재생 · IPX5",
+   "price": 32900,
+   "base_price": 79000,
+   "image": "assets/demo/p2.jpg",
+   "url": "https://www.coupang.com/",
+   "category": "디지털",
+   "keyword": "블루투스 이어폰",
+   "source": "goldbox",
+   "rocket": true,
+   "free_shipping": true,
+   "history": [
+    [
+     1,
+     79000
+    ],
+    [
+     2,
+     55950
+    ],
+    [
+     3,
+     32900
+    ]
+   ]
+  },
+  {
+   "id": "demo0003",
+   "name": "수제 등심 돈까스 10팩 + 소스 2종 (냉동)",
+   "price": 13900,
+   "base_price": 24900,
+   "image": "assets/demo/p3.jpg",
+   "url": "https://www.coupang.com/",
+   "category": "식품",
+   "keyword": "냉동 돈까스",
+   "source": "goldbox",
+   "rocket": true,
+   "free_shipping": true,
+   "history": [
+    [
+     1,
+     24900
+    ],
+    [
+     2,
+     19400
+    ],
+    [
+     3,
+     13900
+    ]
+   ]
+  },
+  {
+   "id": "demo0004",
+   "name": "캡슐 커피머신 19bar · 2종 택1 (화이트/크림)",
+   "price": 69900,
+   "base_price": 149000,
+   "image": "assets/demo/p4.jpg",
+   "url": "https://www.coupang.com/",
+   "category": "가전",
+   "keyword": "캡슐 커피머신",
+   "source": "goldbox",
+   "rocket": true,
+   "free_shipping": true,
+   "history": [
+    [
+     1,
+     149000
+    ],
+    [
+     2,
+     109450
+    ],
+    [
+     3,
+     69900
+    ]
+   ]
+  },
+  {
+   "id": "demo0005",
+   "name": "저자극 수분 크림 80ml · 히알루론 5중 · 무향",
+   "price": 11900,
+   "base_price": 29000,
+   "image": "assets/demo/p5.jpg",
+   "url": "https://www.coupang.com/",
+   "category": "뷰티",
+   "keyword": "수분 크림",
+   "source": "search",
+   "rocket": true,
+   "free_shipping": true,
+   "history": [
+    [
+     1,
+     29000
+    ],
+    [
+     2,
+     20450
+    ],
+    [
+     3,
+     11900
+    ]
+   ]
+  },
+  {
+   "id": "demo0006",
+   "name": "오버핏 라운드 니트 가디건 · 6color · 남녀공용",
+   "price": 19800,
+   "base_price": 45000,
+   "image": "assets/demo/p6.jpg",
+   "url": "https://www.coupang.com/",
+   "category": "패션",
+   "keyword": "니트 가디건",
+   "source": "search",
+   "rocket": true,
+   "free_shipping": true,
+   "history": [
+    [
+     1,
+     45000
+    ],
+    [
+     2,
+     32400
+    ],
+    [
+     3,
+     19800
+    ]
+   ]
+  },
+  {
+   "id": "demo0007",
+   "name": "텐키리스 기계식 키보드 68키 · 크림/세이지 · 핫스왑",
+   "price": 42900,
+   "base_price": 89000,
+   "image": "assets/demo/p7.jpg",
+   "url": "https://www.coupang.com/",
+   "category": "디지털",
+   "keyword": "기계식 키보드",
+   "source": "search",
+   "rocket": true,
+   "free_shipping": true,
+   "history": [
+    [
+     1,
+     89000
+    ],
+    [
+     2,
+     65950
+    ],
+    [
+     3,
+     42900
+    ]
+   ]
+  },
+  {
+   "id": "demo0008",
+   "name": "대용량 섬유유연제 3L · 코튼향 · 리필형",
+   "price": 6900,
+   "base_price": 15900,
+   "image": "assets/demo/p8.jpg",
+   "url": "https://www.coupang.com/",
+   "category": "생활",
+   "keyword": "섬유유연제",
+   "source": "goldbox",
+   "rocket": true,
+   "free_shipping": true,
+   "history": [
+    [
+     1,
+     15900
+    ],
+    [
+     2,
+     11400
+    ],
+    [
+     3,
+     6900
+    ]
+   ]
+  }
+ ]
+}

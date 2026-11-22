@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}</title>
+<meta name="description" content="쿠팡 골드박스와 카테고리 베스트를 매시간 수집해, 관측 최저가 대비 가장 많이 내려간 상품부터 보여줍니다.">
+<link rel="canonical" href="{{CANON}}">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="쿠팡 특가를 매시간 자동 수집. 크롤링이 아니라 제휴 API로 받아옵니다.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{CANON}}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<style>
+{{CSS}}
+
+  /* ---- build-specific additions ---- */
+  .card-link{display:flex;flex-direction:column;height:100%;color:inherit}
+  .best-badge{display:inline-flex;align-items:center;height:19px;padding:0 6px;border-radius:4px;background:var(--lime-soft);color:var(--green);font-size:10.5px;font-weight:800;letter-spacing:-0.01em;border:1px solid #DCEBA8}
+  .sparkrow{display:flex;align-items:center;gap:8px;margin-top:10px;padding-top:9px;border-top:1px dashed var(--line);color:var(--faint)}
+  .sp{width:64px;height:18px;flex:none;color:#8C9A91}
+  .sparklab{font-size:10.5px;color:var(--faint);margin-left:auto;letter-spacing:0}
+  .rp-drop{font-size:10.5px;color:var(--urgent);font-weight:700}
+  .empty{padding:44px;text-align:center;color:var(--muted);background:#fff;border:1px dashed var(--line);border-radius:var(--radius);font-size:14px}
+  .rrow{border-top:1px solid #EDF1ED}
+  .rrow:first-of-type{border-top:0}
+  .rankcol a{display:flex;align-items:center;gap:11px;padding:9px 0;color:inherit}
+  .note{display:inline-flex;align-items:center;gap:6px;font-size:11px;color:var(--muted)}
+  .note b{color:var(--urgent);font-weight:700}
+  .how .step .src{word-break:break-all}
+  .filters.plat{margin-top:-8px}
+  .filters.plat button[aria-pressed="true"]{background:var(--ink);border-color:var(--ink)}
+  .manualnote{font-size:10.5px;color:var(--muted);line-height:1.35;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+  .card[data-plat="toss"] .pbadge, .card[data-plat="kakao"] .pbadge{background:#fff}
+  .pbadge.other i{background:#6B766F}
+  @media (max-width:720px){ .sp{display:none} }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <p><i class="dot"></i><span>이 페이지는 <b>쿠팡파트너스 활동의 일환</b>으로 수수료를 받습니다. 표시 가격은 수집 시점 기준이며, 최종 가격·재고는 쿠팡에서 확인하세요.</span></p>
+    <div class="right">
+      <span class="mono" id="liveClock">--:--:--</span>
+      <a href="#how">수집 방식</a>
+    </div>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap head">
+    <a href="./" class="logo" aria-label="{{SITE}} 홈">
+      <span class="mark"></span>
+      <span><b>{{SITE}}</b><em>DEUKTEM</em></span>
+    </a>
+
+    <div class="search">
+      <input id="q" type="search" placeholder="특가 검색 — 예: 가습기, 커피머신" aria-label="특가 검색">
+      <button aria-label="검색">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      </button>
+    </div>
+
+    <div class="src-chips">
+      <span class="lbl">수집</span>
+      <span class="chip-plat p-coupang"><i></i>쿠팡</span>
+      <span class="chip-plat p-toss"><i></i>토스</span>
+      <span class="chip-plat p-kakao"><i></i>톡딜</span>
+    </div>
+
+    <div class="head-icons">
+      <span class="note">최근 갱신 <b>{{UPDATED}}</b></span>
+    </div>
+  </div>
+
+  <nav class="cats">
+    <div class="wrap">
+      <a href="#deals">전체 특가</a>
+      <span class="sep"></span>
+      <span id="navCats" style="display:contents"></span>
+      <span class="live"><i></i>{{SCHEDULE}} 자동 갱신</span>
+    </div>
+  </nav>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="hero-main">
+        <div class="eyebrow"><span class="pip"></span>COUPANG GOLDBOX · {{UPDATED}} 수집</div>
+        <h1>쿠팡이 오늘<br><span class="hl">제일 싼 것</span>만.</h1>
+        <p class="hero-sub">골드박스와 카테고리 베스트를 <b style="color:#fff">{{SCHEDULE}}</b> 긁어옵니다 — 크롤링이 아니라 제휴 API로. 정가 대신 <b style="color:#fff">우리가 직접 관측한 최고가</b>와 비교해, 진짜 내려간 것만 위로 올립니다.</p>
+
+        <div class="stats">{{STATS}}</div>
+
+        <div class="hero-cta">
+          <a href="#deals" class="btn-lime">특가 전체 보기
+            <svg width="15" height="15" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#how" class="link-ghost">어떻게 자동으로 모으나요?</a>
+        </div>
+      </div>
+
+{{HERO}}
+    </div>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="lead"><i></i>방금 수집된 특가</div>
+      <div class="track" id="tickerTrack">{{TICKER}}</div>
+    </div>
+  </section>
+
+  <section class="block" id="deals">
+    <div class="sec-head">
+      <h2>실시간 특가 <span class="cnt" id="dealCount">{{CARD_COUNT}}</span></h2>
+      <div class="desc">관측 최고가 대비 하락 폭이 큰 순서입니다.</div>
+      <div class="spacer"></div>
+      <div class="sortbox" role="group" aria-label="정렬">
+        <button data-sort="drop" aria-pressed="true">하락 폭</button>
+        <button data-sort="price" aria-pressed="false">낮은 가격</button>
+        <button data-sort="ts" aria-pressed="false">최근 수집</button>
+      </div>
+    </div>
+
+    <div class="filters" id="catFilters" role="group" aria-label="카테고리">
+      <button data-filter="all" aria-pressed="true">전체</button>
+      {{CATS}}
+    </div>
+
+    <div class="filters plat" id="platFilters" role="group" aria-label="플랫폼">
+      <button data-plat="all" aria-pressed="true">모든 플랫폼</button>
+      {{PLAT_FILTERS}}
+    </div>
+
+    <div class="grid" id="grid">
+{{CARDS}}
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="sec-head">
+      <h2>카테고리별 많이 내려간 특가</h2>
+      <div class="desc">수집 물량이 많은 카테고리 3곳</div>
+    </div>
+    <div class="ranks">{{RANKS}}</div>
+  </section>
+
+  <section class="how" id="how">
+    <div class="eyebrow"><span class="pip"></span>Automation</div>
+    <h2>이 페이지는 사람 손 없이 채워집니다</h2>
+    <p class="lead">크롤링이 아니라 쿠팡파트너스 <b style="color:#fff">공식 API</b>만 씁니다. 시간당 호출 한도(검색 10회)를 코드가 스스로 지키고, 한도를 넘으면 조용히 쉬었다가 다음 주기에 이어갑니다.</p>
+    <div class="steps">
+      <div class="step"><div class="n">STEP 01</div><h4>제휴 API 수집</h4><p>골드박스 1콜 + 키워드 검색 N콜. HMAC 서명으로 인증하고, 실행마다 예산을 기록해 한도를 넘지 않습니다.</p><div class="src">GET /products/goldbox</div></div>
+      <div class="step"><div class="n">STEP 02</div><h4>정규화 · 중복 제거</h4><p>상품ID 기준으로 합치고, 48시간 동안 다시 보이지 않은 상품은 자동으로 내립니다.</p><div class="src">dedupe by productId</div></div>
+      <div class="step"><div class="n">STEP 03</div><h4>가격 이력 계산</h4><p>매 수집의 가격을 쌓아 최저·최고를 뽑고, 그 차이를 할인율로 표시합니다. 정가를 주지 않는 API의 빈칸을 이력으로 메웁니다.</p><div class="src">history → drop%</div></div>
+      <div class="step"><div class="n">STEP 04</div><h4>정적 빌드 · 배포</h4><p>HTML을 미리 렌더링해 GitHub Pages로 배포. 서버·DB 없이 CDN만으로 돌아갑니다.</p><div class="src">python build.py → /docs</div></div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div class="fcol">
+        <div class="logo" style="margin-bottom:14px"><span class="mark"></span><span><b>{{SITE}}</b><em>DEUKTEM</em></span></div>
+        <p>{{TAGLINE}}<br>가격은 각 플랫폼에서 실시간으로 확인하세요.</p>
+      </div>
+      <div class="fcol"><h5>특가</h5><a href="#deals">전체 특가</a><a href="#deals">카테고리별</a><a href="#how">수집 방식</a></div>
+      <div class="fcol"><h5>안내</h5><a href="#how">제휴 안내</a><a href="#how">가격 오류 신고</a></div>
+      <div class="fcol"><h5>고지</h5><a href="#">이용약관</a><a href="#">개인정보처리방침</a><a href="#">광고 표시 정책</a></div>
+    </div>
+    <div class="fnote">
+      <span class="strong">대가성 고지</span> — 이 사이트의 모든 구매 링크는 쿠팡파트너스 제휴 링크이며, 구매 발생 시 운영자가 일정액의 수수료를 지급받습니다. 공정거래위원회 「추천·보증 등에 관한 표시·광고 심사지침」에 따라 상단에 상시 표시합니다.<br>
+      <b>가격·재고 안내</b> — 표시 가격은 수집 시점({{DATE_LABEL}}) 기준이며 이후 변동될 수 있습니다. 실제 결제 가격은 쿠팡 상품 페이지에서 확인하세요.<br>
+      {{NOTE}}<br>
+      사업자등록번호 000-00-00000 · 통신판매업 신고 제0000-서울00-0000호 · 대표 000 · 문의 00-0000-0000
+    </div>
+  </div>
+</footer>
+
+<script type="application/json" id="deuktem-data">{{DATA_JSON}}</script>
+<script>
+(function(){
+  "use strict";
+  var grid = document.getElementById("grid");
+  var cards = [].slice.call(grid.querySelectorAll(".card"));
+  var countEl = document.getElementById("dealCount");
+  var state = {filter:"all", plat:"all", sort:"drop", q:""};
+
+  // 카테고리 네비를 데이터에서 생성 (상단 탭)
+  var navCats = document.getElementById("navCats");
+  var cats = [];
+  cards.forEach(function(c){ var v = c.dataset.cat; if(v && cats.indexOf(v) < 0) cats.push(v); });
+  navCats.innerHTML = cats.map(function(c){
+    return '<a href="#deals" data-navcat="'+c.replace(/"/g,"&quot;")+'">'+c+'</a>';
+  }).join("");
+
+  function apply(){
+    var shown = 0;
+    cards.forEach(function(c){
+      var okCat = state.filter === "all" || c.dataset.cat === state.filter;
+      var okPlat = state.plat === "all" || c.dataset.plat === state.plat;
+      var okQ = !state.q || (c.querySelector(".ctitle").textContent + " " + (c.dataset.cat||"")).toLowerCase().indexOf(state.q) > -1;
+      var show = okCat && okPlat && okQ;
+      c.style.display = show ? "" : "none";
+      if(show) shown++;
+    });
+    var key = state.sort;
+    var sorted = cards.slice().sort(function(a,b){
+      if(key === "price") return (+a.dataset.price) - (+b.dataset.price);
+      if(key === "ts") return (b.dataset.ts||"").localeCompare(a.dataset.ts||"");
+      return (+b.dataset.drop) - (+a.dataset.drop) || (+a.dataset.price) - (+b.dataset.price);
+    });
+    sorted.forEach(function(c){ grid.appendChild(c); });
+    countEl.textContent = shown + "건";
+  }
+
+  document.querySelectorAll("#catFilters button").forEach(function(b){
+    b.addEventListener("click", function(){
+      document.querySelectorAll("#catFilters button").forEach(function(x){ x.setAttribute("aria-pressed","false"); });
+      b.setAttribute("aria-pressed","true");
+      state.filter = b.dataset.filter; apply();
+    });
+  });
+  document.querySelectorAll("#platFilters button").forEach(function(b){
+    b.addEventListener("click", function(){
+      document.querySelectorAll("#platFilters button").forEach(function(x){ x.setAttribute("aria-pressed","false"); });
+      b.setAttribute("aria-pressed","true");
+      state.plat = b.dataset.plat; apply();
+    });
+  });
+  document.querySelectorAll(".sortbox button").forEach(function(b){
+    b.addEventListener("click", function(){
+      document.querySelectorAll(".sortbox button").forEach(function(x){ x.setAttribute("aria-pressed","false"); });
+      b.setAttribute("aria-pressed","true");
+      state.sort = b.dataset.sort; apply();
+    });
+  });
+  document.getElementById("q").addEventListener("input", function(e){
+    state.q = e.target.value.trim().toLowerCase(); apply();
+  });
+  document.addEventListener("click", function(e){
+    var a = e.target.closest("[data-navcat]");
+    if(!a) return;
+    var v = a.dataset.navcat;
+    var btn = document.querySelector('#catFilters button[data-filter="'+CSS.escape(v)+'"]');
+    if(btn) btn.click();
+  });
+
+  // 골드박스 마감 카운트다운 (KST 자정 기준)
+  var heroClock = document.getElementById("heroClock");
+  function tick(){
+    var n = new Date();
+    if(heroClock){
+      var kst = new Date(n.getTime() + (n.getTimezoneOffset() + 540) * 60000);
+      var end = new Date(kst.getFullYear(), kst.getMonth(), kst.getDate() + 1, 0, 0, 0);
+      var s = Math.max(0, Math.floor((end - kst) / 1000));
+      heroClock.textContent = [Math.floor(s/3600), Math.floor(s%3600/60), s%60]
+        .map(function(v){ return String(v).padStart(2,"0"); }).join(":");
+    }
+    var lc = document.getElementById("liveClock");
+    if(lc) lc.textContent = [n.getHours(), n.getMinutes(), n.getSeconds()]
+      .map(function(v){ return String(v).padStart(2,"0"); }).join(":") + " 갱신";
+  }
+  tick(); setInterval(tick, 1000);
+  apply();
+})();
+</script>
+</body>
+</html>

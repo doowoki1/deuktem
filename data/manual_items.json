@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-22T14:09:44+09:00",
+  "_schema": {
+    "platform": "coupang | toss | kakao | other (필수)",
+    "name": "상품명 (필수)",
+    "price": "판매가 숫자 (필수)",
+    "base_price": "비교 기준가. 없으면 price와 동일하게 처리",
+    "image": "이미지 URL 또는 로컬 경로 assets/... (없으면 회색 박스)",
+    "url": "제휴/공유 링크 http(s) 필수",
+    "category": "사이트 필터에 그대로 노출됨",
+    "ends_at": "ISO8601. 지나면 빌드에서 자동 제외. null 가능",
+    "memo": "카드 하단에 표시할 한 줄 설명",
+    "pinned": "true면 그리드 맨 앞으로"
+  },
+  "items": []
+}
