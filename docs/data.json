@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T04:53:34+09:00",
- "generated_at_label": "11.23 04:53",
+ "generated_at": "2026-11-23T05:49:28+09:00",
+ "generated_at_label": "11.23 05:49",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -239,7 +239,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:16:27+09:00",
-   "last_seen": "2026-11-23T01:50:50+09:00",
+   "last_seen": "2026-11-23T05:49:28+09:00",
    "history": [
     [
      "2026-11-22T17:16:05+09:00",
@@ -509,7 +509,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-23T03:52:19+09:00",
+   "last_seen": "2026-11-23T05:49:28+09:00",
    "history": [
     [
      "2026-11-23T02:46:53+09:00",
@@ -748,8 +748,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T04:53:34+09:00",
+   "first_seen": "2026-11-23T05:49:28+09:00",
+   "last_seen": "2026-11-23T05:49:28+09:00",
    "history": [
     [
      "2026-11-23T04:53:34+09:00",
@@ -1183,6 +1183,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-e38f3045cd4c",
+   "name": "[품질보장] 호정가 찹쌀약과세트 1KG / 달콤한 전통과자세트",
+   "price": 8900,
+   "base_price": 11860,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/pd/v2/7/1/0/5/3/1/ziwjF/3152710531_B.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F3152710531%3FtrTypeCd%3D42",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T05:49:28+09:00",
+   "history": [
+    [
+     "2026-11-23T05:49:28+09:00",
+     8900
+    ]
+   ],
+   "low": 8900,
+   "high": 8900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-7a6ac22b6d51",
    "name": "[VU.CA] 점보칫솔 더블미세모 10개입외 어린이칫솔/치실 모음전+치약 1개",
    "price": 8910,
@@ -1469,7 +1499,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-23T03:52:19+09:00",
+   "last_seen": "2026-11-23T05:49:28+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -1773,36 +1803,6 @@
    "history": [
     [
      "2026-11-23T00:49:41+09:00",
-     10900
-    ]
-   ],
-   "low": 10900,
-   "high": 10900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-d06cc896eb79",
-   "name": "[품질보장] 호정가 흑임자약과 1KG / 고소한 검은깨의 중독되는 맛",
-   "price": 10900,
-   "base_price": 14530,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/pd/v2/4/5/8/4/0/7/vavUq/6344458407_B.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F6344458407%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T01:50:50+09:00",
-   "history": [
-    [
-     "2026-11-23T01:50:50+09:00",
      10900
     ]
    ],
