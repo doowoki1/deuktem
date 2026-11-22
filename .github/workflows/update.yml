@@ -1,0 +1,63 @@
+name: 특가 갱신
+
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: 테스트
+        run: |
+          python tests/test_signature.py
+          python tests/test_providers.py
+          python tests/test_manual.py
+
+      - name: 상품 수집
+        env:
+          ADPICK_AFFID: ${{ secrets.ADPICK_AFFID }}
+          COUPANG_ACCESS_KEY: ${{ secrets.COUPANG_ACCESS_KEY }}
+          COUPANG_SECRET_KEY: ${{ secrets.COUPANG_SECRET_KEY }}
+        run: python collect.py
+
+      - name: 홈페이지 생성
+        run: python build.py
+
+      - name: 수집 결과 저장
+        run: |
+          git config user.name "deuktem-bot"
+          git config user.email "deuktem-bot@users.noreply.github.com"
+          git add data docs
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: 특가 갱신"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - uses: actions/deploy-pages@v4
