@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T06:46:26+09:00",
- "generated_at_label": "11.23 06:46",
+ "generated_at": "2026-11-23T07:48:08+09:00",
+ "generated_at_label": "11.23 07:48",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -58,8 +58,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T01:50:50+09:00",
+   "first_seen": "2026-11-23T07:48:08+09:00",
+   "last_seen": "2026-11-23T07:48:08+09:00",
    "history": [
     [
      "2026-11-23T01:50:50+09:00",
@@ -808,8 +808,8 @@
    "commission": "3%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T04:53:34+09:00",
+   "first_seen": "2026-11-23T07:48:08+09:00",
+   "last_seen": "2026-11-23T07:48:08+09:00",
    "history": [
     [
      "2026-11-23T04:53:34+09:00",
@@ -1559,7 +1559,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-23T03:52:19+09:00",
+   "last_seen": "2026-11-23T07:48:08+09:00",
    "history": [
     [
      "2026-11-23T00:49:41+09:00",
@@ -1619,7 +1619,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T01:50:50+09:00",
-   "last_seen": "2026-11-23T06:46:26+09:00",
+   "last_seen": "2026-11-23T07:48:08+09:00",
    "history": [
     [
      "2026-11-22T23:01:11+09:00",
@@ -1723,6 +1723,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-062c10475b3f",
+   "name": "아토팜 베이비 너리싱 오일 100ml",
+   "price": 10460,
+   "base_price": 12300,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/pd/v2/4/5/2/5/4/3/xHVFM/7866452543_B.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7866452543%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T07:48:08+09:00",
+   "history": [
+    [
+     "2026-11-23T07:48:08+09:00",
+     10460
+    ]
+   ],
+   "low": 10460,
+   "high": 10460,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-89af5ed4f54b",
    "name": "한닢쿡 동전육수 3봉 60알 240g 진한/홍게/시원 맛선택",
    "price": 10660,
@@ -1773,36 +1803,6 @@
    "history": [
     [
      "2026-11-22T23:01:11+09:00",
-     10900
-    ]
-   ],
-   "low": 10900,
-   "high": 10900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-5e74db7da419",
-   "name": "속편한 두부 어묵바 150g x 5팩 밀가루NO 두부30%",
-   "price": 10900,
-   "base_price": 15900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/9/0/7/5/0/6/cVAjP/9589907506_244141213_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9589907506%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T23:53:34+09:00",
-   "history": [
-    [
-     "2026-11-22T23:53:34+09:00",
      10900
     ]
    ],
