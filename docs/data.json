@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T20:47:56+09:00",
- "generated_at_label": "11.22 20:47",
+ "generated_at": "2026-11-22T21:57:09+09:00",
+ "generated_at_label": "11.22 21:57",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -59,7 +59,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:26:38+09:00",
-   "last_seen": "2026-11-22T20:47:56+09:00",
+   "last_seen": "2026-11-22T21:57:09+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -149,7 +149,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:16:27+09:00",
-   "last_seen": "2026-11-22T19:50:37+09:00",
+   "last_seen": "2026-11-22T21:57:09+09:00",
    "history": [
     [
      "2026-11-22T17:16:05+09:00",
@@ -628,8 +628,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T15:41:25+09:00",
+   "first_seen": "2026-11-22T21:57:09+09:00",
+   "last_seen": "2026-11-22T21:57:09+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -689,7 +689,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T19:50:37+09:00",
-   "last_seen": "2026-11-22T19:50:37+09:00",
+   "last_seen": "2026-11-22T21:57:09+09:00",
    "history": [
     [
      "2026-11-22T18:52:03+09:00",
@@ -718,8 +718,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T17:00:13+09:00",
+   "first_seen": "2026-11-22T21:57:09+09:00",
+   "last_seen": "2026-11-22T21:57:09+09:00",
    "history": [
     [
      "2026-11-22T17:00:13+09:00",
@@ -809,7 +809,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T18:52:03+09:00",
-   "last_seen": "2026-11-22T18:52:03+09:00",
+   "last_seen": "2026-11-22T21:57:09+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -1138,11 +1138,41 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T19:50:37+09:00",
+   "first_seen": "2026-11-22T21:57:09+09:00",
+   "last_seen": "2026-11-22T21:57:09+09:00",
    "history": [
     [
      "2026-11-22T19:50:37+09:00",
+     13900
+    ]
+   ],
+   "low": 13900,
+   "high": 13900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-3429c7b42173",
+   "name": "그레인랩 든든한 21곡 미숫가루 두유 190ml, 40팩, 1개",
+   "price": 13900,
+   "base_price": 22900,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/8644066619/B.webp?851960191",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8644066619%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T21:57:09+09:00",
+   "history": [
+    [
+     "2026-11-22T21:57:09+09:00",
      13900
     ]
    ],
@@ -1228,11 +1258,71 @@
    "commission": "3%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T20:47:56+09:00",
+   "first_seen": "2026-11-22T21:57:09+09:00",
+   "last_seen": "2026-11-22T21:57:09+09:00",
    "history": [
     [
      "2026-11-22T20:47:56+09:00",
+     14900
+    ]
+   ],
+   "low": 14900,
+   "high": 14900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-5f1d89dd3a19",
+   "name": "폰타나 지함수프 버라이어티 기획 60g, 8개+증정(프렌치 크루통 갈릭&파슬리 28g, 1개)",
+   "price": 14900,
+   "base_price": 21280,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/pd/v2/7/9/3/5/5/0/Ezbnw/6431793550_B.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F6431793550%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T21:57:09+09:00",
+   "history": [
+    [
+     "2026-11-22T21:57:09+09:00",
+     14900
+    ]
+   ],
+   "low": 14900,
+   "high": 14900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-b247083fbc63",
+   "name": "[반짝특가] 쥬얼리 스트랩 여아 털 구두",
+   "price": 14900,
+   "base_price": 52900,
+   "image": "https://cdn2.boribori.co.kr/rimg/0/cdn/product/B0179/P331609475/2_P331609475_basic_1668401147000.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=0c2d4&url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F331609475",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "보리보리",
+   "mall_name": "보리보리",
+   "commission": "3%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T21:57:09+09:00",
+   "history": [
+    [
+     "2026-11-22T21:57:09+09:00",
      14900
     ]
    ],
@@ -1259,7 +1349,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T20:47:56+09:00",
-   "last_seen": "2026-11-22T20:47:56+09:00",
+   "last_seen": "2026-11-22T21:57:09+09:00",
    "history": [
     [
      "2026-11-22T16:26:38+09:00",
@@ -1288,8 +1378,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T15:41:25+09:00",
+   "first_seen": "2026-11-22T21:57:09+09:00",
+   "last_seen": "2026-11-22T21:57:09+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -1513,6 +1603,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-f93360fd9952",
+   "name": "려 본초진 탈모증상완화 샴푸543ml",
+   "price": 17900,
+   "base_price": 17900,
+   "image": "https://sitem.ssgcdn.com/89/29/38/item/1000601382989_i1_290.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000601382989%26siteNo%3D6001%26salestrNo%3D2037",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "SSG",
+   "mall_name": "SSG",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T21:57:09+09:00",
+   "history": [
+    [
+     "2026-11-22T21:57:09+09:00",
+     17900
+    ]
+   ],
+   "low": 17900,
+   "high": 17900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-c2db0302a255",
    "name": "[1개+1개] 홈365 국산 개별멀티탭 3구 1.5m / 16A",
    "price": 18500,
@@ -1588,8 +1708,8 @@
    "commission": "3%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T19:50:37+09:00",
+   "first_seen": "2026-11-22T21:57:09+09:00",
+   "last_seen": "2026-11-22T21:57:09+09:00",
    "history": [
     [
      "2026-11-22T19:50:37+09:00",
@@ -1688,126 +1808,6 @@
    ],
    "low": 21200,
    "high": 21200,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-5b58b9d70985",
-   "name": "[박스특가]비비고 저염 사골곰탕 500g, 18개",
-   "price": 21513,
-   "base_price": 44820,
-   "image": "https://img.cjthemarket.com/images/file/product/905/20261112104935997.png?SF=webp&RS=480",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3D40192135%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D40",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T16:40:46+09:00",
-   "history": [
-    [
-     "2026-11-22T16:40:46+09:00",
-     21513
-    ]
-   ],
-   "low": 21513,
-   "high": 21513,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-0b3770ff5e95",
-   "name": "[박스특가]비비고 저염 사골곰탕 500g, 18개",
-   "price": 21513,
-   "base_price": 44820,
-   "image": "https://img.cjthemarket.com/images/file/product/905/20261112104935997.png?SF=webp&RS=480",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3D40192135%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D39",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T18:52:03+09:00",
-   "history": [
-    [
-     "2026-11-22T18:52:03+09:00",
-     21513
-    ]
-   ],
-   "low": 21513,
-   "high": 21513,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-28518facb076",
-   "name": "[1개+1개] 홈365 국산 개별멀티탭 4구 1.5m / 16A",
-   "price": 22900,
-   "base_price": 28800,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/6/9/2/5/1/1/toLLb/4482692511_244269615_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F4482692511%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T18:52:03+09:00",
-   "last_seen": "2026-11-22T18:52:03+09:00",
-   "history": [
-    [
-     "2026-11-22T17:00:13+09:00",
-     22900
-    ]
-   ],
-   "low": 22900,
-   "high": 22900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-2be26917391d",
-   "name": "[1개+1개] 홈365 국산 개별멀티탭 3구 3m / 16A",
-   "price": 22900,
-   "base_price": 28800,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/7/0/1/9/9/1/qlSYn/4482701991_244269630_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F4482701991%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T18:52:03+09:00",
-   "history": [
-    [
-     "2026-11-22T18:52:03+09:00",
-     22900
-    ]
-   ],
-   "low": 22900,
-   "high": 22900,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
