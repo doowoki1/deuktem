@@ -12,6 +12,7 @@ import argparse
 import html
 import json
 import shutil
+import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -112,6 +113,7 @@ def load_manual(path: Path = MANUAL_DEFAULT, at: datetime | None = None) -> tupl
         out.append({
             "id": f"manual-{plat}-{n}",
             "price_unknown": price == 0,
+            "original_price": to_int(r.get("original_price")) or None,
             "image_kind": str(r.get("image_kind") or ""),
             "name": name,
             "price": price,
@@ -120,7 +122,7 @@ def load_manual(path: Path = MANUAL_DEFAULT, at: datetime | None = None) -> tupl
             "low": price,
             "drop": base - price,
             "drop_pct": drop,
-            "image": str(r.get("image") or "").strip(),
+            "image": (str(r.get("image_embedded")) if isinstance(r.get("image_embedded"), str) and len(r["image_embedded"]) <= 1400000 and re.fullmatch(r"data:image/(?:jpeg|png|webp);base64,[A-Za-z0-9+/]+={0,2}", r["image_embedded"]) else str(r.get("image") or "").strip()),
             "url": url,
             "category": str(r.get("category") or "기타").strip(),
             "keyword": "",
@@ -202,13 +204,25 @@ def card(item: dict) -> str:
     flags.append(f'<span class="mono">{seen} 확인</span>')
     meta = '<span class="sepdot"></span>'.join(flags)
 
-    price_row = (
-        f'<span class="disc num">-{drop}%</span>' if drop > 0
-        else '<span class="best-badge">관측 최저</span>'
-    )
-    orig = (
-        f'<span class="orig num">{won(high)}원</span>' if drop > 0 else ""
-    )
+    current = to_int(item.get("price"))
+    original = to_int(item.get("original_price"))
+    basis = "입력 정가" if item.get("manual") else "판매처 제공 정가"
+    if not original and item.get("source") == "adpick_sdk":
+        original = to_int(item.get("base_price"))
+    discount_html = ""
+    if current > 0 and original > current:
+        savings = original - current
+        rate = int(savings / original * 1000) / 10
+        drop = rate
+        price_row = f'<span class="discount-pill num">{rate:g}%<small> 할인</small></span>'
+        discount_html = f'<div class="discount-detail"><div class="discount-original">{basis} <del class="num">{won(original)}원</del></div><span class="discount-saving num">{won(savings)}원 절약</span></div>'
+    else:
+        price_row = ""
+        if current > 0 and high and high > current:
+            discount_html = f'<div class="discount-detail"><span class="discount-original">관측 최고가 <del>{won(high)}원</del></span><span class="discount-saving">{won(high-current)}원 하락</span></div>'
+        elif current > 0:
+            discount_html = '<div class="discount-unknown">정가 정보 미제공 · 판매처 가격 확인</div>'
+    orig = ""
     if item.get("manual"):
         tail = item.get("ends_label") or "직접 확인"
         sparkrow = (
@@ -243,6 +257,7 @@ def card(item: dict) -> str:
               {amount}
               {orig}
             </div>
+            {discount_html}
             <div class="meta">{meta}</div>
             {sparkrow}
           </div>
