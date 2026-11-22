@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T23:53:34+09:00",
- "generated_at_label": "11.22 23:53",
+ "generated_at": "2026-11-23T00:49:41+09:00",
+ "generated_at_label": "11.23 00:49",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -133,6 +133,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-f94522af2a52",
+   "name": "고래를 구하는 물티슈 그린웨이브 20매",
+   "price": 399,
+   "base_price": 2400,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261118/b/6.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658848",
+   "category": "생활",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T00:49:41+09:00",
+   "history": [
+    [
+     "2026-11-23T00:49:41+09:00",
+     399
+    ]
+   ],
+   "low": 399,
+   "high": 399,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-1a83c456e9b6",
    "name": "실속정란(절란) 1kg",
    "price": 581,
@@ -239,7 +269,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T19:50:37+09:00",
-   "last_seen": "2026-11-22T23:53:34+09:00",
+   "last_seen": "2026-11-23T00:49:41+09:00",
    "history": [
     [
      "2026-11-22T18:52:03+09:00",
@@ -329,7 +359,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:40:46+09:00",
-   "last_seen": "2026-11-22T17:16:27+09:00",
+   "last_seen": "2026-11-23T00:49:41+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -613,6 +643,66 @@
    "best_price": true
   },
   {
+   "id": "sdk-3f71c0279110",
+   "name": "좋은느낌 순면프레쉬 팬티라이너, 롱, 69매, 1개",
+   "price": 6900,
+   "base_price": 15000,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/8171729282/B.webp?664215907",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8171729282%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T00:49:41+09:00",
+   "history": [
+    [
+     "2026-11-23T00:49:41+09:00",
+     6900
+    ]
+   ],
+   "low": 6900,
+   "high": 6900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-9cebcdb8e2f2",
+   "name": "좋은느낌 순면프레쉬 팬티라이너 일반 75매, 1개",
+   "price": 6900,
+   "base_price": 15000,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/8171717388/B.webp?48032366",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8171717388%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T00:49:41+09:00",
+   "history": [
+    [
+     "2026-11-23T00:49:41+09:00",
+     6900
+    ]
+   ],
+   "low": 6900,
+   "high": 6900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-eda4200e541d",
    "name": "아이깨끗해 거품형 레몬 용기 250ml",
    "price": 7900,
@@ -668,6 +758,36 @@
    ],
    "low": 7900,
    "high": 7900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-2e450140abb4",
+   "name": "CJ 비비고 한입교자 434g",
+   "price": 7980,
+   "base_price": 7980,
+   "image": "https://sitem.ssgcdn.com/92/48/78/item/1000882784892_i1_290.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000882784892%26siteNo%3D6001%26salestrNo%3D2037",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "SSG",
+   "mall_name": "SSG",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T00:49:41+09:00",
+   "history": [
+    [
+     "2026-11-23T00:49:41+09:00",
+     7980
+    ]
+   ],
+   "low": 7980,
+   "high": 7980,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -763,6 +883,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-c7b824aa2b58",
+   "name": "좋은느낌 순면프레쉬 대형 32매, 1개",
+   "price": 8900,
+   "base_price": 20000,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/8171601538/B.webp?641774380",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8171601538%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T00:49:41+09:00",
+   "history": [
+    [
+     "2026-11-23T00:49:41+09:00",
+     8900
+    ]
+   ],
+   "low": 8900,
+   "high": 8900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-7a6ac22b6d51",
    "name": "[VU.CA] 점보칫솔 더블미세모 10개입외 어린이칫솔/치실 모음전+치약 1개",
    "price": 8910,
@@ -853,6 +1003,66 @@
    "best_price": true
   },
   {
+   "id": "sdk-f01cfb0553a1",
+   "name": "좋은느낌 유기농100%순면커버 날개형 울트라슬림, 소형, 18매, 2개",
+   "price": 9900,
+   "base_price": 19800,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/8102017020/B.webp?561411667",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8102017020%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T00:49:41+09:00",
+   "history": [
+    [
+     "2026-11-23T00:49:41+09:00",
+     9900
+    ]
+   ],
+   "low": 9900,
+   "high": 9900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-faf4b1c897c4",
+   "name": "좋은느낌 유기농100%순면커버 날개형 울트라슬림, 중형, 18매, 2개",
+   "price": 9900,
+   "base_price": 19000,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/8171816632/B.webp?848932423",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8171816632%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T00:49:41+09:00",
+   "history": [
+    [
+     "2026-11-23T00:49:41+09:00",
+     9900
+    ]
+   ],
+   "low": 9900,
+   "high": 9900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-426560e3120a",
    "name": "[1+1]마더스홈 매일 빨아쓰는 피그먼트 베개커버 밴드형/지퍼형",
    "price": 9920,
@@ -933,6 +1143,36 @@
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
+     9980
+    ]
+   ],
+   "low": 9980,
+   "high": 9980,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-3fac4477d924",
+   "name": "CJ 크리스피 치킨텐더 300g",
+   "price": 9980,
+   "base_price": 9980,
+   "image": "https://sitem.ssgcdn.com/86/42/66/item/1000772664286_i1_290.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000772664286%26siteNo%3D6001%26salestrNo%3D2037",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "SSG",
+   "mall_name": "SSG",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T00:49:41+09:00",
+   "history": [
+    [
+     "2026-11-23T00:49:41+09:00",
      9980
     ]
    ],
@@ -1083,6 +1323,36 @@
    "history": [
     [
      "2026-11-22T23:53:34+09:00",
+     10900
+    ]
+   ],
+   "low": 10900,
+   "high": 10900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-f38b1941b618",
+   "name": "좋은느낌 유기농100%순면커버 날개형, 오버나이트, 13매, 2개",
+   "price": 10900,
+   "base_price": 22000,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/8171876906/B.webp?313461751",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8171876906%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T00:49:41+09:00",
+   "history": [
+    [
+     "2026-11-23T00:49:41+09:00",
      10900
     ]
    ],
@@ -1423,6 +1693,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-5561e7889422",
+   "name": "[바삭카츠세트]고메 통등심돈카츠450g+모짜렐라돈카츠 300g (총 2개)",
+   "price": 13624,
+   "base_price": 20960,
+   "image": "https://img.cjthemarket.com/images/file/product/987/20260928095017311.png?SF=webp&RS=480",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3D40237609%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D4",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T00:49:41+09:00",
+   "history": [
+    [
+     "2026-11-23T00:49:41+09:00",
+     13624
+    ]
+   ],
+   "low": 13624,
+   "high": 13624,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-1676b901d589",
    "name": "그레인랩 고소한99.9 무가당두유 190ml, 40입, 1개",
    "price": 13900,
@@ -1508,306 +1808,6 @@
    ],
    "low": 13900,
    "high": 13900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-b2a6db23c35a",
-   "name": "그레인랩 검은콩 고칼슘 더블랙 17곡 두유 40팩, 1개",
-   "price": 13900,
-   "base_price": 22900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/9587870070/B.webp?936193916",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9587870070%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T23:01:11+09:00",
-   "history": [
-    [
-     "2026-11-22T23:01:11+09:00",
-     13900
-    ]
-   ],
-   "low": 13900,
-   "high": 13900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-57ad746741d9",
-   "name": "일화차시 더 진한 헛개차 500mL x 20pet 헛개나무열매추출액 40,000mg",
-   "price": 13960,
-   "base_price": 17450,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/3/3/8/3/6/9/TkDGn/8839338369_244253627_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8839338369%3FtrTypeCd%3D42",
-   "category": "식품",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T23:53:34+09:00",
-   "last_seen": "2026-11-22T23:53:34+09:00",
-   "history": [
-    [
-     "2026-11-22T23:01:11+09:00",
-     13960
-    ]
-   ],
-   "low": 13960,
-   "high": 13960,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-85dd0444d9c0",
-   "name": "[청정원] 카레여왕 마늘양파분말, 108g, 5개",
-   "price": 14900,
-   "base_price": 18900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/9735950459/B.webp?49651380",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9735950459%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T20:47:56+09:00",
-   "last_seen": "2026-11-22T23:01:11+09:00",
-   "history": [
-    [
-     "2026-11-22T15:41:25+09:00",
-     14900
-    ]
-   ],
-   "low": 14900,
-   "high": 14900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-535a45640eee",
-   "name": "화이트 스테이쿨 입는오버나이트 대형 8P",
-   "price": 14900,
-   "base_price": 14900,
-   "image": "https://sitem.ssgcdn.com/97/99/80/item/1000683809997_i1_290.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000683809997%26siteNo%3D6001%26salestrNo%3D2068",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "SSG",
-   "mall_name": "SSG",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-22T17:00:13+09:00",
-   "history": [
-    [
-     "2026-11-22T16:40:46+09:00",
-     14900
-    ]
-   ],
-   "low": 14900,
-   "high": 14900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-0cbba5c81f47",
-   "name": "[반짝특가] 트위드 패턴 여아 털 구두",
-   "price": 14900,
-   "base_price": 50900,
-   "image": "https://cdn2.boribori.co.kr/rimg/0/cdn/product/B0179/P315583936/2_P315583936_basic_1794461535277.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=0c2d4&url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F315583936",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "보리보리",
-   "mall_name": "보리보리",
-   "commission": "3%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T21:57:09+09:00",
-   "last_seen": "2026-11-22T21:57:09+09:00",
-   "history": [
-    [
-     "2026-11-22T20:47:56+09:00",
-     14900
-    ]
-   ],
-   "low": 14900,
-   "high": 14900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-5f1d89dd3a19",
-   "name": "폰타나 지함수프 버라이어티 기획 60g, 8개+증정(프렌치 크루통 갈릭&파슬리 28g, 1개)",
-   "price": 14900,
-   "base_price": 21280,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/pd/v2/7/9/3/5/5/0/Ezbnw/6431793550_B.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F6431793550%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T21:57:09+09:00",
-   "history": [
-    [
-     "2026-11-22T21:57:09+09:00",
-     14900
-    ]
-   ],
-   "low": 14900,
-   "high": 14900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-b247083fbc63",
-   "name": "[반짝특가] 쥬얼리 스트랩 여아 털 구두",
-   "price": 14900,
-   "base_price": 52900,
-   "image": "https://cdn2.boribori.co.kr/rimg/0/cdn/product/B0179/P331609475/2_P331609475_basic_1668401147000.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=0c2d4&url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F331609475",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "보리보리",
-   "mall_name": "보리보리",
-   "commission": "3%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T21:57:09+09:00",
-   "history": [
-    [
-     "2026-11-22T21:57:09+09:00",
-     14900
-    ]
-   ],
-   "low": 14900,
-   "high": 14900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-78da01227c17",
-   "name": "맘스케이크 우리밀 데일리 머핀 40g 30개",
-   "price": 15120,
-   "base_price": 18900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/4/5/6/8/1/7/FKBuS/9277456817_244250841_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9277456817%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T20:47:56+09:00",
-   "last_seen": "2026-11-22T21:57:09+09:00",
-   "history": [
-    [
-     "2026-11-22T16:26:38+09:00",
-     15120
-    ]
-   ],
-   "low": 15120,
-   "high": 15120,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-28dd108a7486",
-   "name": "참존 콘트롤 크림 셀프 마사지 150ml 1+1",
-   "price": 15500,
-   "base_price": 15500,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/1/2/9/3/9/2/xQgeO/7828129392_244289290_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7828129392%3FtrTypeCd%3D42",
-   "category": "뷰티",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T23:53:34+09:00",
-   "history": [
-    [
-     "2026-11-22T23:53:34+09:00",
-     15500
-    ]
-   ],
-   "low": 15500,
-   "high": 15500,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-8f10adfd017b",
-   "name": "[자이스] 렌즈와이프 200매+본품 24매 (+증 렌즈와이프 6매X2 총12매) / 일회용 휴대폰 카메라 클리너",
-   "price": 15900,
-   "base_price": 23100,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/0/3/9/5/1/3/pPMEX/9713039513_244269364_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9713039513%3FtrTypeCd%3D42",
-   "category": "디지털",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T21:57:09+09:00",
-   "last_seen": "2026-11-22T21:57:09+09:00",
-   "history": [
-    [
-     "2026-11-22T15:41:25+09:00",
-     15900
-    ]
-   ],
-   "low": 15900,
-   "high": 15900,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
