@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T19:50:37+09:00",
- "generated_at_label": "11.22 19:50",
+ "generated_at": "2026-11-22T20:47:56+09:00",
+ "generated_at_label": "11.22 20:47",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -59,7 +59,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:26:38+09:00",
-   "last_seen": "2026-11-22T16:26:38+09:00",
+   "last_seen": "2026-11-22T20:47:56+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -253,6 +253,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-eaf2bb2c96f1",
+   "name": "요리재료 골라담기",
+   "price": 2810,
+   "base_price": 2810,
+   "image": "https://img.cjthemarket.com/images/file/product/139/20260708181533369.png?SF=webp&RS=480",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005639%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D28",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T20:47:56+09:00",
+   "history": [
+    [
+     "2026-11-22T20:47:56+09:00",
+     2810
+    ]
+   ],
+   "low": 2810,
+   "high": 2810,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-4cd36cea70a4",
    "name": "치즈 99.99프로 스모크향 스트링치즈 140g",
    "price": 2980,
@@ -299,7 +329,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-22T17:00:13+09:00",
+   "last_seen": "2026-11-22T20:47:56+09:00",
    "history": [
     [
      "2026-11-22T16:26:38+09:00",
@@ -719,7 +749,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:16:27+09:00",
-   "last_seen": "2026-11-22T18:52:03+09:00",
+   "last_seen": "2026-11-22T20:47:56+09:00",
    "history": [
     [
      "2026-11-22T17:16:05+09:00",
@@ -1138,8 +1168,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T15:41:25+09:00",
+   "first_seen": "2026-11-22T20:47:56+09:00",
+   "last_seen": "2026-11-22T20:47:56+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -1183,6 +1213,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-0cbba5c81f47",
+   "name": "[반짝특가] 트위드 패턴 여아 털 구두",
+   "price": 14900,
+   "base_price": 50900,
+   "image": "https://cdn2.boribori.co.kr/rimg/0/cdn/product/B0179/P315583936/2_P315583936_basic_1794461535277.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=0c2d4&url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F315583936",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "보리보리",
+   "mall_name": "보리보리",
+   "commission": "3%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T20:47:56+09:00",
+   "history": [
+    [
+     "2026-11-22T20:47:56+09:00",
+     14900
+    ]
+   ],
+   "low": 14900,
+   "high": 14900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-78da01227c17",
    "name": "맘스케이크 우리밀 데일리 머핀 40g 30개",
    "price": 15120,
@@ -1198,8 +1258,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T16:26:38+09:00",
+   "first_seen": "2026-11-22T20:47:56+09:00",
+   "last_seen": "2026-11-22T20:47:56+09:00",
    "history": [
     [
      "2026-11-22T16:26:38+09:00",
@@ -1263,6 +1323,36 @@
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
+     15900
+    ]
+   ],
+   "low": 15900,
+   "high": 15900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-735fff46bd74",
+   "name": "청정원 카레여왕 (분말) 마늘양파, 108g, 3개 + 망고바나나, 108g, 3개",
+   "price": 15900,
+   "base_price": 21900,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/5649784328/B.jpg?655761726",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F5649784328%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T20:47:56+09:00",
+   "history": [
+    [
+     "2026-11-22T20:47:56+09:00",
      15900
     ]
    ],
@@ -1468,8 +1558,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T15:41:25+09:00",
+   "first_seen": "2026-11-22T20:47:56+09:00",
+   "last_seen": "2026-11-22T20:47:56+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -1528,8 +1618,8 @@
    "commission": "최대 1.4%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T19:50:37+09:00",
+   "first_seen": "2026-11-22T20:47:56+09:00",
+   "last_seen": "2026-11-22T20:47:56+09:00",
    "history": [
     [
      "2026-11-22T19:50:37+09:00",
@@ -1559,7 +1649,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:16:05+09:00",
-   "last_seen": "2026-11-22T19:50:37+09:00",
+   "last_seen": "2026-11-22T20:47:56+09:00",
    "history": [
     [
      "2026-11-22T17:00:13+09:00",
@@ -1718,96 +1808,6 @@
    ],
    "low": 22900,
    "high": 22900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-f321d1d9d430",
-   "name": "츄파춥스 블루투스 스피커 기획",
-   "price": 23500,
-   "base_price": 45000,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/9204389552/B.webp?639172856",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9204389552%3FtrTypeCd%3D42",
-   "category": "디지털",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T18:52:03+09:00",
-   "history": [
-    [
-     "2026-11-22T18:52:03+09:00",
-     23500
-    ]
-   ],
-   "low": 23500,
-   "high": 23500,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-b2b54bde237e",
-   "name": "[6팩+2팩] 네이쳐러브메레 아기세탁세제 리필 1300ml 6팩+아기섬유유연제 리필 1300ml 2팩 + [GIFT] 아기세제 리필 오리지널향 500ml 1팩",
-   "price": 23980,
-   "base_price": 28210,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/8/9/0/9/4/9/kluSJ/9232890949_244264031_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9232890949%3FtrTypeCd%3D42",
-   "category": "생활",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-22T17:00:13+09:00",
-   "history": [
-    [
-     "2026-11-22T16:26:38+09:00",
-     23980
-    ]
-   ],
-   "low": 23980,
-   "high": 23980,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-8d430c86a10f",
-   "name": "[4팩+4팩] 네이쳐러브메레 아기세탁세제 리필 1300ml 4팩+4팩 + [GIFT] 아기세제 리필 오리지널향 500ml 1팩",
-   "price": 24590,
-   "base_price": 28920,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/8/9/3/7/0/9/CvrGq/9232893709_244264030_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9232893709%3FtrTypeCd%3D42",
-   "category": "생활",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T17:00:13+09:00",
-   "history": [
-    [
-     "2026-11-22T17:00:13+09:00",
-     24590
-    ]
-   ],
-   "low": 24590,
-   "high": 24590,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
