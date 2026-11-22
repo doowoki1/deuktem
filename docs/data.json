@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T23:01:11+09:00",
- "generated_at_label": "11.22 23:01",
+ "generated_at": "2026-11-22T23:53:34+09:00",
+ "generated_at_label": "11.22 23:53",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -59,7 +59,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:26:38+09:00",
-   "last_seen": "2026-11-22T21:57:09+09:00",
+   "last_seen": "2026-11-22T23:53:34+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -208,8 +208,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T23:01:11+09:00",
+   "first_seen": "2026-11-22T23:53:34+09:00",
+   "last_seen": "2026-11-22T23:53:34+09:00",
    "history": [
     [
      "2026-11-22T23:01:11+09:00",
@@ -239,7 +239,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T19:50:37+09:00",
-   "last_seen": "2026-11-22T19:50:37+09:00",
+   "last_seen": "2026-11-22T23:53:34+09:00",
    "history": [
     [
      "2026-11-22T18:52:03+09:00",
@@ -568,8 +568,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T23:01:11+09:00",
+   "first_seen": "2026-11-22T23:53:34+09:00",
+   "last_seen": "2026-11-22T23:53:34+09:00",
    "history": [
     [
      "2026-11-22T23:01:11+09:00",
@@ -749,7 +749,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T19:50:37+09:00",
-   "last_seen": "2026-11-22T21:57:09+09:00",
+   "last_seen": "2026-11-22T23:53:34+09:00",
    "history": [
     [
      "2026-11-22T18:52:03+09:00",
@@ -838,8 +838,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T17:00:13+09:00",
+   "first_seen": "2026-11-22T23:53:34+09:00",
+   "last_seen": "2026-11-22T23:53:34+09:00",
    "history": [
     [
      "2026-11-22T17:00:13+09:00",
@@ -1053,6 +1053,36 @@
    "history": [
     [
      "2026-11-22T23:01:11+09:00",
+     10900
+    ]
+   ],
+   "low": 10900,
+   "high": 10900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-5e74db7da419",
+   "name": "속편한 두부 어묵바 150g x 5팩 밀가루NO 두부30%",
+   "price": 10900,
+   "base_price": 15900,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/9/0/7/5/0/6/cVAjP/9589907506_244141213_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9589907506%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T23:53:34+09:00",
+   "history": [
+    [
+     "2026-11-22T23:53:34+09:00",
      10900
     ]
    ],
@@ -1303,6 +1333,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-5c5692720508",
+   "name": "삼립 우유롤케익 바닐라/블루베리 2개",
+   "price": 12900,
+   "base_price": 16120,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/0/3/9/2/9/3/ZDleW/3669039293_244270145_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F3669039293%3FtrTypeCd%3D42",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T23:53:34+09:00",
+   "history": [
+    [
+     "2026-11-22T23:53:34+09:00",
+     12900
+    ]
+   ],
+   "low": 12900,
+   "high": 12900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-fedea108e6eb",
    "name": "[바이마르] 전기 포트 1.8L",
    "price": 12999,
@@ -1498,8 +1558,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T23:01:11+09:00",
+   "first_seen": "2026-11-22T23:53:34+09:00",
+   "last_seen": "2026-11-22T23:53:34+09:00",
    "history": [
     [
      "2026-11-22T23:01:11+09:00",
@@ -1693,6 +1753,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-28dd108a7486",
+   "name": "참존 콘트롤 크림 셀프 마사지 150ml 1+1",
+   "price": 15500,
+   "base_price": 15500,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/1/2/9/3/9/2/xQgeO/7828129392_244289290_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7828129392%3FtrTypeCd%3D42",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T23:53:34+09:00",
+   "history": [
+    [
+     "2026-11-22T23:53:34+09:00",
+     15500
+    ]
+   ],
+   "low": 15500,
+   "high": 15500,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-8f10adfd017b",
    "name": "[자이스] 렌즈와이프 200매+본품 24매 (+증 렌즈와이프 6매X2 총12매) / 일회용 휴대폰 카메라 클리너",
    "price": 15900,
@@ -1718,96 +1808,6 @@
    ],
    "low": 15900,
    "high": 15900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-d1a293017664",
-   "name": "청정원 카레여왕 (분말) 마늘양파 108g, 3개 + 치즈코코넛 108g, 3개",
-   "price": 15900,
-   "base_price": 21900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/5649789417/B.webp?871505941",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F5649789417%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T16:40:46+09:00",
-   "history": [
-    [
-     "2026-11-22T16:40:46+09:00",
-     15900
-    ]
-   ],
-   "low": 15900,
-   "high": 15900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-735fff46bd74",
-   "name": "청정원 카레여왕 (분말) 마늘양파, 108g, 3개 + 망고바나나, 108g, 3개",
-   "price": 15900,
-   "base_price": 21900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/5649784328/B.jpg?655761726",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F5649784328%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T20:47:56+09:00",
-   "history": [
-    [
-     "2026-11-22T20:47:56+09:00",
-     15900
-    ]
-   ],
-   "low": 15900,
-   "high": 15900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-af0c43b54c13",
-   "name": "반두아 코코넛 델리 비스킷 150g X 24입 BOX",
-   "price": 15920,
-   "base_price": 19900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/2/0/7/5/1/6/QSTqx/3316207516_244265879_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F3316207516%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T16:40:46+09:00",
-   "history": [
-    [
-     "2026-11-22T16:40:46+09:00",
-     15920
-    ]
-   ],
-   "low": 15920,
-   "high": 15920,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
