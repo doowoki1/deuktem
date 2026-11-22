@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T07:48:08+09:00",
- "generated_at_label": "11.23 07:48",
+ "generated_at": "2026-11-23T08:46:22+09:00",
+ "generated_at_label": "11.23 08:46",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -239,7 +239,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:16:27+09:00",
-   "last_seen": "2026-11-23T05:49:28+09:00",
+   "last_seen": "2026-11-23T08:46:22+09:00",
    "history": [
     [
      "2026-11-22T17:16:05+09:00",
@@ -398,6 +398,36 @@
    ],
    "low": 2810,
    "high": 2810,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-18fab6e3a9bb",
+   "name": "풀무원 순살생선봉 야채 180g",
+   "price": 2880,
+   "base_price": 2880,
+   "image": "https://sitem.ssgcdn.com/58/94/45/item/1000885459458_i1_290.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000885459458%26siteNo%3D6001%26salestrNo%3D2037",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "SSG",
+   "mall_name": "SSG",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T08:46:22+09:00",
+   "history": [
+    [
+     "2026-11-23T08:46:22+09:00",
+     2880
+    ]
+   ],
+   "low": 2880,
+   "high": 2880,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -958,8 +988,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T02:46:53+09:00",
+   "first_seen": "2026-11-23T08:46:22+09:00",
+   "last_seen": "2026-11-23T08:46:22+09:00",
    "history": [
     [
      "2026-11-23T02:46:53+09:00",
@@ -1778,36 +1808,6 @@
    ],
    "low": 10660,
    "high": 10660,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-3ed77bb0f70a",
-   "name": "클린앤클리어 에센셜 훼이셜 포밍 클렌저 150ml x3",
-   "price": 10900,
-   "base_price": 16900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/1/8/1/3/5/5/aXzOo/5818181355_244296289_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F5818181355%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T23:01:11+09:00",
-   "history": [
-    [
-     "2026-11-22T23:01:11+09:00",
-     10900
-    ]
-   ],
-   "low": 10900,
-   "high": 10900,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
