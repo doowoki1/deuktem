@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T01:50:50+09:00",
- "generated_at_label": "11.23 01:50",
+ "generated_at": "2026-11-23T02:46:53+09:00",
+ "generated_at_label": "11.23 02:46",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -89,7 +89,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:26:38+09:00",
-   "last_seen": "2026-11-22T23:53:34+09:00",
+   "last_seen": "2026-11-23T02:46:53+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -149,7 +149,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:16:27+09:00",
-   "last_seen": "2026-11-22T17:16:27+09:00",
+   "last_seen": "2026-11-23T02:46:53+09:00",
    "history": [
     [
      "2026-11-22T17:16:05+09:00",
@@ -269,7 +269,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T23:53:34+09:00",
-   "last_seen": "2026-11-22T23:53:34+09:00",
+   "last_seen": "2026-11-23T02:46:53+09:00",
    "history": [
     [
      "2026-11-22T23:01:11+09:00",
@@ -329,7 +329,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-22T17:00:13+09:00",
+   "last_seen": "2026-11-23T02:46:53+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -389,7 +389,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:40:46+09:00",
-   "last_seen": "2026-11-23T00:49:41+09:00",
+   "last_seen": "2026-11-23T02:46:53+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -463,6 +463,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-b027e85322e8",
+   "name": "닭가슴살 골라담기",
+   "price": 3480,
+   "base_price": 3480,
+   "image": "https://img.cjthemarket.com/images/file/product/997/20260511173124599.png?SF=webp&RS=480",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002450%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D17",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T02:46:53+09:00",
+   "history": [
+    [
+     "2026-11-23T02:46:53+09:00",
+     3480
+    ]
+   ],
+   "low": 3480,
+   "high": 3480,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-a8cd0aeb6f85",
    "name": "스톡 웨더스 무설탕캔디 70g",
    "price": 3980,
@@ -509,7 +539,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T18:52:03+09:00",
-   "last_seen": "2026-11-22T23:01:11+09:00",
+   "last_seen": "2026-11-23T02:46:53+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -758,6 +788,36 @@
    ],
    "low": 6900,
    "high": 6900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-fc7389ca9bfc",
+   "name": "리버티 에디션 입는.오버나이트 4PX6팩 외 생리대 중형/대형/팬티라이너 모음",
+   "price": 6930,
+   "base_price": 7700,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/2/4/8/2/4/5/ukZga/3672248245_244248270_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F3672248245%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T02:46:53+09:00",
+   "history": [
+    [
+     "2026-11-23T02:46:53+09:00",
+     6930
+    ]
+   ],
+   "low": 6930,
+   "high": 6930,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1603,6 +1663,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-a9125cae51f6",
+   "name": "[품질보장] 호정가 하루영양바 (20개입) / 견과류 가득 프리미엄 뉴트리션바",
+   "price": 10900,
+   "base_price": 14530,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/pd/v2/4/9/8/7/4/6/Bwwwe/7767498746_B.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7767498746%3FtrTypeCd%3D42",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T02:46:53+09:00",
+   "history": [
+    [
+     "2026-11-23T02:46:53+09:00",
+     10900
+    ]
+   ],
+   "low": 10900,
+   "high": 10900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-514cac2f01aa",
    "name": "치킨 골라담기",
    "price": 10980,
@@ -1693,121 +1783,31 @@
    "best_price": true
   },
   {
-   "id": "sdk-46e2585597be",
-   "name": "구두/메리제인 인기 LED 슈즈 특가전",
-   "price": 11900,
-   "base_price": 50900,
-   "image": "https://cdn2.boribori.co.kr/rimg/0/cdn/product/03/S425838883/2_S425838883_basic_1794972250976.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=0c2d4&url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F425838883",
-   "category": "가전",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "보리보리",
-   "mall_name": "보리보리",
-   "commission": "3%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T18:52:03+09:00",
-   "history": [
-    [
-     "2026-11-22T18:52:03+09:00",
-     11900
-    ]
-   ],
-   "low": 11900,
-   "high": 11900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-52526cae6f58",
-   "name": "[블프특가][무료배송]소바바 마쏘킥 순살 240g, 4개",
-   "price": 11976,
-   "base_price": 39920,
-   "image": "https://img.cjthemarket.com/images/file/product/730/20260915103040332.png?SF=webp&RS=480",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3D40240145%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D8",
+   "id": "sdk-107e127eaf76",
+   "name": "킨토 올해마지막 할인! 블랙프라이데이 ~30% 특가찬스",
+   "price": 11200,
+   "base_price": 16000,
+   "image": "https://image.cjonstyle.net/public/confirm/assets/th1_item_bnr/202611/13/1033498c11aa59e27a2d4d1c71c49046c428a6dc.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f66b5&url=https%3A%2F%2Fdisplay.cjonstyle.com%2Fp%2Fitem%2F2080810759%3FchannelCode%3D30002002",
    "category": "기타",
    "keyword": "",
    "source": "adpick_sdk",
    "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
+   "platform_label": "CJ온스타일",
+   "mall_name": "CJ온스타일",
+   "commission": "최대 1.4%",
    "rocket": false,
    "free_shipping": false,
    "first_seen": "",
-   "last_seen": "2026-11-22T17:00:13+09:00",
+   "last_seen": "2026-11-23T02:46:53+09:00",
    "history": [
     [
-     "2026-11-22T17:00:13+09:00",
-     11976
+     "2026-11-23T02:46:53+09:00",
+     11200
     ]
    ],
-   "low": 11976,
-   "high": 11976,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-73cd2b979467",
-   "name": "[약국입점][2개] 리르 PDRN 리쥬딘 크림 - 피부장벽 보습 리페어 크림",
-   "price": 12510,
-   "base_price": 13900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/0/1/7/5/9/2/rJgYM/8748017592_244253330_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8748017592%3FtrTypeCd%3D42",
-   "category": "뷰티",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T19:50:37+09:00",
-   "history": [
-    [
-     "2026-11-22T19:50:37+09:00",
-     12510
-    ]
-   ],
-   "low": 12510,
-   "high": 12510,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-fa2396f13fcd",
-   "name": "두꺼운 라텍스 주방용 고무장갑 M 10개",
-   "price": 12720,
-   "base_price": 15900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/4/7/1/2/1/9/eXHqc/8613471219_244269720_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8613471219%3FtrTypeCd%3D42",
-   "category": "생활",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T17:00:13+09:00",
-   "history": [
-    [
-     "2026-11-22T17:00:13+09:00",
-     12720
-    ]
-   ],
-   "low": 12720,
-   "high": 12720,
+   "low": 11200,
+   "high": 11200,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
