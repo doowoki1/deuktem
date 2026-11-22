@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T05:49:28+09:00",
- "generated_at_label": "11.23 05:49",
+ "generated_at": "2026-11-23T06:46:26+09:00",
+ "generated_at_label": "11.23 06:46",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -209,7 +209,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-23T03:52:19+09:00",
+   "last_seen": "2026-11-23T06:46:26+09:00",
    "history": [
     [
      "2026-11-23T00:49:41+09:00",
@@ -269,7 +269,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-23T03:52:19+09:00",
+   "last_seen": "2026-11-23T06:46:26+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -359,7 +359,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-23T04:53:34+09:00",
+   "last_seen": "2026-11-23T06:46:26+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -583,6 +583,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-a35e12af045e",
+   "name": "[간편용기]우동&amp;떡볶이 골라담기",
+   "price": 4290,
+   "base_price": 4290,
+   "image": "https://img.cjthemarket.com/images/file/product/301/20261112135905965.png?SF=webp&RS=480",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005838%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D12",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T06:46:26+09:00",
+   "history": [
+    [
+     "2026-11-23T06:46:26+09:00",
+     4290
+    ]
+   ],
+   "low": 4290,
+   "high": 4290,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-3dfcf3d9f2bc",
    "name": "청우 초코파이찰떡 215g",
    "price": 4680,
@@ -629,7 +659,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:40:46+09:00",
-   "last_seen": "2026-11-23T04:53:34+09:00",
+   "last_seen": "2026-11-23T06:46:26+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -1198,8 +1228,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T05:49:28+09:00",
+   "first_seen": "2026-11-23T06:46:26+09:00",
+   "last_seen": "2026-11-23T06:46:26+09:00",
    "history": [
     [
      "2026-11-23T05:49:28+09:00",
@@ -1589,7 +1619,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T01:50:50+09:00",
-   "last_seen": "2026-11-23T01:50:50+09:00",
+   "last_seen": "2026-11-23T06:46:26+09:00",
    "history": [
     [
      "2026-11-22T23:01:11+09:00",
@@ -1679,7 +1709,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T04:53:34+09:00",
-   "last_seen": "2026-11-23T04:53:34+09:00",
+   "last_seen": "2026-11-23T06:46:26+09:00",
    "history": [
     [
      "2026-11-23T03:52:19+09:00",
@@ -1773,36 +1803,6 @@
    "history": [
     [
      "2026-11-22T23:53:34+09:00",
-     10900
-    ]
-   ],
-   "low": 10900,
-   "high": 10900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-f38b1941b618",
-   "name": "좋은느낌 유기농100%순면커버 날개형, 오버나이트, 13매, 2개",
-   "price": 10900,
-   "base_price": 22000,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/8171876906/B.webp?313461751",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8171876906%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T00:49:41+09:00",
-   "history": [
-    [
-     "2026-11-23T00:49:41+09:00",
      10900
     ]
    ],
