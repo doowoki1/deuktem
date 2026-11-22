@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T02:46:53+09:00",
- "generated_at_label": "11.23 02:46",
+ "generated_at": "2026-11-23T03:52:19+09:00",
+ "generated_at_label": "11.23 03:52",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -178,8 +178,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T00:49:41+09:00",
+   "first_seen": "2026-11-23T03:52:19+09:00",
+   "last_seen": "2026-11-23T03:52:19+09:00",
    "history": [
     [
      "2026-11-23T00:49:41+09:00",
@@ -238,8 +238,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T16:40:46+09:00",
+   "first_seen": "2026-11-23T03:52:19+09:00",
+   "last_seen": "2026-11-23T03:52:19+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -478,8 +478,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T02:46:53+09:00",
+   "first_seen": "2026-11-23T03:52:19+09:00",
+   "last_seen": "2026-11-23T03:52:19+09:00",
    "history": [
     [
      "2026-11-23T02:46:53+09:00",
@@ -568,8 +568,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T01:50:50+09:00",
+   "first_seen": "2026-11-23T03:52:19+09:00",
+   "last_seen": "2026-11-23T03:52:19+09:00",
    "history": [
     [
      "2026-11-23T01:50:50+09:00",
@@ -1258,8 +1258,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T01:50:50+09:00",
+   "first_seen": "2026-11-23T03:52:19+09:00",
+   "last_seen": "2026-11-23T03:52:19+09:00",
    "history": [
     [
      "2026-11-23T01:50:50+09:00",
@@ -1349,7 +1349,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-22T17:00:13+09:00",
+   "last_seen": "2026-11-23T03:52:19+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -1378,8 +1378,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T00:49:41+09:00",
+   "first_seen": "2026-11-23T03:52:19+09:00",
+   "last_seen": "2026-11-23T03:52:19+09:00",
    "history": [
     [
      "2026-11-23T00:49:41+09:00",
@@ -1468,11 +1468,41 @@
    "commission": "3%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T01:50:50+09:00",
+   "first_seen": "2026-11-23T03:52:19+09:00",
+   "last_seen": "2026-11-23T03:52:19+09:00",
    "history": [
     [
      "2026-11-23T01:50:50+09:00",
+     10400
+    ]
+   ],
+   "low": 10400,
+   "high": 10400,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-c2f728bd3350",
+   "name": "가을클리어런스 전복종특가 /상하복/원피스/아우터 外",
+   "price": 10400,
+   "base_price": 33900,
+   "image": "https://cdn2.boribori.co.kr/rimg/0/cdn/product/A3996/P434424812/2_P434424812_basic_1793330252132.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=0c2d4&url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F434424812",
+   "category": "패션",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "보리보리",
+   "mall_name": "보리보리",
+   "commission": "3%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T03:52:19+09:00",
+   "history": [
+    [
+     "2026-11-23T03:52:19+09:00",
      10400
     ]
    ],
@@ -1778,36 +1808,6 @@
    ],
    "low": 10980,
    "high": 10980,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-107e127eaf76",
-   "name": "킨토 올해마지막 할인! 블랙프라이데이 ~30% 특가찬스",
-   "price": 11200,
-   "base_price": 16000,
-   "image": "https://image.cjonstyle.net/public/confirm/assets/th1_item_bnr/202611/13/1033498c11aa59e27a2d4d1c71c49046c428a6dc.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f66b5&url=https%3A%2F%2Fdisplay.cjonstyle.com%2Fp%2Fitem%2F2080810759%3FchannelCode%3D30002002",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ온스타일",
-   "mall_name": "CJ온스타일",
-   "commission": "최대 1.4%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T02:46:53+09:00",
-   "history": [
-    [
-     "2026-11-23T02:46:53+09:00",
-     11200
-    ]
-   ],
-   "low": 11200,
-   "high": 11200,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
