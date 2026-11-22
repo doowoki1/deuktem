@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T03:52:19+09:00",
- "generated_at_label": "11.23 03:52",
+ "generated_at": "2026-11-23T04:53:34+09:00",
+ "generated_at_label": "11.23 04:53",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -8,10 +8,40 @@
   "rocket": 0,
   "drops": 0,
   "avg_drop": 0,
-  "min_price": 227,
-  "cheapest": "쉐프 지퍼백 소형 18x20cm 20매"
+  "min_price": 133,
+  "cheapest": "[진공포장] 비늘이 제거된 반건조 민어(가이석태속) 10미(미당 100~150g)"
  },
  "items": [
+  {
+   "id": "sdk-a9c2b991b0db",
+   "name": "[진공포장] 비늘이 제거된 반건조 민어(가이석태속) 10미(미당 100~150g)",
+   "price": 133,
+   "base_price": 133,
+   "image": "https://eyoumall.godohosting.com/pages/asu/240311/b/141.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D509782",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T04:53:34+09:00",
+   "history": [
+    [
+     "2026-11-23T04:53:34+09:00",
+     133
+    ]
+   ],
+   "low": 133,
+   "high": 133,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
   {
    "id": "sdk-ea23f2aa9e0f",
    "name": "쉐프 지퍼백 소형 18x20cm 20매",
@@ -329,7 +359,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-23T02:46:53+09:00",
+   "last_seen": "2026-11-23T04:53:34+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -389,7 +419,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:40:46+09:00",
-   "last_seen": "2026-11-23T02:46:53+09:00",
+   "last_seen": "2026-11-23T04:53:34+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -599,7 +629,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:40:46+09:00",
-   "last_seen": "2026-11-23T01:50:50+09:00",
+   "last_seen": "2026-11-23T04:53:34+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -703,6 +733,66 @@
    "best_price": true
   },
   {
+   "id": "sdk-2cba599c8cf8",
+   "name": "냉장 생선구이 골라담기",
+   "price": 5480,
+   "base_price": 5480,
+   "image": "https://img.cjthemarket.com/images/file/product/356/20260827142147591.png?SF=webp&RS=480",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002294%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D19",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T04:53:34+09:00",
+   "history": [
+    [
+     "2026-11-23T04:53:34+09:00",
+     5480
+    ]
+   ],
+   "low": 5480,
+   "high": 5480,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-b5a754a89f1b",
+   "name": "겨울 신상 대방출 전복종특가 /상하복/원피스/아우터 外",
+   "price": 5500,
+   "base_price": 299000,
+   "image": "https://cdn2.boribori.co.kr/rimg/0/cdn/product/A3996/P443503205/2_P443503205_basic_1793945276099.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=0c2d4&url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F443503205",
+   "category": "패션",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "보리보리",
+   "mall_name": "보리보리",
+   "commission": "3%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T04:53:34+09:00",
+   "history": [
+    [
+     "2026-11-23T04:53:34+09:00",
+     5500
+    ]
+   ],
+   "low": 5500,
+   "high": 5500,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-8645def877bb",
    "name": "[매일유업] 상하 후레쉬 모짜렐라 보코치니 100g",
    "price": 5980,
@@ -728,6 +818,36 @@
    ],
    "low": 5980,
    "high": 5980,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-199ae3c18baf",
+   "name": "[롯데백화점] 메이크업포에버 단독세트&홀리데이세트+적립&카드!",
+   "price": 6800,
+   "base_price": 8000,
+   "image": "https://image2.lotteimall.com/goods/47/57/84/2615845747_13.jpg/dims/resizemc/640x360/optimize",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=7676b&url=https%3A%2F%2Fwww.lotteimall.com%2Fgoods%2FviewGoodsDetail.lotte%3Fgoods_no%3D2615845747",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "롯데홈쇼핑",
+   "mall_name": "롯데홈쇼핑",
+   "commission": "0.96%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T04:53:34+09:00",
+   "history": [
+    [
+     "2026-11-23T04:53:34+09:00",
+     6800
+    ]
+   ],
+   "low": 6800,
+   "high": 6800,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1393,6 +1513,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-f7d2a12fb752",
+   "name": "비비고 CJ 단팥 붕어빵 300g",
+   "price": 9980,
+   "base_price": 9980,
+   "image": "https://sitem.ssgcdn.com/01/50/84/item/1000554845001_i1_290.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000554845001%26siteNo%3D6001%26salestrNo%3D2037",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "SSG",
+   "mall_name": "SSG",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T04:53:34+09:00",
+   "history": [
+    [
+     "2026-11-23T04:53:34+09:00",
+     9980
+    ]
+   ],
+   "low": 9980,
+   "high": 9980,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-1f84fc1be4c5",
    "name": "[전자레인지3분!] 쫀득 달콤 찰옥수수 10개입 (10~14cm)",
    "price": 9999,
@@ -1498,8 +1648,8 @@
    "commission": "3%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T03:52:19+09:00",
+   "first_seen": "2026-11-23T04:53:34+09:00",
+   "last_seen": "2026-11-23T04:53:34+09:00",
    "history": [
     [
      "2026-11-23T03:52:19+09:00",
@@ -1658,156 +1808,6 @@
    ],
    "low": 10900,
    "high": 10900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-05a64497ea28",
-   "name": "좋은느낌 유기농100%순면커버 팬티라이너, 수퍼롱, 28매, 3개",
-   "price": 10900,
-   "base_price": 19800,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/8224465499/B.webp?78876881",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8224465499%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T01:50:50+09:00",
-   "history": [
-    [
-     "2026-11-23T01:50:50+09:00",
-     10900
-    ]
-   ],
-   "low": 10900,
-   "high": 10900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-a9125cae51f6",
-   "name": "[품질보장] 호정가 하루영양바 (20개입) / 견과류 가득 프리미엄 뉴트리션바",
-   "price": 10900,
-   "base_price": 14530,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/pd/v2/4/9/8/7/4/6/Bwwwe/7767498746_B.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7767498746%3FtrTypeCd%3D42",
-   "category": "식품",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T02:46:53+09:00",
-   "history": [
-    [
-     "2026-11-23T02:46:53+09:00",
-     10900
-    ]
-   ],
-   "low": 10900,
-   "high": 10900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-514cac2f01aa",
-   "name": "치킨 골라담기",
-   "price": 10980,
-   "base_price": 10980,
-   "image": "https://img.cjthemarket.com/images/file/product/732/20260629142104006.png?SF=webp&RS=480",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0004511%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D15",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T16:40:46+09:00",
-   "last_seen": "2026-11-22T16:40:46+09:00",
-   "history": [
-    [
-     "2026-11-22T15:41:25+09:00",
-     10980
-    ]
-   ],
-   "low": 10980,
-   "high": 10980,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-0946dbe6527e",
-   "name": "CJ제일제당 경양식돈까스 340g",
-   "price": 10980,
-   "base_price": 10980,
-   "image": "https://sitem.ssgcdn.com/76/59/81/item/1000586815976_i1_290.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000586815976%26siteNo%3D6001%26salestrNo%3D2037",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "SSG",
-   "mall_name": "SSG",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T23:01:11+09:00",
-   "history": [
-    [
-     "2026-11-22T23:01:11+09:00",
-     10980
-    ]
-   ],
-   "low": 10980,
-   "high": 10980,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-3433533f6930",
-   "name": "치킨 골라담기",
-   "price": 10980,
-   "base_price": 10980,
-   "image": "https://img.cjthemarket.com/images/file/product/732/20260629142104006.png?SF=webp&RS=480",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0004511%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D14",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T23:01:11+09:00",
-   "history": [
-    [
-     "2026-11-22T23:01:11+09:00",
-     10980
-    ]
-   ],
-   "low": 10980,
-   "high": 10980,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
