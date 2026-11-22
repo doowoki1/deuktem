@@ -188,7 +188,27 @@ def spark(history: list, w: int = 96, h: int = 18) -> str:
     )
 
 
-def card(item: dict) -> str:
+def price_panel(item: dict) -> tuple[str, float]:
+    current = to_int(item.get("price"))
+    original = to_int(item.get("original_price"))
+    basis = "입력 정가" if item.get("manual") else "판매처 제공 정가"
+    if not original and item.get("source") == "adpick_sdk":
+        original = to_int(item.get("base_price"))
+    if current <= 0:
+        return '<div class="deal-pricing"><div class="deal-missing">가격은 판매처에서 확인</div></div>', 0
+    if original > current:
+        saved = original - current
+        rate = (saved * 1000 // original) / 10
+        return (f'<div class="reference-price"><div class="reference-line"><span class="reference-current num">{won(current)}원</span><del class="reference-original num" title="{basis}">{won(original)}원</del></div>'
+                f'<div class="reference-saving num">{won(saved)}원 할인</div></div>'), rate
+
+    high = to_int(item.get("high"))
+    note = f'관측 최고가 {won(high)}원 대비 {won(high-current)}원 하락' if high > current else '정가 정보 미제공'
+    return (f'<div class="reference-price"><div class="reference-line"><span class="reference-current num">{won(current)}원</span></div><div class="reference-note">{note}</div></div>'), 0
+
+
+
+def card(item: dict, eager: bool = False) -> str:
     badge, sub = label_for(item)
     plat = item.get("platform") or "coupang"
     pcls = plat if plat in PLAT_CLASS else "other"
@@ -204,25 +224,8 @@ def card(item: dict) -> str:
     flags.append(f'<span class="mono">{seen} 확인</span>')
     meta = '<span class="sepdot"></span>'.join(flags)
 
-    current = to_int(item.get("price"))
-    original = to_int(item.get("original_price"))
-    basis = "입력 정가" if item.get("manual") else "판매처 제공 정가"
-    if not original and item.get("source") == "adpick_sdk":
-        original = to_int(item.get("base_price"))
-    discount_html = ""
-    if current > 0 and original > current:
-        savings = original - current
-        rate = int(savings / original * 1000) / 10
-        drop = rate
-        price_row = f'<span class="discount-pill num">{rate:g}%<small> 할인</small></span>'
-        discount_html = f'<div class="discount-detail"><div class="discount-original">{basis} <del class="num">{won(original)}원</del></div><span class="discount-saving num">{won(savings)}원 절약</span></div>'
-    else:
-        price_row = ""
-        if current > 0 and high and high > current:
-            discount_html = f'<div class="discount-detail"><span class="discount-original">관측 최고가 <del>{won(high)}원</del></span><span class="discount-saving">{won(high-current)}원 하락</span></div>'
-        elif current > 0:
-            discount_html = '<div class="discount-unknown">정가 정보 미제공 · 판매처 가격 확인</div>'
-    orig = ""
+    pricing, drop = price_panel(item)
+    sale_badge = f'<span class="reference-badge num">{drop:g}% 특가</span>' if drop else ""
     if item.get("manual"):
         tail = item.get("ends_label") or "직접 확인"
         sparkrow = (
@@ -237,27 +240,20 @@ def card(item: dict) -> str:
             f'<span class="sparklab">{won(item.get("low") or item["price"])}원 최저</span>'
             '</div>'
         )
-    if not item.get("price"):
-        price_row = ""
-        amount = '<span class="price" style="font-size:14px">가격은 쿠팡에서 확인</span>'
-    else:
-        amount = f'<span class="price num">{won(item["price"])}<small>원</small></span>'
+    image_url = img_src(item.get('image'))
+    image_attrs = f'src="{image_url}" loading="eager"' if eager else f'data-src="{image_url}" class="preload-image"'
+    fallback = '' if eager else f'<noscript><img src="{image_url}" alt="{ESC(item["name"])}" loading="lazy" decoding="async"></noscript>'
     thumb_class = "thumb banner-thumb" if item.get("image_kind") == "affiliate_banner" else "thumb"
     return f"""      <article class="card" data-cat="{ESC(item.get('category'))}" data-price="{item['price']}" data-drop="{drop}" data-ts="{ESC(item.get('last_seen'))}" data-plat="{plat}">
         <a class="card-link" href="{ESC(item.get('url'))}" target="_blank" rel="nofollow sponsored noopener" aria-label="{ESC(item['name'])}">
           <div class="{thumb_class}">
-            <img src="{img_src(item.get('image'))}" alt="{ESC(item['name'])}" loading="lazy" decoding="async">
+            <img {image_attrs} alt="{ESC(item['name'])}" decoding="async">{fallback}
             <span class="pbadge {pcls}"><i></i>{pname}</span>
-            <span class="obadge">{ESC(badge)}</span>
+            {sale_badge}
           </div>
           <div class="cbody">
             <p class="ctitle">{ESC(item['name'])}</p>
-            <div class="prow">
-              {price_row}
-              {amount}
-              {orig}
-            </div>
-            {discount_html}
+            {pricing}
             <div class="meta">{meta}</div>
             {sparkrow}
           </div>
@@ -266,20 +262,16 @@ def card(item: dict) -> str:
 
 
 def hero(item: dict) -> str:
-    return f"""        <a class="feature" href="{ESC(item.get('url'))}" target="_blank" rel="nofollow sponsored noopener">
-          <div class="ftop">
-            <span class="tag-urgent"><i></i>오늘의 골드박스</span>
-            <span class="chip-plat p-coupang"><i></i>쿠팡</span>
-          </div>
-          <div class="fimg"><img src="{img_src(item.get('image'))}" alt="{ESC(item['name'])}"></div>
-          <p class="ftitle">{ESC(item['name'])}</p>
-          <div class="clock">
-            <div><div class="cl">골드박스 종료까지</div><div class="cv num" id="heroClock">--:--:--</div></div>
-            <div style="text-align:right"><div class="cl">관측 최고가 대비</div>
-              <div class="cv num" style="color:var(--urgent);font-weight:700">-{item.get('drop_pct',0)}%</div></div>
-          </div>
-          <div class="fprice"><span class="pc num">{won(item.get('price')) if item.get('price') else '가격은 쿠팡에서 확인'}</span><span class="pw">원</span></div>
-        </a>"""
+    pricing, rate = price_panel(item)
+    sale_badge = f'<span class="reference-badge num">{rate:g}% 특가</span>' if rate else ""
+    platform = item.get("platform_label") or PLAT_NAMES.get(item.get("platform"), "특가")
+    return f"""<a class="feature" href="{ESC(item.get('url'))}" target="_blank" rel="nofollow sponsored noopener">
+      <div class="ftop"><span class="feature-kicker">오늘 눈여겨볼 특가</span><span class="feature-platform">{ESC(platform)}</span></div>
+      <div class="fimg">{sale_badge}<img src="{img_src(item.get('image'))}" alt="{ESC(item['name'])}" loading="eager" fetchpriority="high" decoding="async"></div>
+      <p class="ftitle">{ESC(item['name'])}</p>
+      {pricing}
+      <div class="feature-action">판매처에서 상품 확인 <span aria-hidden="true">→</span></div>
+    </a>"""
 
 
 def ranks(items: list[dict]) -> str:
@@ -288,13 +280,16 @@ def ranks(items: list[dict]) -> str:
         groups.setdefault(it.get("category") or "기타", []).append(it)
     top = sorted(groups.items(), key=lambda kv: -len(kv[1]))[:3]
     cols = []
+    def rank_discount(r):
+        rate = price_panel(r)[1]
+        return f"{rate:g}% 할인" if rate else ""
     for cat, rows in top:
         rows = sorted(rows, key=lambda x: (-(x.get("drop_pct") or 0), (x.get("price") or float("inf"))))[:3]
         body = "".join(
             f"""<a class="rrow" href="{ESC(r.get('url'))}" target="_blank" rel="nofollow sponsored noopener">
-            <span class="rk">{n+1}</span><img src="{img_src(r.get('image'))}" alt="" loading="lazy">
+            <span class="rk">{n+1}</span><img src="{img_src(r.get('image'))}" alt="" loading="lazy" decoding="async">
             <div><div class="rt">{ESC(r['name'])}</div>
-            <div class="rp num">{display_price(r)} <span class="rp-drop">-{r.get('drop_pct',0)}%</span></div></div></a>"""
+            <div class="rp num">{display_price(r)} <span class="rp-drop">{rank_discount(r)}</span></div></div></a>"""
             for n, r in enumerate(rows)
         )
         cols.append(f'<div class="rankcol"><h3>{ESC(cat)} <span>TOP 3</span></h3>{body}</div>')
@@ -361,7 +356,7 @@ def main() -> int:
         "{{NOTE}}": ESC(data.get("note") or ""),
         "{{CARD_COUNT}}": f"{len(items)}건",
         "{{HERO}}": hero(top) if top else "",
-        "{{CARDS}}": "\n".join(card(i) for i in items) if items else '<p class="empty">표시할 특가가 없습니다. 다음 수집을 기다려 주세요.</p>',
+        "{{CARDS}}": "\n".join(card(i, eager=n < 8) for n, i in enumerate(items)) if items else '<p class="empty">표시할 특가가 없습니다. 다음 수집을 기다려 주세요.</p>',
         "{{RANKS}}": ranks(items) if items else "",
         "{{TICKER}}": tick + tick if tick else "",
         "{{PLAT_FILTERS}}": "".join(
