@@ -213,7 +213,7 @@
     });
     var key = state.sort;
     var sorted = cards.slice().sort(function(a,b){
-      if(key === "price") return (+a.dataset.price) - (+b.dataset.price);
+      if(key === "price") return (+a.dataset.price || Infinity) - (+b.dataset.price || Infinity);
       if(key === "ts") return (b.dataset.ts||"").localeCompare(a.dataset.ts||"");
       return (+b.dataset.drop) - (+a.dataset.drop) || (+a.dataset.price) - (+b.dataset.price);
     });

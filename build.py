@@ -92,7 +92,7 @@ def load_manual(path: Path = MANUAL_DEFAULT, at: datetime | None = None) -> tupl
         name = str(r.get("name") or "").strip()
         url = str(r.get("url") or "").strip()
         price = to_int(r.get("price"))
-        if not name or not url.startswith(("http://", "https://")) or price <= 0:
+        if not name or not url.startswith(("http://", "https://")) or price < 0:
             warn.append(f"#{n} 필수값 누락(name/price/http url)")
             continue
 
@@ -111,6 +111,8 @@ def load_manual(path: Path = MANUAL_DEFAULT, at: datetime | None = None) -> tupl
 
         out.append({
             "id": f"manual-{plat}-{n}",
+            "price_unknown": price == 0,
+            "image_kind": str(r.get("image_kind") or ""),
             "name": name,
             "price": price,
             "base_price": base,
@@ -148,7 +150,10 @@ def to_int(v, default: int = 0) -> int:
 
 
 def won(n: int) -> str:
-    return f"{int(n):,}"
+    return f"{int(n or 0):,}"
+
+def display_price(item: dict) -> str:
+    return won(item.get("price")) + "원" if item.get("price") else "가격은 쿠팡에서 확인"
 
 
 def label_for(item: dict) -> tuple[str, str]:
@@ -218,9 +223,15 @@ def card(item: dict) -> str:
             f'<span class="sparklab">{won(item.get("low") or item["price"])}원 최저</span>'
             '</div>'
         )
+    if not item.get("price"):
+        price_row = ""
+        amount = '<span class="price" style="font-size:14px">가격은 쿠팡에서 확인</span>'
+    else:
+        amount = f'<span class="price num">{won(item["price"])}<small>원</small></span>'
+    thumb_class = "thumb banner-thumb" if item.get("image_kind") == "affiliate_banner" else "thumb"
     return f"""      <article class="card" data-cat="{ESC(item.get('category'))}" data-price="{item['price']}" data-drop="{drop}" data-ts="{ESC(item.get('last_seen'))}" data-plat="{plat}">
         <a class="card-link" href="{ESC(item.get('url'))}" target="_blank" rel="nofollow sponsored noopener" aria-label="{ESC(item['name'])}">
-          <div class="thumb">
+          <div class="{thumb_class}">
             <img src="{img_src(item.get('image'))}" alt="{ESC(item['name'])}" loading="lazy" decoding="async">
             <span class="pbadge {pcls}"><i></i>{pname}</span>
             <span class="obadge">{ESC(badge)}</span>
@@ -229,7 +240,7 @@ def card(item: dict) -> str:
             <p class="ctitle">{ESC(item['name'])}</p>
             <div class="prow">
               {price_row}
-              <span class="price num">{won(item['price'])}<small>원</small></span>
+              {amount}
               {orig}
             </div>
             <div class="meta">{meta}</div>
@@ -252,7 +263,7 @@ def hero(item: dict) -> str:
             <div style="text-align:right"><div class="cl">관측 최고가 대비</div>
               <div class="cv num" style="color:var(--urgent);font-weight:700">-{item.get('drop_pct',0)}%</div></div>
           </div>
-          <div class="fprice"><span class="pc num">{won(item['price'])}</span><span class="pw">원</span></div>
+          <div class="fprice"><span class="pc num">{won(item.get('price')) if item.get('price') else '가격은 쿠팡에서 확인'}</span><span class="pw">원</span></div>
         </a>"""
 
 
@@ -263,12 +274,12 @@ def ranks(items: list[dict]) -> str:
     top = sorted(groups.items(), key=lambda kv: -len(kv[1]))[:3]
     cols = []
     for cat, rows in top:
-        rows = sorted(rows, key=lambda x: (-(x.get("drop_pct") or 0), x["price"]))[:3]
+        rows = sorted(rows, key=lambda x: (-(x.get("drop_pct") or 0), (x.get("price") or float("inf"))))[:3]
         body = "".join(
             f"""<a class="rrow" href="{ESC(r.get('url'))}" target="_blank" rel="nofollow sponsored noopener">
             <span class="rk">{n+1}</span><img src="{img_src(r.get('image'))}" alt="" loading="lazy">
             <div><div class="rt">{ESC(r['name'])}</div>
-            <div class="rp num">{won(r['price'])}원 <span class="rp-drop">-{r.get('drop_pct',0)}%</span></div></div></a>"""
+            <div class="rp num">{display_price(r)} <span class="rp-drop">-{r.get('drop_pct',0)}%</span></div></div></a>"""
             for n, r in enumerate(rows)
         )
         cols.append(f'<div class="rankcol"><h3>{ESC(cat)} <span>TOP 3</span></h3>{body}</div>')
@@ -304,6 +315,7 @@ def main() -> int:
     out.mkdir(parents=True, exist_ok=True)
     tpl = (ROOT / "template.html").read_text(encoding="utf-8")
     css = (ROOT / "assets" / "base.css").read_text(encoding="utf-8")
+    css += "\n.banner-thumb img{object-fit:contain;height:100%;width:100%}.banner-thumb{background:#fff}.card:hover .banner-thumb img{transform:none}"
 
     at = datetime.fromisoformat(data["generated_at"]) if data.get("generated_at") else datetime.now(KST)
     cats = sorted({i.get("category") for i in items if i.get("category")})
@@ -316,7 +328,7 @@ def main() -> int:
 
     tick = "".join(
         f'<span><b>{ESC((i.get("last_seen") or "")[11:16])}</b>{ESC(label_for(i)[0])} · {ESC(i["name"][:26])} '
-        f'{won(i["price"])}원</span>'
+        f'{display_price(i)}</span>'
         for i in items[:9]
     )
 
@@ -363,6 +375,10 @@ def main() -> int:
     (out / "index.html").write_text(page, encoding="utf-8")
     (out / "data.json").write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     (out / ".nojekyll").write_text("", encoding="utf-8")
+    if (ROOT / "admin.html").is_file():
+        shutil.copy2(ROOT / "admin.html", out / "admin.html")
+    if Path(args.manual).is_file():
+        shutil.copy2(Path(args.manual), out / "manual_items.json")
 
     demo_assets = ROOT / "assets" / "demo"
     if demo_assets.is_dir():
