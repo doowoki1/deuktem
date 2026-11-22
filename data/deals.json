@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T00:49:41+09:00",
- "generated_at_label": "11.23 00:49",
+ "generated_at": "2026-11-23T01:50:50+09:00",
+ "generated_at_label": "11.23 01:50",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -8,10 +8,40 @@
   "rocket": 0,
   "drops": 0,
   "avg_drop": 0,
-  "min_price": 270,
-  "cheapest": "[국내생산] 춥지마라 포켓용 핫팩 80g"
+  "min_price": 227,
+  "cheapest": "쉐프 지퍼백 소형 18x20cm 20매"
  },
  "items": [
+  {
+   "id": "sdk-ea23f2aa9e0f",
+   "name": "쉐프 지퍼백 소형 18x20cm 20매",
+   "price": 227,
+   "base_price": 227,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261116/b/21.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658704",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T01:50:50+09:00",
+   "history": [
+    [
+     "2026-11-23T01:50:50+09:00",
+     227
+    ]
+   ],
+   "low": 227,
+   "high": 227,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
   {
    "id": "sdk-34a97928a454",
    "name": "[국내생산] 춥지마라 포켓용 핫팩 80g",
@@ -179,7 +209,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:16:27+09:00",
-   "last_seen": "2026-11-22T21:57:09+09:00",
+   "last_seen": "2026-11-23T01:50:50+09:00",
    "history": [
     [
      "2026-11-22T17:16:05+09:00",
@@ -493,6 +523,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-3dfcf3d9f2bc",
+   "name": "청우 초코파이찰떡 215g",
+   "price": 4680,
+   "base_price": 4680,
+   "image": "https://sitem.ssgcdn.com/60/69/90/item/1000033906960_i1_290.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000033906960%26siteNo%3D7009%26salestrNo%3D2551",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "SSG",
+   "mall_name": "SSG",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T01:50:50+09:00",
+   "history": [
+    [
+     "2026-11-23T01:50:50+09:00",
+     4680
+    ]
+   ],
+   "low": 4680,
+   "high": 4680,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-038952e6b5c4",
    "name": "1분링 골라담기",
    "price": 5480,
@@ -509,7 +569,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:40:46+09:00",
-   "last_seen": "2026-11-22T16:40:46+09:00",
+   "last_seen": "2026-11-23T01:50:50+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -898,11 +958,41 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T00:49:41+09:00",
+   "first_seen": "2026-11-23T01:50:50+09:00",
+   "last_seen": "2026-11-23T01:50:50+09:00",
    "history": [
     [
      "2026-11-23T00:49:41+09:00",
+     8900
+    ]
+   ],
+   "low": 8900,
+   "high": 8900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-764ae0e83d3a",
+   "name": "좋은느낌 순면프레쉬 중형 36매, 1개",
+   "price": 8900,
+   "base_price": 20000,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/8171594077/B.webp?47757918",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8171594077%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T01:50:50+09:00",
+   "history": [
+    [
+     "2026-11-23T01:50:50+09:00",
      8900
     ]
    ],
@@ -1063,6 +1153,66 @@
    "best_price": true
   },
   {
+   "id": "sdk-b1f1c8e6f0c9",
+   "name": "좋은느낌 유기농 순면커버 팬티라이너 일반, 40매, 1개+ 탐폰 레귤러, 12매, 1개",
+   "price": 9900,
+   "base_price": 19800,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/7014982910/B.webp?107103471",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7014982910%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T01:50:50+09:00",
+   "history": [
+    [
+     "2026-11-23T01:50:50+09:00",
+     9900
+    ]
+   ],
+   "low": 9900,
+   "high": 9900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-db4f30a25b96",
+   "name": "르모어 코듀로이 롱 원피스 겨울 여성 긴치마 골덴 데일리룩 데이트룩",
+   "price": 9900,
+   "base_price": 9900,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/0/0/5/8/0/2/qUFVI/8867005802_244309782_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8867005802%3FtrTypeCd%3D42",
+   "category": "패션",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T01:50:50+09:00",
+   "history": [
+    [
+     "2026-11-23T01:50:50+09:00",
+     9900
+    ]
+   ],
+   "low": 9900,
+   "high": 9900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-426560e3120a",
    "name": "[1+1]마더스홈 매일 빨아쓰는 피그먼트 베개커버 밴드형/지퍼형",
    "price": 9920,
@@ -1198,8 +1348,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T23:01:11+09:00",
+   "first_seen": "2026-11-23T01:50:50+09:00",
+   "last_seen": "2026-11-23T01:50:50+09:00",
    "history": [
     [
      "2026-11-22T23:01:11+09:00",
@@ -1233,6 +1383,36 @@
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
+     10400
+    ]
+   ],
+   "low": 10400,
+   "high": 10400,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-eaeb9c58c9bc",
+   "name": "가을클리어런스 인기티셔츠 24종",
+   "price": 10400,
+   "base_price": 38900,
+   "image": "https://cdn2.boribori.co.kr/rimg/0/cdn/product/A3996/P433456172/2_P433456172_basic_1793346642181.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=0c2d4&url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F433456172",
+   "category": "패션",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "보리보리",
+   "mall_name": "보리보리",
+   "commission": "3%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T01:50:50+09:00",
+   "history": [
+    [
+     "2026-11-23T01:50:50+09:00",
      10400
     ]
    ],
@@ -1353,6 +1533,66 @@
    "history": [
     [
      "2026-11-23T00:49:41+09:00",
+     10900
+    ]
+   ],
+   "low": 10900,
+   "high": 10900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-d06cc896eb79",
+   "name": "[품질보장] 호정가 흑임자약과 1KG / 고소한 검은깨의 중독되는 맛",
+   "price": 10900,
+   "base_price": 14530,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/pd/v2/4/5/8/4/0/7/vavUq/6344458407_B.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F6344458407%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T01:50:50+09:00",
+   "history": [
+    [
+     "2026-11-23T01:50:50+09:00",
+     10900
+    ]
+   ],
+   "low": 10900,
+   "high": 10900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-05a64497ea28",
+   "name": "좋은느낌 유기농100%순면커버 팬티라이너, 수퍼롱, 28매, 3개",
+   "price": 10900,
+   "base_price": 19800,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/8224465499/B.webp?78876881",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8224465499%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T01:50:50+09:00",
+   "history": [
+    [
+     "2026-11-23T01:50:50+09:00",
      10900
     ]
    ],
@@ -1568,246 +1808,6 @@
    ],
    "low": 12720,
    "high": 12720,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-9d8f0341d3a1",
-   "name": "뉴트로지나 딥클린 포밍클렌저 150g x2+(증)아크네폼10g 2개",
-   "price": 12900,
-   "base_price": 16800,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/6/9/4/9/7/9/GbkvA/5817694979_244296284_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F5817694979%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T23:01:11+09:00",
-   "history": [
-    [
-     "2026-11-22T23:01:11+09:00",
-     12900
-    ]
-   ],
-   "low": 12900,
-   "high": 12900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-5c5692720508",
-   "name": "삼립 우유롤케익 바닐라/블루베리 2개",
-   "price": 12900,
-   "base_price": 16120,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/0/3/9/2/9/3/ZDleW/3669039293_244270145_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F3669039293%3FtrTypeCd%3D42",
-   "category": "뷰티",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T23:53:34+09:00",
-   "history": [
-    [
-     "2026-11-22T23:53:34+09:00",
-     12900
-    ]
-   ],
-   "low": 12900,
-   "high": 12900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-fedea108e6eb",
-   "name": "[바이마르] 전기 포트 1.8L",
-   "price": 12999,
-   "base_price": 79900,
-   "image": "https://eyoumall.godohosting.com/pages/asu/261118/b/4.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658846",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T16:26:38+09:00",
-   "last_seen": "2026-11-22T17:00:13+09:00",
-   "history": [
-    [
-     "2026-11-22T15:41:25+09:00",
-     12999
-    ]
-   ],
-   "low": 12999,
-   "high": 12999,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-f657249a87d7",
-   "name": "[1개+1개] 홈365 국산 과부하차단 멀티탭 3구 0.7m / 16A",
-   "price": 13500,
-   "base_price": 17050,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/9/2/4/8/8/7/qyquZ/4482924887_244269589_05.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F4482924887%3FtrTypeCd%3D42",
-   "category": "식품",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-22T17:00:13+09:00",
-   "history": [
-    [
-     "2026-11-22T16:26:38+09:00",
-     13500
-    ]
-   ],
-   "low": 13500,
-   "high": 13500,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-5561e7889422",
-   "name": "[바삭카츠세트]고메 통등심돈카츠450g+모짜렐라돈카츠 300g (총 2개)",
-   "price": 13624,
-   "base_price": 20960,
-   "image": "https://img.cjthemarket.com/images/file/product/987/20260928095017311.png?SF=webp&RS=480",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3D40237609%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D4",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T00:49:41+09:00",
-   "history": [
-    [
-     "2026-11-23T00:49:41+09:00",
-     13624
-    ]
-   ],
-   "low": 13624,
-   "high": 13624,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-1676b901d589",
-   "name": "그레인랩 고소한99.9 무가당두유 190ml, 40입, 1개",
-   "price": 13900,
-   "base_price": 22900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/8567146512/B.webp?58468501",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8567146512%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T21:57:09+09:00",
-   "last_seen": "2026-11-22T21:57:09+09:00",
-   "history": [
-    [
-     "2026-11-22T19:50:37+09:00",
-     13900
-    ]
-   ],
-   "low": 13900,
-   "high": 13900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-3429c7b42173",
-   "name": "그레인랩 든든한 21곡 미숫가루 두유 190ml, 40팩, 1개",
-   "price": 13900,
-   "base_price": 22900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/8644066619/B.webp?851960191",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8644066619%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T21:57:09+09:00",
-   "history": [
-    [
-     "2026-11-22T21:57:09+09:00",
-     13900
-    ]
-   ],
-   "low": 13900,
-   "high": 13900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-017a6846bcfc",
-   "name": "그레인랩 담백한 무가당 고단백 두유 24입, 1개",
-   "price": 13900,
-   "base_price": 22900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/9587870171/B.webp?124230307",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9587870171%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T23:01:11+09:00",
-   "history": [
-    [
-     "2026-11-22T23:01:11+09:00",
-     13900
-    ]
-   ],
-   "low": 13900,
-   "high": 13900,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
