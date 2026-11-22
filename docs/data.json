@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T16:40:46+09:00",
- "generated_at_label": "11.22 16:40",
+ "generated_at": "2026-11-22T17:00:13+09:00",
+ "generated_at_label": "11.22 17:00",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -148,8 +148,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T16:40:46+09:00",
+   "first_seen": "2026-11-22T17:00:13+09:00",
+   "last_seen": "2026-11-22T17:00:13+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -208,8 +208,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T16:26:38+09:00",
+   "first_seen": "2026-11-22T17:00:13+09:00",
+   "last_seen": "2026-11-22T17:00:13+09:00",
    "history": [
     [
      "2026-11-22T16:26:38+09:00",
@@ -278,6 +278,66 @@
    ],
    "low": 5480,
    "high": 5480,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-f4d516827598",
+   "name": "냉동간식 골라담기",
+   "price": 5480,
+   "base_price": 5480,
+   "image": "https://img.cjthemarket.com/images/file/product/707/20260629141738250.png?SF=webp&RS=480",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002734%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D25",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T17:00:13+09:00",
+   "history": [
+    [
+     "2026-11-22T17:00:13+09:00",
+     5480
+    ]
+   ],
+   "low": 5480,
+   "high": 5480,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-8645def877bb",
+   "name": "[매일유업] 상하 후레쉬 모짜렐라 보코치니 100g",
+   "price": 5980,
+   "base_price": 5980,
+   "image": "https://sitem.ssgcdn.com/92/65/74/item/1000633746592_i1_290.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000633746592%26siteNo%3D7009%26salestrNo%3D2551",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "SSG",
+   "mall_name": "SSG",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T17:00:13+09:00",
+   "history": [
+    [
+     "2026-11-22T17:00:13+09:00",
+     5980
+    ]
+   ],
+   "low": 5980,
+   "high": 5980,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -373,6 +433,96 @@
    "best_price": true
   },
   {
+   "id": "sdk-2baf6a60be28",
+   "name": "맘스케이크 우리밀 바나나빵 오리지널 맛 15개입",
+   "price": 8720,
+   "base_price": 10900,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/9/2/1/6/9/4/XXHfW/8529921694_244250842_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8529921694%3FtrTypeCd%3D42",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T17:00:13+09:00",
+   "history": [
+    [
+     "2026-11-22T17:00:13+09:00",
+     8720
+    ]
+   ],
+   "low": 8720,
+   "high": 8720,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-7a6ac22b6d51",
+   "name": "[VU.CA] 점보칫솔 더블미세모 10개입외 어린이칫솔/치실 모음전+치약 1개",
+   "price": 8910,
+   "base_price": 9900,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/8/1/5/9/1/4/FSVlS/6620815914_244275667_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F6620815914%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T17:00:13+09:00",
+   "history": [
+    [
+     "2026-11-22T17:00:13+09:00",
+     8910
+    ]
+   ],
+   "low": 8910,
+   "high": 8910,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-ae74075bd51d",
+   "name": "vu.ca 고불소 구취케어 아쿠아민트향 112g 4개+치약 110g 1개 구강/치실 모음전",
+   "price": 9900,
+   "base_price": 11000,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/1/6/5/9/4/8/bdvvu/6657165948_244275669_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F6657165948%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T17:00:13+09:00",
+   "history": [
+    [
+     "2026-11-22T17:00:13+09:00",
+     9900
+    ]
+   ],
+   "low": 9900,
+   "high": 9900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-426560e3120a",
    "name": "[1+1]마더스홈 매일 빨아쓰는 피그먼트 베개커버 밴드형/지퍼형",
    "price": 9920,
@@ -418,8 +568,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T16:40:46+09:00",
+   "first_seen": "2026-11-22T17:00:13+09:00",
+   "last_seen": "2026-11-22T17:00:13+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -478,8 +628,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T16:26:38+09:00",
+   "first_seen": "2026-11-22T17:00:13+09:00",
+   "last_seen": "2026-11-22T17:00:13+09:00",
    "history": [
     [
      "2026-11-22T16:26:38+09:00",
@@ -523,6 +673,66 @@
    "best_price": true
   },
   {
+   "id": "sdk-52526cae6f58",
+   "name": "[블프특가][무료배송]소바바 마쏘킥 순살 240g, 4개",
+   "price": 11976,
+   "base_price": 39920,
+   "image": "https://img.cjthemarket.com/images/file/product/730/20260915103040332.png?SF=webp&RS=480",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3D40240145%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D8",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T17:00:13+09:00",
+   "history": [
+    [
+     "2026-11-22T17:00:13+09:00",
+     11976
+    ]
+   ],
+   "low": 11976,
+   "high": 11976,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-fa2396f13fcd",
+   "name": "두꺼운 라텍스 주방용 고무장갑 M 10개",
+   "price": 12720,
+   "base_price": 15900,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/4/7/1/2/1/9/eXHqc/8613471219_244269720_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8613471219%3FtrTypeCd%3D42",
+   "category": "생활",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T17:00:13+09:00",
+   "history": [
+    [
+     "2026-11-22T17:00:13+09:00",
+     12720
+    ]
+   ],
+   "low": 12720,
+   "high": 12720,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-fedea108e6eb",
    "name": "[바이마르] 전기 포트 1.8L",
    "price": 12999,
@@ -539,7 +749,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:26:38+09:00",
-   "last_seen": "2026-11-22T16:26:38+09:00",
+   "last_seen": "2026-11-22T17:00:13+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -568,8 +778,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T16:26:38+09:00",
+   "first_seen": "2026-11-22T17:00:13+09:00",
+   "last_seen": "2026-11-22T17:00:13+09:00",
    "history": [
     [
      "2026-11-22T16:26:38+09:00",
@@ -628,8 +838,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T16:40:46+09:00",
+   "first_seen": "2026-11-22T17:00:13+09:00",
+   "last_seen": "2026-11-22T17:00:13+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -883,6 +1093,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-41650ca1b027",
+   "name": "[홈쇼핑상품] H2 옴므 올인원 남성화장품 200mlx2개+(파우치10장증정)",
+   "price": 19999,
+   "base_price": 59600,
+   "image": "https://eyoumall.godohosting.com/pages/asu/251017/b/105.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D606824",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T17:00:13+09:00",
+   "history": [
+    [
+     "2026-11-22T17:00:13+09:00",
+     19999
+    ]
+   ],
+   "low": 19999,
+   "high": 19999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-f3136ea79c99",
    "name": "후쿠오카함바그 400g X 3팩 (함박6 장+ 소스6봉)",
    "price": 21200,
@@ -943,6 +1183,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-28518facb076",
+   "name": "[1개+1개] 홈365 국산 개별멀티탭 4구 1.5m / 16A",
+   "price": 22900,
+   "base_price": 28800,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/6/9/2/5/1/1/toLLb/4482692511_244269615_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F4482692511%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T17:00:13+09:00",
+   "history": [
+    [
+     "2026-11-22T17:00:13+09:00",
+     22900
+    ]
+   ],
+   "low": 22900,
+   "high": 22900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-b2b54bde237e",
    "name": "[6팩+2팩] 네이쳐러브메레 아기세탁세제 리필 1300ml 6팩+아기섬유유연제 리필 1300ml 2팩 + [GIFT] 아기세제 리필 오리지널향 500ml 1팩",
    "price": 23980,
@@ -958,8 +1228,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T16:26:38+09:00",
+   "first_seen": "2026-11-22T17:00:13+09:00",
+   "last_seen": "2026-11-22T17:00:13+09:00",
    "history": [
     [
      "2026-11-22T16:26:38+09:00",
@@ -968,6 +1238,36 @@
    ],
    "low": 23980,
    "high": 23980,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-8d430c86a10f",
+   "name": "[4팩+4팩] 네이쳐러브메레 아기세탁세제 리필 1300ml 4팩+4팩 + [GIFT] 아기세제 리필 오리지널향 500ml 1팩",
+   "price": 24590,
+   "base_price": 28920,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/8/9/3/7/0/9/CvrGq/9232893709_244264030_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9232893709%3FtrTypeCd%3D42",
+   "category": "생활",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T17:00:13+09:00",
+   "history": [
+    [
+     "2026-11-22T17:00:13+09:00",
+     24590
+    ]
+   ],
+   "low": 24590,
+   "high": 24590,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -988,8 +1288,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T15:41:25+09:00",
+   "first_seen": "2026-11-22T17:00:13+09:00",
+   "last_seen": "2026-11-22T17:00:13+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -998,6 +1298,36 @@
    ],
    "low": 24800,
    "high": 24800,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-751408b97b40",
+   "name": "빈타이포타 현지맛 저염 베트남 쌀국수 30개입",
+   "price": 26550,
+   "base_price": 26550,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/6/5/4/1/3/1/SJjAn/4440654131_244262719_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F4440654131%3FtrTypeCd%3D42",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T17:00:13+09:00",
+   "history": [
+    [
+     "2026-11-22T17:00:13+09:00",
+     26550
+    ]
+   ],
+   "low": 26550,
+   "high": 26550,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1078,8 +1408,8 @@
    "commission": "3%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T16:26:38+09:00",
+   "first_seen": "2026-11-22T17:00:13+09:00",
+   "last_seen": "2026-11-22T17:00:13+09:00",
    "history": [
     [
      "2026-11-22T16:26:38+09:00",
@@ -1169,7 +1499,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:26:38+09:00",
-   "last_seen": "2026-11-22T16:26:38+09:00",
+   "last_seen": "2026-11-22T17:00:13+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -1178,6 +1508,36 @@
    ],
    "low": 32900,
    "high": 32900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-41624190f5a7",
+   "name": "[리뷰 1.9만] 하누소 갈비탕 700g x 5팩 + 갈비육수+ 소스",
+   "price": 33900,
+   "base_price": 42370,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/2/5/6/0/2/8/NmrlX/23256028_244266737_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F23256028%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-22T17:00:13+09:00",
+   "history": [
+    [
+     "2026-11-22T17:00:13+09:00",
+     33900
+    ]
+   ],
+   "low": 33900,
+   "high": 33900,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1448,366 +1808,6 @@
    ],
    "low": 43110,
    "high": 43110,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-83cac9287892",
-   "name": "아이랩 윈드블라스터 에어건+청소기  iLAB-WBT",
-   "price": 55200,
-   "base_price": 119000,
-   "image": "https://img.appstory.co.kr//@files/snc/buy/20260724/op28_1784887967.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b879e&url=https%3A%2F%2Fc.appstory.co.kr%2F%2Fcarelectronics6338",
-   "category": "가전",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "앱스토리",
-   "mall_name": "앱스토리",
-   "commission": "1.12%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T15:41:25+09:00",
-   "history": [
-    [
-     "2026-11-22T15:41:25+09:00",
-     55200
-    ]
-   ],
-   "low": 55200,
-   "high": 55200,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-03eef86a84fd",
-   "name": "[본품증정] 유약사 개발 ! 유이브 블랙프라이데이",
-   "price": 65800,
-   "base_price": 94000,
-   "image": "https://image.cjonstyle.net/public/confirm/assets/th1_item_bnr/202611/19/b3347ca23b34ab97aa51aa068ff8d3bfb7c177ff.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f66b5&url=https%3A%2F%2Fdisplay.cjonstyle.com%2Fp%2Fitem%2F2090748553%3FchannelCode%3D30002002",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ온스타일",
-   "mall_name": "CJ온스타일",
-   "commission": "최대 1.4%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T15:41:25+09:00",
-   "history": [
-    [
-     "2026-11-22T15:41:25+09:00",
-     65800
-    ]
-   ],
-   "low": 65800,
-   "high": 65800,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-033a0b771a9f",
-   "name": "[리틀약사 론칭특집]더리틀스 유산균/오메가/비타민 외",
-   "price": 74900,
-   "base_price": 74900,
-   "image": "https://image.cjonstyle.net/public/confirm/assets/th1_item_bnr/202611/19/a57983de35f778e7966e59a117de53e4dd08ade2.png",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f66b5&url=https%3A%2F%2Fdisplay.cjonstyle.com%2Fp%2Fitem%2F2076963747%3FchannelCode%3D30002002",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ온스타일",
-   "mall_name": "CJ온스타일",
-   "commission": "최대 1.4%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T16:40:46+09:00",
-   "history": [
-    [
-     "2026-11-22T16:40:46+09:00",
-     74900
-    ]
-   ],
-   "low": 74900,
-   "high": 74900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-ebc13c9a83b8",
-   "name": "[헤지스/닥스] BEST 추천 아이템! 가방/지갑/벨트 외 특가 + 최대 29프로 쿠폰 혜택!",
-   "price": 86760,
-   "base_price": 122200,
-   "image": "https://image2.lotteimall.com/goods/81/21/19/1746192181_13.jpg/dims/resizemc/640x360/optimize",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=7676b&url=https%3A%2F%2Fwww.lotteimall.com%2Fgoods%2FviewGoodsDetail.lotte%3Fgoods_no%3D1746192181",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "롯데홈쇼핑",
-   "mall_name": "롯데홈쇼핑",
-   "commission": "0.96%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T15:41:25+09:00",
-   "history": [
-    [
-     "2026-11-22T15:41:25+09:00",
-     86760
-    ]
-   ],
-   "low": 86760,
-   "high": 86760,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-d3ba3c4d56fd",
-   "name": "바이탈플랜트 롤팬 NEW 오리지널 자동회전냄비 6종 택1 (핑크/퍼플/라벤더/블랙/차콜/크림)",
-   "price": 100000,
-   "base_price": 125000,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/5/1/0/5/6/2/KervN/7615510562_244248125_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7615510562%3FtrTypeCd%3D42",
-   "category": "식품",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T16:26:38+09:00",
-   "history": [
-    [
-     "2026-11-22T16:26:38+09:00",
-     100000
-    ]
-   ],
-   "low": 100000,
-   "high": 100000,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-b36e851ece87",
-   "name": "[10%적립] 락포트 외 월간잡화 ~85%할인",
-   "price": 119850,
-   "base_price": 799000,
-   "image": "https://image.cjonstyle.net/public/confirm/assets/th1_item_bnr/202609/04/M1207131/6ef8d3b0d84bc5210010e2647158ad9f70c097e6.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f66b5&url=https%3A%2F%2Fdisplay.cjonstyle.com%2Fp%2Fitem%2F2075781508%3FchannelCode%3D30002002",
-   "category": "뷰티",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ온스타일",
-   "mall_name": "CJ온스타일",
-   "commission": "최대 1.4%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T16:40:46+09:00",
-   "history": [
-    [
-     "2026-11-22T16:40:46+09:00",
-     119850
-    ]
-   ],
-   "low": 119850,
-   "high": 119850,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-947062dff9d0",
-   "name": "비비안 웨스트우드 로고자수 머플러 블랙",
-   "price": 136000,
-   "base_price": 295000,
-   "image": "https://d1clt9cvsv6atu.cloudfront.net/goods_s3/9741897711/smalle5e36995154661ccfe3f19835849dfa88798df0.jpg?w=1200&fmt=auto&loc=hotdeal&brand_no=36&g_no=9741897711",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=dae42&url=https%3A%2F%2Fwww.feelway.com%2Fview_goods.php%3Fg_no%3D9741897711",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "필웨이",
-   "mall_name": "필웨이",
-   "commission": "1.5%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T16:40:46+09:00",
-   "history": [
-    [
-     "2026-11-22T16:40:46+09:00",
-     136000
-    ]
-   ],
-   "low": 136000,
-   "high": 136000,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-0c83a83c21e6",
-   "name": "[킨/질스튜어트 ] 프리미엄 FW 슈즈 특별전! 브랜드 특별 혜택!",
-   "price": 141550,
-   "base_price": 149000,
-   "image": "https://image2.lotteimall.com/goods/10/00/24/2063240010_13.jpg/dims/resizemc/640x360/optimize",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=7676b&url=https%3A%2F%2Fwww.lotteimall.com%2Fgoods%2FviewGoodsDetail.lotte%3Fgoods_no%3D2063240010",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "롯데홈쇼핑",
-   "mall_name": "롯데홈쇼핑",
-   "commission": "0.96%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T16:26:38+09:00",
-   "last_seen": "2026-11-22T16:26:38+09:00",
-   "history": [
-    [
-     "2026-11-22T15:41:25+09:00",
-     141550
-    ]
-   ],
-   "low": 141550,
-   "high": 141550,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-07ea57ab65ba",
-   "name": "아미 드 꾀흐 울 머플러 블랙",
-   "price": 172300,
-   "base_price": 400000,
-   "image": "https://d1clt9cvsv6atu.cloudfront.net/goods_s3/7886847450/smallbd233pd7886847450ed1.jpg?w=1200&fmt=auto&loc=hotdeal&brand_no=233&g_no=7886847450",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=dae42&url=https%3A%2F%2Fwww.feelway.com%2Fview_goods.php%3Fg_no%3D7886847450",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "필웨이",
-   "mall_name": "필웨이",
-   "commission": "1.5%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T16:26:38+09:00",
-   "history": [
-    [
-     "2026-11-22T16:26:38+09:00",
-     172300
-    ]
-   ],
-   "low": 172300,
-   "high": 172300,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-533f97c5f5ab",
-   "name": "폴로 랄프로렌 클래식 핏 가먼트다이 옥스포드 셔츠",
-   "price": 186900,
-   "base_price": 239000,
-   "image": "https://d1clt9cvsv6atu.cloudfront.net/goods_s3/7081885201/smallbd29pd7081885201ed1.jpg?w=1200&fmt=auto&loc=hotdeal&brand_no=29&g_no=7081885201",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=dae42&url=https%3A%2F%2Fwww.feelway.com%2Fview_goods.php%3Fg_no%3D7081885201",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "필웨이",
-   "mall_name": "필웨이",
-   "commission": "1.5%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T16:40:46+09:00",
-   "history": [
-    [
-     "2026-11-22T16:40:46+09:00",
-     186900
-    ]
-   ],
-   "low": 186900,
-   "high": 186900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-c4356c3a2af4",
-   "name": "폴로 랄프로렌 남성 바이스윙 윈드 브레이커 자켓 블랙",
-   "price": 269900,
-   "base_price": 429000,
-   "image": "https://d1clt9cvsv6atu.cloudfront.net/goods_s3/9819818346/smalldb0322b0c0e36c64ea52b0c34460312a8798df0.jpg?w=1200&fmt=auto&loc=hotdeal&brand_no=29&g_no=9819818346",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=dae42&url=https%3A%2F%2Fwww.feelway.com%2Fview_goods.php%3Fg_no%3D9819818346",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "필웨이",
-   "mall_name": "필웨이",
-   "commission": "1.5%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T16:40:46+09:00",
-   "last_seen": "2026-11-22T16:40:46+09:00",
-   "history": [
-    [
-     "2026-11-22T15:41:25+09:00",
-     269900
-    ]
-   ],
-   "low": 269900,
-   "high": 269900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-f3c4e37dacd6",
-   "name": "아크네 스튜디오 목도리 모헤어 체크",
-   "price": 390000,
-   "base_price": 580000,
-   "image": "https://d1clt9cvsv6atu.cloudfront.net/goods_s3/9821269377/small0ab54fb90571aebecbdc671ac27aa83d8798df0.jpg?w=1200&fmt=auto&loc=hotdeal&brand_no=165&g_no=9821269377",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=dae42&url=https%3A%2F%2Fwww.feelway.com%2Fview_goods.php%3Fg_no%3D9821269377",
-   "category": "뷰티",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "필웨이",
-   "mall_name": "필웨이",
-   "commission": "1.5%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T16:26:38+09:00",
-   "history": [
-    [
-     "2026-11-22T16:26:38+09:00",
-     390000
-    ]
-   ],
-   "low": 390000,
-   "high": 390000,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
