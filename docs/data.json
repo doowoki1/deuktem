@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T04:04:33+09:00",
- "generated_at_label": "11.24 04:04",
+ "generated_at": "2026-11-24T05:09:08+09:00",
+ "generated_at_label": "11.24 05:09",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -307,7 +307,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-24T04:04:33+09:00",
+   "last_seen": "2026-11-24T05:09:08+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -607,7 +607,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-24T02:07:53+09:00",
+   "last_seen": "2026-11-24T05:09:08+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
@@ -1206,8 +1206,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-24T00:08:48+09:00",
+   "first_seen": "2026-11-24T05:09:08+09:00",
+   "last_seen": "2026-11-24T05:09:08+09:00",
    "history": [
     [
      "2026-11-24T00:08:48+09:00",
@@ -1271,6 +1271,36 @@
    "history": [
     [
      "2026-11-23T04:53:34+09:00",
+     6800
+    ]
+   ],
+   "low": 6800,
+   "high": 6800,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-919b34c94829",
+   "name": "리빙랩스 노모어더트 신발 클리너 210g",
+   "price": 6800,
+   "base_price": 14800,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/5/2/3/4/5/6/WRSky/9764523456_244356479_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9764523456%3FtrTypeCd%3D42",
+   "category": "패션",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-24T05:09:08+09:00",
+   "history": [
+    [
+     "2026-11-24T05:09:08+09:00",
      6800
     ]
    ],
@@ -1446,8 +1476,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-24T02:07:53+09:00",
+   "first_seen": "2026-11-24T05:09:08+09:00",
+   "last_seen": "2026-11-24T05:09:08+09:00",
    "history": [
     [
      "2026-11-24T02:07:53+09:00",
@@ -1781,36 +1811,6 @@
    "history": [
     [
      "2026-11-23T05:49:28+09:00",
-     8900
-    ]
-   ],
-   "low": 8900,
-   "high": 8900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-42fa1ea7ee97",
-   "name": "[품질보장] 호정가 옛날도나스 (16개입) / 달콤하고 부드러운 추억의 전통과자",
-   "price": 8900,
-   "base_price": 11860,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/3/3/4/0/5/2/TXClk/6704334052_244295233.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F6704334052%3FtrTypeCd%3D42",
-   "category": "식품",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T22:23:42+09:00",
-   "history": [
-    [
-     "2026-11-23T22:23:42+09:00",
      8900
     ]
    ],
