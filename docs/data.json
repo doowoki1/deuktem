@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T22:23:42+09:00",
- "generated_at_label": "11.23 22:23",
+ "generated_at": "2026-11-24T00:08:48+09:00",
+ "generated_at_label": "11.24 00:08",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -277,7 +277,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:16:27+09:00",
-   "last_seen": "2026-11-23T08:46:22+09:00",
+   "last_seen": "2026-11-24T00:08:48+09:00",
    "history": [
     [
      "2026-11-22T17:16:05+09:00",
@@ -431,6 +431,36 @@
    "history": [
     [
      "2026-11-22T20:47:56+09:00",
+     2810
+    ]
+   ],
+   "low": 2810,
+   "high": 2810,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-ac5b426e9b3b",
+   "name": "요리재료 골라담기",
+   "price": 2810,
+   "base_price": 2810,
+   "image": "https://img.cjthemarket.com/images/file/product/139/20260708181533369.png?SF=webp&RS=480",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005639%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D30",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-24T00:08:48+09:00",
+   "history": [
+    [
+     "2026-11-24T00:08:48+09:00",
      2810
     ]
    ],
@@ -636,8 +666,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T22:23:42+09:00",
+   "first_seen": "2026-11-24T00:08:48+09:00",
+   "last_seen": "2026-11-24T00:08:48+09:00",
    "history": [
     [
      "2026-11-23T22:23:42+09:00",
@@ -1101,6 +1131,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-2fc4ee97d268",
+   "name": "1분링 골라담기",
+   "price": 5480,
+   "base_price": 5480,
+   "image": "https://img.cjthemarket.com/images/file/product/349/20261116095822126.png?SF=webp&RS=480",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005839%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D15",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-24T00:08:48+09:00",
+   "history": [
+    [
+     "2026-11-24T00:08:48+09:00",
+     5480
+    ]
+   ],
+   "low": 5480,
+   "high": 5480,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-8645def877bb",
    "name": "[매일유업] 상하 후레쉬 모짜렐라 보코치니 100g",
    "price": 5980,
@@ -1267,7 +1327,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T19:17:46+09:00",
-   "last_seen": "2026-11-23T22:23:42+09:00",
+   "last_seen": "2026-11-24T00:08:48+09:00",
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
@@ -1446,8 +1506,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T19:17:46+09:00",
+   "first_seen": "2026-11-24T00:08:48+09:00",
+   "last_seen": "2026-11-24T00:08:48+09:00",
    "history": [
     [
      "2026-11-23T19:17:46+09:00",
@@ -1731,43 +1791,13 @@
    "best_price": true
   },
   {
-   "id": "sdk-e5f1f291e518",
-   "name": "이너홈 바디스크럽 샤워장갑 2P+발각질제거기",
-   "price": 9360,
-   "base_price": 15000,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/5/9/1/5/0/3/ziESs/7914591503_244272212_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7914591503%3FtrTypeCd%3D42",
-   "category": "뷰티",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T17:16:27+09:00",
-   "last_seen": "2026-11-22T23:01:11+09:00",
-   "history": [
-    [
-     "2026-11-22T17:16:05+09:00",
-     9360
-    ]
-   ],
-   "low": 9360,
-   "high": 9360,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-08dc11173efd",
-   "name": "[뷰플10%+금액별추가쿠폰+T11%] 홀리카홀리카X11번가 2026 겨울맞이 빅세일 (NEW신상,FW메이크업,보습케어)",
-   "price": 9500,
-   "base_price": 19000,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/1/9/8/0/2/1/ahvqO/1539198021_244326834_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F1539198021%3FtrTypeCd%3D42",
-   "category": "기타",
+   "id": "sdk-47a746f3659c",
+   "name": "(30%추가)PWX방한 성인/키즈/런닝화/슬리퍼/샌들/총집합 슈즈모음",
+   "price": 9030,
+   "base_price": 12900,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/7/1/8/9/9/7/ilOMb/3256718997_244341802.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F3256718997%3FtrTypeCd%3D42",
+   "category": "패션",
    "keyword": "",
    "source": "adpick_sdk",
    "platform": "other",
@@ -1777,45 +1807,15 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "",
-   "last_seen": "2026-11-23T11:59:33+09:00",
+   "last_seen": "2026-11-24T00:08:48+09:00",
    "history": [
     [
-     "2026-11-23T11:59:33+09:00",
-     9500
+     "2026-11-24T00:08:48+09:00",
+     9030
     ]
    ],
-   "low": 9500,
-   "high": 9500,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-e97bd0435701",
-   "name": "완도 냉동 세척 찰매생이100g x 6팩",
-   "price": 9770,
-   "base_price": 10500,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/7/1/8/0/2/2/vuBKX/8911718022_244217180_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8911718022%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T15:09:29+09:00",
-   "history": [
-    [
-     "2026-11-23T15:09:29+09:00",
-     9770
-    ]
-   ],
-   "low": 9770,
-   "high": 9770,
+   "low": 9030,
+   "high": 9030,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
