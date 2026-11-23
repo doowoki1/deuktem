@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T10:14:15+09:00",
- "generated_at_label": "11.23 10:14",
+ "generated_at": "2026-11-23T11:59:33+09:00",
+ "generated_at_label": "11.23 11:59",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -553,6 +553,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-0b91a1ccfe80",
+   "name": "닭가슴살 골라담기",
+   "price": 3480,
+   "base_price": 3480,
+   "image": "https://img.cjthemarket.com/images/file/product/997/20260511173124599.png?SF=webp&RS=480",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002450%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D18",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T11:59:33+09:00",
+   "history": [
+    [
+     "2026-11-23T11:59:33+09:00",
+     3480
+    ]
+   ],
+   "low": 3480,
+   "high": 3480,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-a8cd0aeb6f85",
    "name": "스톡 웨더스 무설탕캔디 70g",
    "price": 3980,
@@ -823,6 +853,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-6a0291b22f8d",
+   "name": "냉장 생선구이 골라담기",
+   "price": 5480,
+   "base_price": 5480,
+   "image": "https://img.cjthemarket.com/images/file/product/356/20260827142147591.png?SF=webp&RS=480",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002294%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D20",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T11:59:33+09:00",
+   "history": [
+    [
+     "2026-11-23T11:59:33+09:00",
+     5480
+    ]
+   ],
+   "low": 5480,
+   "high": 5480,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-b5a754a89f1b",
    "name": "겨울 신상 대방출 전복종특가 /상하복/원피스/아우터 外",
    "price": 5500,
@@ -1003,6 +1063,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-bf3654a97d2e",
+   "name": "프로젝트엠 30+10% 패딩/코트/니트/맨투맨/기모/바지 겨울 100종",
+   "price": 6930,
+   "base_price": 10000,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/pd/v2/2/7/1/6/3/6/BwnEx/2497271636_B.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F2497271636%3FtrTypeCd%3D42",
+   "category": "패션",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T11:59:33+09:00",
+   "history": [
+    [
+     "2026-11-23T11:59:33+09:00",
+     6930
+    ]
+   ],
+   "low": 6930,
+   "high": 6930,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-eda4200e541d",
    "name": "아이깨끗해 거품형 레몬 용기 250ml",
    "price": 7900,
@@ -1078,8 +1168,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T00:49:41+09:00",
+   "first_seen": "2026-11-23T11:59:33+09:00",
+   "last_seen": "2026-11-23T11:59:33+09:00",
    "history": [
     [
      "2026-11-23T00:49:41+09:00",
@@ -1259,7 +1349,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T06:46:26+09:00",
-   "last_seen": "2026-11-23T06:46:26+09:00",
+   "last_seen": "2026-11-23T11:59:33+09:00",
    "history": [
     [
      "2026-11-23T05:49:28+09:00",
@@ -1328,6 +1418,36 @@
    ],
    "low": 9360,
    "high": 9360,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-08dc11173efd",
+   "name": "[뷰플10%+금액별추가쿠폰+T11%] 홀리카홀리카X11번가 2026 겨울맞이 빅세일 (NEW신상,FW메이크업,보습케어)",
+   "price": 9500,
+   "base_price": 19000,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/1/9/8/0/2/1/ahvqO/1539198021_244326834_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F1539198021%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T11:59:33+09:00",
+   "history": [
+    [
+     "2026-11-23T11:59:33+09:00",
+     9500
+    ]
+   ],
+   "low": 9500,
+   "high": 9500,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1688,126 +1808,6 @@
    ],
    "low": 10400,
    "high": 10400,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-eaeb9c58c9bc",
-   "name": "가을클리어런스 인기티셔츠 24종",
-   "price": 10400,
-   "base_price": 38900,
-   "image": "https://cdn2.boribori.co.kr/rimg/0/cdn/product/A3996/P433456172/2_P433456172_basic_1793346642181.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=0c2d4&url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F433456172",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "보리보리",
-   "mall_name": "보리보리",
-   "commission": "3%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-23T03:52:19+09:00",
-   "history": [
-    [
-     "2026-11-23T01:50:50+09:00",
-     10400
-    ]
-   ],
-   "low": 10400,
-   "high": 10400,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-c2f728bd3350",
-   "name": "가을클리어런스 전복종특가 /상하복/원피스/아우터 外",
-   "price": 10400,
-   "base_price": 33900,
-   "image": "https://cdn2.boribori.co.kr/rimg/0/cdn/product/A3996/P434424812/2_P434424812_basic_1793330252132.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=0c2d4&url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F434424812",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "보리보리",
-   "mall_name": "보리보리",
-   "commission": "3%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-23T04:53:34+09:00",
-   "last_seen": "2026-11-23T06:46:26+09:00",
-   "history": [
-    [
-     "2026-11-23T03:52:19+09:00",
-     10400
-    ]
-   ],
-   "low": 10400,
-   "high": 10400,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-062c10475b3f",
-   "name": "아토팜 베이비 너리싱 오일 100ml",
-   "price": 10460,
-   "base_price": 12300,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/pd/v2/4/5/2/5/4/3/xHVFM/7866452543_B.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7866452543%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T07:48:08+09:00",
-   "history": [
-    [
-     "2026-11-23T07:48:08+09:00",
-     10460
-    ]
-   ],
-   "low": 10460,
-   "high": 10460,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-89af5ed4f54b",
-   "name": "한닢쿡 동전육수 3봉 60알 240g 진한/홍게/시원 맛선택",
-   "price": 10660,
-   "base_price": 13000,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/9/5/1/8/8/4/ICvuh/6141951884_244264642_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F6141951884%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-22T23:01:11+09:00",
-   "history": [
-    [
-     "2026-11-22T16:26:38+09:00",
-     10660
-    ]
-   ],
-   "low": 10660,
-   "high": 10660,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
