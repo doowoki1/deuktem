@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T00:08:48+09:00",
- "generated_at_label": "11.24 00:08",
+ "generated_at": "2026-11-24T02:07:53+09:00",
+ "generated_at_label": "11.24 02:07",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -63,7 +63,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T17:41:05+09:00",
-   "last_seen": "2026-11-23T20:58:31+09:00",
+   "last_seen": "2026-11-24T02:07:53+09:00",
    "history": [
     [
      "2026-11-23T04:53:34+09:00",
@@ -217,7 +217,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:16:27+09:00",
-   "last_seen": "2026-11-23T02:46:53+09:00",
+   "last_seen": "2026-11-24T02:07:53+09:00",
    "history": [
     [
      "2026-11-22T17:16:05+09:00",
@@ -247,7 +247,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-23T20:58:31+09:00",
+   "last_seen": "2026-11-24T02:07:53+09:00",
    "history": [
     [
      "2026-11-23T00:49:41+09:00",
@@ -277,7 +277,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:16:27+09:00",
-   "last_seen": "2026-11-24T00:08:48+09:00",
+   "last_seen": "2026-11-24T02:07:53+09:00",
    "history": [
     [
      "2026-11-22T17:16:05+09:00",
@@ -307,7 +307,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-23T06:46:26+09:00",
+   "last_seen": "2026-11-24T02:07:53+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -606,8 +606,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T17:41:05+09:00",
+   "first_seen": "2026-11-24T02:07:53+09:00",
+   "last_seen": "2026-11-24T02:07:53+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
@@ -921,6 +921,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-27bae75b7b86",
+   "name": "엘루자이 페로몬 퍼퓸 포 맨 50ml",
+   "price": 4999,
+   "base_price": 19900,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261120/b/10.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D659255",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-24T02:07:53+09:00",
+   "history": [
+    [
+     "2026-11-24T02:07:53+09:00",
+     4999
+    ]
+   ],
+   "low": 4999,
+   "high": 4999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-038952e6b5c4",
    "name": "1분링 골라담기",
    "price": 5480,
@@ -966,8 +996,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T17:00:13+09:00",
+   "first_seen": "2026-11-24T02:07:53+09:00",
+   "last_seen": "2026-11-24T02:07:53+09:00",
    "history": [
     [
      "2026-11-22T17:00:13+09:00",
@@ -1371,6 +1401,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-da113fb60056",
+   "name": "비비고 CJ 한섬만두320g",
+   "price": 6980,
+   "base_price": 6980,
+   "image": "https://sitem.ssgcdn.com/25/76/65/item/1000524657625_i1_290.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000524657625%26siteNo%3D6001%26salestrNo%3D2037",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "SSG",
+   "mall_name": "SSG",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-24T02:07:53+09:00",
+   "history": [
+    [
+     "2026-11-24T02:07:53+09:00",
+     6980
+    ]
+   ],
+   "low": 6980,
+   "high": 6980,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-eda4200e541d",
    "name": "아이깨끗해 거품형 레몬 용기 250ml",
    "price": 7900,
@@ -1516,6 +1576,36 @@
    ],
    "low": 8500,
    "high": 8500,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-1c94f72f104a",
+   "name": "[아가방 겨울]레브사선밍크제깅스(NAVY)_01S75200813",
+   "price": 8710,
+   "base_price": 15900,
+   "image": "https://cdn2.boribori.co.kr/rimg/0/cdn/product/A1586/P439175406/2_P439175406_basic_1790049022181.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=0c2d4&url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F439175406",
+   "category": "패션",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "보리보리",
+   "mall_name": "보리보리",
+   "commission": "3%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-24T02:07:53+09:00",
+   "history": [
+    [
+     "2026-11-24T02:07:53+09:00",
+     8710
+    ]
+   ],
+   "low": 8710,
+   "high": 8710,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1726,96 +1816,6 @@
    ],
    "low": 8910,
    "high": 8910,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-8e3d31eaa7b3",
-   "name": "풀무원 식물성 지구식단 솥솥 비빔 주먹밥 500g",
-   "price": 8980,
-   "base_price": 8980,
-   "image": "https://sitem.ssgcdn.com/99/26/48/item/1000533482699_i1_290.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000533482699%26siteNo%3D6001%26salestrNo%3D2037",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "SSG",
-   "mall_name": "SSG",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T15:09:29+09:00",
-   "history": [
-    [
-     "2026-11-23T15:09:29+09:00",
-     8980
-    ]
-   ],
-   "low": 8980,
-   "high": 8980,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-a3c51bd3662d",
-   "name": "[에스쁘아]11월 클리어런스 혜택전+본품용량 사은행사(선크림/비비크림/쿠션/프라이머/아이브로우/립스틱/립틴트/픽서/파우더 외)",
-   "price": 9000,
-   "base_price": 20000,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/7/1/5/2/4/6/aLMfb/2628715246_244332239.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F2628715246%3FtrTypeCd%3D42",
-   "category": "뷰티",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T22:23:42+09:00",
-   "history": [
-    [
-     "2026-11-23T22:23:42+09:00",
-     9000
-    ]
-   ],
-   "low": 9000,
-   "high": 9000,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-47a746f3659c",
-   "name": "(30%추가)PWX방한 성인/키즈/런닝화/슬리퍼/샌들/총집합 슈즈모음",
-   "price": 9030,
-   "base_price": 12900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/7/1/8/9/9/7/ilOMb/3256718997_244341802.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F3256718997%3FtrTypeCd%3D42",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-24T00:08:48+09:00",
-   "history": [
-    [
-     "2026-11-24T00:08:48+09:00",
-     9030
-    ]
-   ],
-   "low": 9030,
-   "high": 9030,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
