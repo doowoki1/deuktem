@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T15:09:29+09:00",
- "generated_at_label": "11.23 15:09",
+ "generated_at": "2026-11-23T17:41:05+09:00",
+ "generated_at_label": "11.23 17:41",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -62,8 +62,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T04:53:34+09:00",
+   "first_seen": "2026-11-23T17:41:05+09:00",
+   "last_seen": "2026-11-23T17:41:05+09:00",
    "history": [
     [
      "2026-11-23T04:53:34+09:00",
@@ -551,6 +551,36 @@
    "history": [
     [
      "2026-11-22T17:16:05+09:00",
+     2999
+    ]
+   ],
+   "low": 2999,
+   "high": 2999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-22a081ee47d7",
+   "name": "[코스트코 판매상품]소스락 바싹 말린 국내산 의성마늘 80g",
+   "price": 2999,
+   "base_price": 13590,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261016/b/5.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D655104",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T17:41:05+09:00",
+   "history": [
+    [
+     "2026-11-23T17:41:05+09:00",
      2999
     ]
    ],
@@ -1057,7 +1087,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T08:46:22+09:00",
-   "last_seen": "2026-11-23T13:10:17+09:00",
+   "last_seen": "2026-11-23T17:41:05+09:00",
    "history": [
     [
      "2026-11-23T02:46:53+09:00",
@@ -1781,36 +1811,6 @@
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
-     9980
-    ]
-   ],
-   "low": 9980,
-   "high": 9980,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-3fac4477d924",
-   "name": "CJ 크리스피 치킨텐더 300g",
-   "price": 9980,
-   "base_price": 9980,
-   "image": "https://sitem.ssgcdn.com/86/42/66/item/1000772664286_i1_290.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000772664286%26siteNo%3D6001%26salestrNo%3D2037",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "SSG",
-   "mall_name": "SSG",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-23T07:48:08+09:00",
-   "history": [
-    [
-     "2026-11-23T00:49:41+09:00",
      9980
     ]
    ],
