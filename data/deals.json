@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T17:41:05+09:00",
- "generated_at_label": "11.23 17:41",
+ "generated_at": "2026-11-23T19:17:46+09:00",
+ "generated_at_label": "11.23 19:17",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -63,7 +63,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T17:41:05+09:00",
-   "last_seen": "2026-11-23T17:41:05+09:00",
+   "last_seen": "2026-11-23T19:17:46+09:00",
    "history": [
     [
      "2026-11-23T04:53:34+09:00",
@@ -591,6 +591,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-762a096fc9d3",
+   "name": "닥터이브스 화이트 브리즈 데오드란트 세럼 50ml",
+   "price": 2999,
+   "base_price": 12000,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261116/b/17.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658700",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T19:17:46+09:00",
+   "history": [
+    [
+     "2026-11-23T19:17:46+09:00",
+     2999
+    ]
+   ],
+   "low": 2999,
+   "high": 2999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-b027e85322e8",
    "name": "닭가슴살 골라담기",
    "price": 3480,
@@ -731,6 +761,36 @@
    "history": [
     [
      "2026-11-23T06:46:26+09:00",
+     4290
+    ]
+   ],
+   "low": 4290,
+   "high": 4290,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-8d96a4db620f",
+   "name": "[간편용기]우동&amp;떡볶이 골라담기",
+   "price": 4290,
+   "base_price": 4290,
+   "image": "https://img.cjthemarket.com/images/file/product/301/20261112135905965.png?SF=webp&RS=480",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005838%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D14",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T19:17:46+09:00",
+   "history": [
+    [
+     "2026-11-23T19:17:46+09:00",
      4290
     ]
    ],
@@ -951,6 +1011,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-51b02bb9371d",
+   "name": "1분링 골라담기",
+   "price": 5480,
+   "base_price": 5480,
+   "image": "https://img.cjthemarket.com/images/file/product/349/20261116095822126.png?SF=webp&RS=480",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005839%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D16",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T19:17:46+09:00",
+   "history": [
+    [
+     "2026-11-23T19:17:46+09:00",
+     5480
+    ]
+   ],
+   "low": 5480,
+   "high": 5480,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-8645def877bb",
    "name": "[매일유업] 상하 후레쉬 모짜렐라 보코치니 100g",
    "price": 5980,
@@ -996,8 +1086,8 @@
    "commission": "0.96%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T04:53:34+09:00",
+   "first_seen": "2026-11-23T19:17:46+09:00",
+   "last_seen": "2026-11-23T19:17:46+09:00",
    "history": [
     [
      "2026-11-23T04:53:34+09:00",
@@ -1116,8 +1206,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T11:59:33+09:00",
+   "first_seen": "2026-11-23T19:17:46+09:00",
+   "last_seen": "2026-11-23T19:17:46+09:00",
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
@@ -1246,6 +1336,36 @@
    ],
    "low": 8160,
    "high": 8160,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-b961032b5171",
+   "name": "[더미누][할인펑펑 한파 초특가]본격겨울세일/파자마/잠옷/아동내의/유아실내복/주니어잠옷/수면조끼/상하",
+   "price": 8500,
+   "base_price": 10000,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/1/0/2/8/2/4/FKktx/1594102824_244345125_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F1594102824%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T19:17:46+09:00",
+   "history": [
+    [
+     "2026-11-23T19:17:46+09:00",
+     8500
+    ]
+   ],
+   "low": 8500,
+   "high": 8500,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1696,126 +1816,6 @@
    ],
    "low": 9900,
    "high": 9900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-4e2976665bd2",
-   "name": "[품질보장] 호정가 오란다세트 (20개입) / 말랑말랑 바사삭 촉촉한 명인오란다",
-   "price": 9900,
-   "base_price": 13200,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/pd/v2/7/0/8/9/6/1/CnQsF/3275708961_B.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F3275708961%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T13:10:17+09:00",
-   "history": [
-    [
-     "2026-11-23T13:10:17+09:00",
-     9900
-    ]
-   ],
-   "low": 9900,
-   "high": 9900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-426560e3120a",
-   "name": "[1+1]마더스홈 매일 빨아쓰는 피그먼트 베개커버 밴드형/지퍼형",
-   "price": 9920,
-   "base_price": 12400,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/5/5/3/4/6/0/vgXaN/7301553460_244263228_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7301553460%3FtrTypeCd%3D42",
-   "category": "생활",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T18:52:03+09:00",
-   "last_seen": "2026-11-22T21:57:09+09:00",
-   "history": [
-    [
-     "2026-11-22T16:40:46+09:00",
-     9920
-    ]
-   ],
-   "low": 9920,
-   "high": 9920,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-f2f683557a28",
-   "name": "고밀도 압축 통메모리폼 폭신한 욕실/주방 발매트",
-   "price": 9920,
-   "base_price": 12400,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/0/6/3/0/1/3/RnCDt/4101063013_244263224_05.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F4101063013%3FtrTypeCd%3D42",
-   "category": "생활",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T23:01:11+09:00",
-   "history": [
-    [
-     "2026-11-22T23:01:11+09:00",
-     9920
-    ]
-   ],
-   "low": 9920,
-   "high": 9920,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-b1a7e396a075",
-   "name": "파스타소스 골라담기",
-   "price": 9980,
-   "base_price": 9980,
-   "image": "https://img.cjthemarket.com/images/file/product/221/20260625132547704.png?SF=webp&RS=480",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005618%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D27",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-23T05:49:28+09:00",
-   "history": [
-    [
-     "2026-11-22T16:40:46+09:00",
-     9980
-    ]
-   ],
-   "low": 9980,
-   "high": 9980,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
