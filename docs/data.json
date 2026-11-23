@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T20:58:31+09:00",
- "generated_at_label": "11.23 20:58",
+ "generated_at": "2026-11-23T22:23:42+09:00",
+ "generated_at_label": "11.23 22:23",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -397,7 +397,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-23T06:46:26+09:00",
+   "last_seen": "2026-11-23T22:23:42+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -621,6 +621,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-6624fa73889b",
+   "name": "JUDA 이중 미세모 칫솔 8개입",
+   "price": 2999,
+   "base_price": 10900,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261120/b/15-1.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D659333",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T22:23:42+09:00",
+   "history": [
+    [
+     "2026-11-23T22:23:42+09:00",
+     2999
+    ]
+   ],
+   "low": 2999,
+   "high": 2999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-b027e85322e8",
    "name": "닭가슴살 골라담기",
    "price": 3480,
@@ -671,6 +701,36 @@
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
+     3480
+    ]
+   ],
+   "low": 3480,
+   "high": 3480,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-1cabc097d2c4",
+   "name": "닭가슴살 골라담기",
+   "price": 3480,
+   "base_price": 3480,
+   "image": "https://img.cjthemarket.com/images/file/product/997/20260511173124599.png?SF=webp&RS=480",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002450%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D19",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T22:23:42+09:00",
+   "history": [
+    [
+     "2026-11-23T22:23:42+09:00",
      3480
     ]
    ],
@@ -1207,7 +1267,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T19:17:46+09:00",
-   "last_seen": "2026-11-23T20:58:31+09:00",
+   "last_seen": "2026-11-23T22:23:42+09:00",
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
@@ -1551,6 +1611,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-42fa1ea7ee97",
+   "name": "[품질보장] 호정가 옛날도나스 (16개입) / 달콤하고 부드러운 추억의 전통과자",
+   "price": 8900,
+   "base_price": 11860,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/3/3/4/0/5/2/TXClk/6704334052_244295233.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F6704334052%3FtrTypeCd%3D42",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T22:23:42+09:00",
+   "history": [
+    [
+     "2026-11-23T22:23:42+09:00",
+     8900
+    ]
+   ],
+   "low": 8900,
+   "high": 8900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-7a6ac22b6d51",
    "name": "[VU.CA] 점보칫솔 더블미세모 10개입외 어린이칫솔/치실 모음전+치약 1개",
    "price": 8910,
@@ -1606,6 +1696,36 @@
    ],
    "low": 8980,
    "high": 8980,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-a3c51bd3662d",
+   "name": "[에스쁘아]11월 클리어런스 혜택전+본품용량 사은행사(선크림/비비크림/쿠션/프라이머/아이브로우/립스틱/립틴트/픽서/파우더 외)",
+   "price": 9000,
+   "base_price": 20000,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/7/1/5/2/4/6/aLMfb/2628715246_244332239.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F2628715246%3FtrTypeCd%3D42",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T22:23:42+09:00",
+   "history": [
+    [
+     "2026-11-23T22:23:42+09:00",
+     9000
+    ]
+   ],
+   "low": 9000,
+   "high": 9000,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1696,126 +1816,6 @@
    ],
    "low": 9770,
    "high": 9770,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-ae74075bd51d",
-   "name": "vu.ca 고불소 구취케어 아쿠아민트향 112g 4개+치약 110g 1개 구강/치실 모음전",
-   "price": 9900,
-   "base_price": 11000,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/1/6/5/9/4/8/bdvvu/6657165948_244275669_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F6657165948%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T23:53:34+09:00",
-   "last_seen": "2026-11-22T23:53:34+09:00",
-   "history": [
-    [
-     "2026-11-22T17:00:13+09:00",
-     9900
-    ]
-   ],
-   "low": 9900,
-   "high": 9900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-f01cfb0553a1",
-   "name": "좋은느낌 유기농100%순면커버 날개형 울트라슬림, 소형, 18매, 2개",
-   "price": 9900,
-   "base_price": 19800,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/8102017020/B.webp?561411667",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8102017020%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T00:49:41+09:00",
-   "history": [
-    [
-     "2026-11-23T00:49:41+09:00",
-     9900
-    ]
-   ],
-   "low": 9900,
-   "high": 9900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-faf4b1c897c4",
-   "name": "좋은느낌 유기농100%순면커버 날개형 울트라슬림, 중형, 18매, 2개",
-   "price": 9900,
-   "base_price": 19000,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/8171816632/B.webp?848932423",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8171816632%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T00:49:41+09:00",
-   "history": [
-    [
-     "2026-11-23T00:49:41+09:00",
-     9900
-    ]
-   ],
-   "low": 9900,
-   "high": 9900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-b1f1c8e6f0c9",
-   "name": "좋은느낌 유기농 순면커버 팬티라이너 일반, 40매, 1개+ 탐폰 레귤러, 12매, 1개",
-   "price": 9900,
-   "base_price": 19800,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/7014982910/B.webp?107103471",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7014982910%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T01:50:50+09:00",
-   "history": [
-    [
-     "2026-11-23T01:50:50+09:00",
-     9900
-    ]
-   ],
-   "low": 9900,
-   "high": 9900,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
