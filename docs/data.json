@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T02:07:53+09:00",
- "generated_at_label": "11.24 02:07",
+ "generated_at": "2026-11-24T04:04:33+09:00",
+ "generated_at_label": "11.24 04:04",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -307,7 +307,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-24T02:07:53+09:00",
+   "last_seen": "2026-11-24T04:04:33+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -821,6 +821,36 @@
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
+     3999
+    ]
+   ],
+   "low": 3999,
+   "high": 3999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-bb9e5793e243",
+   "name": "지금부터 비타민B/밀크씨슬 샷 25ml*10개입 2종",
+   "price": 3999,
+   "base_price": 39000,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261113/b/16-1.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658612",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-24T04:04:33+09:00",
+   "history": [
+    [
+     "2026-11-24T04:04:33+09:00",
      3999
     ]
    ],
@@ -1786,36 +1816,6 @@
    ],
    "low": 8900,
    "high": 8900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-7a6ac22b6d51",
-   "name": "[VU.CA] 점보칫솔 더블미세모 10개입외 어린이칫솔/치실 모음전+치약 1개",
-   "price": 8910,
-   "base_price": 9900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/8/1/5/9/1/4/FSVlS/6620815914_244275667_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F6620815914%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T21:57:09+09:00",
-   "last_seen": "2026-11-22T21:57:09+09:00",
-   "history": [
-    [
-     "2026-11-22T17:00:13+09:00",
-     8910
-    ]
-   ],
-   "low": 8910,
-   "high": 8910,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
