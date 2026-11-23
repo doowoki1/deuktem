@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T13:10:17+09:00",
- "generated_at_label": "11.23 13:10",
+ "generated_at": "2026-11-23T15:09:29+09:00",
+ "generated_at_label": "11.23 15:09",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -79,8 +79,8 @@
   {
    "id": "sdk-ea23f2aa9e0f",
    "name": "쉐프 지퍼백 소형 18x20cm 20매",
-   "price": 227,
-   "base_price": 227,
+   "price": 230,
+   "base_price": 230,
    "image": "https://eyoumall.godohosting.com/pages/asu/261116/b/21.jpg",
    "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658704",
    "category": "기타",
@@ -93,18 +93,22 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T07:48:08+09:00",
-   "last_seen": "2026-11-23T10:14:15+09:00",
+   "last_seen": "2026-11-23T15:09:29+09:00",
    "history": [
     [
      "2026-11-23T01:50:50+09:00",
      227
+    ],
+    [
+     "2026-11-23T15:09:29+09:00",
+     230
     ]
    ],
    "low": 227,
-   "high": 227,
+   "high": 230,
    "drop": 0,
    "drop_pct": 0,
-   "best_price": true
+   "best_price": false
   },
   {
    "id": "sdk-34a97928a454",
@@ -1397,6 +1401,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-8e3d31eaa7b3",
+   "name": "풀무원 식물성 지구식단 솥솥 비빔 주먹밥 500g",
+   "price": 8980,
+   "base_price": 8980,
+   "image": "https://sitem.ssgcdn.com/99/26/48/item/1000533482699_i1_290.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000533482699%26siteNo%3D6001%26salestrNo%3D2037",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "SSG",
+   "mall_name": "SSG",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T15:09:29+09:00",
+   "history": [
+    [
+     "2026-11-23T15:09:29+09:00",
+     8980
+    ]
+   ],
+   "low": 8980,
+   "high": 8980,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-e5f1f291e518",
    "name": "이너홈 바디스크럽 샤워장갑 2P+발각질제거기",
    "price": 9360,
@@ -1452,6 +1486,36 @@
    ],
    "low": 9500,
    "high": 9500,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-e97bd0435701",
+   "name": "완도 냉동 세척 찰매생이100g x 6팩",
+   "price": 9770,
+   "base_price": 10500,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/7/1/8/0/2/2/vuBKX/8911718022_244217180_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8911718022%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T15:09:29+09:00",
+   "history": [
+    [
+     "2026-11-23T15:09:29+09:00",
+     9770
+    ]
+   ],
+   "low": 9770,
+   "high": 9770,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1752,66 +1816,6 @@
    ],
    "low": 9980,
    "high": 9980,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-f7d2a12fb752",
-   "name": "비비고 CJ 단팥 붕어빵 300g",
-   "price": 9980,
-   "base_price": 9980,
-   "image": "https://sitem.ssgcdn.com/01/50/84/item/1000554845001_i1_290.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000554845001%26siteNo%3D6001%26salestrNo%3D2037",
-   "category": "식품",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "SSG",
-   "mall_name": "SSG",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T04:53:34+09:00",
-   "history": [
-    [
-     "2026-11-23T04:53:34+09:00",
-     9980
-    ]
-   ],
-   "low": 9980,
-   "high": 9980,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-1f84fc1be4c5",
-   "name": "[전자레인지3분!] 쫀득 달콤 찰옥수수 10개입 (10~14cm)",
-   "price": 9999,
-   "base_price": 33000,
-   "image": "https://eyoumall.godohosting.com/pages/asu/240830/b/102.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D539122",
-   "category": "가전",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-23T01:50:50+09:00",
-   "last_seen": "2026-11-23T07:48:08+09:00",
-   "history": [
-    [
-     "2026-11-22T23:01:11+09:00",
-     9999
-    ]
-   ],
-   "low": 9999,
-   "high": 9999,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
