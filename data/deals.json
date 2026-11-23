@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T19:17:46+09:00",
- "generated_at_label": "11.23 19:17",
+ "generated_at": "2026-11-23T20:58:31+09:00",
+ "generated_at_label": "11.23 20:58",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -63,7 +63,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T17:41:05+09:00",
-   "last_seen": "2026-11-23T19:17:46+09:00",
+   "last_seen": "2026-11-23T20:58:31+09:00",
    "history": [
     [
      "2026-11-23T04:53:34+09:00",
@@ -247,7 +247,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-23T06:46:26+09:00",
+   "last_seen": "2026-11-23T20:58:31+09:00",
    "history": [
     [
      "2026-11-23T00:49:41+09:00",
@@ -1087,7 +1087,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T19:17:46+09:00",
-   "last_seen": "2026-11-23T19:17:46+09:00",
+   "last_seen": "2026-11-23T20:58:31+09:00",
    "history": [
     [
      "2026-11-23T04:53:34+09:00",
@@ -1207,10 +1207,40 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T19:17:46+09:00",
-   "last_seen": "2026-11-23T19:17:46+09:00",
+   "last_seen": "2026-11-23T20:58:31+09:00",
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
+     6930
+    ]
+   ],
+   "low": 6930,
+   "high": 6930,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-6974f5aae2b0",
+   "name": "[30+10%]폴햄 패딩/경량/니트/맨투맨/기모/바지 100종 겨울템",
+   "price": 6930,
+   "base_price": 10000,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/pd/v2/1/7/2/4/7/7/kegFh/2571172477_B.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F2571172477%3FtrTypeCd%3D42",
+   "category": "패션",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-23T20:58:31+09:00",
+   "history": [
+    [
+     "2026-11-23T20:58:31+09:00",
      6930
     ]
    ],
@@ -1778,36 +1808,6 @@
    "free_shipping": false,
    "first_seen": "",
    "last_seen": "2026-11-23T01:50:50+09:00",
-   "history": [
-    [
-     "2026-11-23T01:50:50+09:00",
-     9900
-    ]
-   ],
-   "low": 9900,
-   "high": 9900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-db4f30a25b96",
-   "name": "르모어 코듀로이 롱 원피스 겨울 여성 긴치마 골덴 데일리룩 데이트룩",
-   "price": 9900,
-   "base_price": 9900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/0/0/5/8/0/2/qUFVI/8867005802_244309782_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8867005802%3FtrTypeCd%3D42",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-23T03:52:19+09:00",
    "history": [
     [
      "2026-11-23T01:50:50+09:00",
