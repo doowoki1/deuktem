@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T21:02:19+09:00",
- "generated_at_label": "11.24 21:02",
+ "generated_at": "2026-11-24T22:21:04+09:00",
+ "generated_at_label": "11.24 22:21",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -79,8 +79,8 @@
   {
    "id": "sdk-ea23f2aa9e0f",
    "name": "쉐프 지퍼백 소형 18x20cm 20매",
-   "price": 277,
-   "base_price": 277,
+   "price": 278,
+   "base_price": 278,
    "image": "https://eyoumall.godohosting.com/pages/asu/261116/b/21.jpg",
    "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658704",
    "category": "기타",
@@ -93,7 +93,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T07:48:08+09:00",
-   "last_seen": "2026-11-24T19:59:11+09:00",
+   "last_seen": "2026-11-24T22:21:04+09:00",
    "history": [
     [
      "2026-11-23T01:50:50+09:00",
@@ -106,10 +106,14 @@
     [
      "2026-11-24T19:59:11+09:00",
      277
+    ],
+    [
+     "2026-11-24T22:21:04+09:00",
+     278
     ]
    ],
    "low": 227,
-   "high": 277,
+   "high": 278,
    "drop": 0,
    "drop_pct": 0,
    "best_price": false
@@ -371,7 +375,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-24T11:57:15+09:00",
+   "last_seen": "2026-11-24T22:21:04+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -1575,7 +1579,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T11:57:15+09:00",
-   "last_seen": "2026-11-24T21:02:19+09:00",
+   "last_seen": "2026-11-24T22:21:04+09:00",
    "history": [
     [
      "2026-11-24T06:56:19+09:00",
