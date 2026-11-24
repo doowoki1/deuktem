@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T08:55:29+09:00",
- "generated_at_label": "11.24 08:55",
+ "generated_at": "2026-11-24T10:12:24+09:00",
+ "generated_at_label": "11.24 10:12",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -1611,6 +1611,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-9170d4ac70b5",
+   "name": "홈스타 싱크대배수관 세정제(1회분)",
+   "price": 7500,
+   "base_price": 7500,
+   "image": "https://sitem.ssgcdn.com/67/87/48/item/1000013488767_i1_290.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000013488767%26siteNo%3D6001%26salestrNo%3D2068",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "SSG",
+   "mall_name": "SSG",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-24T10:12:24+09:00",
+   "history": [
+    [
+     "2026-11-24T10:12:24+09:00",
+     7500
+    ]
+   ],
+   "low": 7500,
+   "high": 7500,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-eda4200e541d",
    "name": "아이깨끗해 거품형 레몬 용기 250ml",
    "price": 7900,
@@ -1786,36 +1816,6 @@
    ],
    "low": 8710,
    "high": 8710,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-2baf6a60be28",
-   "name": "맘스케이크 우리밀 바나나빵 오리지널 맛 15개입",
-   "price": 8720,
-   "base_price": 10900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/9/2/1/6/9/4/dwqDu/8529921694_244286480_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8529921694%3FtrTypeCd%3D42",
-   "category": "식품",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T19:50:37+09:00",
-   "last_seen": "2026-11-24T06:56:19+09:00",
-   "history": [
-    [
-     "2026-11-22T17:00:13+09:00",
-     8720
-    ]
-   ],
-   "low": 8720,
-   "high": 8720,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
