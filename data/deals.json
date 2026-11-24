@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25T01:21:18+09:00",
- "generated_at_label": "11.25 01:21",
+ "generated_at": "2026-11-25T02:57:45+09:00",
+ "generated_at_label": "11.25 02:57",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -77,10 +77,40 @@
    "best_price": true
   },
   {
+   "id": "sdk-f423e2d3fa4c",
+   "name": "[홈쇼핑판매상품] 더블모 어성초 샴푸 모음전",
+   "price": 159,
+   "base_price": 159,
+   "image": "https://eyoumall.godohosting.com/pages/asu/210205/b/71.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D347902",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-25T02:57:45+09:00",
+   "history": [
+    [
+     "2026-11-25T02:57:45+09:00",
+     159
+    ]
+   ],
+   "low": 159,
+   "high": 159,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-ea23f2aa9e0f",
    "name": "쉐프 지퍼백 소형 18x20cm 20매",
-   "price": 278,
-   "base_price": 278,
+   "price": 285,
+   "base_price": 285,
    "image": "https://eyoumall.godohosting.com/pages/asu/261116/b/21.jpg",
    "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658704",
    "category": "기타",
@@ -93,7 +123,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T07:48:08+09:00",
-   "last_seen": "2026-11-24T22:21:04+09:00",
+   "last_seen": "2026-11-25T02:57:45+09:00",
    "history": [
     [
      "2026-11-23T01:50:50+09:00",
@@ -110,10 +140,14 @@
     [
      "2026-11-24T22:21:04+09:00",
      278
+    ],
+    [
+     "2026-11-25T02:57:45+09:00",
+     285
     ]
    ],
    "low": 227,
-   "high": 278,
+   "high": 285,
    "drop": 0,
    "drop_pct": 0,
    "best_price": false
@@ -289,36 +323,6 @@
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
-     699
-    ]
-   ],
-   "low": 699,
-   "high": 699,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-881a10afe61b",
-   "name": "젤리스트로우 20g * 20개",
-   "price": 699,
-   "base_price": 2000,
-   "image": "https://eyoumall.godohosting.com/pages/asu/261113/b/21.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658621",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T23:53:34+09:00",
-   "last_seen": "2026-11-23T02:46:53+09:00",
-   "history": [
-    [
-     "2026-11-22T23:01:11+09:00",
      699
     ]
    ],
@@ -619,10 +623,40 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T16:22:13+09:00",
-   "last_seen": "2026-11-25T01:21:18+09:00",
+   "last_seen": "2026-11-25T02:57:45+09:00",
    "history": [
     [
      "2026-11-24T11:57:15+09:00",
+     2999
+    ]
+   ],
+   "low": 2999,
+   "high": 2999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-e1a844ec9f89",
+   "name": "오멜리아 콜라겐미스트 50ml",
+   "price": 2999,
+   "base_price": 19000,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261120/b/24.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D659436",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-25T02:57:45+09:00",
+   "history": [
+    [
+     "2026-11-25T02:57:45+09:00",
      2999
     ]
    ],
@@ -723,36 +757,6 @@
    "best_price": true
   },
   {
-   "id": "sdk-bb20f005ac54",
-   "name": "홍화 송침팔팔100 500mg*30캡슐",
-   "price": 3999,
-   "base_price": 29900,
-   "image": "https://eyoumall.godohosting.com/pages/asu/261106/b/18.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D656961",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T18:52:03+09:00",
-   "last_seen": "2026-11-23T02:46:53+09:00",
-   "history": [
-    [
-     "2026-11-22T15:41:25+09:00",
-     3999
-    ]
-   ],
-   "low": 3999,
-   "high": 3999,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
    "id": "sdk-bb9e5793e243",
    "name": "지금부터 비타민B/밀크씨슬 샷 25ml*10개입 2종",
    "price": 3999,
@@ -769,7 +773,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T06:56:19+09:00",
-   "last_seen": "2026-11-24T06:56:19+09:00",
+   "last_seen": "2026-11-25T02:57:45+09:00",
    "history": [
     [
      "2026-11-24T04:04:33+09:00",
@@ -829,7 +833,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T19:59:11+09:00",
-   "last_seen": "2026-11-24T19:59:11+09:00",
+   "last_seen": "2026-11-25T02:57:45+09:00",
    "history": [
     [
      "2026-11-24T16:22:13+09:00",
@@ -1009,7 +1013,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T16:22:13+09:00",
-   "last_seen": "2026-11-24T18:10:06+09:00",
+   "last_seen": "2026-11-25T02:57:45+09:00",
    "history": [
     [
      "2026-11-24T02:07:53+09:00",
@@ -1713,6 +1717,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-7322b3f31031",
+   "name": "바겐슈타이거 스텐 304 국자 서버+받침대 골라담기",
+   "price": 9900,
+   "base_price": 12500,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/6/1/9/9/2/2/Vkkmy/9000619922_244286971_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9000619922%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-25T02:57:45+09:00",
+   "history": [
+    [
+     "2026-11-25T02:57:45+09:00",
+     9900
+    ]
+   ],
+   "low": 9900,
+   "high": 9900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-270d2c9a8df9",
    "name": "파스타소스 골라담기",
    "price": 9980,
@@ -1798,36 +1832,6 @@
    ],
    "low": 9980,
    "high": 9980,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-1f84fc1be4c5",
-   "name": "[전자레인지3분!] 쫀득 달콤 찰옥수수 10개입 (10~14cm)",
-   "price": 9999,
-   "base_price": 33000,
-   "image": "https://eyoumall.godohosting.com/pages/asu/240830/b/102.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D539122",
-   "category": "가전",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-25T01:21:18+09:00",
-   "history": [
-    [
-     "2026-11-25T01:21:18+09:00",
-     9999
-    ]
-   ],
-   "low": 9999,
-   "high": 9999,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
