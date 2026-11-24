@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25T02:57:45+09:00",
- "generated_at_label": "11.25 02:57",
+ "generated_at": "2026-11-25T04:02:29+09:00",
+ "generated_at_label": "11.25 04:02",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -92,8 +92,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-25T02:57:45+09:00",
+   "first_seen": "2026-11-25T04:02:29+09:00",
+   "last_seen": "2026-11-25T04:02:29+09:00",
    "history": [
     [
      "2026-11-25T02:57:45+09:00",
@@ -259,7 +259,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-24T13:03:02+09:00",
+   "last_seen": "2026-11-25T04:02:29+09:00",
    "history": [
     [
      "2026-11-23T00:49:41+09:00",
@@ -409,7 +409,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T08:55:29+09:00",
-   "last_seen": "2026-11-24T08:55:29+09:00",
+   "last_seen": "2026-11-25T04:02:29+09:00",
    "history": [
     [
      "2026-11-24T00:08:48+09:00",
@@ -469,7 +469,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:40:46+09:00",
-   "last_seen": "2026-11-23T04:53:34+09:00",
+   "last_seen": "2026-11-25T04:02:29+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -499,7 +499,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T21:02:19+09:00",
-   "last_seen": "2026-11-24T21:02:19+09:00",
+   "last_seen": "2026-11-25T04:02:29+09:00",
    "history": [
     [
      "2026-11-24T07:57:33+09:00",
@@ -773,7 +773,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T06:56:19+09:00",
-   "last_seen": "2026-11-25T02:57:45+09:00",
+   "last_seen": "2026-11-25T04:02:29+09:00",
    "history": [
     [
      "2026-11-24T04:04:33+09:00",
@@ -962,36 +962,6 @@
    ],
    "low": 4480,
    "high": 4480,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-3dfcf3d9f2bc",
-   "name": "청우 초코파이찰떡 215g",
-   "price": 4680,
-   "base_price": 4680,
-   "image": "https://sitem.ssgcdn.com/60/69/90/item/1000033906960_i1_290.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000033906960%26siteNo%3D7009%26salestrNo%3D2551",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "SSG",
-   "mall_name": "SSG",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-23T03:52:19+09:00",
-   "history": [
-    [
-     "2026-11-23T01:50:50+09:00",
-     4680
-    ]
-   ],
-   "low": 4680,
-   "high": 4680,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1832,6 +1802,36 @@
    ],
    "low": 9980,
    "high": 9980,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-4ed59d2e05c0",
+   "name": "오리온 꼬북칩/포카칩/오감자/썬 각 3봉 총 12봉",
+   "price": 10900,
+   "base_price": 15900,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/8580095109/B.webp?165993296",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8580095109%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-25T04:02:29+09:00",
+   "history": [
+    [
+     "2026-11-25T04:02:29+09:00",
+     10900
+    ]
+   ],
+   "low": 10900,
+   "high": 10900,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
