@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25T08:00:42+09:00",
- "generated_at_label": "11.25 08:00",
+ "generated_at": "2026-11-25T08:53:35+09:00",
+ "generated_at_label": "11.25 08:53",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -169,7 +169,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:26:38+09:00",
-   "last_seen": "2026-11-25T08:00:42+09:00",
+   "last_seen": "2026-11-25T08:53:35+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -439,7 +439,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-25T01:21:18+09:00",
+   "last_seen": "2026-11-25T08:53:35+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -498,8 +498,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-25T08:00:42+09:00",
+   "first_seen": "2026-11-25T08:53:35+09:00",
+   "last_seen": "2026-11-25T08:53:35+09:00",
    "history": [
     [
      "2026-11-25T08:00:42+09:00",
@@ -508,36 +508,6 @@
    ],
    "low": 2810,
    "high": 2810,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-18fab6e3a9bb",
-   "name": "풀무원 순살생선봉 야채 180g",
-   "price": 2880,
-   "base_price": 2880,
-   "image": "https://sitem.ssgcdn.com/58/94/45/item/1000885459458_i1_290.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000885459458%26siteNo%3D6001%26salestrNo%3D2037",
-   "category": "식품",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "SSG",
-   "mall_name": "SSG",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T08:46:22+09:00",
-   "history": [
-    [
-     "2026-11-23T08:46:22+09:00",
-     2880
-    ]
-   ],
-   "low": 2880,
-   "high": 2880,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -589,7 +559,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T21:02:19+09:00",
-   "last_seen": "2026-11-25T08:00:42+09:00",
+   "last_seen": "2026-11-25T08:53:35+09:00",
    "history": [
     [
      "2026-11-24T07:57:33+09:00",
@@ -761,7 +731,7 @@
    "name": "닭가슴살 골라담기",
    "price": 3480,
    "base_price": 3480,
-   "image": "https://img.cjthemarket.com/images/file/product/997/20260511173124599.png?SF=webp&RS=480",
+   "image": "https://img.cjthemarket.com/images/file/product/997/20260511173124599.png",
    "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002450%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D18",
    "category": "식품",
    "keyword": "",
@@ -773,7 +743,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T11:57:15+09:00",
-   "last_seen": "2026-11-25T05:07:18+09:00",
+   "last_seen": "2026-11-25T08:53:35+09:00",
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
@@ -817,6 +787,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-f1ed6894dd07",
+   "name": "[10%+~10%+T11%]리르 뽑아쓰는 퀵마스크팩 체험특가 외 베스트1+1&메이크업/스킨케어/헤어바디 득템찬스",
+   "price": 3510,
+   "base_price": 3900,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/6/1/1/4/6/1/pPgjp/4017611461_242738336.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=http%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F4017611461",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-25T08:53:35+09:00",
+   "history": [
+    [
+     "2026-11-25T08:53:35+09:00",
+     3510
+    ]
+   ],
+   "low": 3510,
+   "high": 3510,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-bb9e5793e243",
    "name": "지금부터 비타민B/밀크씨슬 샷 25ml*10개입 2종",
    "price": 3999,
@@ -833,7 +833,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T06:56:19+09:00",
-   "last_seen": "2026-11-25T08:00:42+09:00",
+   "last_seen": "2026-11-25T08:53:35+09:00",
    "history": [
     [
      "2026-11-24T04:04:33+09:00",
@@ -863,7 +863,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T01:21:18+09:00",
-   "last_seen": "2026-11-25T01:21:18+09:00",
+   "last_seen": "2026-11-25T08:53:35+09:00",
    "history": [
     [
      "2026-11-24T07:57:33+09:00",
@@ -1597,6 +1597,66 @@
    "best_price": true
   },
   {
+   "id": "sdk-adba27f258a7",
+   "name": "[심야마트]트리헛 슈가립스 립버터 15G 2개/립오일/스크럽/미스트 외",
+   "price": 8500,
+   "base_price": 17000,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/4/8/3/0/3/2/UWqNC/8372483032_244390156_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8372483032%3FtrTypeCd%3D42",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-25T08:53:35+09:00",
+   "history": [
+    [
+     "2026-11-25T08:53:35+09:00",
+     8500
+    ]
+   ],
+   "low": 8500,
+   "high": 8500,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-756abd585223",
+   "name": "만두 골라담기",
+   "price": 8780,
+   "base_price": 8780,
+   "image": "https://img.cjthemarket.com/images/file/product/481/20260318111350106.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002735%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D35",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-25T08:53:35+09:00",
+   "history": [
+    [
+     "2026-11-25T08:53:35+09:00",
+     8780
+    ]
+   ],
+   "low": 8780,
+   "high": 8780,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-8812e23c92b2",
    "name": "[아가방 겨울]제프멜맨투맨(IVORY,RED)_01R751002",
    "price": 9450,
@@ -1772,66 +1832,6 @@
    ],
    "low": 9900,
    "high": 9900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-270d2c9a8df9",
-   "name": "파스타소스 골라담기",
-   "price": 9980,
-   "base_price": 9980,
-   "image": "https://img.cjthemarket.com/images/file/product/221/20260625132547704.png?SF=webp&RS=480",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005618%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D29",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-24T19:59:11+09:00",
-   "last_seen": "2026-11-25T00:06:18+09:00",
-   "history": [
-    [
-     "2026-11-24T16:22:13+09:00",
-     9980
-    ]
-   ],
-   "low": 9980,
-   "high": 9980,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-3fac4477d924",
-   "name": "CJ 크리스피 치킨텐더 300g",
-   "price": 9980,
-   "base_price": 9980,
-   "image": "https://sitem.ssgcdn.com/86/42/66/item/1000772664286_i1_290.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000772664286%26siteNo%3D6001%26salestrNo%3D2037",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "SSG",
-   "mall_name": "SSG",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-25T08:00:42+09:00",
-   "last_seen": "2026-11-25T08:00:42+09:00",
-   "history": [
-    [
-     "2026-11-24T21:02:19+09:00",
-     9980
-    ]
-   ],
-   "low": 9980,
-   "high": 9980,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
