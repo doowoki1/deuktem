@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T10:12:24+09:00",
- "generated_at_label": "11.24 10:12",
+ "generated_at": "2026-11-24T11:57:15+09:00",
+ "generated_at_label": "11.24 11:57",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -157,7 +157,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:26:38+09:00",
-   "last_seen": "2026-11-23T02:46:53+09:00",
+   "last_seen": "2026-11-24T11:57:15+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -427,7 +427,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-24T06:56:19+09:00",
+   "last_seen": "2026-11-24T11:57:15+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -667,7 +667,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T08:55:29+09:00",
-   "last_seen": "2026-11-24T08:55:29+09:00",
+   "last_seen": "2026-11-24T11:57:15+09:00",
    "history": [
     [
      "2026-11-23T19:17:46+09:00",
@@ -701,6 +701,36 @@
    "history": [
     [
      "2026-11-23T22:23:42+09:00",
+     2999
+    ]
+   ],
+   "low": 2999,
+   "high": 2999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-8935a740c5eb",
+   "name": "소소습관 유기농 컬리케일 밸런스 2g x 15포",
+   "price": 2999,
+   "base_price": 17800,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261106/b/10.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D656857",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-24T11:57:15+09:00",
+   "history": [
+    [
+     "2026-11-24T11:57:15+09:00",
      2999
     ]
    ],
@@ -756,8 +786,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T11:59:33+09:00",
+   "first_seen": "2026-11-24T11:57:15+09:00",
+   "last_seen": "2026-11-24T11:57:15+09:00",
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
@@ -971,6 +1001,36 @@
    "history": [
     [
      "2026-11-23T19:17:46+09:00",
+     4290
+    ]
+   ],
+   "low": 4290,
+   "high": 4290,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-77a15f7e534a",
+   "name": "[간편용기]우동&amp;떡볶이 골라담기",
+   "price": 4290,
+   "base_price": 4290,
+   "image": "https://img.cjthemarket.com/images/file/product/301/20261112135905965.png?SF=webp&RS=480",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005838%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D13",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-24T11:57:15+09:00",
+   "history": [
+    [
+     "2026-11-24T11:57:15+09:00",
      4290
     ]
    ],
@@ -1596,8 +1656,8 @@
    "commission": "최대 1.4%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-24T06:56:19+09:00",
+   "first_seen": "2026-11-24T11:57:15+09:00",
+   "last_seen": "2026-11-24T11:57:15+09:00",
    "history": [
     [
      "2026-11-24T06:56:19+09:00",
@@ -1756,66 +1816,6 @@
    ],
    "low": 8160,
    "high": 8160,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-b961032b5171",
-   "name": "[더미누][할인펑펑 한파 초특가]본격겨울세일/파자마/잠옷/아동내의/유아실내복/주니어잠옷/수면조끼/상하",
-   "price": 8500,
-   "base_price": 10000,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/1/0/2/8/2/4/FKktx/1594102824_244345125_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F1594102824%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-24T00:08:48+09:00",
-   "last_seen": "2026-11-24T00:08:48+09:00",
-   "history": [
-    [
-     "2026-11-23T19:17:46+09:00",
-     8500
-    ]
-   ],
-   "low": 8500,
-   "high": 8500,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-1c94f72f104a",
-   "name": "[아가방 겨울]레브사선밍크제깅스(NAVY)_01S75200813",
-   "price": 8710,
-   "base_price": 15900,
-   "image": "https://cdn2.boribori.co.kr/rimg/0/cdn/product/A1586/P439175406/2_P439175406_basic_1790049022181.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=0c2d4&url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F439175406",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "보리보리",
-   "mall_name": "보리보리",
-   "commission": "3%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-24T07:57:33+09:00",
-   "last_seen": "2026-11-24T07:57:33+09:00",
-   "history": [
-    [
-     "2026-11-24T02:07:53+09:00",
-     8710
-    ]
-   ],
-   "low": 8710,
-   "high": 8710,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
