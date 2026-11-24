@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T18:10:06+09:00",
- "generated_at_label": "11.24 18:10",
+ "generated_at": "2026-11-24T19:59:11+09:00",
+ "generated_at_label": "11.24 19:59",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -79,8 +79,8 @@
   {
    "id": "sdk-ea23f2aa9e0f",
    "name": "쉐프 지퍼백 소형 18x20cm 20매",
-   "price": 230,
-   "base_price": 230,
+   "price": 277,
+   "base_price": 277,
    "image": "https://eyoumall.godohosting.com/pages/asu/261116/b/21.jpg",
    "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658704",
    "category": "기타",
@@ -93,7 +93,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T07:48:08+09:00",
-   "last_seen": "2026-11-23T15:09:29+09:00",
+   "last_seen": "2026-11-24T19:59:11+09:00",
    "history": [
     [
      "2026-11-23T01:50:50+09:00",
@@ -102,10 +102,14 @@
     [
      "2026-11-23T15:09:29+09:00",
      230
+    ],
+    [
+     "2026-11-24T19:59:11+09:00",
+     277
     ]
    ],
    "low": 227,
-   "high": 230,
+   "high": 277,
    "drop": 0,
    "drop_pct": 0,
    "best_price": false
@@ -667,7 +671,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T16:22:13+09:00",
-   "last_seen": "2026-11-24T16:22:13+09:00",
+   "last_seen": "2026-11-24T19:59:11+09:00",
    "history": [
     [
      "2026-11-24T11:57:15+09:00",
@@ -876,8 +880,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-24T16:22:13+09:00",
+   "first_seen": "2026-11-24T19:59:11+09:00",
+   "last_seen": "2026-11-24T19:59:11+09:00",
    "history": [
     [
      "2026-11-24T16:22:13+09:00",
@@ -1121,36 +1125,6 @@
    "history": [
     [
      "2026-11-22T17:00:13+09:00",
-     5480
-    ]
-   ],
-   "low": 5480,
-   "high": 5480,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-cfe27319676f",
-   "name": "냉장 생선구이 골라담기",
-   "price": 5480,
-   "base_price": 5480,
-   "image": "https://img.cjthemarket.com/images/file/product/356/20260827142147591.png?SF=webp&RS=480",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002294%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D18",
-   "category": "식품",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T19:50:37+09:00",
-   "history": [
-    [
-     "2026-11-22T19:50:37+09:00",
      5480
     ]
    ],
@@ -1657,7 +1631,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T11:57:15+09:00",
-   "last_seen": "2026-11-24T11:57:15+09:00",
+   "last_seen": "2026-11-24T19:59:11+09:00",
    "history": [
     [
      "2026-11-24T06:56:19+09:00",
@@ -1701,6 +1675,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-8812e23c92b2",
+   "name": "[아가방 겨울]제프멜맨투맨(IVORY,RED)_01R751002",
+   "price": 9450,
+   "base_price": 22900,
+   "image": "https://cdn2.boribori.co.kr/rimg/0/cdn/product/A1586/P403454000/2_P403454000_basic_1754288962529.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=0c2d4&url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F403454000",
+   "category": "패션",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "보리보리",
+   "mall_name": "보리보리",
+   "commission": "3%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-24T19:59:11+09:00",
+   "history": [
+    [
+     "2026-11-24T19:59:11+09:00",
+     9450
+    ]
+   ],
+   "low": 9450,
+   "high": 9450,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-29087fb49f4d",
    "name": "녹차 곡물 폼클렌징 220ml 3개 + 비누 1개 우유에빠지다",
    "price": 9810,
@@ -1731,6 +1735,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-fa5d26bbe956",
+   "name": "[체리블랑]신상추가~170호/여아/주니어/아동복/상하복/레깅스/쥬니어/원피스",
+   "price": 9900,
+   "base_price": 10000,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/3/3/0/4/0/0/tKOLX/2117330400_244383232_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F2117330400%3FtrTypeCd%3D42",
+   "category": "패션",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-24T19:59:11+09:00",
+   "history": [
+    [
+     "2026-11-24T19:59:11+09:00",
+     9900
+    ]
+   ],
+   "low": 9900,
+   "high": 9900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-270d2c9a8df9",
    "name": "파스타소스 골라담기",
    "price": 9980,
@@ -1746,8 +1780,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-24T16:22:13+09:00",
+   "first_seen": "2026-11-24T19:59:11+09:00",
+   "last_seen": "2026-11-24T19:59:11+09:00",
    "history": [
     [
      "2026-11-24T16:22:13+09:00",
@@ -1761,61 +1795,31 @@
    "best_price": true
   },
   {
-   "id": "sdk-960f037297fb",
-   "name": "[지오다노/본사] 필수 겨울 이너템 특가~74%OFF 맨투맨/경량/데님 외",
-   "price": 10000,
-   "base_price": 10000,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/pd/v2/8/8/5/2/7/9/uUNpB/2663885279_B.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F2663885279%3FtrTypeCd%3D42",
-   "category": "기타",
+   "id": "sdk-1f84fc1be4c5",
+   "name": "[전자레인지3분!] 쫀득 달콤 찰옥수수 10개입 (10~14cm)",
+   "price": 9999,
+   "base_price": 33000,
+   "image": "https://eyoumall.godohosting.com/pages/asu/240830/b/102.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D539122",
+   "category": "가전",
    "keyword": "",
    "source": "adpick_sdk",
    "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
    "first_seen": "",
-   "last_seen": "2026-11-24T18:10:06+09:00",
+   "last_seen": "2026-11-24T19:59:11+09:00",
    "history": [
     [
-     "2026-11-24T18:10:06+09:00",
-     10000
+     "2026-11-24T19:59:11+09:00",
+     9999
     ]
    ],
-   "low": 10000,
-   "high": 10000,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-1bfbe1074048",
-   "name": "[달광상회] 오븐에 구운 달광도넛 20개",
-   "price": 11120,
-   "base_price": 13900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/9/0/3/1/9/7/qhvta/4648903197_244332225_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F4648903197%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-24T18:10:06+09:00",
-   "history": [
-    [
-     "2026-11-24T18:10:06+09:00",
-     11120
-    ]
-   ],
-   "low": 11120,
-   "high": 11120,
+   "low": 9999,
+   "high": 9999,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
