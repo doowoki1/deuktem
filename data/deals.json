@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T13:03:02+09:00",
- "generated_at_label": "11.24 13:03",
+ "generated_at": "2026-11-24T14:12:44+09:00",
+ "generated_at_label": "11.24 14:12",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -1056,8 +1056,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-24T13:03:02+09:00",
+   "first_seen": "2026-11-24T14:12:44+09:00",
+   "last_seen": "2026-11-24T14:12:44+09:00",
    "history": [
     [
      "2026-11-24T13:03:02+09:00",
@@ -1391,6 +1391,36 @@
    "history": [
     [
      "2026-11-24T08:55:29+09:00",
+     5480
+    ]
+   ],
+   "low": 5480,
+   "high": 5480,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-b13b6c2dfe09",
+   "name": "냉장 생선구이 골라담기",
+   "price": 5480,
+   "base_price": 5480,
+   "image": "https://img.cjthemarket.com/images/file/product/356/20260827142147591.png?SF=webp&RS=480",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002294%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D21",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-24T14:12:44+09:00",
+   "history": [
+    [
+     "2026-11-24T14:12:44+09:00",
      5480
     ]
    ],
@@ -1781,36 +1811,6 @@
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
-     7900
-    ]
-   ],
-   "low": 7900,
-   "high": 7900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-b7d9c8587fc0",
-   "name": "[1개+1개] 홈365 국산 16A 일반 멀티탭 2구 0.7m",
-   "price": 7900,
-   "base_price": 10050,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/9/5/9/1/7/6/WhVtw/4482959176_244269575_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F4482959176%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T18:52:03+09:00",
-   "last_seen": "2026-11-22T18:52:03+09:00",
-   "history": [
-    [
-     "2026-11-22T16:26:38+09:00",
      7900
     ]
    ],
