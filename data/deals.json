@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25T04:02:29+09:00",
- "generated_at_label": "11.25 04:02",
+ "generated_at": "2026-11-25T05:07:18+09:00",
+ "generated_at_label": "11.25 05:07",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -169,7 +169,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:26:38+09:00",
-   "last_seen": "2026-11-24T11:57:15+09:00",
+   "last_seen": "2026-11-25T05:07:18+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -328,6 +328,36 @@
    ],
    "low": 699,
    "high": 699,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-f78f01a219ac",
+   "name": "비비 화이트 미라클 물티슈 100매",
+   "price": 899,
+   "base_price": 2500,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261118/b/18.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658860",
+   "category": "생활",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-25T05:07:18+09:00",
+   "history": [
+    [
+     "2026-11-25T05:07:18+09:00",
+     899
+    ]
+   ],
+   "low": 899,
+   "high": 899,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -533,7 +563,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-25T01:21:18+09:00",
+   "last_seen": "2026-11-25T05:07:18+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
@@ -593,7 +623,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T00:08:48+09:00",
-   "last_seen": "2026-11-24T18:10:06+09:00",
+   "last_seen": "2026-11-25T05:07:18+09:00",
    "history": [
     [
      "2026-11-23T22:23:42+09:00",
@@ -713,7 +743,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T11:57:15+09:00",
-   "last_seen": "2026-11-24T11:57:15+09:00",
+   "last_seen": "2026-11-25T05:07:18+09:00",
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
@@ -1192,8 +1222,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-24T08:55:29+09:00",
+   "first_seen": "2026-11-25T05:07:18+09:00",
+   "last_seen": "2026-11-25T05:07:18+09:00",
    "history": [
     [
      "2026-11-24T08:55:29+09:00",
@@ -1537,6 +1567,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-37eabbd58384",
+   "name": "[콜핑/비티알] 박지현x 홍지윤 등산 골프 FW 베스트 총집합! 바람막이/패딩/자켓/점퍼/티/바지/기모/본딩",
+   "price": 7880,
+   "base_price": 10500,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/2/0/5/7/2/2/mofQO/1365205722_244384324_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F1365205722%3FtrTypeCd%3D42",
+   "category": "패션",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-25T05:07:18+09:00",
+   "history": [
+    [
+     "2026-11-25T05:07:18+09:00",
+     7880
+    ]
+   ],
+   "low": 7880,
+   "high": 7880,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-8812e23c92b2",
    "name": "[아가방 겨울]제프멜맨투맨(IVORY,RED)_01R751002",
    "price": 9450,
@@ -1772,66 +1832,6 @@
    ],
    "low": 9980,
    "high": 9980,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-1fb45431da6c",
-   "name": "CJ 소바바 황금홀릭후라이드순살치킨240g",
-   "price": 9980,
-   "base_price": 9980,
-   "image": "https://sitem.ssgcdn.com/39/65/39/item/1000893396539_i1_290.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000893396539%26siteNo%3D7009%26salestrNo%3D2551",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "SSG",
-   "mall_name": "SSG",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-25T00:06:18+09:00",
-   "history": [
-    [
-     "2026-11-25T00:06:18+09:00",
-     9980
-    ]
-   ],
-   "low": 9980,
-   "high": 9980,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-4ed59d2e05c0",
-   "name": "오리온 꼬북칩/포카칩/오감자/썬 각 3봉 총 12봉",
-   "price": 10900,
-   "base_price": 15900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/product/8580095109/B.webp?165993296",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8580095109%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-25T04:02:29+09:00",
-   "history": [
-    [
-     "2026-11-25T04:02:29+09:00",
-     10900
-    ]
-   ],
-   "low": 10900,
-   "high": 10900,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
