@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T14:12:44+09:00",
- "generated_at_label": "11.24 14:12",
+ "generated_at": "2026-11-24T16:22:13+09:00",
+ "generated_at_label": "11.24 16:22",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -111,36 +111,6 @@
    "best_price": false
   },
   {
-   "id": "sdk-34a97928a454",
-   "name": "[국내생산] 춥지마라 포켓용 핫팩 80g",
-   "price": 270,
-   "base_price": 1500,
-   "image": "https://eyoumall.godohosting.com/pages/asu/260116/b/102.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D618604",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T15:41:25+09:00",
-   "history": [
-    [
-     "2026-11-22T15:41:25+09:00",
-     270
-    ]
-   ],
-   "low": 270,
-   "high": 270,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
    "id": "sdk-cd9df10a9dd6",
    "name": "엠에치케어 황사방역마스크 KF94",
    "price": 299,
@@ -217,7 +187,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:16:27+09:00",
-   "last_seen": "2026-11-24T07:57:33+09:00",
+   "last_seen": "2026-11-24T16:22:13+09:00",
    "history": [
     [
      "2026-11-22T17:16:05+09:00",
@@ -637,7 +607,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-24T05:09:08+09:00",
+   "last_seen": "2026-11-24T16:22:13+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
@@ -697,7 +667,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T00:08:48+09:00",
-   "last_seen": "2026-11-24T00:08:48+09:00",
+   "last_seen": "2026-11-24T16:22:13+09:00",
    "history": [
     [
      "2026-11-23T22:23:42+09:00",
@@ -726,8 +696,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-24T11:57:15+09:00",
+   "first_seen": "2026-11-24T16:22:13+09:00",
+   "last_seen": "2026-11-24T16:22:13+09:00",
    "history": [
     [
      "2026-11-24T11:57:15+09:00",
@@ -951,6 +921,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-e70c7ba64619",
+   "name": "물꽃 염색샴푸 12mlx6개입(흑갈색)",
+   "price": 3999,
+   "base_price": 24000,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261118/b/17.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658859",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-24T16:22:13+09:00",
+   "history": [
+    [
+     "2026-11-24T16:22:13+09:00",
+     3999
+    ]
+   ],
+   "low": 3999,
+   "high": 3999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-a35e12af045e",
    "name": "[간편용기]우동&amp;떡볶이 골라담기",
    "price": 4290,
@@ -1116,8 +1116,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-24T02:07:53+09:00",
+   "first_seen": "2026-11-24T16:22:13+09:00",
+   "last_seen": "2026-11-24T16:22:13+09:00",
    "history": [
     [
      "2026-11-24T02:07:53+09:00",
@@ -1791,31 +1791,31 @@
    "best_price": true
   },
   {
-   "id": "sdk-eda4200e541d",
-   "name": "아이깨끗해 거품형 레몬 용기 250ml",
-   "price": 7900,
-   "base_price": 7900,
-   "image": "https://sitem.ssgcdn.com/20/01/84/item/0000006840120_i1_290.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D0000006840120%26siteNo%3D6001%26salestrNo%3D2037",
+   "id": "sdk-270d2c9a8df9",
+   "name": "파스타소스 골라담기",
+   "price": 9980,
+   "base_price": 9980,
+   "image": "https://img.cjthemarket.com/images/file/product/221/20260625132547704.png?SF=webp&RS=480",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005618%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D29",
    "category": "기타",
    "keyword": "",
    "source": "adpick_sdk",
    "platform": "other",
-   "platform_label": "SSG",
-   "mall_name": "SSG",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
    "first_seen": "",
-   "last_seen": "2026-11-22T15:41:25+09:00",
+   "last_seen": "2026-11-24T16:22:13+09:00",
    "history": [
     [
-     "2026-11-22T15:41:25+09:00",
-     7900
+     "2026-11-24T16:22:13+09:00",
+     9980
     ]
    ],
-   "low": 7900,
-   "high": 7900,
+   "low": 9980,
+   "high": 9980,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
