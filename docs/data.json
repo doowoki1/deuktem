@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T16:22:13+09:00",
- "generated_at_label": "11.24 16:22",
+ "generated_at": "2026-11-24T18:10:06+09:00",
+ "generated_at_label": "11.24 18:10",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -561,36 +561,6 @@
    "best_price": true
   },
   {
-   "id": "sdk-bba407444a90",
-   "name": "[롯데제과] 카스타드오리지날 230g (23g x 10봉입)",
-   "price": 2999,
-   "base_price": 11500,
-   "image": "https://eyoumall.godohosting.com/pages/asu/261118/b/22.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D659166",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T17:16:27+09:00",
-   "last_seen": "2026-11-22T17:16:27+09:00",
-   "history": [
-    [
-     "2026-11-22T17:16:05+09:00",
-     2999
-    ]
-   ],
-   "low": 2999,
-   "high": 2999,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
    "id": "sdk-22a081ee47d7",
    "name": "[코스트코 판매상품]소스락 바싹 말린 국내산 의성마늘 80g",
    "price": 2999,
@@ -667,7 +637,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T00:08:48+09:00",
-   "last_seen": "2026-11-24T16:22:13+09:00",
+   "last_seen": "2026-11-24T18:10:06+09:00",
    "history": [
     [
      "2026-11-23T22:23:42+09:00",
@@ -796,36 +766,6 @@
    ],
    "low": 3480,
    "high": 3480,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-a8cd0aeb6f85",
-   "name": "스톡 웨더스 무설탕캔디 70g",
-   "price": 3980,
-   "base_price": 3980,
-   "image": "https://sitem.ssgcdn.com/38/61/66/item/1000529666138_i1_290.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000529666138%26siteNo%3D6001%26salestrNo%3D2037",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "SSG",
-   "mall_name": "SSG",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T17:16:27+09:00",
-   "last_seen": "2026-11-22T17:16:27+09:00",
-   "history": [
-    [
-     "2026-11-22T17:16:05+09:00",
-     3980
-    ]
-   ],
-   "low": 3980,
-   "high": 3980,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -996,8 +936,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T19:17:46+09:00",
+   "first_seen": "2026-11-24T18:10:06+09:00",
+   "last_seen": "2026-11-24T18:10:06+09:00",
    "history": [
     [
      "2026-11-23T19:17:46+09:00",
@@ -1117,7 +1057,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T16:22:13+09:00",
-   "last_seen": "2026-11-24T16:22:13+09:00",
+   "last_seen": "2026-11-24T18:10:06+09:00",
    "history": [
     [
      "2026-11-24T02:07:53+09:00",
@@ -1426,36 +1366,6 @@
    ],
    "low": 5480,
    "high": 5480,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-8645def877bb",
-   "name": "[매일유업] 상하 후레쉬 모짜렐라 보코치니 100g",
-   "price": 5980,
-   "base_price": 5980,
-   "image": "https://sitem.ssgcdn.com/92/65/74/item/1000633746592_i1_290.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000633746592%26siteNo%3D7009%26salestrNo%3D2551",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "SSG",
-   "mall_name": "SSG",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-22T17:00:13+09:00",
-   "history": [
-    [
-     "2026-11-22T17:00:13+09:00",
-     5980
-    ]
-   ],
-   "low": 5980,
-   "high": 5980,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1791,6 +1701,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-29087fb49f4d",
+   "name": "녹차 곡물 폼클렌징 220ml 3개 + 비누 1개 우유에빠지다",
+   "price": 9810,
+   "base_price": 12900,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/0/5/0/7/2/2/EUyoM/9728050722_244343542_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9728050722%3FtrTypeCd%3D42",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-24T18:10:06+09:00",
+   "history": [
+    [
+     "2026-11-24T18:10:06+09:00",
+     9810
+    ]
+   ],
+   "low": 9810,
+   "high": 9810,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-270d2c9a8df9",
    "name": "파스타소스 골라담기",
    "price": 9980,
@@ -1816,6 +1756,66 @@
    ],
    "low": 9980,
    "high": 9980,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-960f037297fb",
+   "name": "[지오다노/본사] 필수 겨울 이너템 특가~74%OFF 맨투맨/경량/데님 외",
+   "price": 10000,
+   "base_price": 10000,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/pd/v2/8/8/5/2/7/9/uUNpB/2663885279_B.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F2663885279%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-24T18:10:06+09:00",
+   "history": [
+    [
+     "2026-11-24T18:10:06+09:00",
+     10000
+    ]
+   ],
+   "low": 10000,
+   "high": 10000,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-1bfbe1074048",
+   "name": "[달광상회] 오븐에 구운 달광도넛 20개",
+   "price": 11120,
+   "base_price": 13900,
+   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/9/0/3/1/9/7/qhvta/4648903197_244332225_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F4648903197%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-24T18:10:06+09:00",
+   "history": [
+    [
+     "2026-11-24T18:10:06+09:00",
+     11120
+    ]
+   ],
+   "low": 11120,
+   "high": 11120,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
