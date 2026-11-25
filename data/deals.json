@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25T18:14:59+09:00",
- "generated_at_label": "11.25 18:14",
+ "generated_at": "2026-11-25T20:02:09+09:00",
+ "generated_at_label": "11.25 20:02",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -439,7 +439,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T08:53:35+09:00",
-   "last_seen": "2026-11-25T08:53:35+09:00",
+   "last_seen": "2026-11-25T20:02:09+09:00",
    "history": [
     [
      "2026-11-25T08:00:42+09:00",
@@ -683,7 +683,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T11:57:15+09:00",
-   "last_seen": "2026-11-25T08:53:35+09:00",
+   "last_seen": "2026-11-25T20:02:09+09:00",
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
@@ -1012,11 +1012,41 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-25T15:04:26+09:00",
+   "first_seen": "2026-11-25T20:02:09+09:00",
+   "last_seen": "2026-11-25T20:02:09+09:00",
    "history": [
     [
      "2026-11-25T15:04:26+09:00",
+     4980
+    ]
+   ],
+   "low": 4980,
+   "high": 4980,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-c858df52d871",
+   "name": "햇반컵반 골라담기",
+   "price": 4980,
+   "base_price": 4980,
+   "image": "https://img.cjthemarket.com/images/file/product/784/20260318111521727.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002718%26amp%253BplnId%3D300004%26amp%253BareaNum%3D1",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-25T20:02:09+09:00",
+   "history": [
+    [
+     "2026-11-25T20:02:09+09:00",
      4980
     ]
    ],
@@ -1107,36 +1137,6 @@
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
-     5480
-    ]
-   ],
-   "low": 5480,
-   "high": 5480,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-51b02bb9371d",
-   "name": "1분링 골라담기",
-   "price": 5480,
-   "base_price": 5480,
-   "image": "https://img.cjthemarket.com/images/file/product/349/20261116095822126.png?SF=webp&RS=480",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005839%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D16",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T19:17:46+09:00",
-   "history": [
-    [
-     "2026-11-23T19:17:46+09:00",
      5480
     ]
    ],
@@ -1688,12 +1688,12 @@
   },
   {
    "id": "sdk-1fb8590c84b1",
-   "name": "(30%sale) BYC 외 남성/남자/내의/내복/세트/여자/여성/성인/발열/기모/겨울/보온/방한/상의/하의/타이즈",
+   "name": "(30%sale) BYC 외 내복/내의/세트/타이즈/여성/여자/팬티/남성/남자/속바지/아동/파자마/런닝/잠옷/속옷",
    "price": 9730,
    "base_price": 13900,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/pd/v2/1/5/0/9/3/5/KThih/13150935_B.webp",
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/1/5/0/9/3/5/zJqyC/13150935_244233218_05.webp",
    "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F13150935",
-   "category": "기타",
+   "category": "패션",
    "keyword": "",
    "source": "adpick_sdk",
    "platform": "other",
@@ -1702,8 +1702,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-25T15:04:26+09:00",
+   "first_seen": "2026-11-25T20:02:09+09:00",
+   "last_seen": "2026-11-25T20:02:09+09:00",
    "history": [
     [
      "2026-11-25T15:04:26+09:00",
