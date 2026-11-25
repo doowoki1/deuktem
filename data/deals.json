@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25T22:33:44+09:00",
- "generated_at_label": "11.25 22:33",
+ "generated_at": "2026-11-26T00:11:27+09:00",
+ "generated_at_label": "11.26 00:11",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -773,7 +773,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T06:56:19+09:00",
-   "last_seen": "2026-11-25T16:26:56+09:00",
+   "last_seen": "2026-11-26T00:11:27+09:00",
    "history": [
     [
      "2026-11-24T04:04:33+09:00",
@@ -1282,8 +1282,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-25T18:14:59+09:00",
+   "first_seen": "2026-11-26T00:11:27+09:00",
+   "last_seen": "2026-11-26T00:11:27+09:00",
    "history": [
     [
      "2026-11-25T18:14:59+09:00",
@@ -1322,36 +1322,6 @@
    ],
    "low": 6800,
    "high": 6800,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-bf3654a97d2e",
-   "name": "프로젝트엠 30+10% 패딩/코트/니트/맨투맨/기모/바지 겨울 100종",
-   "price": 6930,
-   "base_price": 10000,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/pd/v2/2/7/1/6/3/6/BwnEx/2497271636_B.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F2497271636%3FtrTypeCd%3D42",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-23T19:17:46+09:00",
-   "last_seen": "2026-11-24T00:08:48+09:00",
-   "history": [
-    [
-     "2026-11-23T11:59:33+09:00",
-     6930
-    ]
-   ],
-   "low": 6930,
-   "high": 6930,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1792,8 +1762,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-25T21:06:54+09:00",
+   "first_seen": "2026-11-26T00:11:27+09:00",
+   "last_seen": "2026-11-26T00:11:27+09:00",
    "history": [
     [
      "2026-11-25T21:06:54+09:00",
@@ -1802,6 +1772,36 @@
    ],
    "low": 9980,
    "high": 9980,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-bf665d2e630d",
+   "name": "[11pay 2천원적립] NEW 페브리즈 섬유탈취제 370ml 3개 모음",
+   "price": 10900,
+   "base_price": 17500,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/0/3/9/1/2/8/bQSXP/7267039128_242120679.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7267039128%3FtrTypeCd%3D42",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T00:11:27+09:00",
+   "history": [
+    [
+     "2026-11-26T00:11:27+09:00",
+     10900
+    ]
+   ],
+   "low": 10900,
+   "high": 10900,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
