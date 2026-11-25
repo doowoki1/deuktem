@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T00:11:27+09:00",
- "generated_at_label": "11.26 00:11",
+ "generated_at": "2026-11-26T02:10:23+09:00",
+ "generated_at_label": "11.26 02:10",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -8,40 +8,10 @@
   "rocket": 0,
   "drops": 0,
   "avg_drop": 0,
-  "min_price": 133,
-  "cheapest": "[진공포장] 비늘이 제거된 반건조 민어(가이석태속) 10미(미당 100~150g)"
+  "min_price": 159,
+  "cheapest": "[홈쇼핑판매상품] 더블모 어성초 샴푸 모음전"
  },
  "items": [
-  {
-   "id": "sdk-a9c2b991b0db",
-   "name": "[진공포장] 비늘이 제거된 반건조 민어(가이석태속) 10미(미당 100~150g)",
-   "price": 133,
-   "base_price": 133,
-   "image": "https://eyoumall.godohosting.com/pages/asu/240311/b/141.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D509782",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-23T17:41:05+09:00",
-   "last_seen": "2026-11-24T02:07:53+09:00",
-   "history": [
-    [
-     "2026-11-23T04:53:34+09:00",
-     133
-    ]
-   ],
-   "low": 133,
-   "high": 133,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
   {
    "id": "sdk-f423e2d3fa4c",
    "name": "[홈쇼핑판매상품] 더블모 어성초 샴푸 모음전",
@@ -135,7 +105,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:26:38+09:00",
-   "last_seen": "2026-11-25T08:53:35+09:00",
+   "last_seen": "2026-11-26T02:10:23+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -195,7 +165,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-25T22:33:44+09:00",
+   "last_seen": "2026-11-26T02:10:23+09:00",
    "history": [
     [
      "2026-11-23T00:49:41+09:00",
@@ -204,36 +174,6 @@
    ],
    "low": 399,
    "high": 399,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-1a83c456e9b6",
-   "name": "실속정란(절란) 1kg",
-   "price": 581,
-   "base_price": 581,
-   "image": "https://eyoumall.godohosting.com/pages/asu/220218/b/100.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D973",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T17:16:27+09:00",
-   "last_seen": "2026-11-24T02:07:53+09:00",
-   "history": [
-    [
-     "2026-11-22T17:16:05+09:00",
-     581
-    ]
-   ],
-   "low": 581,
-   "high": 581,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -289,7 +229,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T10:18:04+09:00",
-   "last_seen": "2026-11-25T18:14:59+09:00",
+   "last_seen": "2026-11-26T02:10:23+09:00",
    "history": [
     [
      "2026-11-25T05:07:18+09:00",
@@ -348,8 +288,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-25T21:06:54+09:00",
+   "first_seen": "2026-11-26T02:10:23+09:00",
+   "last_seen": "2026-11-26T02:10:23+09:00",
    "history": [
     [
      "2026-11-25T21:06:54+09:00",
@@ -358,6 +298,36 @@
    ],
    "low": 2080,
    "high": 2080,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-2137b1b29c13",
+   "name": "국탕찌개 골라담기",
+   "price": 2180,
+   "base_price": 2180,
+   "image": "https://img.cjthemarket.com/images/file/product/287/20260318111025585.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fpc%2Fprod%2FprodDetail%3FprdCd%3DS0002731",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T02:10:23+09:00",
+   "history": [
+    [
+     "2026-11-26T02:10:23+09:00",
+     2180
+    ]
+   ],
+   "low": 2180,
+   "high": 2180,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -529,7 +499,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T21:02:19+09:00",
-   "last_seen": "2026-11-25T18:14:59+09:00",
+   "last_seen": "2026-11-26T02:10:23+09:00",
    "history": [
     [
      "2026-11-24T07:57:33+09:00",
@@ -683,7 +653,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T10:18:04+09:00",
-   "last_seen": "2026-11-25T21:06:54+09:00",
+   "last_seen": "2026-11-26T02:10:23+09:00",
    "history": [
     [
      "2026-11-25T02:57:45+09:00",
@@ -1087,36 +1057,6 @@
    "best_price": true
   },
   {
-   "id": "sdk-f4d516827598",
-   "name": "냉동간식 골라담기",
-   "price": 5480,
-   "base_price": 5480,
-   "image": "https://img.cjthemarket.com/images/file/product/707/20260629141738250.png?SF=webp&RS=480",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002734%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D25",
-   "category": "식품",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-24T02:07:53+09:00",
-   "history": [
-    [
-     "2026-11-22T17:00:13+09:00",
-     5480
-    ]
-   ],
-   "low": 5480,
-   "high": 5480,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
    "id": "sdk-6a0291b22f8d",
    "name": "냉장 생선구이 골라담기",
    "price": 5480,
@@ -1253,7 +1193,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T11:59:55+09:00",
-   "last_seen": "2026-11-25T11:59:55+09:00",
+   "last_seen": "2026-11-26T02:10:23+09:00",
    "history": [
     [
      "2026-11-25T00:06:18+09:00",
@@ -1832,6 +1772,66 @@
    ],
    "low": 11700,
    "high": 11700,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-5e0a4b5430be",
+   "name": "[TV홈쇼핑]순간건조기 고블린 스타일러",
+   "price": 17599,
+   "base_price": 49800,
+   "image": "https://eyoumall.godohosting.com/pages/asu/240708/b/128.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D529888",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T02:10:23+09:00",
+   "history": [
+    [
+     "2026-11-26T02:10:23+09:00",
+     17599
+    ]
+   ],
+   "low": 17599,
+   "high": 17599,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-46d2c4835274",
+   "name": "[박스특가]비비고 저염 사골곰탕 500g, 18개",
+   "price": 21513,
+   "base_price": 44820,
+   "image": "https://img.cjthemarket.com/images/file/product/905/20261112104935997.png",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3D40192135%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T02:10:23+09:00",
+   "history": [
+    [
+     "2026-11-26T02:10:23+09:00",
+     21513
+    ]
+   ],
+   "low": 21513,
+   "high": 21513,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
