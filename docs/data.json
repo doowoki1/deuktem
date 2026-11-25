@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25T10:18:04+09:00",
- "generated_at_label": "11.25 10:18",
+ "generated_at": "2026-11-25T11:59:55+09:00",
+ "generated_at_label": "11.25 11:59",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -499,7 +499,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:40:46+09:00",
-   "last_seen": "2026-11-25T04:02:29+09:00",
+   "last_seen": "2026-11-25T11:59:55+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -529,7 +529,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T21:02:19+09:00",
-   "last_seen": "2026-11-25T08:53:35+09:00",
+   "last_seen": "2026-11-25T11:59:55+09:00",
    "history": [
     [
      "2026-11-24T07:57:33+09:00",
@@ -593,7 +593,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T08:55:29+09:00",
-   "last_seen": "2026-11-24T11:57:15+09:00",
+   "last_seen": "2026-11-25T11:59:55+09:00",
    "history": [
     [
      "2026-11-23T19:17:46+09:00",
@@ -772,8 +772,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-25T08:53:35+09:00",
+   "first_seen": "2026-11-25T11:59:55+09:00",
+   "last_seen": "2026-11-25T11:59:55+09:00",
    "history": [
     [
      "2026-11-25T08:53:35+09:00",
@@ -1241,7 +1241,7 @@
    "name": "냉동간식 골라담기",
    "price": 5480,
    "base_price": 5480,
-   "image": "https://img.cjthemarket.com/images/file/product/707/20260629141738250.png?SF=webp&RS=480",
+   "image": "https://s3.ap-northeast-2.amazonaws.com/oddm.img/2026/8b5deaedc31789708692.png",
    "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002734%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D27",
    "category": "식품",
    "keyword": "",
@@ -1252,8 +1252,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-25T00:06:18+09:00",
+   "first_seen": "2026-11-25T11:59:55+09:00",
+   "last_seen": "2026-11-25T11:59:55+09:00",
    "history": [
     [
      "2026-11-25T00:06:18+09:00",
