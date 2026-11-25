@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T05:59:57+09:00",
- "generated_at_label": "11.26 05:59",
+ "generated_at": "2026-11-26T06:59:59+09:00",
+ "generated_at_label": "11.26 06:59",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -8,10 +8,40 @@
   "rocket": 0,
   "drops": 0,
   "avg_drop": 0,
-  "min_price": 101,
+  "min_price": 100,
   "cheapest": "[임박특가] 실온보관 소스 닭가슴살 양념치킨 20팩"
  },
  "items": [
+  {
+   "id": "sdk-870d00e2bb62",
+   "name": "[임박특가] 실온보관 소스 닭가슴살 양념치킨 20팩",
+   "price": 100,
+   "base_price": 100,
+   "image": "http://www.eyoumall.co.kr/shop/img/goods658631.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658631%26amp%253Bmode%3Devent",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T06:59:59+09:00",
+   "history": [
+    [
+     "2026-11-26T06:59:59+09:00",
+     100
+    ]
+   ],
+   "low": 100,
+   "high": 100,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
   {
    "id": "sdk-39139cac360b",
    "name": "[임박특가] 실온보관 소스 닭가슴살 양념치킨 20팩",
@@ -439,7 +469,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-25T22:33:44+09:00",
+   "last_seen": "2026-11-26T06:59:59+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -559,7 +589,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T21:02:19+09:00",
-   "last_seen": "2026-11-26T02:10:23+09:00",
+   "last_seen": "2026-11-26T06:59:59+09:00",
    "history": [
     [
      "2026-11-24T07:57:33+09:00",
@@ -1283,7 +1313,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T00:11:27+09:00",
-   "last_seen": "2026-11-26T00:11:27+09:00",
+   "last_seen": "2026-11-26T06:59:59+09:00",
    "history": [
     [
      "2026-11-25T18:14:59+09:00",
@@ -1523,7 +1553,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T21:06:54+09:00",
-   "last_seen": "2026-11-26T03:56:06+09:00",
+   "last_seen": "2026-11-26T06:59:59+09:00",
    "history": [
     [
      "2026-11-25T08:53:35+09:00",
@@ -1582,8 +1612,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T05:00:12+09:00",
+   "first_seen": "2026-11-26T06:59:59+09:00",
+   "last_seen": "2026-11-26T06:59:59+09:00",
    "history": [
     [
      "2026-11-26T05:00:12+09:00",
@@ -1802,36 +1832,6 @@
    ],
    "low": 10000,
    "high": 10000,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-8d2d59f2ac8b",
-   "name": "[더주] 고소하고 달콤한 촉촉 콘버터 전기구이오징어 180g (6-9미)",
-   "price": 10110,
-   "base_price": 11230,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/0/8/9/9/0/3/KwFot/9293089903_244344400_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9293089903",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T05:59:57+09:00",
-   "history": [
-    [
-     "2026-11-26T05:59:57+09:00",
-     10110
-    ]
-   ],
-   "low": 10110,
-   "high": 10110,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
