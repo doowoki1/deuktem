@@ -1,51 +1,17 @@
 {
- "generated_at": "2026-11-25T13:09:15+09:00",
- "generated_at_label": "11.25 13:09",
+ "generated_at": "2026-11-25T15:04:26+09:00",
+ "generated_at_label": "11.25 15:04",
  "source": "coupang-partners",
  "note": "",
  "stats": {
   "count": 60,
   "rocket": 0,
-  "drops": 1,
-  "avg_drop": 20,
+  "drops": 0,
+  "avg_drop": 0,
   "min_price": 133,
   "cheapest": "[진공포장] 비늘이 제거된 반건조 민어(가이석태속) 10미(미당 100~150g)"
  },
  "items": [
-  {
-   "id": "sdk-b5a754a89f1b",
-   "name": "겨울 신상 대방출 전복종특가 /상하복/원피스/아우터 外",
-   "price": 4400,
-   "base_price": 299000,
-   "image": "https://cdn2.boribori.co.kr/rimg/0/cdn/product/A3996/P443503205/2_P443503205_basic_1793945276099.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=0c2d4&url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F443503205",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "보리보리",
-   "mall_name": "보리보리",
-   "commission": "3%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-23T07:48:08+09:00",
-   "last_seen": "2026-11-23T13:10:17+09:00",
-   "history": [
-    [
-     "2026-11-23T04:53:34+09:00",
-     5500
-    ],
-    [
-     "2026-11-23T13:10:17+09:00",
-     4400
-    ]
-   ],
-   "low": 4400,
-   "high": 5500,
-   "drop": 1100,
-   "drop_pct": 20,
-   "best_price": true
-  },
   {
    "id": "sdk-a9c2b991b0db",
    "name": "[진공포장] 비늘이 제거된 반건조 민어(가이석태속) 10미(미당 100~150g)",
@@ -199,7 +165,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:16:27+09:00",
-   "last_seen": "2026-11-24T21:02:19+09:00",
+   "last_seen": "2026-11-25T15:04:26+09:00",
    "history": [
     [
      "2026-11-22T17:16:05+09:00",
@@ -413,7 +379,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-25T13:09:15+09:00",
+   "last_seen": "2026-11-25T15:04:26+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -627,7 +593,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T00:08:48+09:00",
-   "last_seen": "2026-11-25T10:18:04+09:00",
+   "last_seen": "2026-11-25T15:04:26+09:00",
    "history": [
     [
      "2026-11-23T22:23:42+09:00",
@@ -1026,6 +992,36 @@
    ],
    "low": 4963,
    "high": 4963,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-8153c6f04cb3",
+   "name": "햇반 죽 골라담기",
+   "price": 4980,
+   "base_price": 4980,
+   "image": "https://img.cjthemarket.com/images/file/product/147/20260318111716348.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0003574%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D43",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-25T15:04:26+09:00",
+   "history": [
+    [
+     "2026-11-25T15:04:26+09:00",
+     4980
+    ]
+   ],
+   "low": 4980,
+   "high": 4980,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1575,7 +1571,7 @@
    "name": "[콜핑/비티알] 박지현x 홍지윤 등산 골프 FW 베스트 총집합! 바람막이/패딩/자켓/점퍼/티/바지/기모/본딩",
    "price": 7880,
    "base_price": 10500,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/2/0/5/7/2/2/mofQO/1365205722_244384324_05.webp",
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/2/0/5/7/2/2/mofQO/1365205722_244384324_05.webp",
    "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F1365205722%3FtrTypeCd%3D42",
    "category": "패션",
    "keyword": "",
@@ -1586,8 +1582,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-25T05:07:18+09:00",
+   "first_seen": "2026-11-25T15:04:26+09:00",
+   "last_seen": "2026-11-25T15:04:26+09:00",
    "history": [
     [
      "2026-11-25T05:07:18+09:00",
@@ -1686,6 +1682,36 @@
    ],
    "low": 9450,
    "high": 9450,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-1fb8590c84b1",
+   "name": "(30%sale) BYC 외 남성/남자/내의/내복/세트/여자/여성/성인/발열/기모/겨울/보온/방한/상의/하의/타이즈",
+   "price": 9730,
+   "base_price": 13900,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/pd/v2/1/5/0/9/3/5/KThih/13150935_B.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F13150935",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-25T15:04:26+09:00",
+   "history": [
+    [
+     "2026-11-25T15:04:26+09:00",
+     9730
+    ]
+   ],
+   "low": 9730,
+   "high": 9730,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1801,36 +1827,6 @@
    "history": [
     [
      "2026-11-25T01:21:18+09:00",
-     9900
-    ]
-   ],
-   "low": 9900,
-   "high": 9900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-7322b3f31031",
-   "name": "바겐슈타이거 스텐 304 국자 서버+받침대 골라담기",
-   "price": 9900,
-   "base_price": 12500,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/6/1/9/9/2/2/Vkkmy/9000619922_244286971_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9000619922%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-25T02:57:45+09:00",
-   "history": [
-    [
-     "2026-11-25T02:57:45+09:00",
      9900
     ]
    ],
