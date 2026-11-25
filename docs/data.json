@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T02:10:23+09:00",
- "generated_at_label": "11.26 02:10",
+ "generated_at": "2026-11-26T03:56:06+09:00",
+ "generated_at_label": "11.26 03:56",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -8,10 +8,40 @@
   "rocket": 0,
   "drops": 0,
   "avg_drop": 0,
-  "min_price": 159,
-  "cheapest": "[홈쇼핑판매상품] 더블모 어성초 샴푸 모음전"
+  "min_price": 101,
+  "cheapest": "[임박특가] 실온보관 소스 닭가슴살 양념치킨 20팩"
  },
  "items": [
+  {
+   "id": "sdk-39139cac360b",
+   "name": "[임박특가] 실온보관 소스 닭가슴살 양념치킨 20팩",
+   "price": 101,
+   "base_price": 101,
+   "image": "http://www.eyoumall.co.kr/shop/img/goods658631.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658631",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T03:56:06+09:00",
+   "history": [
+    [
+     "2026-11-26T03:56:06+09:00",
+     101
+    ]
+   ],
+   "low": 101,
+   "high": 101,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
   {
    "id": "sdk-f423e2d3fa4c",
    "name": "[홈쇼핑판매상품] 더블모 어성초 샴푸 모음전",
@@ -105,7 +135,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:26:38+09:00",
-   "last_seen": "2026-11-26T02:10:23+09:00",
+   "last_seen": "2026-11-26T03:56:06+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -135,7 +165,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:16:27+09:00",
-   "last_seen": "2026-11-25T21:06:54+09:00",
+   "last_seen": "2026-11-26T03:56:06+09:00",
    "history": [
     [
      "2026-11-22T17:16:05+09:00",
@@ -174,6 +204,36 @@
    ],
    "low": 399,
    "high": 399,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-75579a6295a9",
+   "name": "[가희담] 6년근 고려홍삼정 기력스틱 30포 +쇼핑백[국내산 6년근/사양벌꿀,영지버섯 함유](2개이상 구매가능)",
+   "price": 417,
+   "base_price": 417,
+   "image": "http://www.eyoumall.co.kr/shop/img/goods650370.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D650370",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T03:56:06+09:00",
+   "history": [
+    [
+     "2026-11-26T03:56:06+09:00",
+     417
+    ]
+   ],
+   "low": 417,
+   "high": 417,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -533,7 +593,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-25T07:00:45+09:00",
+   "last_seen": "2026-11-26T03:56:06+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
@@ -773,7 +833,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T01:21:18+09:00",
-   "last_seen": "2026-11-25T08:53:35+09:00",
+   "last_seen": "2026-11-26T03:56:06+09:00",
    "history": [
     [
      "2026-11-24T07:57:33+09:00",
@@ -1493,7 +1553,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T21:06:54+09:00",
-   "last_seen": "2026-11-25T21:06:54+09:00",
+   "last_seen": "2026-11-26T03:56:06+09:00",
    "history": [
     [
      "2026-11-25T08:53:35+09:00",
@@ -1717,6 +1777,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-8d2d59f2ac8b",
+   "name": "[더주] 고소하고 달콤한 촉촉 콘버터 전기구이오징어 180g (6-9미)",
+   "price": 10110,
+   "base_price": 11230,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/0/8/9/9/0/3/KwFot/9293089903_244344400_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9293089903",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T03:56:06+09:00",
+   "history": [
+    [
+     "2026-11-26T03:56:06+09:00",
+     10110
+    ]
+   ],
+   "low": 10110,
+   "high": 10110,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-bf665d2e630d",
    "name": "[11pay 2천원적립] NEW 페브리즈 섬유탈취제 370ml 3개 모음",
    "price": 10900,
@@ -1742,96 +1832,6 @@
    ],
    "low": 10900,
    "high": 10900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-1ea4c6543dde",
-   "name": "(35%) 밀레 다운/패딩/점퍼/티셔츠/기모바지/방한용품 외 FW BEST",
-   "price": 11700,
-   "base_price": 18000,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/pd/v2/1/7/5/4/9/6/Zwmhq/3368175496_B.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=http%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F3368175496",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-25T22:33:44+09:00",
-   "history": [
-    [
-     "2026-11-25T22:33:44+09:00",
-     11700
-    ]
-   ],
-   "low": 11700,
-   "high": 11700,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-5e0a4b5430be",
-   "name": "[TV홈쇼핑]순간건조기 고블린 스타일러",
-   "price": 17599,
-   "base_price": 49800,
-   "image": "https://eyoumall.godohosting.com/pages/asu/240708/b/128.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D529888",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T02:10:23+09:00",
-   "history": [
-    [
-     "2026-11-26T02:10:23+09:00",
-     17599
-    ]
-   ],
-   "low": 17599,
-   "high": 17599,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-46d2c4835274",
-   "name": "[박스특가]비비고 저염 사골곰탕 500g, 18개",
-   "price": 21513,
-   "base_price": 44820,
-   "image": "https://img.cjthemarket.com/images/file/product/905/20261112104935997.png",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3D40192135%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T02:10:23+09:00",
-   "history": [
-    [
-     "2026-11-26T02:10:23+09:00",
-     21513
-    ]
-   ],
-   "low": 21513,
-   "high": 21513,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
