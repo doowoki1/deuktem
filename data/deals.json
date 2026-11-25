@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25T21:06:54+09:00",
- "generated_at_label": "11.25 21:06",
+ "generated_at": "2026-11-25T22:33:44+09:00",
+ "generated_at_label": "11.25 22:33",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -195,7 +195,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-25T13:09:15+09:00",
+   "last_seen": "2026-11-25T22:33:44+09:00",
    "history": [
     [
      "2026-11-23T00:49:41+09:00",
@@ -367,7 +367,7 @@
    "name": "다담 양념 골라담기",
    "price": 2550,
    "base_price": 2550,
-   "image": "//img.cjthemarket.com/images/file/product/475/20241121172926525.jpg?SF=webp&RS=480",
+   "image": "https://img.cjthemarket.com/images/file/product/336/20260318112213539.jpg",
    "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002552%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D35",
    "category": "기타",
    "keyword": "",
@@ -378,8 +378,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-25T08:00:42+09:00",
+   "first_seen": "2026-11-25T22:33:44+09:00",
+   "last_seen": "2026-11-25T22:33:44+09:00",
    "history": [
     [
      "2026-11-25T08:00:42+09:00",
@@ -409,7 +409,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-25T18:14:59+09:00",
+   "last_seen": "2026-11-25T22:33:44+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -499,7 +499,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:40:46+09:00",
-   "last_seen": "2026-11-25T21:06:54+09:00",
+   "last_seen": "2026-11-25T22:33:44+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -717,36 +717,6 @@
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
-     3480
-    ]
-   ],
-   "low": 3480,
-   "high": 3480,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-1cabc097d2c4",
-   "name": "닭가슴살 골라담기",
-   "price": 3480,
-   "base_price": 3480,
-   "image": "https://img.cjthemarket.com/images/file/product/997/20260511173124599.png?SF=webp&RS=480",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002450%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D19",
-   "category": "식품",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-23T22:23:42+09:00",
-   "history": [
-    [
-     "2026-11-23T22:23:42+09:00",
      3480
     ]
    ],
@@ -1163,7 +1133,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T08:55:29+09:00",
-   "last_seen": "2026-11-25T13:09:15+09:00",
+   "last_seen": "2026-11-25T22:33:44+09:00",
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
@@ -1832,6 +1802,36 @@
    ],
    "low": 9980,
    "high": 9980,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-1ea4c6543dde",
+   "name": "(35%) 밀레 다운/패딩/점퍼/티셔츠/기모바지/방한용품 외 FW BEST",
+   "price": 11700,
+   "base_price": 18000,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/pd/v2/1/7/5/4/9/6/Zwmhq/3368175496_B.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=http%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F3368175496",
+   "category": "패션",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-25T22:33:44+09:00",
+   "history": [
+    [
+     "2026-11-25T22:33:44+09:00",
+     11700
+    ]
+   ],
+   "low": 11700,
+   "high": 11700,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
