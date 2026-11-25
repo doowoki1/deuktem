@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T07:58:59+09:00",
- "generated_at_label": "11.26 07:58",
+ "generated_at": "2026-11-26T08:54:06+09:00",
+ "generated_at_label": "11.26 08:54",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -77,7 +77,7 @@
    "name": "[홈쇼핑판매상품] 더블모 어성초 샴푸 모음전",
    "price": 159,
    "base_price": 159,
-   "image": "https://eyoumall.godohosting.com/pages/asu/210205/b/71.jpg",
+   "image": "http://eyoumall.godohosting.com/pages/asu/210205/b/71.jpg",
    "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D347902",
    "category": "뷰티",
    "keyword": "",
@@ -89,7 +89,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T04:02:29+09:00",
-   "last_seen": "2026-11-25T04:02:29+09:00",
+   "last_seen": "2026-11-26T08:54:06+09:00",
    "history": [
     [
      "2026-11-25T02:57:45+09:00",
@@ -254,8 +254,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T03:56:06+09:00",
+   "first_seen": "2026-11-26T08:54:06+09:00",
+   "last_seen": "2026-11-26T08:54:06+09:00",
    "history": [
     [
      "2026-11-26T03:56:06+09:00",
@@ -379,7 +379,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T02:10:23+09:00",
-   "last_seen": "2026-11-26T05:00:12+09:00",
+   "last_seen": "2026-11-26T08:54:06+09:00",
    "history": [
     [
      "2026-11-25T21:06:54+09:00",
@@ -408,8 +408,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T02:10:23+09:00",
+   "first_seen": "2026-11-26T08:54:06+09:00",
+   "last_seen": "2026-11-26T08:54:06+09:00",
    "history": [
     [
      "2026-11-26T02:10:23+09:00",
@@ -623,7 +623,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-26T05:59:57+09:00",
+   "last_seen": "2026-11-26T08:54:06+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
@@ -773,7 +773,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T11:57:15+09:00",
-   "last_seen": "2026-11-26T07:58:59+09:00",
+   "last_seen": "2026-11-26T08:54:06+09:00",
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
@@ -1133,7 +1133,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T16:22:13+09:00",
-   "last_seen": "2026-11-26T07:58:59+09:00",
+   "last_seen": "2026-11-26T08:54:06+09:00",
    "history": [
     [
      "2026-11-24T02:07:53+09:00",
@@ -1553,7 +1553,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T21:06:54+09:00",
-   "last_seen": "2026-11-26T06:59:59+09:00",
+   "last_seen": "2026-11-26T08:54:06+09:00",
    "history": [
     [
      "2026-11-25T08:53:35+09:00",
@@ -1777,6 +1777,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-29f88d4895a6",
+   "name": "잘풀리는집 키친타월, 150매, 4+2롤, 2개",
+   "price": 9900,
+   "base_price": 15800,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/product/5873237737/B.jpg?879000000",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F5873237737%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T08:54:06+09:00",
+   "history": [
+    [
+     "2026-11-26T08:54:06+09:00",
+     9900
+    ]
+   ],
+   "low": 9900,
+   "high": 9900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-d8392f0ada1e",
    "name": "파스타소스 골라담기",
    "price": 9980,
@@ -1802,36 +1832,6 @@
    ],
    "low": 9980,
    "high": 9980,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-ae1fc409d5fa",
-   "name": "[패션라인] 여름신상 블라우스/원피스/레이스/브이넥/프릴/쉬폰/셔링/체크/셔츠/빅사이즈",
-   "price": 10000,
-   "base_price": 10000,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/pd/21/7/9/7/2/6/0/iiLrS/1453797260_L300.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=http%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F1453797260",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T05:00:12+09:00",
-   "history": [
-    [
-     "2026-11-26T05:00:12+09:00",
-     10000
-    ]
-   ],
-   "low": 10000,
-   "high": 10000,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
