@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25T16:26:56+09:00",
- "generated_at_label": "11.25 16:26",
+ "generated_at": "2026-11-25T18:14:59+09:00",
+ "generated_at_label": "11.25 18:14",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -165,7 +165,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:16:27+09:00",
-   "last_seen": "2026-11-25T15:04:26+09:00",
+   "last_seen": "2026-11-25T18:14:59+09:00",
    "history": [
     [
      "2026-11-22T17:16:05+09:00",
@@ -289,7 +289,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T10:18:04+09:00",
-   "last_seen": "2026-11-25T16:26:56+09:00",
+   "last_seen": "2026-11-25T18:14:59+09:00",
    "history": [
     [
      "2026-11-25T05:07:18+09:00",
@@ -379,7 +379,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-25T16:26:56+09:00",
+   "last_seen": "2026-11-25T18:14:59+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -499,7 +499,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T21:02:19+09:00",
-   "last_seen": "2026-11-25T11:59:55+09:00",
+   "last_seen": "2026-11-25T18:14:59+09:00",
    "history": [
     [
      "2026-11-24T07:57:33+09:00",
@@ -1043,7 +1043,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T16:22:13+09:00",
-   "last_seen": "2026-11-25T02:57:45+09:00",
+   "last_seen": "2026-11-25T18:14:59+09:00",
    "history": [
     [
      "2026-11-24T02:07:53+09:00",
@@ -1267,6 +1267,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-ab5bcb2e7400",
+   "name": "스포메틱스 모이스춰라이징 코코넛 오일 바디 고보습 로션 300ml",
+   "price": 5999,
+   "base_price": 36000,
+   "image": "https://eyoumall.godohosting.com/pages/asu/260907/b/7.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D651977",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-25T18:14:59+09:00",
+   "history": [
+    [
+     "2026-11-25T18:14:59+09:00",
+     5999
+    ]
+   ],
+   "low": 5999,
+   "high": 5999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-199ae3c18baf",
    "name": "[롯데백화점] 메이크업포에버 단독세트&홀리데이세트+적립&카드!",
    "price": 6800,
@@ -1322,36 +1352,6 @@
    ],
    "low": 6800,
    "high": 6800,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-fc7389ca9bfc",
-   "name": "리버티 에디션 입는.오버나이트 4PX6팩 외 생리대 중형/대형/팬티라이너 모음",
-   "price": 6930,
-   "base_price": 7700,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/2/4/8/2/4/5/ukZga/3672248245_244248270_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F3672248245%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-23T08:46:22+09:00",
-   "last_seen": "2026-11-23T17:41:05+09:00",
-   "history": [
-    [
-     "2026-11-23T02:46:53+09:00",
-     6930
-    ]
-   ],
-   "low": 6930,
-   "high": 6930,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1583,7 +1583,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T15:04:26+09:00",
-   "last_seen": "2026-11-25T15:04:26+09:00",
+   "last_seen": "2026-11-25T18:14:59+09:00",
    "history": [
     [
      "2026-11-25T05:07:18+09:00",
