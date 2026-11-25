@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T05:00:12+09:00",
- "generated_at_label": "11.26 05:00",
+ "generated_at": "2026-11-26T05:59:57+09:00",
+ "generated_at_label": "11.26 05:59",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -165,7 +165,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:16:27+09:00",
-   "last_seen": "2026-11-26T03:56:06+09:00",
+   "last_seen": "2026-11-26T05:59:57+09:00",
    "history": [
     [
      "2026-11-22T17:16:05+09:00",
@@ -289,7 +289,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T10:18:04+09:00",
-   "last_seen": "2026-11-26T02:10:23+09:00",
+   "last_seen": "2026-11-26T05:59:57+09:00",
    "history": [
     [
      "2026-11-25T05:07:18+09:00",
@@ -593,7 +593,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-26T03:56:06+09:00",
+   "last_seen": "2026-11-26T05:59:57+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
@@ -1133,7 +1133,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T08:55:29+09:00",
-   "last_seen": "2026-11-25T22:33:44+09:00",
+   "last_seen": "2026-11-26T05:59:57+09:00",
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
@@ -1297,66 +1297,6 @@
    "best_price": true
   },
   {
-   "id": "sdk-919b34c94829",
-   "name": "리빙랩스 노모어더트 신발 클리너 210g",
-   "price": 6800,
-   "base_price": 14800,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/5/2/3/4/5/6/WRSky/9764523456_244356479_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9764523456%3FtrTypeCd%3D42",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-24T05:09:08+09:00",
-   "history": [
-    [
-     "2026-11-24T05:09:08+09:00",
-     6800
-    ]
-   ],
-   "low": 6800,
-   "high": 6800,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-da113fb60056",
-   "name": "비비고 CJ 한섬만두320g",
-   "price": 6980,
-   "base_price": 6980,
-   "image": "https://sitem.ssgcdn.com/25/76/65/item/1000524657625_i1_290.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000524657625%26siteNo%3D6001%26salestrNo%3D2037",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "SSG",
-   "mall_name": "SSG",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-24T05:09:08+09:00",
-   "last_seen": "2026-11-24T05:09:08+09:00",
-   "history": [
-    [
-     "2026-11-24T02:07:53+09:00",
-     6980
-    ]
-   ],
-   "low": 6980,
-   "high": 6980,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
    "id": "sdk-0eff8286eb39",
    "name": "비비고 CJ 찰보리감자만두 300g",
    "price": 6980,
@@ -1472,6 +1412,36 @@
    ],
    "low": 7500,
    "high": 7500,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-cea307fb5676",
+   "name": "떡갈비완자 골라담기",
+   "price": 7680,
+   "base_price": 7680,
+   "image": "https://img.cjthemarket.com/images/file/product/872/20260318110919703.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002239%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D32",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T05:59:57+09:00",
+   "history": [
+    [
+     "2026-11-26T05:59:57+09:00",
+     7680
+    ]
+   ],
+   "low": 7680,
+   "high": 7680,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1832,6 +1802,36 @@
    ],
    "low": 10000,
    "high": 10000,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-8d2d59f2ac8b",
+   "name": "[더주] 고소하고 달콤한 촉촉 콘버터 전기구이오징어 180g (6-9미)",
+   "price": 10110,
+   "base_price": 11230,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/0/8/9/9/0/3/KwFot/9293089903_244344400_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9293089903",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T05:59:57+09:00",
+   "history": [
+    [
+     "2026-11-26T05:59:57+09:00",
+     10110
+    ]
+   ],
+   "low": 10110,
+   "high": 10110,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
