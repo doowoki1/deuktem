@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T18:10:54+09:00",
- "generated_at_label": "11.26 18:10",
+ "generated_at": "2026-11-26T19:30:41+09:00",
+ "generated_at_label": "11.26 19:30",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -113,8 +113,8 @@
   {
    "id": "sdk-39139cac360b",
    "name": "[임박특가] 실온보관 소스 닭가슴살 양념치킨 20팩",
-   "price": 101,
-   "base_price": 101,
+   "price": 110,
+   "base_price": 110,
    "image": "http://www.eyoumall.co.kr/shop/img/goods658631.jpg",
    "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658631",
    "category": "식품",
@@ -126,19 +126,23 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T03:56:06+09:00",
+   "first_seen": "2026-11-26T19:30:41+09:00",
+   "last_seen": "2026-11-26T19:30:41+09:00",
    "history": [
     [
      "2026-11-26T03:56:06+09:00",
      101
+    ],
+    [
+     "2026-11-26T19:30:41+09:00",
+     110
     ]
    ],
    "low": 101,
-   "high": 101,
+   "high": 110,
    "drop": 0,
    "drop_pct": 0,
-   "best_price": true
+   "best_price": false
   },
   {
    "id": "sdk-f423e2d3fa4c",
@@ -293,7 +297,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-26T11:59:06+09:00",
+   "last_seen": "2026-11-26T19:30:41+09:00",
    "history": [
     [
      "2026-11-23T00:49:41+09:00",
@@ -323,7 +327,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T08:54:06+09:00",
-   "last_seen": "2026-11-26T08:54:06+09:00",
+   "last_seen": "2026-11-26T19:30:41+09:00",
    "history": [
     [
      "2026-11-26T03:56:06+09:00",
@@ -416,8 +420,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T13:05:38+09:00",
+   "first_seen": "2026-11-26T19:30:41+09:00",
+   "last_seen": "2026-11-26T19:30:41+09:00",
    "history": [
     [
      "2026-11-26T13:05:38+09:00",
@@ -537,7 +541,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-26T16:24:25+09:00",
+   "last_seen": "2026-11-26T19:30:41+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -931,7 +935,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T06:56:19+09:00",
-   "last_seen": "2026-11-26T14:19:34+09:00",
+   "last_seen": "2026-11-26T19:30:41+09:00",
    "history": [
     [
      "2026-11-24T04:04:33+09:00",
@@ -1455,6 +1459,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-0eff8286eb39",
+   "name": "비비고 CJ 찰보리감자만두 300g",
+   "price": 6980,
+   "base_price": 6980,
+   "image": "https://sitem.ssgcdn.com/10/65/55/item/1000609556510_i1_290.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000609556510%26siteNo%3D6001%26salestrNo%3D2037",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "SSG",
+   "mall_name": "SSG",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T19:30:41+09:00",
+   "history": [
+    [
+     "2026-11-26T19:30:41+09:00",
+     6980
+    ]
+   ],
+   "low": 6980,
+   "high": 6980,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-865d8ec8fcee",
    "name": "지금가장 맛있는 고구마/사과/절임배추 외 제철과일모음전",
    "price": 7500,
@@ -1501,7 +1535,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T07:58:59+09:00",
-   "last_seen": "2026-11-26T13:05:38+09:00",
+   "last_seen": "2026-11-26T19:30:41+09:00",
    "history": [
     [
      "2026-11-26T05:59:57+09:00",
@@ -1651,7 +1685,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T06:59:59+09:00",
-   "last_seen": "2026-11-26T07:58:59+09:00",
+   "last_seen": "2026-11-26T19:30:41+09:00",
    "history": [
     [
      "2026-11-26T05:00:12+09:00",
@@ -1785,61 +1819,31 @@
    "best_price": true
   },
   {
-   "id": "sdk-1f84fc1be4c5",
-   "name": "[전자레인지3분!] 쫀득 달콤 찰옥수수 10개입 (10~14cm)",
-   "price": 9999,
-   "base_price": 33000,
-   "image": "https://eyoumall.godohosting.com/pages/asu/240830/b/102.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D539122",
-   "category": "가전",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T18:10:54+09:00",
-   "history": [
-    [
-     "2026-11-26T18:10:54+09:00",
-     9999
-    ]
-   ],
-   "low": 9999,
-   "high": 9999,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-2a813e823b64",
-   "name": "[더주] 말랑 촉촉 전기구이 몸통 오징어 180g (6-10미)",
-   "price": 10110,
-   "base_price": 11230,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/4/8/7/6/2/9/wyUoJ/7987487629_244339031_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7987487629%3FtrTypeCd%3D42",
+   "id": "sdk-d8392f0ada1e",
+   "name": "파스타소스 골라담기",
+   "price": 9980,
+   "base_price": 9980,
+   "image": "https://img.cjthemarket.com/images/file/product/221/20260625132547704.png",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005618%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D35",
    "category": "기타",
    "keyword": "",
    "source": "adpick_sdk",
    "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
    "first_seen": "",
-   "last_seen": "2026-11-26T18:10:54+09:00",
+   "last_seen": "2026-11-26T19:30:41+09:00",
    "history": [
     [
-     "2026-11-26T18:10:54+09:00",
-     10110
+     "2026-11-26T19:30:41+09:00",
+     9980
     ]
    ],
-   "low": 10110,
-   "high": 10110,
+   "low": 9980,
+   "high": 9980,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
