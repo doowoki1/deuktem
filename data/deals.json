@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T08:54:06+09:00",
- "generated_at_label": "11.26 08:54",
+ "generated_at": "2026-11-26T10:18:48+09:00",
+ "generated_at_label": "11.26 10:18",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -333,36 +333,6 @@
    "best_price": true
   },
   {
-   "id": "sdk-f041b6967555",
-   "name": "오롤리데이 X 덴띠끄 치약 80g",
-   "price": 999,
-   "base_price": 4800,
-   "image": "https://eyoumall.godohosting.com/pages/asu/261118/b/10.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658852",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T19:50:37+09:00",
-   "last_seen": "2026-11-24T08:55:29+09:00",
-   "history": [
-    [
-     "2026-11-22T18:52:03+09:00",
-     999
-    ]
-   ],
-   "low": 999,
-   "high": 999,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
    "id": "sdk-1f732d82989d",
    "name": "인기 후랑크/비엔나 골라담기",
    "price": 2080,
@@ -623,7 +593,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-26T08:54:06+09:00",
+   "last_seen": "2026-11-26T10:18:48+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
@@ -743,7 +713,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T10:18:04+09:00",
-   "last_seen": "2026-11-26T02:10:23+09:00",
+   "last_seen": "2026-11-26T10:18:48+09:00",
    "history": [
     [
      "2026-11-25T02:57:45+09:00",
@@ -893,10 +863,40 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T19:59:11+09:00",
-   "last_seen": "2026-11-25T07:00:45+09:00",
+   "last_seen": "2026-11-26T10:18:48+09:00",
    "history": [
     [
      "2026-11-24T16:22:13+09:00",
+     3999
+    ]
+   ],
+   "low": 3999,
+   "high": 3999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-b5dcef4a3f38",
+   "name": "올가드 이염방지 세탁시트 100매",
+   "price": 3999,
+   "base_price": 19000,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261120/b/26.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D659438",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T10:18:48+09:00",
+   "history": [
+    [
+     "2026-11-26T10:18:48+09:00",
      3999
     ]
    ],
@@ -1177,36 +1177,6 @@
    "best_price": true
   },
   {
-   "id": "sdk-2fc4ee97d268",
-   "name": "1분링 골라담기",
-   "price": 5480,
-   "base_price": 5480,
-   "image": "https://img.cjthemarket.com/images/file/product/349/20261116095822126.png?SF=webp&RS=480",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005839%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D15",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-24T05:09:08+09:00",
-   "last_seen": "2026-11-24T08:55:29+09:00",
-   "history": [
-    [
-     "2026-11-24T00:08:48+09:00",
-     5480
-    ]
-   ],
-   "low": 5480,
-   "high": 5480,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
    "id": "sdk-8bc514b9c190",
    "name": "냉동간식 골라담기",
    "price": 5480,
@@ -1417,36 +1387,6 @@
    "best_price": true
   },
   {
-   "id": "sdk-9170d4ac70b5",
-   "name": "홈스타 싱크대배수관 세정제(1회분)",
-   "price": 7500,
-   "base_price": 7500,
-   "image": "https://sitem.ssgcdn.com/67/87/48/item/1000013488767_i1_290.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000013488767%26siteNo%3D6001%26salestrNo%3D2068",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "SSG",
-   "mall_name": "SSG",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-24T10:12:24+09:00",
-   "history": [
-    [
-     "2026-11-24T10:12:24+09:00",
-     7500
-    ]
-   ],
-   "low": 7500,
-   "high": 7500,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
    "id": "sdk-cea307fb5676",
    "name": "떡갈비완자 골라담기",
    "price": 7680,
@@ -1463,7 +1403,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T07:58:59+09:00",
-   "last_seen": "2026-11-26T07:58:59+09:00",
+   "last_seen": "2026-11-26T10:18:48+09:00",
    "history": [
     [
      "2026-11-26T05:59:57+09:00",
@@ -1553,7 +1493,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T21:06:54+09:00",
-   "last_seen": "2026-11-26T08:54:06+09:00",
+   "last_seen": "2026-11-26T10:18:48+09:00",
    "history": [
     [
      "2026-11-25T08:53:35+09:00",
@@ -1832,6 +1772,66 @@
    ],
    "low": 9980,
    "high": 9980,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-2d3f31aeddd5",
+   "name": "전골볶음요리 골라담기",
+   "price": 11980,
+   "base_price": 11980,
+   "image": "https://img.cjthemarket.com/images/file/product/064/20260318111118107.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005074%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D17",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T10:18:48+09:00",
+   "history": [
+    [
+     "2026-11-26T10:18:48+09:00",
+     11980
+    ]
+   ],
+   "low": 11980,
+   "high": 11980,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-af966e994310",
+   "name": "베베숲 오리지날 물티슈 100매 캡 10팩",
+   "price": 13900,
+   "base_price": 19850,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/2/4/8/2/0/8/HXsRl/8527248208_242544223.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=http%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8527248208",
+   "category": "생활",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T10:18:48+09:00",
+   "history": [
+    [
+     "2026-11-26T10:18:48+09:00",
+     13900
+    ]
+   ],
+   "low": 13900,
+   "high": 13900,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
