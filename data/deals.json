@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T11:59:06+09:00",
- "generated_at_label": "11.26 11:59",
+ "generated_at": "2026-11-26T13:05:38+09:00",
+ "generated_at_label": "11.26 13:05",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -333,6 +333,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-f041b6967555",
+   "name": "오롤리데이 X 덴띠끄 치약 80g",
+   "price": 999,
+   "base_price": 4800,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261118/b/10.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658852",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T13:05:38+09:00",
+   "history": [
+    [
+     "2026-11-26T13:05:38+09:00",
+     999
+    ]
+   ],
+   "low": 999,
+   "high": 999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-1f732d82989d",
    "name": "인기 후랑크/비엔나 골라담기",
    "price": 2080,
@@ -349,7 +379,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T02:10:23+09:00",
-   "last_seen": "2026-11-26T08:54:06+09:00",
+   "last_seen": "2026-11-26T13:05:38+09:00",
    "history": [
     [
      "2026-11-25T21:06:54+09:00",
@@ -757,6 +787,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-610224016be5",
+   "name": "3초_떡볶이소스 보통맛 4봉(떡없음)",
+   "price": 3500,
+   "base_price": 4160,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/2/5/5/5/2/9/zHNxW/9177255529_241517610_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9177255529%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T13:05:38+09:00",
+   "history": [
+    [
+     "2026-11-26T13:05:38+09:00",
+     3500
+    ]
+   ],
+   "low": 3500,
+   "high": 3500,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-f1ed6894dd07",
    "name": "[10%+~10%+T11%]리르 뽑아쓰는 퀵마스크팩 체험특가 외 베스트1+1&메이크업/스킨케어/헤어바디 득템찬스",
    "price": 3510,
@@ -782,6 +842,36 @@
    ],
    "low": 3510,
    "high": 3510,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-c8736ccb1b1a",
+   "name": "고기느타리 버섯 300g 팩  SSG.COM",
+   "price": 3980,
+   "base_price": 3980,
+   "image": "https://sitem.ssgcdn.com/62/21/73/item/0000010732162_i1_1200.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=http%3A%2F%2Fm.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D0000010732162",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "SSG",
+   "mall_name": "SSG",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T13:05:38+09:00",
+   "history": [
+    [
+     "2026-11-26T13:05:38+09:00",
+     3980
+    ]
+   ],
+   "low": 3980,
+   "high": 3980,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1163,7 +1253,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T08:55:29+09:00",
-   "last_seen": "2026-11-26T11:59:06+09:00",
+   "last_seen": "2026-11-26T13:05:38+09:00",
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
@@ -1297,36 +1387,6 @@
    "best_price": true
   },
   {
-   "id": "sdk-0eff8286eb39",
-   "name": "비비고 CJ 찰보리감자만두 300g",
-   "price": 6980,
-   "base_price": 6980,
-   "image": "https://sitem.ssgcdn.com/10/65/55/item/1000609556510_i1_290.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000609556510%26siteNo%3D6001%26salestrNo%3D2037",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "SSG",
-   "mall_name": "SSG",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-24T13:03:02+09:00",
-   "history": [
-    [
-     "2026-11-24T13:03:02+09:00",
-     6980
-    ]
-   ],
-   "low": 6980,
-   "high": 6980,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
    "id": "sdk-493dad64e04e",
    "name": "CJ 한섬만두320g  SSG.COM",
    "price": 6980,
@@ -1403,7 +1463,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T07:58:59+09:00",
-   "last_seen": "2026-11-26T11:59:06+09:00",
+   "last_seen": "2026-11-26T13:05:38+09:00",
    "history": [
     [
      "2026-11-26T05:59:57+09:00",
@@ -1772,66 +1832,6 @@
    ],
    "low": 9980,
    "high": 9980,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-3056c4919b42",
-   "name": "[베베숲]시그니처 블루 에코 휴대 75평량 20매 캡 12팩",
-   "price": 10490,
-   "base_price": 14980,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/0/0/9/0/1/9/gZjQj/7789009019_244229253_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=http%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7789009019",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T11:59:06+09:00",
-   "history": [
-    [
-     "2026-11-26T11:59:06+09:00",
-     10490
-    ]
-   ],
-   "low": 10490,
-   "high": 10490,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-ea6aacb2a963",
-   "name": "베비에르 제과명장 마왕파이 4종 8개입",
-   "price": 11700,
-   "base_price": 14620,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/0/0/6/2/9/0/IyKgw/9470006290_243093609_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9470006290%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T11:59:06+09:00",
-   "history": [
-    [
-     "2026-11-26T11:59:06+09:00",
-     11700
-    ]
-   ],
-   "low": 11700,
-   "high": 11700,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
