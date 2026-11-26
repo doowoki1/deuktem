@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T19:30:41+09:00",
- "generated_at_label": "11.26 19:30",
+ "generated_at": "2026-11-26T19:50:43+09:00",
+ "generated_at_label": "11.26 19:50",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -127,7 +127,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T19:30:41+09:00",
-   "last_seen": "2026-11-26T19:30:41+09:00",
+   "last_seen": "2026-11-26T19:50:43+09:00",
    "history": [
     [
      "2026-11-26T03:56:06+09:00",
@@ -357,7 +357,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-25T16:26:56+09:00",
+   "last_seen": "2026-11-26T19:50:43+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -391,7 +391,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T10:18:04+09:00",
-   "last_seen": "2026-11-26T18:10:54+09:00",
+   "last_seen": "2026-11-26T19:50:43+09:00",
    "history": [
     [
      "2026-11-25T05:07:18+09:00",
@@ -661,7 +661,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T21:02:19+09:00",
-   "last_seen": "2026-11-26T06:59:59+09:00",
+   "last_seen": "2026-11-26T19:50:43+09:00",
    "history": [
     [
      "2026-11-24T07:57:33+09:00",
@@ -695,7 +695,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-26T18:10:54+09:00",
+   "last_seen": "2026-11-26T19:50:43+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
@@ -755,7 +755,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T10:18:04+09:00",
-   "last_seen": "2026-11-26T16:24:25+09:00",
+   "last_seen": "2026-11-26T19:50:43+09:00",
    "history": [
     [
      "2026-11-25T02:57:45+09:00",
@@ -1054,8 +1054,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T14:19:34+09:00",
+   "first_seen": "2026-11-26T19:50:43+09:00",
+   "last_seen": "2026-11-26T19:50:43+09:00",
    "history": [
     [
      "2026-11-26T14:19:34+09:00",
@@ -1064,6 +1064,36 @@
    ],
    "low": 3999,
    "high": 3999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-8d96a4db620f",
+   "name": "[간편용기]우동&떡볶이 골라담기",
+   "price": 4290,
+   "base_price": 4290,
+   "image": "https://img.cjthemarket.com/images/file/product/301/20261112135905965.png",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005838%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D14",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T19:50:43+09:00",
+   "history": [
+    [
+     "2026-11-26T19:50:43+09:00",
+     4290
+    ]
+   ],
+   "low": 4290,
+   "high": 4290,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1085,7 +1115,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T07:58:59+09:00",
-   "last_seen": "2026-11-26T11:59:06+09:00",
+   "last_seen": "2026-11-26T19:50:43+09:00",
    "history": [
     [
      "2026-11-25T08:00:42+09:00",
@@ -1239,6 +1269,36 @@
    "history": [
     [
      "2026-11-24T02:07:53+09:00",
+     4999
+    ]
+   ],
+   "low": 4999,
+   "high": 4999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-22a21be46340",
+   "name": "황토 세라믹호일 (재사용가능)",
+   "price": 4999,
+   "base_price": 17000,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261123/b/6.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D659503",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T19:50:43+09:00",
+   "history": [
+    [
+     "2026-11-26T19:50:43+09:00",
      4999
     ]
    ],
@@ -1685,7 +1745,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T06:59:59+09:00",
-   "last_seen": "2026-11-26T19:30:41+09:00",
+   "last_seen": "2026-11-26T19:50:43+09:00",
    "history": [
     [
      "2026-11-26T05:00:12+09:00",
@@ -1784,66 +1844,6 @@
    ],
    "low": 9900,
    "high": 9900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-d40e5aca3d22",
-   "name": "가그린 어드밴스드 제로 오리지널 750ml",
-   "price": 9900,
-   "base_price": 9900,
-   "image": "https://sitem.ssgcdn.com/82/68/86/item/1000864866882_i1_290.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000864866882%26siteNo%3D6001%26salestrNo%3D2037",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "SSG",
-   "mall_name": "SSG",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-25T01:21:18+09:00",
-   "history": [
-    [
-     "2026-11-25T01:21:18+09:00",
-     9900
-    ]
-   ],
-   "low": 9900,
-   "high": 9900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-d8392f0ada1e",
-   "name": "파스타소스 골라담기",
-   "price": 9980,
-   "base_price": 9980,
-   "image": "https://img.cjthemarket.com/images/file/product/221/20260625132547704.png",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005618%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D35",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T19:30:41+09:00",
-   "history": [
-    [
-     "2026-11-26T19:30:41+09:00",
-     9980
-    ]
-   ],
-   "low": 9980,
-   "high": 9980,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
