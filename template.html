@@ -61,11 +61,11 @@
 .reference-price{margin:7px 0 13px;padding:0;border:0;background:none;overflow:hidden}.reference-line{display:flex;align-items:baseline;gap:7px;row-gap:3px;flex-wrap:wrap;line-height:1.45}.reference-current{font-size:24px;font-weight:800;letter-spacing:-.7px;color:#151515;white-space:nowrap}.reference-original{font-size:16px;font-weight:400;letter-spacing:-.3px;color:#99999e;text-decoration-thickness:1px;white-space:nowrap}.reference-saving{font-size:16px;line-height:1.5;font-weight:600;color:#e33f43;margin-top:4px;letter-spacing:-.3px}.reference-note{font-size:10px;line-height:1.5;color:#8a8a8f;margin-top:3px}.reference-badge{position:absolute;top:10px;left:10px;z-index:2;background:#ec4148;color:#fff;border-radius:5px;font-size:13px;line-height:1.3;font-weight:750;padding:6px 8px;letter-spacing:-.3px}.card .thumb{position:relative}.card .pbadge{top:auto;bottom:10px;left:10px}.feature .fimg{position:relative}.feature .reference-current{font-size:28px}.feature .reference-original{font-size:19px}.feature .reference-saving{font-size:17px}.card .ctitle{margin-bottom:6px}.card .meta{margin-top:10px}@media(max-width:600px){.reference-line{gap:5px}.reference-current{font-size:20px;letter-spacing:-.6px}.reference-original{font-size:14px;letter-spacing:-.4px}.reference-saving{font-size:14px}.reference-badge{font-size:11px;top:8px;left:8px;padding:5px 6px}.reference-price{margin:6px 0 10px}.card .pbadge{bottom:8px;left:8px}.feature .reference-current{font-size:26px}.feature .reference-original{font-size:18px}}
 
 /* 이미지를 못 불러와도 카드가 깨져 보이지 않게 하는 대체 표시 */
-.thumb-fallback{display:none;position:absolute;inset:0;z-index:0;align-items:center;justify-content:center;font-size:38px;font-weight:900;letter-spacing:-1.5px;color:#0b4a3b;background:linear-gradient(145deg,#eef5f0,#dcebdf)}
+.thumb-fallback{display:none;position:absolute;inset:0;z-index:0;flex-direction:column;gap:7px;align-items:center;justify-content:center;font-size:11px;font-weight:600;letter-spacing:-.2px;color:#8a9990;background:linear-gradient(145deg,#f8fbf9,#eef4f0)}
+.tf-icon{width:26px;height:26px;border:1.5px solid #c6d4cb;border-radius:7px;background:radial-gradient(circle at 8px 8px,#c6d4cb 2.2px,transparent 2.6px)}
 .img-broken .thumb-fallback{display:flex}
 .img-broken img{visibility:hidden}
 .img-broken{background:#eef4f0}
-.feature .thumb-fallback{font-size:52px}
 .rrow.img-broken img{visibility:hidden}
 </style>
 </head>
@@ -237,23 +237,29 @@
   var deferredImages = [].slice.call(document.querySelectorAll('img[data-src]'));
   deferredImages.forEach(function(img){ if(imageObserver) imageObserver.observe(img); else loadImage(img); });
 
-  // 이미지 로드 실패 시 상품명 첫 글자 대체 표시 (카드가 빈칸으로 남지 않게)
+  // 이미지 로드 실패 시 안내 표시 (카드가 빈칸으로 남지 않게)
+  // 주의: 아직 화면 밖이라 data-src 만 가진 이미지는 실패가 아니다.
   function markBroken(img){
+    if(!img.src || img.dataset.src) return;
     var box = img.closest(".thumb, .fimg, .rrow");
-    if(!box) return;
-    box.classList.add("img-broken");
-    img.setAttribute("aria-hidden","true");
+    if(box) box.classList.add("img-broken");
   }
   document.addEventListener("error", function(e){
     var t = e.target;
     if(t && t.tagName === "IMG") markBroken(t);
   }, true);
+  document.addEventListener("load", function(e){
+    var t = e.target;
+    if(!t || t.tagName !== "IMG") return;
+    var box = t.closest(".img-broken");
+    if(box && t.naturalWidth > 0){ box.classList.remove("img-broken"); t.removeAttribute("aria-hidden"); }
+  }, true);
   function sweepBroken(){
     [].slice.call(document.querySelectorAll("img")).forEach(function(img){
+      if(img.dataset.src || !img.src) return;
       if(img.complete && img.naturalWidth === 0) markBroken(img);
     });
   }
-  sweepBroken();
   window.addEventListener("load", sweepBroken);
   function prioritizeVisible(){
     var visible = cards.filter(function(card){ return card.style.display !== "none"; });

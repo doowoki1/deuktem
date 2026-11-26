@@ -248,8 +248,8 @@ def card(item: dict, eager: bool = False) -> str:
     return f"""      <article class="card" data-cat="{ESC(item.get('category'))}" data-price="{item['price']}" data-drop="{drop}" data-ts="{ESC(item.get('last_seen'))}" data-plat="{plat}">
         <a class="card-link" href="{ESC(item.get('url'))}" target="_blank" rel="nofollow sponsored noopener" aria-label="{ESC(item['name'])}">
           <div class="{thumb_class}">
-            <span class="thumb-fallback" aria-hidden="true">{ESC((item.get('name') or '?').strip()[:1])}</span>
-            <img {image_attrs} alt="{ESC(item['name'])}" decoding="async">{fallback}
+            <span class="thumb-fallback" aria-hidden="true"><span class="tf-icon"></span>이미지 준비 중</span>
+            <img {image_attrs} alt="{ESC(item['name'])}" decoding="async" referrerpolicy="no-referrer">{fallback}
             <span class="pbadge {pcls}"><i></i>{pname}</span>
             {sale_badge}
           </div>
@@ -269,7 +269,7 @@ def hero(item: dict) -> str:
     platform = item.get("platform_label") or PLAT_NAMES.get(item.get("platform"), "특가")
     return f"""<a class="feature" href="{ESC(item.get('url'))}" target="_blank" rel="nofollow sponsored noopener">
       <div class="ftop"><span class="feature-kicker">오늘 눈여겨볼 특가</span><span class="feature-platform">{ESC(platform)}</span></div>
-      <div class="fimg"><span class="thumb-fallback" aria-hidden="true">{ESC((item.get('name') or '?').strip()[:1])}</span>{sale_badge}<img src="{img_src(item.get('image'))}" alt="{ESC(item['name'])}" loading="eager" fetchpriority="high" decoding="async"></div>
+      <div class="fimg"><span class="thumb-fallback" aria-hidden="true"><span class="tf-icon"></span>이미지 준비 중</span>{sale_badge}<img src="{img_src(item.get('image'))}" alt="{ESC(item['name'])}" loading="eager" fetchpriority="high" decoding="async" referrerpolicy="no-referrer"></div>
       <p class="ftitle">{ESC(item['name'])}</p>
       {pricing}
       <div class="feature-action">판매처에서 상품 확인 <span aria-hidden="true">→</span></div>
