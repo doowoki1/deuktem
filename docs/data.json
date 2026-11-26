@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T08:01:58+09:00",
- "generated_at_label": "11.27 08:01",
+ "generated_at": "2026-11-27T08:59:41+09:00",
+ "generated_at_label": "11.27 08:59",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -97,7 +97,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T21:06:12+09:00",
-   "last_seen": "2026-11-27T06:58:52+09:00",
+   "last_seen": "2026-11-27T08:59:41+09:00",
    "history": [
     [
      "2026-11-26T06:59:59+09:00",
@@ -323,7 +323,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T10:18:04+09:00",
-   "last_seen": "2026-11-26T19:50:43+09:00",
+   "last_seen": "2026-11-27T08:59:41+09:00",
    "history": [
     [
      "2026-11-25T05:07:18+09:00",
@@ -413,7 +413,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T08:54:06+09:00",
-   "last_seen": "2026-11-26T21:06:12+09:00",
+   "last_seen": "2026-11-27T08:59:41+09:00",
    "history": [
     [
      "2026-11-26T02:10:23+09:00",
@@ -1025,7 +1025,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T14:19:34+09:00",
-   "last_seen": "2026-11-27T02:58:54+09:00",
+   "last_seen": "2026-11-27T08:59:41+09:00",
    "history": [
     [
      "2026-11-26T10:18:48+09:00",
@@ -1369,6 +1369,66 @@
    "best_price": true
   },
   {
+   "id": "sdk-fe29fcaca6ed",
+   "name": "(골라담기) 아워홈 온더고 숯불향 바베큐 치킨덮밥 341g, 1개",
+   "price": 5090,
+   "base_price": 6980,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/product/8173803611/B.webp?20777994",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8173803611%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-27T08:59:41+09:00",
+   "history": [
+    [
+     "2026-11-27T08:59:41+09:00",
+     5090
+    ]
+   ],
+   "low": 5090,
+   "high": 5090,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-699ea7a55296",
+   "name": "(골라담기) 아워홈 온더고 소고기 오색비빔밥 310g, 1개",
+   "price": 5090,
+   "base_price": 6980,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/product/8168031235/B.webp?683024006",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8168031235%3FtrTypeCd%3D42",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-27T08:59:41+09:00",
+   "history": [
+    [
+     "2026-11-27T08:59:41+09:00",
+     5090
+    ]
+   ],
+   "low": 5090,
+   "high": 5090,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-6a0291b22f8d",
    "name": "냉장 생선구이 골라담기",
    "price": 5480,
@@ -1484,36 +1544,6 @@
    ],
    "low": 5999,
    "high": 5999,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-fbbd40059fa2",
-   "name": "겨울맞이 포근한 인기 상하복 원피스 세트 특가 모음/긴팔상하복/기모상하복/상하세트/기모셋업/겨울상하복/여아원피스/기모원피스",
-   "price": 6440,
-   "base_price": 89900,
-   "image": "https://cdn2.halfclub.com/cdn/product/A7571/P442348022/2_P442348022_basic_1795668175335.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=0c2d4&url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F442348022",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "보리보리",
-   "mall_name": "보리보리",
-   "commission": "3%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-27T05:10:22+09:00",
-   "history": [
-    [
-     "2026-11-27T05:10:22+09:00",
-     6440
-    ]
-   ],
-   "low": 6440,
-   "high": 6440,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1694,36 +1724,6 @@
    ],
    "low": 7880,
    "high": 7880,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-adba27f258a7",
-   "name": "[심야마트]트리헛 슈가립스 립버터 15G 2개/립오일/스크럽/미스트 외",
-   "price": 8500,
-   "base_price": 17000,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/4/8/3/0/3/2/UWqNC/8372483032_244390156_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8372483032%3FtrTypeCd%3D42",
-   "category": "뷰티",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-25T08:53:35+09:00",
-   "history": [
-    [
-     "2026-11-25T08:53:35+09:00",
-     8500
-    ]
-   ],
-   "low": 8500,
-   "high": 8500,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
