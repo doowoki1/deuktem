@@ -46,9 +46,9 @@ def img_src(p) -> str:
 # ------------------------------------------------------- manual curation
 # 토스쇼핑·카카오톡딜은 블로거용 상품 API가 없어 자동 수집하지 않는다.
 # 대신 data/manual_items.json 에 사람이 링크를 넣고, 빌드가 합쳐서 렌더한다.
-PLAT_NAMES = {"coupang": "쿠팡", "toss": "토스쇼핑", "kakao": "톡딜", "other": "기타"}
-PLAT_CLASS = {"coupang": "coupang", "toss": "toss", "kakao": "kakao"}
-PLAT_ORDER = ["coupang", "toss", "kakao", "other"]
+PLAT_NAMES = {"coupang": "쿠팡", "musinsa": "무신사", "ably": "에이블리", "zigzag": "지그재그", "toss": "토스쇼핑", "kakao": "톡딜", "other": "기타"}
+PLAT_CLASS = {"coupang": "coupang", "musinsa": "coupang", "ably": "coupang", "zigzag": "coupang", "toss": "toss", "kakao": "kakao"}
+PLAT_ORDER = ["coupang", "musinsa", "ably", "zigzag", "toss", "kakao", "other"]
 MANUAL_DEFAULT = ROOT / "data" / "manual_items.json"
 
 
@@ -129,6 +129,8 @@ def load_manual(path: Path = MANUAL_DEFAULT, at: datetime | None = None) -> tupl
             "keyword": "",
             "source": "manual",
             "platform": plat,
+            "platform_label": str(r.get("mall_name") or "").strip() or PLAT_NAMES.get(plat, plat.upper()),
+            "mall_name": str(r.get("mall_name") or "").strip(),
             "manual": True,
             "pinned": bool(r.get("pinned")),
             "memo": str(r.get("memo") or "").strip(),
