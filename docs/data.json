@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T16:24:25+09:00",
- "generated_at_label": "11.26 16:24",
+ "generated_at": "2026-11-26T18:10:54+09:00",
+ "generated_at_label": "11.26 18:10",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -387,7 +387,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T10:18:04+09:00",
-   "last_seen": "2026-11-26T07:58:59+09:00",
+   "last_seen": "2026-11-26T18:10:54+09:00",
    "history": [
     [
      "2026-11-25T05:07:18+09:00",
@@ -691,7 +691,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-26T16:24:25+09:00",
+   "last_seen": "2026-11-26T18:10:54+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
@@ -811,7 +811,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T14:19:34+09:00",
-   "last_seen": "2026-11-26T14:19:34+09:00",
+   "last_seen": "2026-11-26T18:10:54+09:00",
    "history": [
     [
      "2026-11-26T13:05:38+09:00",
@@ -991,7 +991,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T19:59:11+09:00",
-   "last_seen": "2026-11-26T10:18:48+09:00",
+   "last_seen": "2026-11-26T18:10:54+09:00",
    "history": [
     [
      "2026-11-24T16:22:13+09:00",
@@ -1060,36 +1060,6 @@
    ],
    "low": 3999,
    "high": 3999,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-8d96a4db620f",
-   "name": "[간편용기]우동&amp;떡볶이 골라담기",
-   "price": 4290,
-   "base_price": 4290,
-   "image": "https://img.cjthemarket.com/images/file/product/301/20261112135905965.png?SF=webp&RS=480",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005838%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D14",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-24T18:10:06+09:00",
-   "last_seen": "2026-11-24T18:10:06+09:00",
-   "history": [
-    [
-     "2026-11-23T19:17:46+09:00",
-     4290
-    ]
-   ],
-   "low": 4290,
-   "high": 4290,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1381,7 +1351,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T00:11:27+09:00",
-   "last_seen": "2026-11-26T07:58:59+09:00",
+   "last_seen": "2026-11-26T18:10:54+09:00",
    "history": [
     [
      "2026-11-25T18:14:59+09:00",
@@ -1725,36 +1695,6 @@
    "best_price": true
   },
   {
-   "id": "sdk-29087fb49f4d",
-   "name": "녹차 곡물 폼클렌징 220ml 3개 + 비누 1개 우유에빠지다",
-   "price": 9810,
-   "base_price": 12900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/0/5/0/7/2/2/EUyoM/9728050722_244343542_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9728050722%3FtrTypeCd%3D42",
-   "category": "식품",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-24T18:10:06+09:00",
-   "history": [
-    [
-     "2026-11-24T18:10:06+09:00",
-     9810
-    ]
-   ],
-   "low": 9810,
-   "high": 9810,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
    "id": "sdk-fa5d26bbe956",
    "name": "[체리블랑]신상추가~170호/여아/주니어/아동복/상하복/레깅스/쥬니어/원피스",
    "price": 9900,
@@ -1840,6 +1780,66 @@
    ],
    "low": 9900,
    "high": 9900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-1f84fc1be4c5",
+   "name": "[전자레인지3분!] 쫀득 달콤 찰옥수수 10개입 (10~14cm)",
+   "price": 9999,
+   "base_price": 33000,
+   "image": "https://eyoumall.godohosting.com/pages/asu/240830/b/102.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D539122",
+   "category": "가전",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T18:10:54+09:00",
+   "history": [
+    [
+     "2026-11-26T18:10:54+09:00",
+     9999
+    ]
+   ],
+   "low": 9999,
+   "high": 9999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-2a813e823b64",
+   "name": "[더주] 말랑 촉촉 전기구이 몸통 오징어 180g (6-10미)",
+   "price": 10110,
+   "base_price": 11230,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/4/8/7/6/2/9/wyUoJ/7987487629_244339031_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7987487629%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T18:10:54+09:00",
+   "history": [
+    [
+     "2026-11-26T18:10:54+09:00",
+     10110
+    ]
+   ],
+   "low": 10110,
+   "high": 10110,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
