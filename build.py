@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import os
 import shutil
 import re
 from datetime import datetime, timedelta, timezone
@@ -247,6 +248,7 @@ def card(item: dict, eager: bool = False) -> str:
     return f"""      <article class="card" data-cat="{ESC(item.get('category'))}" data-price="{item['price']}" data-drop="{drop}" data-ts="{ESC(item.get('last_seen'))}" data-plat="{plat}">
         <a class="card-link" href="{ESC(item.get('url'))}" target="_blank" rel="nofollow sponsored noopener" aria-label="{ESC(item['name'])}">
           <div class="{thumb_class}">
+            <span class="thumb-fallback" aria-hidden="true">{ESC((item.get('name') or '?').strip()[:1])}</span>
             <img {image_attrs} alt="{ESC(item['name'])}" decoding="async">{fallback}
             <span class="pbadge {pcls}"><i></i>{pname}</span>
             {sale_badge}
@@ -267,7 +269,7 @@ def hero(item: dict) -> str:
     platform = item.get("platform_label") or PLAT_NAMES.get(item.get("platform"), "특가")
     return f"""<a class="feature" href="{ESC(item.get('url'))}" target="_blank" rel="nofollow sponsored noopener">
       <div class="ftop"><span class="feature-kicker">오늘 눈여겨볼 특가</span><span class="feature-platform">{ESC(platform)}</span></div>
-      <div class="fimg">{sale_badge}<img src="{img_src(item.get('image'))}" alt="{ESC(item['name'])}" loading="eager" fetchpriority="high" decoding="async"></div>
+      <div class="fimg"><span class="thumb-fallback" aria-hidden="true">{ESC((item.get('name') or '?').strip()[:1])}</span>{sale_badge}<img src="{img_src(item.get('image'))}" alt="{ESC(item['name'])}" loading="eager" fetchpriority="high" decoding="async"></div>
       <p class="ftitle">{ESC(item['name'])}</p>
       {pricing}
       <div class="feature-action">판매처에서 상품 확인 <span aria-hidden="true">→</span></div>
@@ -297,6 +299,53 @@ def ranks(items: list[dict]) -> str:
 
 
 # --------------------------------------------------------------------- main
+def _site_base(site: dict) -> str:
+    """canonical·OG에 쓸 절대 주소. config 값이 예시면 GitHub 저장소에서 유추한다."""
+    base = str(site.get("base_url") or "").strip()
+    if (not base) or ("example." in base):
+        repo = os.environ.get("GITHUB_REPOSITORY", "")
+        if "/" in repo:
+            owner, name = repo.split("/", 1)
+            base = f"https://{owner}.github.io/{name}"
+        else:
+            base = "https://example.github.io/deuktem"
+    return base.rstrip("/") + "/"
+
+
+def jsonld(items: list[dict], base: str, title: str) -> str:
+    """검색엔진용 구조화 데이터(WebSite + ItemList). 상위 30건만 넣어 페이지 크기를 줄인다."""
+    rows = []
+    for n, it in enumerate(items[:30], 1):
+        price = to_int(it.get("price"))
+        url = str(it.get("url") or "")
+        node = {"@type": "Product", "name": str(it.get("name") or ""), "url": url}
+        image = str(it.get("image") or "")
+        if image.startswith("https://"):
+            node["image"] = image
+        if price > 0:
+            node["offers"] = {
+                "@type": "Offer", "price": str(price), "priceCurrency": "KRW",
+                "availability": "https://schema.org/InStock", "url": url,
+            }
+        rows.append({"@type": "ListItem", "position": n, "item": node})
+    ld = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {"@type": "WebSite", "name": title.split(" — ")[0], "url": base, "inLanguage": "ko-KR"},
+            {"@type": "ItemList", "name": title, "numberOfItems": len(items), "itemListElement": rows},
+        ],
+    }
+    return json.dumps(ld, ensure_ascii=False).replace("</", "<\\/")
+
+
+FAVICON = (
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="득템">'
+    '<rect width="64" height="64" rx="15" fill="#0B4A3B"/>'
+    '<text x="32" y="45" font-size="34" font-weight="700" text-anchor="middle" fill="#D8F25E"'
+    ' font-family="system-ui,-apple-system,sans-serif">득</text></svg>'
+)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", default=str(ROOT / "config.yaml"))
@@ -342,12 +391,19 @@ def main() -> int:
         for i in items[:9]
     )
 
+    base = _site_base(site)
+    page_title = f"{site.get('name','득템')} — {site.get('tagline','오늘의 특가')}"
+    og_desc = (f"쿠팡 골드박스·카테고리 베스트를 매시간 수집해 하락 폭이 큰 특가부터 보여줍니다. "
+               f"{len(items)}건 · {at.strftime('%m.%d %H:%M')} 갱신.")
     repl = {
         "{{CSS}}": css,
-        "{{TITLE}}": ESC(f"{site.get('name','득템')} — {site.get('tagline','오늘의 특가')}"),
+        "{{TITLE}}": ESC(page_title),
         "{{SITE}}": ESC(site.get("name", "득템")),
         "{{TAGLINE}}": ESC(site.get("tagline", "")),
-        "{{CANON}}": ESC(site.get("base_url", "")),
+        "{{CANON}}": ESC(base),
+        "{{OG_DESC}}": ESC(og_desc),
+        "{{OG_IMAGE}}": ESC(base + "assets/og-cover.png"),
+        "{{JSONLD}}": jsonld(items, base, page_title),
         "{{UPDATED}}": at.strftime("%m.%d %H:%M"),
         "{{DATE_LABEL}}": at.strftime("%Y.%m.%d %H:%M"),
         "{{SCHEDULE}}": ESC(cfg.get("schedule_label", "매시간")),
@@ -385,6 +441,23 @@ def main() -> int:
     (out / "index.html").write_text(page, encoding="utf-8")
     (out / "data.json").write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     (out / ".nojekyll").write_text("", encoding="utf-8")
+
+    # 검색 노출·공유용 부속 파일
+    (out / "favicon.svg").write_text(FAVICON, encoding="utf-8")
+    (out / "robots.txt").write_text(
+        "User-agent: *\nAllow: /\nDisallow: /admin.html\n\n"
+        f"Sitemap: {base}sitemap.xml\n", encoding="utf-8")
+    (out / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        f"  <url><loc>{base}</loc><lastmod>{at.astimezone(timezone.utc).strftime('%Y-%m-%dT%H:%M:%S+00:00')}</lastmod>"
+        "<changefreq>hourly</changefreq><priority>1.0</priority></url>\n"
+        "</urlset>\n", encoding="utf-8")
+    for asset in ("og-cover.png", "apple-touch-icon.png"):
+        src = ROOT / "assets" / asset
+        if src.is_file():
+            (out / "assets").mkdir(parents=True, exist_ok=True)
+            shutil.copy2(src, out / "assets" / asset)
     if (ROOT / "admin.html").is_file():
         shutil.copy2(ROOT / "admin.html", out / "admin.html")
     if Path(args.manual).is_file():

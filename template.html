@@ -4,12 +4,27 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{TITLE}}</title>
-<meta name="description" content="쿠팡 골드박스와 카테고리 베스트를 매시간 수집해, 관측 최저가 대비 가장 많이 내려간 상품부터 보여줍니다.">
+<meta name="description" content="{{OG_DESC}}">
 <link rel="canonical" href="{{CANON}}">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0B4A3B">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta property="og:title" content="{{TITLE}}">
-<meta property="og:description" content="쿠팡 특가를 매시간 자동 수집. 크롤링이 아니라 제휴 API로 받아옵니다.">
+<meta property="og:description" content="{{OG_DESC}}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{CANON}}">
+<meta property="og:site_name" content="{{SITE}}">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="{{OG_IMAGE}}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{TITLE}}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{TITLE}}">
+<meta name="twitter:description" content="{{OG_DESC}}">
+<meta name="twitter:image" content="{{OG_IMAGE}}">
+<script type="application/ld+json">{{JSONLD}}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -43,7 +58,15 @@
 .card{border-radius:18px;overflow:hidden;border:1px solid #dce5df;box-shadow:0 3px 14px #133c2c08;transition:transform .18s,box-shadow .18s}.card:hover{transform:translateY(-4px);box-shadow:0 12px 28px #133c2c16}.card .cbody{padding:18px}.card .ctitle{font-size:15px;line-height:1.55;margin-bottom:14px}.deal-pricing{padding-top:12px;border-top:1px solid #e0e8e2;min-width:0}.deal-original{display:flex;align-items:center;flex-wrap:wrap;gap:4px 8px;color:#64736b;font-size:12px;min-height:22px}.deal-original del{font-size:16px;font-weight:600;text-decoration-thickness:1.5px}.deal-main{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin:5px 0 11px}.deal-rate{font-size:32px;line-height:1.2;font-weight:800;letter-spacing:-1.5px;color:#d3472d;white-space:nowrap}.deal-rate small{font-size:20px;letter-spacing:-.5px}.deal-rate em{display:none}.deal-current{font-size:28px;font-weight:800;letter-spacing:-1px;line-height:1.3;color:#143c2e;white-space:nowrap}.deal-current small{font-size:15px;font-weight:600;margin-left:2px}.deal-savings{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:3px 8px;background:#eaf3ed;border-radius:8px;padding:9px 11px;font-size:11px;color:#466a56;margin-bottom:13px}.deal-savings strong{font-size:14px;font-weight:800;color:#0b4a3b}.deal-neutral{font-size:11px;color:#77847c;padding:9px 0 13px}.deal-no-original{font-size:11px}.deal-missing{font-size:16px;font-weight:700;padding:16px 0}.feature{border-radius:20px!important;padding:22px!important}.feature-kicker{font-size:13px;font-weight:800;color:#0b4a3b}.feature-platform{font-size:11px;font-weight:700;color:#4c6b59;background:#eaf3ed;padding:4px 9px;border-radius:20px}.feature .fimg{height:170px;margin:8px 0}.feature .ftitle{font-size:17px;line-height:1.5;margin:8px 0 14px}.feature .deal-main{gap:14px}.feature .deal-rate{font-size:36px}.feature .deal-current{font-size:32px}.feature-action{display:flex;justify-content:space-between;align-items:center;border-top:1px solid #dde7df;padding-top:12px;font-size:12px;font-weight:700;color:#0b4a3b}.feature .deal-savings{margin-bottom:12px}.card .meta{font-size:10px}.card .sparkrow{margin-top:9px}@media(max-width:600px){.card .cbody{padding:12px}.card .ctitle{font-size:13px}.deal-main{gap:5px;margin-top:6px}.deal-rate{font-size:25px}.deal-rate small{font-size:15px}.deal-current{font-size:23px}.deal-current small{font-size:12px}.deal-original{font-size:10px;gap:2px 5px}.deal-original del{font-size:13px}.deal-savings{padding:7px 8px;display:block}.deal-savings strong{display:block;font-size:13px}.feature .deal-savings{display:flex}.deal-neutral{font-size:10px}.deal-no-original{font-size:10px}}
 
 /* 제공된 참고 이미지와 같은 두 줄 가격 구성 */
-.reference-price{margin:7px 0 13px;padding:0;border:0;background:none}.reference-line{display:flex;align-items:baseline;gap:7px;flex-wrap:wrap;line-height:1.35}.reference-current{font-size:24px;font-weight:800;letter-spacing:-.7px;color:#151515;white-space:nowrap}.reference-original{font-size:16px;font-weight:400;letter-spacing:-.3px;color:#99999e;text-decoration-thickness:1px;white-space:nowrap}.reference-saving{font-size:16px;line-height:1.5;font-weight:600;color:#e33f43;margin-top:2px;letter-spacing:-.3px}.reference-note{font-size:10px;line-height:1.5;color:#8a8a8f;margin-top:3px}.reference-badge{position:absolute;top:10px;left:10px;z-index:2;background:#ec4148;color:#fff;border-radius:5px;font-size:13px;line-height:1.3;font-weight:750;padding:6px 8px;letter-spacing:-.3px}.card .thumb{position:relative}.card .pbadge{top:auto;bottom:10px;left:10px}.feature .fimg{position:relative}.feature .reference-current{font-size:28px}.feature .reference-original{font-size:19px}.feature .reference-saving{font-size:17px}.card .ctitle{margin-bottom:6px}.card .meta{margin-top:10px}@media(max-width:600px){.reference-line{gap:5px}.reference-current{font-size:20px;letter-spacing:-.6px}.reference-original{font-size:14px;letter-spacing:-.4px}.reference-saving{font-size:14px}.reference-badge{font-size:11px;top:8px;left:8px;padding:5px 6px}.reference-price{margin:6px 0 10px}.card .pbadge{bottom:8px;left:8px}.feature .reference-current{font-size:26px}.feature .reference-original{font-size:18px}}
+.reference-price{margin:7px 0 13px;padding:0;border:0;background:none;overflow:hidden}.reference-line{display:flex;align-items:baseline;gap:7px;row-gap:3px;flex-wrap:wrap;line-height:1.45}.reference-current{font-size:24px;font-weight:800;letter-spacing:-.7px;color:#151515;white-space:nowrap}.reference-original{font-size:16px;font-weight:400;letter-spacing:-.3px;color:#99999e;text-decoration-thickness:1px;white-space:nowrap}.reference-saving{font-size:16px;line-height:1.5;font-weight:600;color:#e33f43;margin-top:4px;letter-spacing:-.3px}.reference-note{font-size:10px;line-height:1.5;color:#8a8a8f;margin-top:3px}.reference-badge{position:absolute;top:10px;left:10px;z-index:2;background:#ec4148;color:#fff;border-radius:5px;font-size:13px;line-height:1.3;font-weight:750;padding:6px 8px;letter-spacing:-.3px}.card .thumb{position:relative}.card .pbadge{top:auto;bottom:10px;left:10px}.feature .fimg{position:relative}.feature .reference-current{font-size:28px}.feature .reference-original{font-size:19px}.feature .reference-saving{font-size:17px}.card .ctitle{margin-bottom:6px}.card .meta{margin-top:10px}@media(max-width:600px){.reference-line{gap:5px}.reference-current{font-size:20px;letter-spacing:-.6px}.reference-original{font-size:14px;letter-spacing:-.4px}.reference-saving{font-size:14px}.reference-badge{font-size:11px;top:8px;left:8px;padding:5px 6px}.reference-price{margin:6px 0 10px}.card .pbadge{bottom:8px;left:8px}.feature .reference-current{font-size:26px}.feature .reference-original{font-size:18px}}
+
+/* 이미지를 못 불러와도 카드가 깨져 보이지 않게 하는 대체 표시 */
+.thumb-fallback{display:none;position:absolute;inset:0;z-index:0;align-items:center;justify-content:center;font-size:38px;font-weight:900;letter-spacing:-1.5px;color:#0b4a3b;background:linear-gradient(145deg,#eef5f0,#dcebdf)}
+.img-broken .thumb-fallback{display:flex}
+.img-broken img{visibility:hidden}
+.img-broken{background:#eef4f0}
+.feature .thumb-fallback{font-size:52px}
+.rrow.img-broken img{visibility:hidden}
 </style>
 </head>
 <body>
@@ -213,6 +236,25 @@
   }, {rootMargin:"900px 0px", threshold:0}) : null;
   var deferredImages = [].slice.call(document.querySelectorAll('img[data-src]'));
   deferredImages.forEach(function(img){ if(imageObserver) imageObserver.observe(img); else loadImage(img); });
+
+  // 이미지 로드 실패 시 상품명 첫 글자 대체 표시 (카드가 빈칸으로 남지 않게)
+  function markBroken(img){
+    var box = img.closest(".thumb, .fimg, .rrow");
+    if(!box) return;
+    box.classList.add("img-broken");
+    img.setAttribute("aria-hidden","true");
+  }
+  document.addEventListener("error", function(e){
+    var t = e.target;
+    if(t && t.tagName === "IMG") markBroken(t);
+  }, true);
+  function sweepBroken(){
+    [].slice.call(document.querySelectorAll("img")).forEach(function(img){
+      if(img.complete && img.naturalWidth === 0) markBroken(img);
+    });
+  }
+  sweepBroken();
+  window.addEventListener("load", sweepBroken);
   function prioritizeVisible(){
     var visible = cards.filter(function(card){ return card.style.display !== "none"; });
     [].slice.call(grid.querySelectorAll('.card')).filter(function(card){return card.style.display !== "none";}).slice(0,8).forEach(function(card){
