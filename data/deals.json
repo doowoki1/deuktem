@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T19:57:41+09:00",
- "generated_at_label": "11.26 19:57",
+ "generated_at": "2026-11-26T20:02:24+09:00",
+ "generated_at_label": "11.26 20:02",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -297,7 +297,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-26T19:30:41+09:00",
+   "last_seen": "2026-11-26T20:02:24+09:00",
    "history": [
     [
      "2026-11-23T00:49:41+09:00",
@@ -661,7 +661,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T21:02:19+09:00",
-   "last_seen": "2026-11-26T19:50:43+09:00",
+   "last_seen": "2026-11-26T20:02:24+09:00",
    "history": [
     [
      "2026-11-24T07:57:33+09:00",
@@ -695,7 +695,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-26T19:50:43+09:00",
+   "last_seen": "2026-11-26T20:02:24+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
@@ -1205,7 +1205,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T20:02:09+09:00",
-   "last_seen": "2026-11-26T19:57:41+09:00",
+   "last_seen": "2026-11-26T20:02:24+09:00",
    "history": [
     [
      "2026-11-25T15:04:26+09:00",
@@ -1699,36 +1699,6 @@
    "best_price": true
   },
   {
-   "id": "sdk-8812e23c92b2",
-   "name": "[아가방 겨울]제프멜맨투맨(IVORY,RED)_01R751002",
-   "price": 9450,
-   "base_price": 22900,
-   "image": "https://cdn2.boribori.co.kr/rimg/0/cdn/product/A1586/P403454000/2_P403454000_basic_1754288962529.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=0c2d4&url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F403454000",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "보리보리",
-   "mall_name": "보리보리",
-   "commission": "3%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-24T19:59:11+09:00",
-   "history": [
-    [
-     "2026-11-24T19:59:11+09:00",
-     9450
-    ]
-   ],
-   "low": 9450,
-   "high": 9450,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
    "id": "sdk-36895b8f2aa0",
    "name": "[더주] 말랑하고 쫄깃한 스팀구이 한입 오다리 200g (35-45미)",
    "price": 9540,
@@ -1789,36 +1759,6 @@
    "best_price": true
   },
   {
-   "id": "sdk-fa5d26bbe956",
-   "name": "[체리블랑]신상추가~170호/여아/주니어/아동복/상하복/레깅스/쥬니어/원피스",
-   "price": 9900,
-   "base_price": 10000,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/dl/v2/3/3/0/4/0/0/tKOLX/2117330400_244383232_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F2117330400%3FtrTypeCd%3D42",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-24T19:59:11+09:00",
-   "history": [
-    [
-     "2026-11-24T19:59:11+09:00",
-     9900
-    ]
-   ],
-   "low": 9900,
-   "high": 9900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
    "id": "sdk-0ff860070252",
    "name": "이너홈 신-선한 크린롤백 /위생장갑 500매 + 500매 모음전",
    "price": 9900,
@@ -1844,6 +1784,66 @@
    ],
    "low": 9900,
    "high": 9900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-d8392f0ada1e",
+   "name": "파스타소스 골라담기",
+   "price": 9980,
+   "base_price": 9980,
+   "image": "https://img.cjthemarket.com/images/file/product/221/20260625132547704.png",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005618%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D35",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T20:02:24+09:00",
+   "history": [
+    [
+     "2026-11-26T20:02:24+09:00",
+     9980
+    ]
+   ],
+   "low": 9980,
+   "high": 9980,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-ea983d95df6f",
+   "name": "[25%] 체이스컬트 썸머 인기품목 최대혜택 반팔/카라티/쿨티/셔츠/반바지/팬츠/아우터 외",
+   "price": 10000,
+   "base_price": 10000,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/9/9/0/4/7/5/MCypZ/2343990475_232834394.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F2343990475",
+   "category": "패션",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T20:02:24+09:00",
+   "history": [
+    [
+     "2026-11-26T20:02:24+09:00",
+     10000
+    ]
+   ],
+   "low": 10000,
+   "high": 10000,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
