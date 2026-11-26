@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T06:58:52+09:00",
- "generated_at_label": "11.27 06:58",
+ "generated_at": "2026-11-27T08:01:58+09:00",
+ "generated_at_label": "11.27 08:01",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -383,7 +383,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T02:10:23+09:00",
-   "last_seen": "2026-11-26T20:18:33+09:00",
+   "last_seen": "2026-11-27T08:01:58+09:00",
    "history": [
     [
      "2026-11-25T21:06:54+09:00",
@@ -442,8 +442,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-27T05:10:22+09:00",
+   "first_seen": "2026-11-27T08:01:58+09:00",
+   "last_seen": "2026-11-27T08:01:58+09:00",
    "history": [
     [
      "2026-11-27T05:10:22+09:00",
@@ -563,7 +563,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:40:46+09:00",
-   "last_seen": "2026-11-27T02:58:54+09:00",
+   "last_seen": "2026-11-27T08:01:58+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
