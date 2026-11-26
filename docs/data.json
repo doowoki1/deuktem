@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T10:18:48+09:00",
- "generated_at_label": "11.26 10:18",
+ "generated_at": "2026-11-26T11:59:06+09:00",
+ "generated_at_label": "11.26 11:59",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -225,7 +225,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-26T02:10:23+09:00",
+   "last_seen": "2026-11-26T11:59:06+09:00",
    "history": [
     [
      "2026-11-23T00:49:41+09:00",
@@ -593,7 +593,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-26T10:18:48+09:00",
+   "last_seen": "2026-11-26T11:59:06+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
@@ -937,36 +937,6 @@
    "best_price": true
   },
   {
-   "id": "sdk-77a15f7e534a",
-   "name": "[간편용기]우동&amp;떡볶이 골라담기",
-   "price": 4290,
-   "base_price": 4290,
-   "image": "https://img.cjthemarket.com/images/file/product/301/20261112135905965.png?SF=webp&RS=480",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005838%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D13",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-24T11:57:15+09:00",
-   "history": [
-    [
-     "2026-11-24T11:57:15+09:00",
-     4290
-    ]
-   ],
-   "low": 4290,
-   "high": 4290,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
    "id": "sdk-c41589a49283",
    "name": "삼립 미니 미니 꿀호떡 요요 192g",
    "price": 4480,
@@ -1013,7 +983,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T07:58:59+09:00",
-   "last_seen": "2026-11-26T07:58:59+09:00",
+   "last_seen": "2026-11-26T11:59:06+09:00",
    "history": [
     [
      "2026-11-25T08:00:42+09:00",
@@ -1022,6 +992,36 @@
    ],
    "low": 4480,
    "high": 4480,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-89e4054d5aea",
+   "name": "[그림아이] 가을신상 얼리버드 특 가! /파자마/유아실내복/아동내의/상하복/치즈실내복/등원룩",
+   "price": 4720,
+   "base_price": 5900,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/0/6/9/5/9/1/RkGlJ/7419069591_239134530_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7419069591",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T11:59:06+09:00",
+   "history": [
+    [
+     "2026-11-26T11:59:06+09:00",
+     4720
+    ]
+   ],
+   "low": 4720,
+   "high": 4720,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1163,7 +1163,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T08:55:29+09:00",
-   "last_seen": "2026-11-26T05:59:57+09:00",
+   "last_seen": "2026-11-26T11:59:06+09:00",
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
@@ -1403,7 +1403,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T07:58:59+09:00",
-   "last_seen": "2026-11-26T10:18:48+09:00",
+   "last_seen": "2026-11-26T11:59:06+09:00",
    "history": [
     [
      "2026-11-26T05:59:57+09:00",
@@ -1493,7 +1493,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T21:06:54+09:00",
-   "last_seen": "2026-11-26T10:18:48+09:00",
+   "last_seen": "2026-11-26T11:59:06+09:00",
    "history": [
     [
      "2026-11-25T08:53:35+09:00",
@@ -1777,43 +1777,13 @@
    "best_price": true
   },
   {
-   "id": "sdk-2d3f31aeddd5",
-   "name": "전골볶음요리 골라담기",
-   "price": 11980,
-   "base_price": 11980,
-   "image": "https://img.cjthemarket.com/images/file/product/064/20260318111118107.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005074%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D17",
+   "id": "sdk-3056c4919b42",
+   "name": "[베베숲]시그니처 블루 에코 휴대 75평량 20매 캡 12팩",
+   "price": 10490,
+   "base_price": 14980,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/0/0/9/0/1/9/gZjQj/7789009019_244229253_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=http%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7789009019",
    "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T10:18:48+09:00",
-   "history": [
-    [
-     "2026-11-26T10:18:48+09:00",
-     11980
-    ]
-   ],
-   "low": 11980,
-   "high": 11980,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-af966e994310",
-   "name": "베베숲 오리지날 물티슈 100매 캡 10팩",
-   "price": 13900,
-   "base_price": 19850,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/2/4/8/2/0/8/HXsRl/8527248208_242544223.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=http%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8527248208",
-   "category": "생활",
    "keyword": "",
    "source": "adpick_sdk",
    "platform": "other",
@@ -1823,15 +1793,45 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "",
-   "last_seen": "2026-11-26T10:18:48+09:00",
+   "last_seen": "2026-11-26T11:59:06+09:00",
    "history": [
     [
-     "2026-11-26T10:18:48+09:00",
-     13900
+     "2026-11-26T11:59:06+09:00",
+     10490
     ]
    ],
-   "low": 13900,
-   "high": 13900,
+   "low": 10490,
+   "high": 10490,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-ea6aacb2a963",
+   "name": "베비에르 제과명장 마왕파이 4종 8개입",
+   "price": 11700,
+   "base_price": 14620,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/0/0/6/2/9/0/IyKgw/9470006290_243093609_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9470006290%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T11:59:06+09:00",
+   "history": [
+    [
+     "2026-11-26T11:59:06+09:00",
+     11700
+    ]
+   ],
+   "low": 11700,
+   "high": 11700,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
