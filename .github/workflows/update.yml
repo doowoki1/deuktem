@@ -17,11 +17,13 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: true
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
@@ -51,13 +53,88 @@ jobs:
           git add data docs
           if ! git diff --cached --quiet; then
             git commit -m "chore: 특가 갱신"
-            git push
+            # 다른 실행이 먼저 push한 경우 rebase 후 재시도 (push 거부 방지)
+            for attempt in 1 2 3; do
+              if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push; then
+                break
+              fi
+              echo "push 재시도 ${attempt}/3"
+              git rebase --abort || true
+              sleep 5
+              if [ "$attempt" = "3" ]; then
+                echo "::error::수집 결과 push가 3회 실패했습니다."
+                exit 1
+              fi
+            done
           fi
 
       - uses: actions/configure-pages@v5
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: docs
+          name: github-pages
+          retention-days: 1
 
-      - uses: actions/deploy-pages@v4
+      - name: 배포 산출물 확인
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # 업로드 직후 산출물 조회가 일시적으로 실패하는 경우를 대비해 확인될 때까지 재조회
+          for attempt in 1 2 3 4 5 6 7 8 9 10 11 12; do
+            found=$(curl -sS -H "Authorization: Bearer $GH_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts?per_page=100" \
+              | python3 -c "import json,sys;d=json.load(sys.stdin);print(sum(1 for a in d.get('artifacts',[]) if a.get('name')=='github-pages'))" || echo "0")
+            if [ "$found" != "0" ] && [ -n "$found" ]; then
+              echo "github-pages 산출물 확인 (${attempt}회차)"
+              exit 0
+            fi
+            echo "산출물 대기 ${attempt}/12"
+            sleep 5
+          done
+          echo "::error::github-pages 산출물을 찾지 못했습니다."
+          exit 1
+
+      - name: Pages 배포 (1차)
+        id: deploy1
+        uses: actions/deploy-pages@v5
+        continue-on-error: true
+        with:
+          artifact_name: github-pages
+          timeout: "600000"
+          error_count: "20"
+
+      - name: 배포 대기
+        if: steps.deploy1.outcome == 'failure'
+        run: sleep 30
+
+      - name: Pages 배포 (2차)
+        id: deploy2
+        if: steps.deploy1.outcome == 'failure'
+        uses: actions/deploy-pages@v5
+        continue-on-error: true
+        with:
+          artifact_name: github-pages
+          timeout: "600000"
+          error_count: "20"
+
+      - name: 배포 대기 (2차)
+        if: steps.deploy1.outcome == 'failure' && steps.deploy2.outcome == 'failure'
+        run: sleep 60
+
+      - name: Pages 배포 (3차)
+        id: deploy3
+        if: steps.deploy1.outcome == 'failure' && steps.deploy2.outcome == 'failure'
+        uses: actions/deploy-pages@v5
+        continue-on-error: true
+        with:
+          artifact_name: github-pages
+          timeout: "600000"
+          error_count: "20"
+
+      - name: 배포 결과 확인
+        if: steps.deploy1.outcome == 'failure' && steps.deploy2.outcome == 'failure' && steps.deploy3.outcome == 'failure'
+        run: |
+          echo "::error::Pages 배포가 3회 재시도 후에도 실패했습니다. Actions 탭에서 Re-run failed jobs를 실행하세요."
+          exit 1
