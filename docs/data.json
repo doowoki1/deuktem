@@ -1,17 +1,51 @@
 {
- "generated_at": "2026-11-26T13:05:38+09:00",
- "generated_at_label": "11.26 13:05",
+ "generated_at": "2026-11-26T14:19:34+09:00",
+ "generated_at_label": "11.26 14:19",
  "source": "coupang-partners",
  "note": "",
  "stats": {
   "count": 60,
   "rocket": 0,
-  "drops": 0,
-  "avg_drop": 0,
+  "drops": 1,
+  "avg_drop": 33,
   "min_price": 100,
   "cheapest": "[임박특가] 실온보관 소스 닭가슴살 양념치킨 20팩"
  },
  "items": [
+  {
+   "id": "sdk-762a096fc9d3",
+   "name": "닥터이브스 화이트 브리즈 데오드란트 세럼 50ml",
+   "price": 1999,
+   "base_price": 12000,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261116/b/17.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658700",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "2026-11-24T08:55:29+09:00",
+   "last_seen": "2026-11-26T14:19:34+09:00",
+   "history": [
+    [
+     "2026-11-23T19:17:46+09:00",
+     2999
+    ],
+    [
+     "2026-11-26T14:19:34+09:00",
+     1999
+    ]
+   ],
+   "low": 1999,
+   "high": 2999,
+   "drop": 1000,
+   "drop_pct": 33,
+   "best_price": true
+  },
   {
    "id": "sdk-870d00e2bb62",
    "name": "[임박특가] 실온보관 소스 닭가슴살 양념치킨 20팩",
@@ -623,40 +657,10 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-26T11:59:06+09:00",
+   "last_seen": "2026-11-26T14:19:34+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
-     2999
-    ]
-   ],
-   "low": 2999,
-   "high": 2999,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-762a096fc9d3",
-   "name": "닥터이브스 화이트 브리즈 데오드란트 세럼 50ml",
-   "price": 2999,
-   "base_price": 12000,
-   "image": "https://eyoumall.godohosting.com/pages/asu/261116/b/17.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658700",
-   "category": "뷰티",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-24T08:55:29+09:00",
-   "last_seen": "2026-11-26T07:58:59+09:00",
-   "history": [
-    [
-     "2026-11-23T19:17:46+09:00",
      2999
     ]
    ],
@@ -791,7 +795,7 @@
    "name": "3초_떡볶이소스 보통맛 4봉(떡없음)",
    "price": 3500,
    "base_price": 4160,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/2/5/5/5/2/9/zHNxW/9177255529_241517610_05.webp",
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/2/5/5/5/2/9/JRuMe/9177255529_244333497_05.webp",
    "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9177255529%3FtrTypeCd%3D42",
    "category": "기타",
    "keyword": "",
@@ -802,8 +806,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T13:05:38+09:00",
+   "first_seen": "2026-11-26T14:19:34+09:00",
+   "last_seen": "2026-11-26T14:19:34+09:00",
    "history": [
     [
      "2026-11-26T13:05:38+09:00",
@@ -893,7 +897,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T06:56:19+09:00",
-   "last_seen": "2026-11-26T00:11:27+09:00",
+   "last_seen": "2026-11-26T14:19:34+09:00",
    "history": [
     [
      "2026-11-24T04:04:33+09:00",
@@ -982,11 +986,41 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T10:18:48+09:00",
+   "first_seen": "2026-11-26T14:19:34+09:00",
+   "last_seen": "2026-11-26T14:19:34+09:00",
    "history": [
     [
      "2026-11-26T10:18:48+09:00",
+     3999
+    ]
+   ],
+   "low": 3999,
+   "high": 3999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-c312abdba29c",
+   "name": "국내산 한우 100프로! 반골 2kg",
+   "price": 3999,
+   "base_price": 14000,
+   "image": "https://eyoumall.godohosting.com/pages/asu/251224/b/110.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D616112%26mode%3Devent",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T14:19:34+09:00",
+   "history": [
+    [
+     "2026-11-26T14:19:34+09:00",
      3999
     ]
    ],
@@ -1022,36 +1056,6 @@
    ],
    "low": 4290,
    "high": 4290,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-c41589a49283",
-   "name": "삼립 미니 미니 꿀호떡 요요 192g",
-   "price": 4480,
-   "base_price": 4480,
-   "image": "https://sitem.ssgcdn.com/33/61/30/item/0000008306133_i1_290.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D0000008306133%26siteNo%3D6001%26salestrNo%3D2037",
-   "category": "뷰티",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "SSG",
-   "mall_name": "SSG",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-24T14:12:44+09:00",
-   "last_seen": "2026-11-24T14:12:44+09:00",
-   "history": [
-    [
-     "2026-11-24T13:03:02+09:00",
-     4480
-    ]
-   ],
-   "low": 4480,
-   "high": 4480,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1297,36 +1301,6 @@
    "best_price": true
   },
   {
-   "id": "sdk-b13b6c2dfe09",
-   "name": "냉장 생선구이 골라담기",
-   "price": 5480,
-   "base_price": 5480,
-   "image": "https://img.cjthemarket.com/images/file/product/356/20260827142147591.png?SF=webp&RS=480",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002294%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D21",
-   "category": "식품",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-24T14:12:44+09:00",
-   "history": [
-    [
-     "2026-11-24T14:12:44+09:00",
-     5480
-    ]
-   ],
-   "low": 5480,
-   "high": 5480,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
    "id": "sdk-022d3ed222b7",
    "name": "냉동간식 골라담기",
    "price": 5480,
@@ -1382,6 +1356,36 @@
    ],
    "low": 5999,
    "high": 5999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-3619dafebcdd",
+   "name": "[30%+추가5%][탑텐키즈 외] 따뜻한 겨울 스웨터/점퍼/플리스/기모팬츠 외 100종",
+   "price": 6930,
+   "base_price": 10000,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/pd/v2/1/7/2/6/1/5/mONpk/7419172615_B.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7419172615%3FtrTypeCd%3D42",
+   "category": "패션",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T14:19:34+09:00",
+   "history": [
+    [
+     "2026-11-26T14:19:34+09:00",
+     6930
+    ]
+   ],
+   "low": 6930,
+   "high": 6930,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
