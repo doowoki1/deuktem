@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T04:02:38+09:00",
- "generated_at_label": "11.27 04:02",
+ "generated_at": "2026-11-27T05:10:22+09:00",
+ "generated_at_label": "11.27 05:10",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -83,8 +83,8 @@
   {
    "id": "sdk-870d00e2bb62",
    "name": "[임박특가] 실온보관 소스 닭가슴살 양념치킨 20팩",
-   "price": 113,
-   "base_price": 113,
+   "price": 114,
+   "base_price": 114,
    "image": "http://www.eyoumall.co.kr/shop/img/goods658631.jpg",
    "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658631%26amp%253Bmode%3Devent",
    "category": "식품",
@@ -97,7 +97,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T21:06:12+09:00",
-   "last_seen": "2026-11-27T01:16:39+09:00",
+   "last_seen": "2026-11-27T05:10:22+09:00",
    "history": [
     [
      "2026-11-26T06:59:59+09:00",
@@ -110,10 +110,14 @@
     [
      "2026-11-26T22:29:54+09:00",
      113
+    ],
+    [
+     "2026-11-27T05:10:22+09:00",
+     114
     ]
    ],
    "low": 100,
-   "high": 113,
+   "high": 114,
    "drop": 0,
    "drop_pct": 0,
    "best_price": false
@@ -195,7 +199,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:16:27+09:00",
-   "last_seen": "2026-11-26T05:59:57+09:00",
+   "last_seen": "2026-11-27T05:10:22+09:00",
    "history": [
     [
      "2026-11-22T17:16:05+09:00",
@@ -225,7 +229,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-27T02:58:54+09:00",
+   "last_seen": "2026-11-27T05:10:22+09:00",
    "history": [
     [
      "2026-11-23T00:49:41+09:00",
@@ -418,6 +422,36 @@
    ],
    "low": 2180,
    "high": 2180,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-55efe16e5a01",
+   "name": "행복한콩 부드러운 찌개용 두부 300gX2개",
+   "price": 2240,
+   "base_price": 3200,
+   "image": "https://img.cjthemarket.com/images/file/product/949/20260619153911444.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3D40167568",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-27T05:10:22+09:00",
+   "history": [
+    [
+     "2026-11-27T05:10:22+09:00",
+     2240
+    ]
+   ],
+   "low": 2240,
+   "high": 2240,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1320,8 +1354,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-27T02:58:54+09:00",
+   "first_seen": "2026-11-27T05:10:22+09:00",
+   "last_seen": "2026-11-27T05:10:22+09:00",
    "history": [
     [
      "2026-11-27T02:58:54+09:00",
@@ -1351,40 +1385,10 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T08:55:29+09:00",
-   "last_seen": "2026-11-27T00:06:53+09:00",
+   "last_seen": "2026-11-27T05:10:22+09:00",
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
-     5480
-    ]
-   ],
-   "low": 5480,
-   "high": 5480,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-8bc514b9c190",
-   "name": "냉동간식 골라담기",
-   "price": 5480,
-   "base_price": 5480,
-   "image": "https://img.cjthemarket.com/images/file/product/707/20260629141738250.png?SF=webp&RS=480",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002734%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D26",
-   "category": "식품",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-25T05:07:18+09:00",
-   "last_seen": "2026-11-25T05:07:18+09:00",
-   "history": [
-    [
-     "2026-11-24T08:55:29+09:00",
      5480
     ]
    ],
@@ -1411,7 +1415,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T11:59:55+09:00",
-   "last_seen": "2026-11-27T01:16:39+09:00",
+   "last_seen": "2026-11-27T05:10:22+09:00",
    "history": [
     [
      "2026-11-25T00:06:18+09:00",
@@ -1440,8 +1444,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-27T04:02:38+09:00",
+   "first_seen": "2026-11-27T05:10:22+09:00",
+   "last_seen": "2026-11-27T05:10:22+09:00",
    "history": [
     [
      "2026-11-27T04:02:38+09:00",
@@ -1480,6 +1484,36 @@
    ],
    "low": 5999,
    "high": 5999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-fbbd40059fa2",
+   "name": "겨울맞이 포근한 인기 상하복 원피스 세트 특가 모음/긴팔상하복/기모상하복/상하세트/기모셋업/겨울상하복/여아원피스/기모원피스",
+   "price": 6440,
+   "base_price": 89900,
+   "image": "https://cdn2.halfclub.com/cdn/product/A7571/P442348022/2_P442348022_basic_1795668175335.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=0c2d4&url=https%3A%2F%2Fm.boribori.co.kr%2Fproduct%2F442348022",
+   "category": "패션",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "보리보리",
+   "mall_name": "보리보리",
+   "commission": "3%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-27T05:10:22+09:00",
+   "history": [
+    [
+     "2026-11-27T05:10:22+09:00",
+     6440
+    ]
+   ],
+   "low": 6440,
+   "high": 6440,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1725,6 +1759,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-5da6ff1a6b9a",
+   "name": "알로에 수딩젤 수분크림 1000ml 2개 (추석 초.특.가.행사) 리얼 네이처 알로에베라 99%",
+   "price": 8820,
+   "base_price": 11000,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/4/2/1/7/1/3/jfdNp/8369421713_239165538.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8369421713",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-27T05:10:22+09:00",
+   "history": [
+    [
+     "2026-11-27T05:10:22+09:00",
+     8820
+    ]
+   ],
+   "low": 8820,
+   "high": 8820,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-2a9c88ea510c",
    "name": "[썸머픽] 비긴에코 안심세탁 이염방지시트 100매입×2개+10매 ( 총210매 ) 외 세탁용품",
    "price": 8900,
@@ -1780,66 +1844,6 @@
    ],
    "low": 9540,
    "high": 9540,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-1fb8590c84b1",
-   "name": "(30%sale) BYC 외 내복/내의/세트/타이즈/여성/여자/팬티/남성/남자/속바지/아동/파자마/런닝/잠옷/속옷",
-   "price": 9730,
-   "base_price": 13900,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/1/5/0/9/3/5/zJqyC/13150935_244233218_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F13150935",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-25T20:02:09+09:00",
-   "last_seen": "2026-11-25T20:02:09+09:00",
-   "history": [
-    [
-     "2026-11-25T15:04:26+09:00",
-     9730
-    ]
-   ],
-   "low": 9730,
-   "high": 9730,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-29f88d4895a6",
-   "name": "잘풀리는집 키친타월, 150매, 4+2롤, 2개",
-   "price": 9900,
-   "base_price": 15800,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/product/5873237737/B.jpg?879000000",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F5873237737%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T22:29:54+09:00",
-   "history": [
-    [
-     "2026-11-26T22:29:54+09:00",
-     9900
-    ]
-   ],
-   "low": 9900,
-   "high": 9900,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
