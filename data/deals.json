@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-26T14:19:34+09:00",
- "generated_at_label": "11.26 14:19",
+ "generated_at": "2026-11-26T16:24:25+09:00",
+ "generated_at_label": "11.26 16:24",
  "source": "coupang-partners",
  "note": "",
  "stats": {
   "count": 60,
   "rocket": 0,
-  "drops": 1,
+  "drops": 2,
   "avg_drop": 33,
   "min_price": 100,
   "cheapest": "[임박특가] 실온보관 소스 닭가슴살 양념치킨 20팩"
@@ -29,7 +29,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T08:55:29+09:00",
-   "last_seen": "2026-11-26T14:19:34+09:00",
+   "last_seen": "2026-11-26T16:24:25+09:00",
    "history": [
     [
      "2026-11-23T19:17:46+09:00",
@@ -37,6 +37,40 @@
     ],
     [
      "2026-11-26T14:19:34+09:00",
+     1999
+    ]
+   ],
+   "low": 1999,
+   "high": 2999,
+   "drop": 1000,
+   "drop_pct": 33,
+   "best_price": true
+  },
+  {
+   "id": "sdk-6624fa73889b",
+   "name": "JUDA 이중 미세모 칫솔 8개입",
+   "price": 1999,
+   "base_price": 10900,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261120/b/15-1.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D659333",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "2026-11-24T00:08:48+09:00",
+   "last_seen": "2026-11-26T16:24:25+09:00",
+   "history": [
+    [
+     "2026-11-23T22:23:42+09:00",
+     2999
+    ],
+    [
+     "2026-11-26T16:24:25+09:00",
      1999
     ]
    ],
@@ -199,7 +233,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:26:38+09:00",
-   "last_seen": "2026-11-26T03:56:06+09:00",
+   "last_seen": "2026-11-26T16:24:25+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -503,7 +537,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-26T07:58:59+09:00",
+   "last_seen": "2026-11-26T16:24:25+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -657,40 +691,10 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-26T14:19:34+09:00",
+   "last_seen": "2026-11-26T16:24:25+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
-     2999
-    ]
-   ],
-   "low": 2999,
-   "high": 2999,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-6624fa73889b",
-   "name": "JUDA 이중 미세모 칫솔 8개입",
-   "price": 2999,
-   "base_price": 10900,
-   "image": "https://eyoumall.godohosting.com/pages/asu/261120/b/15-1.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D659333",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-24T00:08:48+09:00",
-   "last_seen": "2026-11-25T15:04:26+09:00",
-   "history": [
-    [
-     "2026-11-23T22:23:42+09:00",
      2999
     ]
    ],
@@ -747,7 +751,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T10:18:04+09:00",
-   "last_seen": "2026-11-26T10:18:48+09:00",
+   "last_seen": "2026-11-26T16:24:25+09:00",
    "history": [
     [
      "2026-11-25T02:57:45+09:00",
@@ -777,7 +781,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T11:57:15+09:00",
-   "last_seen": "2026-11-26T08:54:06+09:00",
+   "last_seen": "2026-11-26T16:24:25+09:00",
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
@@ -811,6 +815,36 @@
    "history": [
     [
      "2026-11-26T13:05:38+09:00",
+     3500
+    ]
+   ],
+   "low": 3500,
+   "high": 3500,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-d8338cad13db",
+   "name": "3초_떡볶이소스 매운맛 4봉(떡없음)",
+   "price": 3500,
+   "base_price": 4160,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/2/5/7/8/6/2/opmyI/9177257862_244333493_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9177257862",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T16:24:25+09:00",
+   "history": [
+    [
+     "2026-11-26T16:24:25+09:00",
      3500
     ]
    ],
@@ -1376,11 +1410,41 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T14:19:34+09:00",
+   "first_seen": "2026-11-26T16:24:25+09:00",
+   "last_seen": "2026-11-26T16:24:25+09:00",
    "history": [
     [
      "2026-11-26T14:19:34+09:00",
+     6930
+    ]
+   ],
+   "low": 6930,
+   "high": 6930,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-0ca2c5f3d5a2",
+   "name": "[40%][폴햄키즈 외] 겨울 준비 시작 맨투맨/후드/니트/바지 외 100종",
+   "price": 6930,
+   "base_price": 10000,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/pd/v2/4/0/9/1/3/5/HVgXW/7404409135_B.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=http%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7404409135",
+   "category": "패션",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T16:24:25+09:00",
+   "history": [
+    [
+     "2026-11-26T16:24:25+09:00",
      6930
     ]
    ],
@@ -1776,66 +1840,6 @@
    ],
    "low": 9900,
    "high": 9900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-29f88d4895a6",
-   "name": "잘풀리는집 키친타월, 150매, 4+2롤, 2개",
-   "price": 9900,
-   "base_price": 15800,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/product/5873237737/B.jpg?879000000",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F5873237737%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T08:54:06+09:00",
-   "history": [
-    [
-     "2026-11-26T08:54:06+09:00",
-     9900
-    ]
-   ],
-   "low": 9900,
-   "high": 9900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-d8392f0ada1e",
-   "name": "파스타소스 골라담기",
-   "price": 9980,
-   "base_price": 9980,
-   "image": "https://img.cjthemarket.com/images/file/product/221/20260625132547704.png",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005618%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D35",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-26T00:11:27+09:00",
-   "last_seen": "2026-11-26T00:11:27+09:00",
-   "history": [
-    [
-     "2026-11-25T21:06:54+09:00",
-     9980
-    ]
-   ],
-   "low": 9980,
-   "high": 9980,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
