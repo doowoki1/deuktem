@@ -209,11 +209,30 @@ def price_panel(item: dict) -> tuple[str, float]:
 
 
 
+def plat_key(item: dict) -> str:
+    """필터 키. 애드픽처럼 여러 몰이 섞인 항목은 몰 이름으로 나눈다."""
+    plat = (item.get("platform") or "coupang")
+    if plat == "other":
+        mall = (item.get("mall_name") or "").strip()
+        if mall:
+            return "mall:" + mall
+    return plat
+
+
+def plat_label(item: dict) -> str:
+    key = plat_key(item)
+    if key.startswith("mall:"):
+        return key[5:]
+    plat = (item.get("platform") or "coupang")
+    return item.get("platform_label") or PLAT_NAMES.get(plat, plat.upper())
+
+
 def card(item: dict, eager: bool = False) -> str:
     badge, sub = label_for(item)
     plat = item.get("platform") or "coupang"
     pcls = plat if plat in PLAT_CLASS else "other"
-    pname = item.get("platform_label") or PLAT_NAMES.get(plat, plat.upper())
+    pname = plat_label(item)
+    pkey = plat_key(item)
     drop = item.get("drop_pct", 0) or 0
     high = item.get("high") or item.get("base_price") or item.get("price")
     seen = (item.get("last_seen") or "")[11:16]
@@ -245,7 +264,7 @@ def card(item: dict, eager: bool = False) -> str:
     image_attrs = f'src="{image_url}" loading="eager"' if eager else f'data-src="{image_url}" class="preload-image"'
     fallback = '' if eager else f'<noscript><img src="{image_url}" alt="{ESC(item["name"])}" loading="lazy" decoding="async"></noscript>'
     thumb_class = "thumb banner-thumb" if item.get("image_kind") == "affiliate_banner" else "thumb"
-    return f"""      <article class="card" data-cat="{ESC(item.get('category'))}" data-price="{item['price']}" data-drop="{drop}" data-ts="{ESC(item.get('last_seen'))}" data-plat="{plat}">
+    return f"""      <article class="card" data-cat="{ESC(item.get('category'))}" data-price="{item['price']}" data-drop="{drop}" data-ts="{ESC(item.get('last_seen'))}" data-plat="{ESC(pkey)}">
         <a class="card-link" href="{ESC(item.get('url'))}" target="_blank" rel="nofollow sponsored noopener" aria-label="{ESC(item['name'])}">
           <div class="{thumb_class}">
             <span class="thumb-fallback" aria-hidden="true"><span class="tf-icon"></span>이미지 준비 중</span>
@@ -378,10 +397,16 @@ def main() -> int:
 
     at = datetime.fromisoformat(data["generated_at"]) if data.get("generated_at") else datetime.now(KST)
     cats = sorted({i.get("category") for i in items if i.get("category")})
-    seen_plat = {(i.get("platform") or "coupang") for i in items}
-    plats = [p for p in PLAT_ORDER if p in seen_plat]
-    if len(plats) > 1 and "other" in plats and len(seen_plat) == 1:
-        plats = ["other"]
+    # 필터: 알려진 플랫폼을 먼저, 그 다음 애드픽 몰을 건수순으로
+    counts: dict[str, int] = {}
+    labels: dict[str, str] = {}
+    for i in items:
+        k = plat_key(i)
+        counts[k] = counts.get(k, 0) + 1
+        labels.setdefault(k, plat_label(i))
+    known = [p for p in PLAT_ORDER if p in counts]
+    malls = sorted((k for k in counts if k not in known), key=lambda k: -counts[k])
+    plats = known + malls
     stats = data.get("stats") or {}
     top = next((i for i in items if i.get("source") == "goldbox"), items[0] if items else None)
 
@@ -416,9 +441,9 @@ def main() -> int:
         "{{RANKS}}": ranks(items) if items else "",
         "{{TICKER}}": tick + tick if tick else "",
         "{{PLAT_FILTERS}}": "".join(
-            f'<button data-plat="{pl}" aria-pressed="false">'
-            + ((next((i.get("platform_label") for i in items if (i.get("platform") or "coupang") == pl and i.get("platform_label")), None) or pl.upper()) if pl != "other" else "기타")
-            + '</button>' for pl in plats
+            f'<button data-plat="{ESC(pl)}" aria-pressed="false">{ESC(labels[pl])}'
+            f'<span class="pcount num">{counts[pl]}</span></button>'
+            for pl in plats
         ),
         "{{CATS}}": "".join(f'<button data-filter="{ESC(c)}" aria-pressed="false">{ESC(c)}</button>' for c in cats),
         "{{STATS}}": (
