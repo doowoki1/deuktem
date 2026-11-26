@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T02:58:54+09:00",
- "generated_at_label": "11.27 02:58",
+ "generated_at": "2026-11-27T04:02:38+09:00",
+ "generated_at_label": "11.27 04:02",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -255,7 +255,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T08:54:06+09:00",
-   "last_seen": "2026-11-26T21:06:12+09:00",
+   "last_seen": "2026-11-27T04:02:38+09:00",
    "history": [
     [
      "2026-11-26T03:56:06+09:00",
@@ -483,36 +483,6 @@
    "best_price": true
   },
   {
-   "id": "sdk-ac5b426e9b3b",
-   "name": "요리재료 골라담기",
-   "price": 2810,
-   "base_price": 2810,
-   "image": "https://img.cjthemarket.com/images/file/product/139/20260708181533369.png?SF=webp&RS=480",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005639%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D30",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-24T08:55:29+09:00",
-   "last_seen": "2026-11-25T04:02:29+09:00",
-   "history": [
-    [
-     "2026-11-24T00:08:48+09:00",
-     2810
-    ]
-   ],
-   "low": 2810,
-   "high": 2810,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
    "id": "sdk-787879dbf144",
    "name": "요리재료 골라담기",
    "price": 2810,
@@ -529,7 +499,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T08:53:35+09:00",
-   "last_seen": "2026-11-25T20:02:09+09:00",
+   "last_seen": "2026-11-27T04:02:38+09:00",
    "history": [
     [
      "2026-11-25T08:00:42+09:00",
@@ -627,7 +597,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T21:02:19+09:00",
-   "last_seen": "2026-11-26T20:18:33+09:00",
+   "last_seen": "2026-11-27T04:02:38+09:00",
    "history": [
     [
      "2026-11-24T07:57:33+09:00",
@@ -721,7 +691,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T10:18:04+09:00",
-   "last_seen": "2026-11-27T01:16:39+09:00",
+   "last_seen": "2026-11-27T04:02:38+09:00",
    "history": [
     [
      "2026-11-25T02:57:45+09:00",
@@ -1455,6 +1425,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-51b02bb9371d",
+   "name": "1분링 골라담기",
+   "price": 5480,
+   "base_price": 5480,
+   "image": "https://img.cjthemarket.com/images/file/product/349/20261116095822126.png",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005839%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D16",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-27T04:02:38+09:00",
+   "history": [
+    [
+     "2026-11-27T04:02:38+09:00",
+     5480
+    ]
+   ],
+   "low": 5480,
+   "high": 5480,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-ab5bcb2e7400",
    "name": "스포메틱스 모이스춰라이징 코코넛 오일 바디 고보습 로션 300ml",
    "price": 5999,
@@ -1725,6 +1725,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-2a9c88ea510c",
+   "name": "[썸머픽] 비긴에코 안심세탁 이염방지시트 100매입×2개+10매 ( 총210매 ) 외 세탁용품",
+   "price": 8900,
+   "base_price": 11120,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/4/6/0/3/8/2/UETon/5994460382_236351826_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F5994460382%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-27T04:02:38+09:00",
+   "history": [
+    [
+     "2026-11-27T04:02:38+09:00",
+     8900
+    ]
+   ],
+   "low": 8900,
+   "high": 8900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-36895b8f2aa0",
    "name": "[더주] 말랑하고 쫄깃한 스팀구이 한입 오다리 200g (35-45미)",
    "price": 9540,
@@ -1810,36 +1840,6 @@
    ],
    "low": 9900,
    "high": 9900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-d8392f0ada1e",
-   "name": "파스타소스 골라담기",
-   "price": 9980,
-   "base_price": 9980,
-   "image": "https://img.cjthemarket.com/images/file/product/221/20260625132547704.png",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005618%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D35",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T20:02:24+09:00",
-   "history": [
-    [
-     "2026-11-26T20:02:24+09:00",
-     9980
-    ]
-   ],
-   "low": 9980,
-   "high": 9980,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
