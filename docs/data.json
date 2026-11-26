@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T20:27:42+09:00",
- "generated_at_label": "11.26 20:27",
+ "generated_at": "2026-11-26T21:06:12+09:00",
+ "generated_at_label": "11.26 21:06",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -8,7 +8,7 @@
   "rocket": 0,
   "drops": 2,
   "avg_drop": 33,
-  "min_price": 100,
+  "min_price": 110,
   "cheapest": "[임박특가] 실온보관 소스 닭가슴살 양념치킨 20팩"
  },
  "items": [
@@ -83,8 +83,8 @@
   {
    "id": "sdk-870d00e2bb62",
    "name": "[임박특가] 실온보관 소스 닭가슴살 양념치킨 20팩",
-   "price": 100,
-   "base_price": 100,
+   "price": 110,
+   "base_price": 110,
    "image": "http://www.eyoumall.co.kr/shop/img/goods658631.jpg",
    "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658631%26amp%253Bmode%3Devent",
    "category": "식품",
@@ -96,19 +96,23 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T06:59:59+09:00",
+   "first_seen": "2026-11-26T21:06:12+09:00",
+   "last_seen": "2026-11-26T21:06:12+09:00",
    "history": [
     [
      "2026-11-26T06:59:59+09:00",
      100
+    ],
+    [
+     "2026-11-26T21:06:12+09:00",
+     110
     ]
    ],
    "low": 100,
-   "high": 100,
+   "high": 110,
    "drop": 0,
    "drop_pct": 0,
-   "best_price": true
+   "best_price": false
   },
   {
    "id": "sdk-39139cac360b",
@@ -161,7 +165,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T04:02:29+09:00",
-   "last_seen": "2026-11-26T20:18:33+09:00",
+   "last_seen": "2026-11-26T21:06:12+09:00",
    "history": [
     [
      "2026-11-25T02:57:45+09:00",
@@ -327,7 +331,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T08:54:06+09:00",
-   "last_seen": "2026-11-26T20:18:33+09:00",
+   "last_seen": "2026-11-26T21:06:12+09:00",
    "history": [
     [
      "2026-11-26T03:56:06+09:00",
@@ -481,7 +485,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T08:54:06+09:00",
-   "last_seen": "2026-11-26T20:07:59+09:00",
+   "last_seen": "2026-11-26T21:06:12+09:00",
    "history": [
     [
      "2026-11-26T02:10:23+09:00",
@@ -695,7 +699,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-26T20:18:33+09:00",
+   "last_seen": "2026-11-26T21:06:12+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
@@ -1059,6 +1063,36 @@
    "history": [
     [
      "2026-11-26T14:19:34+09:00",
+     3999
+    ]
+   ],
+   "low": 3999,
+   "high": 3999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-edd33a3c1519",
+   "name": "줄리오 콜라겐 아이크림 40ml",
+   "price": 3999,
+   "base_price": 28000,
+   "image": "https://eyoumall.godohosting.com/pages/asu/260909/b/8.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D652188",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-26T21:06:12+09:00",
+   "history": [
+    [
+     "2026-11-26T21:06:12+09:00",
      3999
     ]
    ],
@@ -1685,7 +1719,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T21:06:54+09:00",
-   "last_seen": "2026-11-26T11:59:06+09:00",
+   "last_seen": "2026-11-26T21:06:12+09:00",
    "history": [
     [
      "2026-11-25T08:53:35+09:00",
@@ -1759,36 +1793,6 @@
    "best_price": true
   },
   {
-   "id": "sdk-0ff860070252",
-   "name": "이너홈 신-선한 크린롤백 /위생장갑 500매 + 500매 모음전",
-   "price": 9900,
-   "base_price": 19900,
-   "image": "https://cdn.011st.com/11dims/resize/764x764/quality/75/11src/pd/v2/5/2/9/2/7/2/eSMGX/7785529272_B.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7785529272%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-24T21:02:19+09:00",
-   "history": [
-    [
-     "2026-11-24T21:02:19+09:00",
-     9900
-    ]
-   ],
-   "low": 9900,
-   "high": 9900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
    "id": "sdk-d8392f0ada1e",
    "name": "파스타소스 골라담기",
    "price": 9980,
@@ -1819,31 +1823,31 @@
    "best_price": true
   },
   {
-   "id": "sdk-ea983d95df6f",
-   "name": "[25%] 체이스컬트 썸머 인기품목 최대혜택 반팔/카라티/쿨티/셔츠/반바지/팬츠/아우터 외",
-   "price": 10000,
-   "base_price": 10000,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/9/9/0/4/7/5/MCypZ/2343990475_232834394.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F2343990475",
-   "category": "패션",
+   "id": "sdk-8c0321c95622",
+   "name": "CJ 단팥 붕어빵 300g  SSG.COM",
+   "price": 9980,
+   "base_price": 9980,
+   "image": "https://sitem.ssgcdn.com/01/50/84/item/1000554845001_i1_1200.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=http%3A%2F%2Fm.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000554845001",
+   "category": "식품",
    "keyword": "",
    "source": "adpick_sdk",
    "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
+   "platform_label": "SSG",
+   "mall_name": "SSG",
+   "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "2026-11-26T20:27:42+09:00",
-   "last_seen": "2026-11-26T20:27:42+09:00",
+   "first_seen": "",
+   "last_seen": "2026-11-26T21:06:12+09:00",
    "history": [
     [
-     "2026-11-26T20:02:24+09:00",
-     10000
+     "2026-11-26T21:06:12+09:00",
+     9980
     ]
    ],
-   "low": 10000,
-   "high": 10000,
+   "low": 9980,
+   "high": 9980,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
