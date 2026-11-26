@@ -209,6 +209,28 @@ def price_panel(item: dict) -> tuple[str, float]:
 
 
 
+def change_badge(item: dict) -> str:
+    """직전 관측가와 비교한 변동 폭. 이력이 2개 미만이면 표시하지 않는다."""
+    pts = [to_int(p) for _, p in (item.get("history") or []) if to_int(p) > 0]
+    if len(pts) < 2:
+        return ""
+    uniq = [pts[0]]
+    for p in pts[1:]:
+        if p != uniq[-1]:
+            uniq.append(p)
+    if len(uniq) < 2:
+        return ""
+    prev, cur = uniq[-2], uniq[-1]
+    delta = prev - cur
+    if delta > 0:
+        return (f'<span class="chg down" title="직전 관측 {won(prev)}원 → {won(cur)}원">'
+                f'▼ {won(delta)}원</span>')
+    if delta < 0:
+        return (f'<span class="chg up" title="직전 관측 {won(prev)}원 → {won(cur)}원">'
+                f'▲ {won(-delta)}원</span>')
+    return ""
+
+
 def plat_key(item: dict) -> str:
     """필터 키. 애드픽처럼 여러 몰이 섞인 항목은 몰 이름으로 나눈다."""
     plat = (item.get("platform") or "coupang")
@@ -257,6 +279,7 @@ def card(item: dict, eager: bool = False) -> str:
         sparkrow = (
             '<div class="sparkrow">'
             f'{spark(item.get("history"))}'
+            f'{change_badge(item)}'
             f'<span class="sparklab">{won(item.get("low") or item["price"])}원 최저</span>'
             '</div>'
         )
@@ -279,6 +302,11 @@ def card(item: dict, eager: bool = False) -> str:
             {sparkrow}
           </div>
         </a>
+        <button class="sharebtn" type="button" aria-label="이 상품 공유"
+          data-share-name="{ESC(item['name'])}" data-share-url="{ESC(item.get('url'))}"
+          data-share-price="{display_price(item)}">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 16V4M12 4L7 9M12 4l5 5"/><path d="M5 14v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5"/></svg>
+        </button>
       </article>"""
 
 
@@ -418,7 +446,7 @@ def main() -> int:
 
     base = _site_base(site)
     page_title = f"{site.get('name','득템')} — {site.get('tagline','오늘의 특가')}"
-    og_desc = (f"쿠팡 골드박스·카테고리 베스트를 매시간 수집해 하락 폭이 큰 특가부터 보여줍니다. "
+    og_desc = (f"쿠팡 골드박스와 여러 제휴몰 핫딜을 매시간 모아 하락 폭이 큰 특가부터 보여줍니다. "
                f"{len(items)}건 · {at.strftime('%m.%d %H:%M')} 갱신.")
     repl = {
         "{{CSS}}": css,

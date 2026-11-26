@@ -60,6 +60,24 @@
 /* 제공된 참고 이미지와 같은 두 줄 가격 구성 */
 .reference-price{margin:7px 0 13px;padding:0;border:0;background:none;overflow:hidden}.reference-line{display:flex;align-items:baseline;gap:7px;row-gap:3px;flex-wrap:wrap;line-height:1.45}.reference-current{font-size:24px;font-weight:800;letter-spacing:-.7px;color:#151515;white-space:nowrap}.reference-original{font-size:16px;font-weight:400;letter-spacing:-.3px;color:#99999e;text-decoration-thickness:1px;white-space:nowrap}.reference-saving{font-size:16px;line-height:1.5;font-weight:600;color:#e33f43;margin-top:4px;letter-spacing:-.3px}.reference-note{font-size:10px;line-height:1.5;color:#8a8a8f;margin-top:3px}.reference-badge{position:absolute;top:10px;left:10px;z-index:2;background:#ec4148;color:#fff;border-radius:5px;font-size:13px;line-height:1.3;font-weight:750;padding:6px 8px;letter-spacing:-.3px}.card .thumb{position:relative}.card .pbadge{top:auto;bottom:10px;left:10px}.feature .fimg{position:relative}.feature .reference-current{font-size:28px}.feature .reference-original{font-size:19px}.feature .reference-saving{font-size:17px}.card .ctitle{margin-bottom:6px}.card .meta{margin-top:10px}@media(max-width:600px){.reference-line{gap:5px}.reference-current{font-size:20px;letter-spacing:-.6px}.reference-original{font-size:14px;letter-spacing:-.4px}.reference-saving{font-size:14px}.reference-badge{font-size:11px;top:8px;left:8px;padding:5px 6px}.reference-price{margin:6px 0 10px}.card .pbadge{bottom:8px;left:8px}.feature .reference-current{font-size:26px}.feature .reference-original{font-size:18px}}
 
+/* 직전 관측가 대비 변동 폭 */
+.chg{display:inline-flex;align-items:center;gap:2px;font-size:10.5px;font-weight:800;letter-spacing:-.2px;border-radius:5px;padding:1px 5px;line-height:1.6;white-space:nowrap}
+.chg.down{color:#0b6b45;background:#e6f4eb}
+.chg.up{color:#a8482f;background:#fbeee9}
+.sparkrow .chg{margin-left:2px}
+
+/* 카드 공유 버튼 */
+.card{position:relative}
+.sharebtn{position:absolute;right:9px;top:9px;z-index:3;display:none;align-items:center;justify-content:center;width:30px;height:30px;padding:0;border-radius:50%;border:1px solid #dce5df;background:rgba(255,255,255,.94);color:#5d6f66;box-shadow:0 2px 7px #133c2c14;cursor:pointer;transition:background .15s,color .15s}
+.sharebtn:hover{background:#0b4a3b;color:#fff;border-color:#0b4a3b}
+.sharebtn svg{stroke:currentColor}
+.share-on .sharebtn{display:inline-flex}
+.card:hover .sharebtn,.card:focus-within .sharebtn{display:inline-flex}
+@media (hover:none){.share-on .sharebtn{display:inline-flex}}
+.card .thumb .reference-badge{z-index:2}
+
+.noresult{padding:56px 24px;text-align:center;color:var(--muted);background:#fff;border:1px dashed var(--line);border-radius:var(--radius);font-size:14px;margin-bottom:8px}
+
 /* 몰별 필터 버튼의 건수 표시 */
 .filters.plat button{display:inline-flex;align-items:center;gap:6px}
 .filters.plat .pcount{font-size:10px;font-weight:700;color:var(--muted);background:rgba(0,0,0,.045);border-radius:20px;padding:1px 6px;line-height:1.5}
@@ -127,9 +145,9 @@
   <section class="hero">
     <div class="hero-grid">
       <div class="hero-main">
-        <div class="eyebrow"><span class="pip"></span>COUPANG GOLDBOX · {{UPDATED}} 수집</div>
-        <h1>쿠팡이 오늘<br><span class="hl">제일 싼 것</span>만.</h1>
-        <p class="hero-sub">골드박스와 카테고리 베스트를 <b style="color:#fff">{{SCHEDULE}}</b> 긁어옵니다 — 크롤링이 아니라 제휴 API로. 정가 대신 <b style="color:#fff">우리가 직접 관측한 최고가</b>와 비교해, 진짜 내려간 것만 위로 올립니다.</p>
+        <div class="eyebrow"><span class="pip"></span>쿠팡 · 제휴몰 핫딜 · {{UPDATED}} 수집</div>
+        <h1>여러 쇼핑몰<br><span class="hl">제일 싼 것</span>만.</h1>
+        <p class="hero-sub">쿠팡 골드박스와 제휴몰 핫딜을 <b style="color:#fff">{{SCHEDULE}}</b> 모읍니다 — 크롤링이 아니라 제휴 API로. 정가 대신 <b style="color:#fff">우리가 직접 관측한 최고가</b>와 비교해, 진짜 내려간 것만 위로 올립니다.</p>
 
         <div class="stats">{{STATS}}</div>
 
@@ -172,6 +190,7 @@
       {{PLAT_FILTERS}}
     </div>
 
+    <div class="noresult" id="noResult" hidden>조건에 맞는 특가가 없습니다. 검색어나 필터를 바꿔 보세요.</div>
     <div class="grid" id="grid">
 {{CARDS}}
     </div>
@@ -285,6 +304,7 @@
     return '<a href="#deals" data-navcat="'+c.replace(/"/g,"&quot;")+'">'+c+'</a>';
   }).join("");
 
+  var noResult = document.getElementById("noResult");
   function apply(){
     var shown = 0;
     cards.forEach(function(c){
@@ -303,7 +323,9 @@
     });
     sorted.forEach(function(c){ grid.appendChild(c); });
     countEl.textContent = shown + "건";
+    if(noResult){ noResult.hidden = shown !== 0; grid.style.display = shown === 0 ? "none" : ""; }
     prioritizeVisible();
+    syncUrl();
   }
 
   document.querySelectorAll("#catFilters button").forEach(function(b){
@@ -330,6 +352,50 @@
   document.getElementById("q").addEventListener("input", function(e){
     state.q = e.target.value.trim().toLowerCase(); apply();
   });
+
+  // ---- 상품 공유 (모바일 공유 시트, 없으면 링크 복사) ----
+  if(navigator.share) document.documentElement.classList.add("share-on");
+  grid.addEventListener("click", function(e){
+    var btn = e.target.closest(".sharebtn");
+    if(!btn) return;
+    e.preventDefault(); e.stopPropagation();
+    var name = btn.dataset.shareName || "득템 특가";
+    var url = btn.dataset.shareUrl || location.href;
+    var text = (btn.dataset.sharePrice ? btn.dataset.sharePrice + " · " : "") + name;
+    if(navigator.share){
+      navigator.share({title:name, text:text, url:url}).catch(function(){});
+      return;
+    }
+    var done = function(){ btn.setAttribute("aria-label","링크를 복사했습니다"); };
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(url).then(done, function(){ window.prompt("링크를 복사하세요", url); });
+    }else{ window.prompt("링크를 복사하세요", url); }
+  });
+
+  // ---- 필터·정렬 상태를 주소에 반영 (?cat=식품&plat=mall:11번가&sort=price&q=물티슈) ----
+  function syncUrl(){
+    if(!history.replaceState) return;
+    var p = new URLSearchParams();
+    if(state.filter !== "all") p.set("cat", state.filter);
+    if(state.plat !== "all") p.set("plat", state.plat);
+    if(state.sort !== "drop") p.set("sort", state.sort);
+    if(state.q) p.set("q", state.q);
+    var qs = p.toString();
+    history.replaceState(null, "", qs ? "?" + qs : location.pathname);
+  }
+  function readUrl(){
+    var p = new URLSearchParams(location.search);
+    var pick = function(sel, attr, val){
+      if(!val) return;
+      var b = document.querySelector(sel + '[' + attr + '="' + CSS.escape(val) + '"]');
+      if(b) b.click();
+    };
+    pick("#catFilters button", "data-filter", p.get("cat"));
+    pick("#platFilters button", "data-plat", p.get("plat"));
+    pick(".sortbox button", "data-sort", p.get("sort"));
+    var q = p.get("q");
+    if(q){ var inp = document.getElementById("q"); inp.value = q; state.q = q.toLowerCase(); }
+  }
   document.addEventListener("click", function(e){
     var a = e.target.closest("[data-navcat]");
     if(!a) return;
@@ -355,6 +421,7 @@
   }
   tick(); setInterval(tick, 1000);
   apply();
+  readUrl(); apply();
 })();
 </script>
 </body>

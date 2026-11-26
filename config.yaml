@@ -6,7 +6,7 @@ partner_id: ""
 
 site:
   name: "득템"
-  tagline: "쿠팡이 오늘 제일 싼 것만"
+  tagline: "여러 쇼핑몰 제일 싼 것만"
   # 배포 후 실제 주소 (canonical/OG 태그에 사용)
   base_url: "https://doowoki1.github.io/deuktem/"
 
