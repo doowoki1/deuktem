@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28T02:58:23+09:00",
- "generated_at_label": "11.28 02:58",
+ "generated_at": "2026-11-28T04:01:46+09:00",
+ "generated_at_label": "11.28 04:01",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -87,6 +87,36 @@
    "drop": 0,
    "drop_pct": 0,
    "best_price": false
+  },
+  {
+   "id": "sdk-516e09b8375b",
+   "name": "[B급] 프리차드 기버터 400g",
+   "price": 141,
+   "base_price": 141,
+   "image": "http://www.eyoumall.co.kr/shop/img/goods658960.jpeg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658960%26amp%253Bmode%3Devent",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-28T04:01:46+09:00",
+   "history": [
+    [
+     "2026-11-28T04:01:46+09:00",
+     141
+    ]
+   ],
+   "low": 141,
+   "high": 141,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
   },
   {
    "id": "sdk-f423e2d3fa4c",
@@ -529,7 +559,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T08:53:35+09:00",
-   "last_seen": "2026-11-28T00:00:16+09:00",
+   "last_seen": "2026-11-28T04:01:46+09:00",
    "history": [
     [
      "2026-11-25T08:00:42+09:00",
@@ -559,7 +589,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:40:46+09:00",
-   "last_seen": "2026-11-27T15:08:11+09:00",
+   "last_seen": "2026-11-28T04:01:46+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -589,7 +619,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T08:55:29+09:00",
-   "last_seen": "2026-11-28T00:00:16+09:00",
+   "last_seen": "2026-11-28T04:01:46+09:00",
    "history": [
     [
      "2026-11-23T19:17:46+09:00",
@@ -758,8 +788,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-27T19:12:48+09:00",
+   "first_seen": "2026-11-28T04:01:46+09:00",
+   "last_seen": "2026-11-28T04:01:46+09:00",
    "history": [
     [
      "2026-11-27T19:12:48+09:00",
@@ -1419,7 +1449,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T20:07:59+09:00",
-   "last_seen": "2026-11-27T21:00:22+09:00",
+   "last_seen": "2026-11-28T04:01:46+09:00",
    "history": [
     [
      "2026-11-25T20:02:09+09:00",
@@ -1813,36 +1843,6 @@
    "history": [
     [
      "2026-11-26T14:19:34+09:00",
-     6930
-    ]
-   ],
-   "low": 6930,
-   "high": 6930,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-0ca2c5f3d5a2",
-   "name": "[40%][폴햄키즈 외] 겨울 준비 시작 맨투맨/후드/니트/바지 외 100종",
-   "price": 6930,
-   "base_price": 10000,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/pd/v2/4/0/9/1/3/5/HVgXW/7404409135_B.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=http%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7404409135",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T16:24:25+09:00",
-   "history": [
-    [
-     "2026-11-26T16:24:25+09:00",
      6930
     ]
    ],
