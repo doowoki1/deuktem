@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T15:08:11+09:00",
- "generated_at_label": "11.27 15:08",
+ "generated_at": "2026-11-27T17:32:56+09:00",
+ "generated_at_label": "11.27 17:32",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -105,7 +105,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T04:02:29+09:00",
-   "last_seen": "2026-11-26T22:29:54+09:00",
+   "last_seen": "2026-11-27T17:32:56+09:00",
    "history": [
     [
      "2026-11-25T02:57:45+09:00",
@@ -195,7 +195,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-27T13:08:10+09:00",
+   "last_seen": "2026-11-27T17:32:56+09:00",
    "history": [
     [
      "2026-11-23T00:49:41+09:00",
@@ -348,8 +348,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-27T15:08:11+09:00",
+   "first_seen": "2026-11-27T17:32:56+09:00",
+   "last_seen": "2026-11-27T17:32:56+09:00",
    "history": [
     [
      "2026-11-27T15:08:11+09:00",
@@ -1059,7 +1059,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T19:50:43+09:00",
-   "last_seen": "2026-11-27T15:08:11+09:00",
+   "last_seen": "2026-11-27T17:32:56+09:00",
    "history": [
     [
      "2026-11-26T14:19:34+09:00",
@@ -1093,6 +1093,36 @@
    "history": [
     [
      "2026-11-26T21:06:12+09:00",
+     3999
+    ]
+   ],
+   "low": 3999,
+   "high": 3999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-61ec8ff55f05",
+   "name": "오브맘 프로틴메이트 단백질 쉐이크 19g x 14포",
+   "price": 3999,
+   "base_price": 49000,
+   "image": "https://eyoumall.godohosting.com/pages/asu/260603/b/14.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D637010",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-27T17:32:56+09:00",
+   "history": [
+    [
+     "2026-11-27T17:32:56+09:00",
      3999
     ]
    ],
@@ -1153,6 +1183,36 @@
    "history": [
     [
      "2026-11-25T08:00:42+09:00",
+     4480
+    ]
+   ],
+   "low": 4480,
+   "high": 4480,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-4218673d7acc",
+   "name": "삼립 미니 미니 꿀호떡 요요 192g  SSG.COM",
+   "price": 4480,
+   "base_price": 4480,
+   "image": "https://sitem.ssgcdn.com/33/61/30/item/0000008306133_i1_1200.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=http%3A%2F%2Fm.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D0000008306133",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "SSG",
+   "mall_name": "SSG",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-27T17:32:56+09:00",
+   "history": [
+    [
+     "2026-11-27T17:32:56+09:00",
      4480
     ]
    ],
@@ -1313,6 +1373,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-0d4b495db4ed",
+   "name": "저렴한 재활용 분리수거 비닐봉투 50매입",
+   "price": 4999,
+   "base_price": 18900,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261118/b/1.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658843",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-27T17:32:56+09:00",
+   "history": [
+    [
+     "2026-11-27T17:32:56+09:00",
+     4999
+    ]
+   ],
+   "low": 4999,
+   "high": 4999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-e0dbac5c25c0",
    "name": "삼호 꼬치어묵 324g",
    "price": 5083,
@@ -1419,7 +1509,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T08:55:29+09:00",
-   "last_seen": "2026-11-27T05:10:22+09:00",
+   "last_seen": "2026-11-27T17:32:56+09:00",
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
@@ -1673,6 +1763,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-aea02db3076d",
+   "name": "유니프랜드 베스트 아동내의 9부/긴팔실내복/상하복/등원룩/외출복/상하세트/티셔츠/팬츠/잠옷/파자마/키즈/초등/주니어/상의/하의",
+   "price": 7380,
+   "base_price": 10000,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/4/7/8/2/0/0/wRQoE/2295478200_244155530_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F2295478200%3FtrTypeCd%3D42",
+   "category": "패션",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-27T17:32:56+09:00",
+   "history": [
+    [
+     "2026-11-27T17:32:56+09:00",
+     7380
+    ]
+   ],
+   "low": 7380,
+   "high": 7380,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-cea307fb5676",
    "name": "떡갈비완자 골라담기",
    "price": 7680,
@@ -1728,126 +1848,6 @@
    ],
    "low": 7880,
    "high": 7880,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-f8bbf6266389",
-   "name": "[10%+20％+복수혜택] 발편한세상 양말 덧신 데일리 패션 삭스 100종",
-   "price": 8010,
-   "base_price": 8900,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/4/6/4/6/1/8/CoBRb/2221464618_244527040_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F2221464618",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-27T15:08:11+09:00",
-   "history": [
-    [
-     "2026-11-27T15:08:11+09:00",
-     8010
-    ]
-   ],
-   "low": 8010,
-   "high": 8010,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-756abd585223",
-   "name": "만두 골라담기",
-   "price": 8780,
-   "base_price": 8780,
-   "image": "https://img.cjthemarket.com/images/file/product/481/20260318111350106.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002735%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D35",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-25T21:06:54+09:00",
-   "last_seen": "2026-11-27T02:58:54+09:00",
-   "history": [
-    [
-     "2026-11-25T08:53:35+09:00",
-     8780
-    ]
-   ],
-   "low": 8780,
-   "high": 8780,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-5da6ff1a6b9a",
-   "name": "알로에 수딩젤 수분크림 1000ml 2개 (추석 초.특.가.행사) 리얼 네이처 알로에베라 99%",
-   "price": 8820,
-   "base_price": 11000,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/4/2/1/7/1/3/jfdNp/8369421713_239165538.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8369421713",
-   "category": "뷰티",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-27T05:10:22+09:00",
-   "history": [
-    [
-     "2026-11-27T05:10:22+09:00",
-     8820
-    ]
-   ],
-   "low": 8820,
-   "high": 8820,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-2a9c88ea510c",
-   "name": "[썸머픽] 비긴에코 안심세탁 이염방지시트 100매입×2개+10매 ( 총210매 ) 외 세탁용품",
-   "price": 8900,
-   "base_price": 11120,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/4/6/0/3/8/2/UETon/5994460382_236351826_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F5994460382%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-27T04:02:38+09:00",
-   "history": [
-    [
-     "2026-11-27T04:02:38+09:00",
-     8900
-    ]
-   ],
-   "low": 8900,
-   "high": 8900,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
