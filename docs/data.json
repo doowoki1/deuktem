@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T13:08:10+09:00",
- "generated_at_label": "11.27 13:08",
+ "generated_at": "2026-11-27T15:08:11+09:00",
+ "generated_at_label": "11.27 15:08",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -165,7 +165,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:16:27+09:00",
-   "last_seen": "2026-11-27T06:58:52+09:00",
+   "last_seen": "2026-11-27T15:08:11+09:00",
    "history": [
     [
      "2026-11-22T17:16:05+09:00",
@@ -333,6 +333,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-8355c6051321",
+   "name": "[다향] 담백하고 쫄깃한 베이컨 300g",
+   "price": 1699,
+   "base_price": 5990,
+   "image": "https://eyoumall.godohosting.com/pages/asu/240325/b/131-1.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=http%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D511399",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-27T15:08:11+09:00",
+   "history": [
+    [
+     "2026-11-27T15:08:11+09:00",
+     1699
+    ]
+   ],
+   "low": 1699,
+   "high": 1699,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-1f732d82989d",
    "name": "인기 후랑크/비엔나 골라담기",
    "price": 2080,
@@ -469,7 +499,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-27T13:08:10+09:00",
+   "last_seen": "2026-11-27T15:08:11+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -529,7 +559,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:40:46+09:00",
-   "last_seen": "2026-11-27T10:23:33+09:00",
+   "last_seen": "2026-11-27T15:08:11+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -669,40 +699,10 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-27T13:08:10+09:00",
+   "last_seen": "2026-11-27T15:08:11+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
-     2999
-    ]
-   ],
-   "low": 2999,
-   "high": 2999,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-8935a740c5eb",
-   "name": "소소습관 유기농 컬리케일 밸런스 2g x 15포",
-   "price": 2999,
-   "base_price": 17800,
-   "image": "https://eyoumall.godohosting.com/pages/asu/261106/b/10.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D656857",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-24T16:22:13+09:00",
-   "last_seen": "2026-11-25T13:09:15+09:00",
-   "history": [
-    [
-     "2026-11-24T11:57:15+09:00",
      2999
     ]
    ],
@@ -1059,7 +1059,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T19:50:43+09:00",
-   "last_seen": "2026-11-26T19:50:43+09:00",
+   "last_seen": "2026-11-27T15:08:11+09:00",
    "history": [
     [
      "2026-11-26T14:19:34+09:00",
@@ -1733,6 +1733,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-f8bbf6266389",
+   "name": "[10%+20％+복수혜택] 발편한세상 양말 덧신 데일리 패션 삭스 100종",
+   "price": 8010,
+   "base_price": 8900,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/4/6/4/6/1/8/CoBRb/2221464618_244527040_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F2221464618",
+   "category": "패션",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-27T15:08:11+09:00",
+   "history": [
+    [
+     "2026-11-27T15:08:11+09:00",
+     8010
+    ]
+   ],
+   "low": 8010,
+   "high": 8010,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-756abd585223",
    "name": "만두 골라담기",
    "price": 8780,
@@ -1818,36 +1848,6 @@
    ],
    "low": 8900,
    "high": 8900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-36895b8f2aa0",
-   "name": "[더주] 말랑하고 쫄깃한 스팀구이 한입 오다리 200g (35-45미)",
-   "price": 9540,
-   "base_price": 10600,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/pd/v2/0/1/3/0/4/9/tzfXT/7813013049_B.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7813013049",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-26T06:59:59+09:00",
-   "last_seen": "2026-11-26T19:57:41+09:00",
-   "history": [
-    [
-     "2026-11-26T05:00:12+09:00",
-     9540
-    ]
-   ],
-   "low": 9540,
-   "high": 9540,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
