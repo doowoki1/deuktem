@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28T08:00:07+09:00",
- "generated_at_label": "11.28 08:00",
+ "generated_at": "2026-11-28T08:56:15+09:00",
+ "generated_at_label": "11.28 08:56",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -105,7 +105,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-28T08:00:07+09:00",
-   "last_seen": "2026-11-28T08:00:07+09:00",
+   "last_seen": "2026-11-28T08:56:15+09:00",
    "history": [
     [
      "2026-11-28T06:01:51+09:00",
@@ -619,7 +619,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-28T00:00:16+09:00",
+   "last_seen": "2026-11-28T08:56:15+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -649,7 +649,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T08:53:35+09:00",
-   "last_seen": "2026-11-28T06:01:51+09:00",
+   "last_seen": "2026-11-28T08:56:15+09:00",
    "history": [
     [
      "2026-11-25T08:00:42+09:00",
@@ -679,7 +679,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T16:40:46+09:00",
-   "last_seen": "2026-11-28T04:01:46+09:00",
+   "last_seen": "2026-11-28T08:56:15+09:00",
    "history": [
     [
      "2026-11-22T15:41:25+09:00",
@@ -1313,6 +1313,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-2eea474589a0",
+   "name": "비주 두 마드모아젤 10ml (촉촉한 유기농 립밤)",
+   "price": 3999,
+   "base_price": 24000,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261125/b/6.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D659647",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-28T08:56:15+09:00",
+   "history": [
+    [
+     "2026-11-28T08:56:15+09:00",
+     3999
+    ]
+   ],
+   "low": 3999,
+   "high": 3999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-8d96a4db620f",
    "name": "[간편용기]우동&떡볶이 골라담기",
    "price": 4290,
@@ -1578,36 +1608,6 @@
    ],
    "low": 4980,
    "high": 4980,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-27bae75b7b86",
-   "name": "엘루자이 페로몬 퍼퓸 포 맨 50ml",
-   "price": 4999,
-   "base_price": 19900,
-   "image": "https://eyoumall.godohosting.com/pages/asu/261120/b/10.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D659255",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-24T16:22:13+09:00",
-   "last_seen": "2026-11-26T08:54:06+09:00",
-   "history": [
-    [
-     "2026-11-24T02:07:53+09:00",
-     4999
-    ]
-   ],
-   "low": 4999,
-   "high": 4999,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
