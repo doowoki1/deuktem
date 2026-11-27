@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T10:23:33+09:00",
- "generated_at_label": "11.27 10:23",
+ "generated_at": "2026-11-27T11:59:44+09:00",
+ "generated_at_label": "11.27 11:59",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -97,7 +97,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T21:06:12+09:00",
-   "last_seen": "2026-11-27T10:23:33+09:00",
+   "last_seen": "2026-11-27T11:59:44+09:00",
    "history": [
     [
      "2026-11-26T06:59:59+09:00",
@@ -383,7 +383,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T02:10:23+09:00",
-   "last_seen": "2026-11-27T10:23:33+09:00",
+   "last_seen": "2026-11-27T11:59:44+09:00",
    "history": [
     [
      "2026-11-25T21:06:54+09:00",
@@ -413,7 +413,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T08:54:06+09:00",
-   "last_seen": "2026-11-27T08:59:41+09:00",
+   "last_seen": "2026-11-27T11:59:44+09:00",
    "history": [
     [
      "2026-11-26T02:10:23+09:00",
@@ -473,7 +473,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T22:33:44+09:00",
-   "last_seen": "2026-11-25T22:33:44+09:00",
+   "last_seen": "2026-11-27T11:59:44+09:00",
    "history": [
     [
      "2026-11-25T08:00:42+09:00",
@@ -533,7 +533,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T08:53:35+09:00",
-   "last_seen": "2026-11-27T06:58:52+09:00",
+   "last_seen": "2026-11-27T11:59:44+09:00",
    "history": [
     [
      "2026-11-25T08:00:42+09:00",
@@ -631,7 +631,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T21:02:19+09:00",
-   "last_seen": "2026-11-27T04:02:38+09:00",
+   "last_seen": "2026-11-27T11:59:44+09:00",
    "history": [
     [
      "2026-11-24T07:57:33+09:00",
@@ -665,7 +665,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-27T00:06:53+09:00",
+   "last_seen": "2026-11-27T11:59:44+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
@@ -725,7 +725,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T10:18:04+09:00",
-   "last_seen": "2026-11-27T06:58:52+09:00",
+   "last_seen": "2026-11-27T11:59:44+09:00",
    "history": [
     [
      "2026-11-25T02:57:45+09:00",
@@ -1325,7 +1325,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T19:57:41+09:00",
-   "last_seen": "2026-11-26T19:57:41+09:00",
+   "last_seen": "2026-11-27T11:59:44+09:00",
    "history": [
     [
      "2026-11-26T19:50:43+09:00",
@@ -1403,7 +1403,7 @@
    "name": "(골라담기) 아워홈 온더고 소고기 오색비빔밥 310g, 1개",
    "price": 5090,
    "base_price": 6980,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/product/8168031235/B.webp?683024006",
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/product/8168031235/B.jpg?124283053",
    "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F8168031235%3FtrTypeCd%3D42",
    "category": "식품",
    "keyword": "",
@@ -1414,8 +1414,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-27T08:59:41+09:00",
+   "first_seen": "2026-11-27T11:59:44+09:00",
+   "last_seen": "2026-11-27T11:59:44+09:00",
    "history": [
     [
      "2026-11-27T08:59:41+09:00",
