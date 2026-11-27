@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28T04:01:46+09:00",
- "generated_at_label": "11.28 04:01",
+ "generated_at": "2026-11-28T05:03:34+09:00",
+ "generated_at_label": "11.28 05:03",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -135,7 +135,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T04:02:29+09:00",
-   "last_seen": "2026-11-28T01:07:50+09:00",
+   "last_seen": "2026-11-28T05:03:34+09:00",
    "history": [
     [
      "2026-11-25T02:57:45+09:00",
@@ -409,7 +409,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T02:10:23+09:00",
-   "last_seen": "2026-11-28T01:07:50+09:00",
+   "last_seen": "2026-11-28T05:03:34+09:00",
    "history": [
     [
      "2026-11-25T21:06:54+09:00",
@@ -657,7 +657,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T00:08:48+09:00",
-   "last_seen": "2026-11-27T13:08:10+09:00",
+   "last_seen": "2026-11-28T05:03:34+09:00",
    "history": [
     [
      "2026-11-23T22:23:42+09:00",
@@ -1343,6 +1343,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-f0e4aba505f0",
+   "name": "햇반솥반 골라담기",
+   "price": 4480,
+   "base_price": 4480,
+   "image": "https://img.cjthemarket.com/images/file/product/288/20260318111550965.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002292",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-28T05:03:34+09:00",
+   "history": [
+    [
+     "2026-11-28T05:03:34+09:00",
+     4480
+    ]
+   ],
+   "low": 4480,
+   "high": 4480,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-89e4054d5aea",
    "name": "[그림아이] 가을신상 얼리버드 특 가! /파자마/유아실내복/아동내의/상하복/치즈실내복/등원룩",
    "price": 4720,
@@ -1659,7 +1689,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T08:55:29+09:00",
-   "last_seen": "2026-11-27T21:00:22+09:00",
+   "last_seen": "2026-11-28T05:03:34+09:00",
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
@@ -1748,8 +1778,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-28T01:07:50+09:00",
+   "first_seen": "2026-11-28T05:03:34+09:00",
+   "last_seen": "2026-11-28T05:03:34+09:00",
    "history": [
     [
      "2026-11-28T01:07:50+09:00",
@@ -1818,36 +1848,6 @@
    ],
    "low": 5999,
    "high": 5999,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-3619dafebcdd",
-   "name": "[30%+추가5%][탑텐키즈 외] 따뜻한 겨울 스웨터/점퍼/플리스/기모팬츠 외 100종",
-   "price": 6930,
-   "base_price": 10000,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/pd/v2/1/7/2/6/1/5/mONpk/7419172615_B.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7419172615%3FtrTypeCd%3D42",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-26T16:24:25+09:00",
-   "last_seen": "2026-11-26T16:24:25+09:00",
-   "history": [
-    [
-     "2026-11-26T14:19:34+09:00",
-     6930
-    ]
-   ],
-   "low": 6930,
-   "high": 6930,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
