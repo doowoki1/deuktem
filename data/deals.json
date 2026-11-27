@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28T00:00:16+09:00",
- "generated_at_label": "11.28 00:00",
+ "generated_at": "2026-11-28T01:07:50+09:00",
+ "generated_at_label": "11.28 01:07",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -105,7 +105,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T04:02:29+09:00",
-   "last_seen": "2026-11-27T17:32:56+09:00",
+   "last_seen": "2026-11-28T01:07:50+09:00",
    "history": [
     [
      "2026-11-25T02:57:45+09:00",
@@ -379,7 +379,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T02:10:23+09:00",
-   "last_seen": "2026-11-27T11:59:44+09:00",
+   "last_seen": "2026-11-28T01:07:50+09:00",
    "history": [
     [
      "2026-11-25T21:06:54+09:00",
@@ -699,7 +699,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-28T00:00:16+09:00",
+   "last_seen": "2026-11-28T01:07:50+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
@@ -878,8 +878,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-27T22:19:56+09:00",
+   "first_seen": "2026-11-28T01:07:50+09:00",
+   "last_seen": "2026-11-28T01:07:50+09:00",
    "history": [
     [
      "2026-11-27T22:19:56+09:00",
@@ -1209,7 +1209,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-27T10:23:33+09:00",
-   "last_seen": "2026-11-28T00:00:16+09:00",
+   "last_seen": "2026-11-28T01:07:50+09:00",
    "history": [
     [
      "2026-11-26T19:50:43+09:00",
@@ -1218,6 +1218,36 @@
    ],
    "low": 4290,
    "high": 4290,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-f1ed6894dd07",
+   "name": "[10%+~10%+T11%]리르 뽑아쓰는 퀵마스크팩 체험특가 외 베스트1+1&메이크업/스킨케어/헤어바디 득템찬스",
+   "price": 4410,
+   "base_price": 4900,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/6/1/1/4/6/1/pPgjp/4017611461_242738336.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=http%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F4017611461",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-28T01:07:50+09:00",
+   "history": [
+    [
+     "2026-11-28T01:07:50+09:00",
+     4410
+    ]
+   ],
+   "low": 4410,
+   "high": 4410,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1659,10 +1689,40 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-27T05:10:22+09:00",
-   "last_seen": "2026-11-27T05:10:22+09:00",
+   "last_seen": "2026-11-28T01:07:50+09:00",
    "history": [
     [
      "2026-11-27T04:02:38+09:00",
+     5480
+    ]
+   ],
+   "low": 5480,
+   "high": 5480,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-f4d516827598",
+   "name": "냉동간식 골라담기",
+   "price": 5480,
+   "base_price": 5480,
+   "image": "https://s3.ap-northeast-2.amazonaws.com/oddm.img/2026/8b5deaedc31789708692.png",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002734%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D25",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-28T01:07:50+09:00",
+   "history": [
+    [
+     "2026-11-28T01:07:50+09:00",
      5480
     ]
    ],
@@ -1788,66 +1848,6 @@
    ],
    "low": 6930,
    "high": 6930,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-0eff8286eb39",
-   "name": "비비고 CJ 찰보리감자만두 300g",
-   "price": 6980,
-   "base_price": 6980,
-   "image": "https://sitem.ssgcdn.com/10/65/55/item/1000609556510_i1_290.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Femart.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000609556510%26siteNo%3D6001%26salestrNo%3D2037",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "SSG",
-   "mall_name": "SSG",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T19:30:41+09:00",
-   "history": [
-    [
-     "2026-11-26T19:30:41+09:00",
-     6980
-    ]
-   ],
-   "low": 6980,
-   "high": 6980,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-aea02db3076d",
-   "name": "유니프랜드 베스트 아동내의 9부/긴팔실내복/상하복/등원룩/외출복/상하세트/티셔츠/팬츠/잠옷/파자마/키즈/초등/주니어/상의/하의",
-   "price": 7380,
-   "base_price": 10000,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/4/7/8/2/0/0/wRQoE/2295478200_244155530_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F2295478200%3FtrTypeCd%3D42",
-   "category": "패션",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-27T17:32:56+09:00",
-   "history": [
-    [
-     "2026-11-27T17:32:56+09:00",
-     7380
-    ]
-   ],
-   "low": 7380,
-   "high": 7380,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
