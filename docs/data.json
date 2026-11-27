@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28T05:03:34+09:00",
- "generated_at_label": "11.28 05:03",
+ "generated_at": "2026-11-28T06:01:51+09:00",
+ "generated_at_label": "11.28 06:01",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -89,6 +89,36 @@
    "best_price": false
   },
   {
+   "id": "sdk-a9c2b991b0db",
+   "name": "[진공포장] 비늘이 제거된 반건조 민어(가이석태속) 10미(미당 100~150g)",
+   "price": 134,
+   "base_price": 134,
+   "image": "https://eyoumall.godohosting.com/pages/asu/240311/b/141.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D509782",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-28T06:01:51+09:00",
+   "history": [
+    [
+     "2026-11-28T06:01:51+09:00",
+     134
+    ]
+   ],
+   "low": 134,
+   "high": 134,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-516e09b8375b",
    "name": "[B급] 프리차드 기버터 400g",
    "price": 141,
@@ -104,8 +134,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-28T04:01:46+09:00",
+   "first_seen": "2026-11-28T06:01:51+09:00",
+   "last_seen": "2026-11-28T06:01:51+09:00",
    "history": [
     [
      "2026-11-28T04:01:46+09:00",
@@ -379,7 +409,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-27T17:32:56+09:00",
-   "last_seen": "2026-11-27T17:32:56+09:00",
+   "last_seen": "2026-11-28T06:01:51+09:00",
    "history": [
     [
      "2026-11-27T15:08:11+09:00",
@@ -559,7 +589,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T08:53:35+09:00",
-   "last_seen": "2026-11-28T04:01:46+09:00",
+   "last_seen": "2026-11-28T06:01:51+09:00",
    "history": [
     [
      "2026-11-25T08:00:42+09:00",
@@ -729,7 +759,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-28T01:07:50+09:00",
+   "last_seen": "2026-11-28T06:01:51+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
@@ -909,7 +939,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-28T01:07:50+09:00",
-   "last_seen": "2026-11-28T01:07:50+09:00",
+   "last_seen": "2026-11-28T06:01:51+09:00",
    "history": [
     [
      "2026-11-27T22:19:56+09:00",
@@ -1239,7 +1269,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-27T10:23:33+09:00",
-   "last_seen": "2026-11-28T01:07:50+09:00",
+   "last_seen": "2026-11-28T06:01:51+09:00",
    "history": [
     [
      "2026-11-26T19:50:43+09:00",
@@ -1479,7 +1509,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T20:07:59+09:00",
-   "last_seen": "2026-11-28T04:01:46+09:00",
+   "last_seen": "2026-11-28T06:01:51+09:00",
    "history": [
     [
      "2026-11-25T20:02:09+09:00",
@@ -1749,7 +1779,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-27T05:10:22+09:00",
-   "last_seen": "2026-11-28T01:07:50+09:00",
+   "last_seen": "2026-11-28T06:01:51+09:00",
    "history": [
     [
      "2026-11-27T04:02:38+09:00",
@@ -1779,7 +1809,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-28T05:03:34+09:00",
-   "last_seen": "2026-11-28T05:03:34+09:00",
+   "last_seen": "2026-11-28T06:01:51+09:00",
    "history": [
     [
      "2026-11-28T01:07:50+09:00",
@@ -1818,36 +1848,6 @@
    ],
    "low": 5520,
    "high": 5520,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-ab5bcb2e7400",
-   "name": "스포메틱스 모이스춰라이징 코코넛 오일 바디 고보습 로션 300ml",
-   "price": 5999,
-   "base_price": 36000,
-   "image": "https://eyoumall.godohosting.com/pages/asu/260907/b/7.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D651977",
-   "category": "뷰티",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-26T00:11:27+09:00",
-   "last_seen": "2026-11-28T02:58:23+09:00",
-   "history": [
-    [
-     "2026-11-25T18:14:59+09:00",
-     5999
-    ]
-   ],
-   "low": 5999,
-   "high": 5999,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
