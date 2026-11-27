@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28T06:59:38+09:00",
- "generated_at_label": "11.28 06:59",
+ "generated_at": "2026-11-28T08:00:07+09:00",
+ "generated_at_label": "11.28 08:00",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -104,8 +104,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-28T06:01:51+09:00",
+   "first_seen": "2026-11-28T08:00:07+09:00",
+   "last_seen": "2026-11-28T08:00:07+09:00",
    "history": [
     [
      "2026-11-28T06:01:51+09:00",
@@ -174,6 +174,36 @@
    ],
    "low": 159,
    "high": 159,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-2d645f3ff38c",
+   "name": "이코지오투새부리형에이황사방역용마스크 (KF94) 소형 2종",
+   "price": 229,
+   "base_price": 1000,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261125/b/5.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D659646",
+   "category": "생활",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-28T08:00:07+09:00",
+   "history": [
+    [
+     "2026-11-28T08:00:07+09:00",
+     229
+    ]
+   ],
+   "low": 229,
+   "high": 229,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -294,6 +324,36 @@
    ],
    "low": 417,
    "high": 417,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-1a83c456e9b6",
+   "name": "실속정란(절란) 1kg",
+   "price": 581,
+   "base_price": 581,
+   "image": "https://eyoumall.godohosting.com/pages/asu/220218/b/100.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D973",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-28T08:00:07+09:00",
+   "history": [
+    [
+     "2026-11-28T08:00:07+09:00",
+     581
+    ]
+   ],
+   "low": 581,
+   "high": 581,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -649,7 +709,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T08:55:29+09:00",
-   "last_seen": "2026-11-28T06:59:38+09:00",
+   "last_seen": "2026-11-28T08:00:07+09:00",
    "history": [
     [
      "2026-11-23T19:17:46+09:00",
@@ -687,7 +747,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T00:08:48+09:00",
-   "last_seen": "2026-11-28T05:03:34+09:00",
+   "last_seen": "2026-11-28T08:00:07+09:00",
    "history": [
     [
      "2026-11-23T22:23:42+09:00",
@@ -1479,7 +1539,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T20:02:09+09:00",
-   "last_seen": "2026-11-27T21:00:22+09:00",
+   "last_seen": "2026-11-28T08:00:07+09:00",
    "history": [
     [
      "2026-11-25T15:04:26+09:00",
@@ -1569,7 +1629,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T19:57:41+09:00",
-   "last_seen": "2026-11-27T13:08:10+09:00",
+   "last_seen": "2026-11-28T08:00:07+09:00",
    "history": [
     [
      "2026-11-26T19:50:43+09:00",
@@ -1788,66 +1848,6 @@
    ],
    "low": 5480,
    "high": 5480,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-f4d516827598",
-   "name": "냉동간식 골라담기",
-   "price": 5480,
-   "base_price": 5480,
-   "image": "https://s3.ap-northeast-2.amazonaws.com/oddm.img/2026/8b5deaedc31789708692.png",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002734%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D25",
-   "category": "식품",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-28T05:03:34+09:00",
-   "last_seen": "2026-11-28T06:01:51+09:00",
-   "history": [
-    [
-     "2026-11-28T01:07:50+09:00",
-     5480
-    ]
-   ],
-   "low": 5480,
-   "high": 5480,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-697ef19c99f1",
-   "name": "베베쥬 89% 겨울 창고정리 할인 끝.장.세.일./봄신상 OPEN 이벤트",
-   "price": 5520,
-   "base_price": 10000,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/product/1217141544/B.webp?743923089",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F1217141544%3FtrTypeCd%3D42",
-   "category": "생활",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-28T00:00:16+09:00",
-   "last_seen": "2026-11-28T00:00:16+09:00",
-   "history": [
-    [
-     "2026-11-27T13:08:10+09:00",
-     5520
-    ]
-   ],
-   "low": 5520,
-   "high": 5520,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
