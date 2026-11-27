@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T21:00:22+09:00",
- "generated_at_label": "11.27 21:00",
+ "generated_at": "2026-11-27T22:19:56+09:00",
+ "generated_at_label": "11.27 22:19",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -409,7 +409,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T08:54:06+09:00",
-   "last_seen": "2026-11-27T11:59:44+09:00",
+   "last_seen": "2026-11-27T22:19:56+09:00",
    "history": [
     [
      "2026-11-26T02:10:23+09:00",
@@ -699,7 +699,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-27T21:00:22+09:00",
+   "last_seen": "2026-11-27T22:19:56+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
@@ -853,6 +853,36 @@
    "history": [
     [
      "2026-11-27T10:23:33+09:00",
+     3480
+    ]
+   ],
+   "low": 3480,
+   "high": 3480,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-96f61e56580c",
+   "name": "닭가슴살 골라담기",
+   "price": 3480,
+   "base_price": 3480,
+   "image": "https://img.cjthemarket.com/images/file/product/997/20260511173124599.png",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002450",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-27T22:19:56+09:00",
+   "history": [
+    [
+     "2026-11-27T22:19:56+09:00",
      3480
     ]
    ],
@@ -1029,7 +1059,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T19:59:11+09:00",
-   "last_seen": "2026-11-27T13:08:10+09:00",
+   "last_seen": "2026-11-27T22:19:56+09:00",
    "history": [
     [
      "2026-11-24T16:22:13+09:00",
@@ -1119,7 +1149,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-27T21:00:22+09:00",
-   "last_seen": "2026-11-27T21:00:22+09:00",
+   "last_seen": "2026-11-27T22:19:56+09:00",
    "history": [
     [
      "2026-11-26T21:06:12+09:00",
@@ -1298,8 +1328,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-27T21:00:22+09:00",
+   "first_seen": "2026-11-27T22:19:56+09:00",
+   "last_seen": "2026-11-27T22:19:56+09:00",
    "history": [
     [
      "2026-11-27T21:00:22+09:00",
@@ -1689,7 +1719,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T00:11:27+09:00",
-   "last_seen": "2026-11-27T19:12:48+09:00",
+   "last_seen": "2026-11-27T22:19:56+09:00",
    "history": [
     [
      "2026-11-25T18:14:59+09:00",
@@ -1758,36 +1788,6 @@
    ],
    "low": 6930,
    "high": 6930,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-493dad64e04e",
-   "name": "CJ 한섬만두320g  SSG.COM",
-   "price": 6980,
-   "base_price": 6980,
-   "image": "https://sitem.ssgcdn.com/25/76/65/item/1000524657625_i1_1200.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=b735e&url=https%3A%2F%2Fwww.ssg.com%2Fitem%2FitemView.ssg%3FitemId%3D1000524657625",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "SSG",
-   "mall_name": "SSG",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-25T21:06:54+09:00",
-   "last_seen": "2026-11-25T21:06:54+09:00",
-   "history": [
-    [
-     "2026-11-25T10:18:04+09:00",
-     6980
-    ]
-   ],
-   "low": 6980,
-   "high": 6980,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
