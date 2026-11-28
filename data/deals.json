@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28T15:06:13+09:00",
- "generated_at_label": "11.28 15:06",
+ "generated_at": "2026-11-28T16:24:49+09:00",
+ "generated_at_label": "11.28 16:24",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -121,8 +121,8 @@
   {
    "id": "sdk-516e09b8375b",
    "name": "[B급] 프리차드 기버터 400g",
-   "price": 145,
-   "base_price": 145,
+   "price": 148,
+   "base_price": 148,
    "image": "http://www.eyoumall.co.kr/shop/img/goods658960.jpeg",
    "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658960%26amp%253Bmode%3Devent",
    "category": "식품",
@@ -135,7 +135,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-28T06:01:51+09:00",
-   "last_seen": "2026-11-28T14:05:16+09:00",
+   "last_seen": "2026-11-28T16:24:49+09:00",
    "history": [
     [
      "2026-11-28T04:01:46+09:00",
@@ -144,10 +144,14 @@
     [
      "2026-11-28T14:05:16+09:00",
      145
+    ],
+    [
+     "2026-11-28T16:24:49+09:00",
+     148
     ]
    ],
    "low": 141,
-   "high": 145,
+   "high": 148,
    "drop": 0,
    "drop_pct": 0,
    "best_price": false
@@ -208,36 +212,6 @@
    ],
    "low": 229,
    "high": 229,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-cd9df10a9dd6",
-   "name": "엠에치케어 황사방역마스크 KF94",
-   "price": 299,
-   "base_price": 1900,
-   "image": "https://eyoumall.godohosting.com/pages/asu/261116/b/2.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658623",
-   "category": "생활",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-22T16:26:38+09:00",
-   "last_seen": "2026-11-26T16:24:25+09:00",
-   "history": [
-    [
-     "2026-11-22T15:41:25+09:00",
-     299
-    ]
-   ],
-   "low": 299,
-   "high": 299,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -473,7 +447,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-27T17:32:56+09:00",
-   "last_seen": "2026-11-28T15:06:13+09:00",
+   "last_seen": "2026-11-28T16:24:49+09:00",
    "history": [
     [
      "2026-11-27T15:08:11+09:00",
@@ -533,7 +507,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T08:54:06+09:00",
-   "last_seen": "2026-11-28T14:05:16+09:00",
+   "last_seen": "2026-11-28T16:24:49+09:00",
    "history": [
     [
      "2026-11-26T02:10:23+09:00",
@@ -897,6 +871,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-f42540d68881",
+   "name": "미정당 밀 국물떡볶이 401.2g",
+   "price": 3452,
+   "base_price": 5480,
+   "image": "https://img.cjthemarket.com/images/file/product/839/20261110114335644.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fpc%2Fprod%2FprodDetail%3FprdCd%3D40187662%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D4",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-28T16:24:49+09:00",
+   "history": [
+    [
+     "2026-11-28T16:24:49+09:00",
+     3452
+    ]
+   ],
+   "low": 3452,
+   "high": 3452,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-0b91a1ccfe80",
    "name": "닭가슴살 골라담기",
    "price": 3480,
@@ -1037,36 +1041,6 @@
    "history": [
     [
      "2026-11-26T13:05:38+09:00",
-     3500
-    ]
-   ],
-   "low": 3500,
-   "high": 3500,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-d8338cad13db",
-   "name": "3초_떡볶이소스 매운맛 4봉(떡없음)",
-   "price": 3500,
-   "base_price": 4160,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/2/5/7/8/6/2/opmyI/9177257862_244333493_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9177257862",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-26T16:24:25+09:00",
-   "history": [
-    [
-     "2026-11-26T16:24:25+09:00",
      3500
     ]
    ],
@@ -1663,7 +1637,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T19:57:41+09:00",
-   "last_seen": "2026-11-28T08:00:07+09:00",
+   "last_seen": "2026-11-28T16:24:49+09:00",
    "history": [
     [
      "2026-11-26T19:50:43+09:00",
@@ -1852,6 +1826,36 @@
    ],
    "low": 5480,
    "high": 5480,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-464d95ba0ec2",
+   "name": "네츄럴코어 강아지간식 애견간식 애견껌 피니키",
+   "price": 7000,
+   "base_price": 10000,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/5/6/2/3/0/6/xiQXp/850562306_242120680.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F850562306%3FtrTypeCd%3D42",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-28T16:24:49+09:00",
+   "history": [
+    [
+     "2026-11-28T16:24:49+09:00",
+     7000
+    ]
+   ],
+   "low": 7000,
+   "high": 7000,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
