@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28T22:02:04+09:00",
- "generated_at_label": "11.28 22:02",
+ "generated_at": "2026-11-28T23:08:28+09:00",
+ "generated_at_label": "11.28 23:08",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -303,40 +303,6 @@
    "best_price": true
   },
   {
-   "id": "sdk-043efca8ed69",
-   "name": "오롤리데이 X 덴띠끄 칫솔",
-   "price": 799,
-   "base_price": 3000,
-   "image": "https://eyoumall.godohosting.com/pages/asu/261118/b/9.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658851",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-23T03:52:19+09:00",
-   "last_seen": "2026-11-26T22:29:54+09:00",
-   "history": [
-    [
-     "2026-11-22T16:40:46+09:00",
-     699
-    ],
-    [
-     "2026-11-25T13:09:15+09:00",
-     799
-    ]
-   ],
-   "low": 699,
-   "high": 799,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": false
-  },
-  {
    "id": "sdk-f78f01a219ac",
    "name": "비비 화이트 미라클 물티슈 100매",
    "price": 899,
@@ -383,7 +349,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-27T17:32:56+09:00",
-   "last_seen": "2026-11-28T20:52:41+09:00",
+   "last_seen": "2026-11-28T23:08:28+09:00",
    "history": [
     [
      "2026-11-27T15:08:11+09:00",
@@ -443,7 +409,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T08:54:06+09:00",
-   "last_seen": "2026-11-28T16:24:49+09:00",
+   "last_seen": "2026-11-28T23:08:28+09:00",
    "history": [
     [
      "2026-11-26T02:10:23+09:00",
@@ -699,7 +665,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T21:02:19+09:00",
-   "last_seen": "2026-11-27T21:00:22+09:00",
+   "last_seen": "2026-11-28T23:08:28+09:00",
    "history": [
     [
      "2026-11-24T07:57:33+09:00",
@@ -733,7 +699,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-28T11:57:02+09:00",
+   "last_seen": "2026-11-28T23:08:28+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
@@ -1123,7 +1089,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-27T21:00:22+09:00",
-   "last_seen": "2026-11-28T06:59:38+09:00",
+   "last_seen": "2026-11-28T23:08:28+09:00",
    "history": [
     [
      "2026-11-26T21:06:12+09:00",
@@ -1183,7 +1149,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-28T18:56:04+09:00",
-   "last_seen": "2026-11-28T20:52:41+09:00",
+   "last_seen": "2026-11-28T23:08:28+09:00",
    "history": [
     [
      "2026-11-28T08:56:15+09:00",
@@ -1363,7 +1329,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-28T11:57:02+09:00",
-   "last_seen": "2026-11-28T22:02:04+09:00",
+   "last_seen": "2026-11-28T23:08:28+09:00",
    "history": [
     [
      "2026-11-28T05:03:34+09:00",
@@ -1372,36 +1338,6 @@
    ],
    "low": 4480,
    "high": 4480,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-89e4054d5aea",
-   "name": "[그림아이] 가을신상 얼리버드 특 가! /파자마/유아실내복/아동내의/상하복/치즈실내복/등원룩",
-   "price": 4720,
-   "base_price": 5900,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/0/6/9/5/9/1/RkGlJ/7419069591_239134530_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7419069591",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-26T20:18:33+09:00",
-   "last_seen": "2026-11-26T22:29:54+09:00",
-   "history": [
-    [
-     "2026-11-26T11:59:06+09:00",
-     4720
-    ]
-   ],
-   "low": 4720,
-   "high": 4720,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1543,7 +1479,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-27T19:12:48+09:00",
-   "last_seen": "2026-11-28T20:52:41+09:00",
+   "last_seen": "2026-11-28T23:08:28+09:00",
    "history": [
     [
      "2026-11-27T17:32:56+09:00",
@@ -1693,7 +1629,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T08:55:29+09:00",
-   "last_seen": "2026-11-28T05:03:34+09:00",
+   "last_seen": "2026-11-28T23:08:28+09:00",
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
@@ -1752,8 +1688,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-28T19:55:14+09:00",
+   "first_seen": "2026-11-28T23:08:28+09:00",
+   "last_seen": "2026-11-28T23:08:28+09:00",
    "history": [
     [
      "2026-11-28T19:55:14+09:00",
@@ -1782,8 +1718,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-28T20:52:41+09:00",
+   "first_seen": "2026-11-28T23:08:28+09:00",
+   "last_seen": "2026-11-28T23:08:28+09:00",
    "history": [
     [
      "2026-11-28T20:52:41+09:00",
@@ -1792,6 +1728,36 @@
    ],
    "low": 9040,
    "high": 9040,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-1f37b1e929eb",
+   "name": "오리온 미쯔 황치즈 222g, 3개",
+   "price": 9900,
+   "base_price": 13900,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/product/9476001569/B.webp?668585459",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9476001569%3FtrTypeCd%3D42",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-28T23:08:28+09:00",
+   "history": [
+    [
+     "2026-11-28T23:08:28+09:00",
+     9900
+    ]
+   ],
+   "low": 9900,
+   "high": 9900,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1842,8 +1808,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-28T20:52:41+09:00",
+   "first_seen": "2026-11-28T23:08:28+09:00",
+   "last_seen": "2026-11-28T23:08:28+09:00",
    "history": [
     [
      "2026-11-28T20:52:41+09:00",
@@ -1852,6 +1818,36 @@
    ],
    "low": 9999,
    "high": 9999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-40fe1a385039",
+   "name": "오리온 촉촉한 초코칩 320g, 3개",
+   "price": 11500,
+   "base_price": 14900,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/pd/v2/2/7/5/3/2/6/guRlM/4018275326_B.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2Fpa%2F4018275326",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-28T23:08:28+09:00",
+   "history": [
+    [
+     "2026-11-28T23:08:28+09:00",
+     11500
+    ]
+   ],
+   "low": 11500,
+   "high": 11500,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
