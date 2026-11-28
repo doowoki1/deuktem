@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-29T01:54:19+09:00",
- "generated_at_label": "11.29 01:54",
+ "generated_at": "2026-11-29T02:50:08+09:00",
+ "generated_at_label": "11.29 02:50",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -71,7 +71,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-28T08:00:07+09:00",
-   "last_seen": "2026-11-28T08:56:15+09:00",
+   "last_seen": "2026-11-29T02:50:08+09:00",
    "history": [
     [
      "2026-11-28T06:01:51+09:00",
@@ -121,6 +121,36 @@
    "drop": 0,
    "drop_pct": 0,
    "best_price": false
+  },
+  {
+   "id": "sdk-2b1a71232607",
+   "name": "[B급] 프리차드 기버터 400g",
+   "price": 155,
+   "base_price": 155,
+   "image": "http://www.eyoumall.co.kr/shop/img/goods658960.jpeg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658960",
+   "category": "식품",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-29T02:50:08+09:00",
+   "history": [
+    [
+     "2026-11-29T02:50:08+09:00",
+     155
+    ]
+   ],
+   "low": 155,
+   "high": 155,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
   },
   {
    "id": "sdk-f423e2d3fa4c",
@@ -319,7 +349,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T10:18:04+09:00",
-   "last_seen": "2026-11-29T00:51:42+09:00",
+   "last_seen": "2026-11-29T02:50:08+09:00",
    "history": [
     [
      "2026-11-25T05:07:18+09:00",
@@ -349,7 +379,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-27T17:32:56+09:00",
-   "last_seen": "2026-11-29T00:51:42+09:00",
+   "last_seen": "2026-11-29T02:50:08+09:00",
    "history": [
     [
      "2026-11-27T15:08:11+09:00",
@@ -499,7 +529,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T22:33:44+09:00",
-   "last_seen": "2026-11-28T15:06:13+09:00",
+   "last_seen": "2026-11-29T02:50:08+09:00",
    "history": [
     [
      "2026-11-25T08:00:42+09:00",
@@ -529,7 +559,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-22T17:00:13+09:00",
-   "last_seen": "2026-11-28T08:56:15+09:00",
+   "last_seen": "2026-11-29T02:50:08+09:00",
    "history": [
     [
      "2026-11-22T16:40:46+09:00",
@@ -695,7 +725,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T21:02:19+09:00",
-   "last_seen": "2026-11-29T01:54:19+09:00",
+   "last_seen": "2026-11-29T02:50:08+09:00",
    "history": [
     [
      "2026-11-24T07:57:33+09:00",
@@ -729,7 +759,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-28T23:08:28+09:00",
+   "last_seen": "2026-11-29T02:50:08+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
@@ -1793,42 +1823,12 @@
    "best_price": true
   },
   {
-   "id": "sdk-e11296aae147",
-   "name": "프라카 폴란드풍 도자기 3절 찬통 세트",
-   "price": 9040,
-   "base_price": 11300,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/6/1/0/0/4/5/HHzXb/7887610045_244495297_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7887610045%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-28T23:08:28+09:00",
-   "last_seen": "2026-11-28T23:08:28+09:00",
-   "history": [
-    [
-     "2026-11-28T20:52:41+09:00",
-     9040
-    ]
-   ],
-   "low": 9040,
-   "high": 9040,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-155bda904a8e",
-   "name": "유나네농장 제주 햇 노지감귤 조생귤 5kg/10kg",
-   "price": 9700,
-   "base_price": 9800,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/product/3707460274/B.webp?549781143",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=http%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F3707460274",
+   "id": "sdk-cac555883b3d",
+   "name": "청정라도 국내산 별미 전라도 석박지 5kg",
+   "price": 7800,
+   "base_price": 9170,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/pd/v2/0/9/6/7/9/5/EdYSw/7401096795_B.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=http%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7401096795",
    "category": "기타",
    "keyword": "",
    "source": "adpick_sdk",
@@ -1839,15 +1839,15 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "",
-   "last_seen": "2026-11-29T01:54:19+09:00",
+   "last_seen": "2026-11-29T02:50:08+09:00",
    "history": [
     [
-     "2026-11-29T01:54:19+09:00",
-     9700
+     "2026-11-29T02:50:08+09:00",
+     7800
     ]
    ],
-   "low": 9700,
-   "high": 9700,
+   "low": 7800,
+   "high": 7800,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
