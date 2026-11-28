@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-29T03:55:03+09:00",
- "generated_at_label": "11.29 03:55",
+ "generated_at": "2026-11-29T04:57:33+09:00",
+ "generated_at_label": "11.29 04:57",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -138,8 +138,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-29T02:50:08+09:00",
+   "first_seen": "2026-11-29T04:57:33+09:00",
+   "last_seen": "2026-11-29T04:57:33+09:00",
    "history": [
     [
      "2026-11-29T02:50:08+09:00",
@@ -469,7 +469,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T08:54:06+09:00",
-   "last_seen": "2026-11-28T23:08:28+09:00",
+   "last_seen": "2026-11-29T04:57:33+09:00",
    "history": [
     [
      "2026-11-26T02:10:23+09:00",
@@ -529,7 +529,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T22:33:44+09:00",
-   "last_seen": "2026-11-29T02:50:08+09:00",
+   "last_seen": "2026-11-29T04:57:33+09:00",
    "history": [
     [
      "2026-11-25T08:00:42+09:00",
@@ -1419,7 +1419,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T20:02:09+09:00",
-   "last_seen": "2026-11-28T22:02:04+09:00",
+   "last_seen": "2026-11-29T04:57:33+09:00",
    "history": [
     [
      "2026-11-25T15:04:26+09:00",
@@ -1838,8 +1838,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-29T03:55:03+09:00",
+   "first_seen": "2026-11-29T04:57:33+09:00",
+   "last_seen": "2026-11-29T04:57:33+09:00",
    "history": [
     [
      "2026-11-29T03:55:03+09:00",
