@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28T18:56:04+09:00",
- "generated_at_label": "11.28 18:56",
+ "generated_at": "2026-11-28T19:55:14+09:00",
+ "generated_at_label": "11.28 19:55",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -8,44 +8,10 @@
   "rocket": 0,
   "drops": 0,
   "avg_drop": 0,
-  "min_price": 110,
+  "min_price": 114,
   "cheapest": "[임박특가] 실온보관 소스 닭가슴살 양념치킨 20팩"
  },
  "items": [
-  {
-   "id": "sdk-39139cac360b",
-   "name": "[임박특가] 실온보관 소스 닭가슴살 양념치킨 20팩",
-   "price": 110,
-   "base_price": 110,
-   "image": "http://www.eyoumall.co.kr/shop/img/goods658631.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658631",
-   "category": "식품",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-26T19:30:41+09:00",
-   "last_seen": "2026-11-26T19:50:43+09:00",
-   "history": [
-    [
-     "2026-11-26T03:56:06+09:00",
-     101
-    ],
-    [
-     "2026-11-26T19:30:41+09:00",
-     110
-    ]
-   ],
-   "low": 101,
-   "high": 110,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": false
-  },
   {
    "id": "sdk-870d00e2bb62",
    "name": "[임박특가] 실온보관 소스 닭가슴살 양념치킨 20팩",
@@ -396,36 +362,6 @@
    ],
    "low": 899,
    "high": 899,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-f041b6967555",
-   "name": "오롤리데이 X 덴띠끄 치약 80g",
-   "price": 999,
-   "base_price": 4800,
-   "image": "https://eyoumall.godohosting.com/pages/asu/261118/b/10.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658852",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-26T19:30:41+09:00",
-   "last_seen": "2026-11-26T19:30:41+09:00",
-   "history": [
-    [
-     "2026-11-26T13:05:38+09:00",
-     999
-    ]
-   ],
-   "low": 999,
-   "high": 999,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -886,8 +822,8 @@
    "commission": "1.6%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-28T16:24:49+09:00",
+   "first_seen": "2026-11-28T19:55:14+09:00",
+   "last_seen": "2026-11-28T19:55:14+09:00",
    "history": [
     [
      "2026-11-28T16:24:49+09:00",
@@ -1007,7 +943,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-28T01:07:50+09:00",
-   "last_seen": "2026-11-28T10:18:16+09:00",
+   "last_seen": "2026-11-28T19:55:14+09:00",
    "history": [
     [
      "2026-11-27T22:19:56+09:00",
@@ -1277,7 +1213,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-28T06:59:38+09:00",
-   "last_seen": "2026-11-28T17:57:21+09:00",
+   "last_seen": "2026-11-28T19:55:14+09:00",
    "history": [
     [
      "2026-11-27T17:32:56+09:00",
@@ -1607,7 +1543,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T20:07:59+09:00",
-   "last_seen": "2026-11-28T06:01:51+09:00",
+   "last_seen": "2026-11-28T19:55:14+09:00",
    "history": [
     [
      "2026-11-25T20:02:09+09:00",
@@ -1637,7 +1573,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T19:57:41+09:00",
-   "last_seen": "2026-11-28T17:57:21+09:00",
+   "last_seen": "2026-11-28T19:55:14+09:00",
    "history": [
     [
      "2026-11-26T19:50:43+09:00",
@@ -1856,6 +1792,66 @@
    ],
    "low": 7000,
    "high": 7000,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-cea307fb5676",
+   "name": "떡갈비완자 골라담기",
+   "price": 7680,
+   "base_price": 7680,
+   "image": "https://img.cjthemarket.com/images/file/product/872/20260318110919703.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002239%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D32",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-28T19:55:14+09:00",
+   "history": [
+    [
+     "2026-11-28T19:55:14+09:00",
+     7680
+    ]
+   ],
+   "low": 7680,
+   "high": 7680,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-6be2b95355b2",
+   "name": "치킨 골라담기",
+   "price": 10980,
+   "base_price": 10980,
+   "image": "https://s3.ap-northeast-2.amazonaws.com/oddm.img/2026/8b5deaedc31789708692.png",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0004511%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D17",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-28T19:55:14+09:00",
+   "history": [
+    [
+     "2026-11-28T19:55:14+09:00",
+     10980
+    ]
+   ],
+   "low": 10980,
+   "high": 10980,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
