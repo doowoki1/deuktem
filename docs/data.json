@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28T19:55:14+09:00",
- "generated_at_label": "11.28 19:55",
+ "generated_at": "2026-11-28T20:52:41+09:00",
+ "generated_at_label": "11.28 20:52",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -383,7 +383,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-27T17:32:56+09:00",
-   "last_seen": "2026-11-28T18:56:04+09:00",
+   "last_seen": "2026-11-28T20:52:41+09:00",
    "history": [
     [
      "2026-11-27T15:08:11+09:00",
@@ -837,36 +837,6 @@
    "best_price": true
   },
   {
-   "id": "sdk-0b91a1ccfe80",
-   "name": "닭가슴살 골라담기",
-   "price": 3480,
-   "base_price": 3480,
-   "image": "https://img.cjthemarket.com/images/file/product/997/20260511173124599.png",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002450%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D18",
-   "category": "식품",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-24T11:57:15+09:00",
-   "last_seen": "2026-11-26T20:27:42+09:00",
-   "history": [
-    [
-     "2026-11-23T11:59:33+09:00",
-     3480
-    ]
-   ],
-   "low": 3480,
-   "high": 3480,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
    "id": "sdk-b027e85322e8",
    "name": "닭가슴살 골라담기",
    "price": 3480,
@@ -952,36 +922,6 @@
    ],
    "low": 3480,
    "high": 3480,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-610224016be5",
-   "name": "3초_떡볶이소스 보통맛 4봉(떡없음)",
-   "price": 3500,
-   "base_price": 4160,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/2/5/5/5/2/9/JRuMe/9177255529_244333497_05.webp",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9177255529%3FtrTypeCd%3D42",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "11번가",
-   "mall_name": "11번가",
-   "commission": "최대 2.1%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-26T14:19:34+09:00",
-   "last_seen": "2026-11-26T20:07:59+09:00",
-   "history": [
-    [
-     "2026-11-26T13:05:38+09:00",
-     3500
-    ]
-   ],
-   "low": 3500,
-   "high": 3500,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
@@ -1243,7 +1183,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-28T18:56:04+09:00",
-   "last_seen": "2026-11-28T18:56:04+09:00",
+   "last_seen": "2026-11-28T20:52:41+09:00",
    "history": [
     [
      "2026-11-28T08:56:15+09:00",
@@ -1603,7 +1543,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-27T19:12:48+09:00",
-   "last_seen": "2026-11-28T17:57:21+09:00",
+   "last_seen": "2026-11-28T20:52:41+09:00",
    "history": [
     [
      "2026-11-27T17:32:56+09:00",
@@ -1768,10 +1708,10 @@
   },
   {
    "id": "sdk-464d95ba0ec2",
-   "name": "네츄럴코어 강아지간식 애견간식 애견껌 피니키",
+   "name": "[30%적용중!] 네츄럴코어 강아지간식 애견간식 애견껌 피니키",
    "price": 7000,
    "base_price": 10000,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/5/6/2/3/0/6/xiQXp/850562306_242120680.webp",
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/5/6/2/3/0/6/GFsZw/850562306_244632954_05.webp",
    "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F850562306%3FtrTypeCd%3D42",
    "category": "식품",
    "keyword": "",
@@ -1782,8 +1722,8 @@
    "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-28T16:24:49+09:00",
+   "first_seen": "2026-11-28T20:52:41+09:00",
+   "last_seen": "2026-11-28T20:52:41+09:00",
    "history": [
     [
      "2026-11-28T16:24:49+09:00",
@@ -1827,31 +1767,91 @@
    "best_price": true
   },
   {
-   "id": "sdk-6be2b95355b2",
-   "name": "치킨 골라담기",
-   "price": 10980,
-   "base_price": 10980,
-   "image": "https://s3.ap-northeast-2.amazonaws.com/oddm.img/2026/8b5deaedc31789708692.png",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0004511%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D17",
+   "id": "sdk-e11296aae147",
+   "name": "프라카 폴란드풍 도자기 3절 찬통 세트",
+   "price": 9040,
+   "base_price": 11300,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/6/1/0/0/4/5/HHzXb/7887610045_244495297_05.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F7887610045%3FtrTypeCd%3D42",
    "category": "기타",
    "keyword": "",
    "source": "adpick_sdk",
    "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
    "rocket": false,
    "free_shipping": false,
    "first_seen": "",
-   "last_seen": "2026-11-28T19:55:14+09:00",
+   "last_seen": "2026-11-28T20:52:41+09:00",
    "history": [
     [
-     "2026-11-28T19:55:14+09:00",
-     10980
+     "2026-11-28T20:52:41+09:00",
+     9040
     ]
    ],
-   "low": 10980,
-   "high": 10980,
+   "low": 9040,
+   "high": 9040,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-b14f6497b17e",
+   "name": "오쎄 퍼퓸 헤어&바디 3종 기프트 세트(750ml x 3개)",
+   "price": 9999,
+   "base_price": 39000,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261123/b/5.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D659502",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-28T20:52:41+09:00",
+   "history": [
+    [
+     "2026-11-28T20:52:41+09:00",
+     9999
+    ]
+   ],
+   "low": 9999,
+   "high": 9999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
+   "id": "sdk-6a401790d725",
+   "name": "지브라 남성 째즈인글러브 가죽장갑 (블랙)",
+   "price": 9999,
+   "base_price": 80000,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261120/b/18.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D659430",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-28T20:52:41+09:00",
+   "history": [
+    [
+     "2026-11-28T20:52:41+09:00",
+     9999
+    ]
+   ],
+   "low": 9999,
+   "high": 9999,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
