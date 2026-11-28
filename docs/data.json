@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28T08:56:15+09:00",
- "generated_at_label": "11.28 08:56",
+ "generated_at": "2026-11-28T10:18:16+09:00",
+ "generated_at_label": "11.28 10:18",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -344,8 +344,8 @@
    "commission": "2.8%",
    "rocket": false,
    "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-28T08:00:07+09:00",
+   "first_seen": "2026-11-28T10:18:16+09:00",
+   "last_seen": "2026-11-28T10:18:16+09:00",
    "history": [
     [
      "2026-11-28T08:00:07+09:00",
@@ -469,7 +469,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-27T17:32:56+09:00",
-   "last_seen": "2026-11-28T06:01:51+09:00",
+   "last_seen": "2026-11-28T10:18:16+09:00",
    "history": [
     [
      "2026-11-27T15:08:11+09:00",
@@ -819,7 +819,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T02:07:53+09:00",
-   "last_seen": "2026-11-28T06:01:51+09:00",
+   "last_seen": "2026-11-28T10:18:16+09:00",
    "history": [
     [
      "2026-11-23T17:41:05+09:00",
@@ -999,7 +999,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-28T01:07:50+09:00",
-   "last_seen": "2026-11-28T06:01:51+09:00",
+   "last_seen": "2026-11-28T10:18:16+09:00",
    "history": [
     [
      "2026-11-27T22:19:56+09:00",
@@ -1359,7 +1359,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-27T10:23:33+09:00",
-   "last_seen": "2026-11-28T06:01:51+09:00",
+   "last_seen": "2026-11-28T10:18:16+09:00",
    "history": [
     [
      "2026-11-26T19:50:43+09:00",
@@ -1389,7 +1389,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-28T02:58:23+09:00",
-   "last_seen": "2026-11-28T02:58:23+09:00",
+   "last_seen": "2026-11-28T10:18:16+09:00",
    "history": [
     [
      "2026-11-28T01:07:50+09:00",
@@ -1839,7 +1839,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-27T05:10:22+09:00",
-   "last_seen": "2026-11-28T06:01:51+09:00",
+   "last_seen": "2026-11-28T10:18:16+09:00",
    "history": [
     [
      "2026-11-27T04:02:38+09:00",
