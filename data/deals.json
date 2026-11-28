@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-29T00:51:42+09:00",
- "generated_at_label": "11.29 00:51",
+ "generated_at": "2026-11-29T01:54:19+09:00",
+ "generated_at_label": "11.29 01:54",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -363,6 +363,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-ff05c39bdf84",
+   "name": "[클리어런스] 바겐슈타이거/까사베니/키친아트 외 100종",
+   "price": 1900,
+   "base_price": 2500,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/dl/v2/1/6/8/8/8/5/YFWfP/9344168885_234036707.webp",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9344168885",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "11번가",
+   "mall_name": "11번가",
+   "commission": "최대 2.1%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-29T01:54:19+09:00",
+   "history": [
+    [
+     "2026-11-29T01:54:19+09:00",
+     1900
+    ]
+   ],
+   "low": 1900,
+   "high": 1900,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-1f732d82989d",
    "name": "인기 후랑크/비엔나 골라담기",
    "price": 2080,
@@ -665,7 +695,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-24T21:02:19+09:00",
-   "last_seen": "2026-11-29T00:51:42+09:00",
+   "last_seen": "2026-11-29T01:54:19+09:00",
    "history": [
     [
      "2026-11-24T07:57:33+09:00",
@@ -1479,7 +1509,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-27T19:12:48+09:00",
-   "last_seen": "2026-11-28T23:08:28+09:00",
+   "last_seen": "2026-11-29T01:54:19+09:00",
    "history": [
     [
      "2026-11-27T17:32:56+09:00",
@@ -1793,12 +1823,12 @@
    "best_price": true
   },
   {
-   "id": "sdk-1f37b1e929eb",
-   "name": "오리온 미쯔 황치즈 222g, 3개",
-   "price": 9900,
-   "base_price": 13900,
-   "image": "https://cdn.011st.com/11dims/resize/300/11src/product/9476001569/B.webp?668585459",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=https%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F9476001569%3FtrTypeCd%3D42",
+   "id": "sdk-155bda904a8e",
+   "name": "유나네농장 제주 햇 노지감귤 조생귤 5kg/10kg",
+   "price": 9700,
+   "base_price": 9800,
+   "image": "https://cdn.011st.com/11dims/resize/300/11src/product/3707460274/B.webp?549781143",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=c16a2&url=http%3A%2F%2Fwww.11st.co.kr%2Fproducts%2F3707460274",
    "category": "기타",
    "keyword": "",
    "source": "adpick_sdk",
@@ -1809,45 +1839,15 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "",
-   "last_seen": "2026-11-28T23:08:28+09:00",
+   "last_seen": "2026-11-29T01:54:19+09:00",
    "history": [
     [
-     "2026-11-28T23:08:28+09:00",
-     9900
+     "2026-11-29T01:54:19+09:00",
+     9700
     ]
    ],
-   "low": 9900,
-   "high": 9900,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-b14f6497b17e",
-   "name": "오쎄 퍼퓸 헤어&바디 3종 기프트 세트(750ml x 3개)",
-   "price": 9999,
-   "base_price": 39000,
-   "image": "https://eyoumall.godohosting.com/pages/asu/261123/b/5.jpg",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D659502",
-   "category": "뷰티",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "이유몰",
-   "mall_name": "이유몰",
-   "commission": "2.8%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "",
-   "last_seen": "2026-11-28T20:52:41+09:00",
-   "history": [
-    [
-     "2026-11-28T20:52:41+09:00",
-     9999
-    ]
-   ],
-   "low": 9999,
-   "high": 9999,
+   "low": 9700,
+   "high": 9700,
    "drop": 0,
    "drop_pct": 0,
    "best_price": true
