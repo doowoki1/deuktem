@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28T12:59:38+09:00",
- "generated_at_label": "11.28 12:59",
+ "generated_at": "2026-11-28T14:05:16+09:00",
+ "generated_at_label": "11.28 14:05",
  "source": "coupang-partners",
  "note": "",
  "stats": {
@@ -121,8 +121,8 @@
   {
    "id": "sdk-516e09b8375b",
    "name": "[B급] 프리차드 기버터 400g",
-   "price": 141,
-   "base_price": 141,
+   "price": 145,
+   "base_price": 145,
    "image": "http://www.eyoumall.co.kr/shop/img/goods658960.jpeg",
    "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D658960%26amp%253Bmode%3Devent",
    "category": "식품",
@@ -135,18 +135,22 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-28T06:01:51+09:00",
-   "last_seen": "2026-11-28T06:59:38+09:00",
+   "last_seen": "2026-11-28T14:05:16+09:00",
    "history": [
     [
      "2026-11-28T04:01:46+09:00",
      141
+    ],
+    [
+     "2026-11-28T14:05:16+09:00",
+     145
     ]
    ],
    "low": 141,
-   "high": 141,
+   "high": 145,
    "drop": 0,
    "drop_pct": 0,
-   "best_price": true
+   "best_price": false
   },
   {
    "id": "sdk-f423e2d3fa4c",
@@ -469,7 +473,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-27T17:32:56+09:00",
-   "last_seen": "2026-11-28T10:18:16+09:00",
+   "last_seen": "2026-11-28T14:05:16+09:00",
    "history": [
     [
      "2026-11-27T15:08:11+09:00",
@@ -529,7 +533,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-26T08:54:06+09:00",
-   "last_seen": "2026-11-27T22:19:56+09:00",
+   "last_seen": "2026-11-28T14:05:16+09:00",
    "history": [
     [
      "2026-11-26T02:10:23+09:00",
@@ -649,7 +653,7 @@
    "rocket": false,
    "free_shipping": false,
    "first_seen": "2026-11-25T08:53:35+09:00",
-   "last_seen": "2026-11-28T12:59:38+09:00",
+   "last_seen": "2026-11-28T14:05:16+09:00",
    "history": [
     [
      "2026-11-25T08:00:42+09:00",
@@ -1343,6 +1347,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-f95864056ba3",
+   "name": "테라테모 메디 헤어 오일 에센스 120ml",
+   "price": 3999,
+   "base_price": 48000,
+   "image": "https://eyoumall.godohosting.com/pages/asu/261123/b/9.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=4d9b1&url=https%3A%2F%2Fwww.eyoumall.co.kr%2Fshop%2Fgoods%2Fitem_view.php%3Fno%3D659621",
+   "category": "뷰티",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "이유몰",
+   "mall_name": "이유몰",
+   "commission": "2.8%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-28T14:05:16+09:00",
+   "history": [
+    [
+     "2026-11-28T14:05:16+09:00",
+     3999
+    ]
+   ],
+   "low": 3999,
+   "high": 3999,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-8d96a4db620f",
    "name": "[간편용기]우동&떡볶이 골라담기",
    "price": 4290,
@@ -1763,6 +1797,36 @@
    "best_price": true
   },
   {
+   "id": "sdk-abd9811840bb",
+   "name": "비비고 김말이 500g",
+   "price": 5452,
+   "base_price": 7680,
+   "image": "https://img.cjthemarket.com/images/file/product/034/20260319183222923.jpg",
+   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fpc%2Fprod%2FprodDetail%3FprdCd%3D40181869%26plnId%3D606129",
+   "category": "기타",
+   "keyword": "",
+   "source": "adpick_sdk",
+   "platform": "other",
+   "platform_label": "CJ 더 마켓",
+   "mall_name": "CJ 더 마켓",
+   "commission": "1.6%",
+   "rocket": false,
+   "free_shipping": false,
+   "first_seen": "",
+   "last_seen": "2026-11-28T14:05:16+09:00",
+   "history": [
+    [
+     "2026-11-28T14:05:16+09:00",
+     5452
+    ]
+   ],
+   "low": 5452,
+   "high": 5452,
+   "drop": 0,
+   "drop_pct": 0,
+   "best_price": true
+  },
+  {
    "id": "sdk-6a0291b22f8d",
    "name": "냉장 생선구이 골라담기",
    "price": 5480,
@@ -1783,66 +1847,6 @@
    "history": [
     [
      "2026-11-23T11:59:33+09:00",
-     5480
-    ]
-   ],
-   "low": 5480,
-   "high": 5480,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-022d3ed222b7",
-   "name": "냉동간식 골라담기",
-   "price": 5480,
-   "base_price": 5480,
-   "image": "https://s3.ap-northeast-2.amazonaws.com/oddm.img/2026/8b5deaedc31789708692.png",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0002734%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D27",
-   "category": "식품",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-25T11:59:55+09:00",
-   "last_seen": "2026-11-27T06:58:52+09:00",
-   "history": [
-    [
-     "2026-11-25T00:06:18+09:00",
-     5480
-    ]
-   ],
-   "low": 5480,
-   "high": 5480,
-   "drop": 0,
-   "drop_pct": 0,
-   "best_price": true
-  },
-  {
-   "id": "sdk-51b02bb9371d",
-   "name": "1분링 골라담기",
-   "price": 5480,
-   "base_price": 5480,
-   "image": "https://img.cjthemarket.com/images/file/product/349/20261116095822126.png",
-   "url": "https://adpick.co.kr/apis/goshopping.php?affid=6ad2b6&offer=f5ff7&url=https%3A%2F%2Fwww.cjthemarket.com%2Fthe%2Fproduct%2Fproduct-main%3FprdCd%3DS0005839%26ctgrId%3D%26plnId%3D300001%26giftSetEvntId%3D%26areaNum%3D16",
-   "category": "기타",
-   "keyword": "",
-   "source": "adpick_sdk",
-   "platform": "other",
-   "platform_label": "CJ 더 마켓",
-   "mall_name": "CJ 더 마켓",
-   "commission": "1.6%",
-   "rocket": false,
-   "free_shipping": false,
-   "first_seen": "2026-11-27T05:10:22+09:00",
-   "last_seen": "2026-11-28T12:59:38+09:00",
-   "history": [
-    [
-     "2026-11-27T04:02:38+09:00",
      5480
     ]
    ],
